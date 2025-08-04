@@ -1,0 +1,157 @@
+[11-Jul-2025 11:46:27 UTC] PHP Warning:  require(/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[11-Jul-2025 11:46:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/itactbku/store1.ithpl.co.in/index.php:51
+Stack trace:
+#0 {main}
+  thrown in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[11-Jul-2025 11:47:30 UTC] PHP Warning:  require(/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[11-Jul-2025 11:47:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/itactbku/store1.ithpl.co.in/index.php:51
+Stack trace:
+#0 {main}
+  thrown in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[11-Jul-2025 11:47:42 UTC] PHP Warning:  require(/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[11-Jul-2025 11:47:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/itactbku/store1.ithpl.co.in/index.php:51
+Stack trace:
+#0 {main}
+  thrown in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[11-Jul-2025 11:49:22 UTC] PHP Warning:  require(/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[11-Jul-2025 11:49:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/itactbku/store1.ithpl.co.in/index.php:51
+Stack trace:
+#0 {main}
+  thrown in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[25-Jul-2025 17:00:28 UTC] PHP Warning:  require(/home1/itactbku/store1.ithpl.co.in/vendor/composer/../phpunit/phpunit/src/Framework/Assert/Functions.php): Failed to open stream: No such file or directory in /home1/itactbku/store1.ithpl.co.in/vendor/composer/autoload_real.php on line 41
+[25-Jul-2025 17:00:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/itactbku/store1.ithpl.co.in/vendor/composer/../phpunit/phpunit/src/Framework/Assert/Functions.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/itactbku/store1.ithpl.co.in/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home1/itactbku/store1.ithpl.co.in/vendor/composer/autoload_real.php(45): {closure}('ec07570ca5a8121...', '/home1/itactbku...')
+#1 /home1/itactbku/store1.ithpl.co.in/vendor/autoload.php(22): ComposerAutoloaderInit657ac079313fab046eb8c29fe1d6992b::getLoader()
+#2 /home1/itactbku/store1.ithpl.co.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(146): include('/home1/itactbku...')
+#3 /home1/itactbku/store1.ithpl.co.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(131): CodeIgniter\Autoloader\Autoloader->loadComposerAutoloader(Object(Config\Modules))
+#4 /home1/itactbku/store1.ithpl.co.in/vendor/codeigniter4/framework/system/Boot.php(253): CodeIgniter\Autoloader\Autoloader->initialize(Object(Config\Autoload), Object(Config\Modules))
+#5 /home1/itactbku/store1.ithpl.co.in/vendor/codeigniter4/framework/system/Boot.php(54): CodeIgniter\Boot::loadAutoloader()
+#6 /home1/itactbku/store1.ithpl.co.in/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#7 {main}
+  thrown in /home1/itactbku/store1.ithpl.co.in/vendor/composer/autoload_real.php on line 41
+[25-Jul-2025 17:04:19 UTC] PHP Warning:  require(/home1/itactbku/store1.ithpl.co.in/vendor/composer/../phpunit/phpunit/src/Framework/Assert/Functions.php): Failed to open stream: No such file or directory in /home1/itactbku/store1.ithpl.co.in/vendor/composer/autoload_real.php on line 41
+[25-Jul-2025 17:04:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/itactbku/store1.ithpl.co.in/vendor/composer/../phpunit/phpunit/src/Framework/Assert/Functions.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/itactbku/store1.ithpl.co.in/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home1/itactbku/store1.ithpl.co.in/vendor/composer/autoload_real.php(45): {closure}('ec07570ca5a8121...', '/home1/itactbku...')
+#1 /home1/itactbku/store1.ithpl.co.in/vendor/autoload.php(22): ComposerAutoloaderInit657ac079313fab046eb8c29fe1d6992b::getLoader()
+#2 /home1/itactbku/store1.ithpl.co.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(146): include('/home1/itactbku...')
+#3 /home1/itactbku/store1.ithpl.co.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(131): CodeIgniter\Autoloader\Autoloader->loadComposerAutoloader(Object(Config\Modules))
+#4 /home1/itactbku/store1.ithpl.co.in/vendor/codeigniter4/framework/system/Boot.php(253): CodeIgniter\Autoloader\Autoloader->initialize(Object(Config\Autoload), Object(Config\Modules))
+#5 /home1/itactbku/store1.ithpl.co.in/vendor/codeigniter4/framework/system/Boot.php(54): CodeIgniter\Boot::loadAutoloader()
+#6 /home1/itactbku/store1.ithpl.co.in/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#7 {main}
+  thrown in /home1/itactbku/store1.ithpl.co.in/vendor/composer/autoload_real.php on line 41
+[25-Jul-2025 17:05:03 UTC] PHP Warning:  require(/home1/itactbku/store1.ithpl.co.in/vendor/composer/../phpunit/phpunit/src/Framework/Assert/Functions.php): Failed to open stream: No such file or directory in /home1/itactbku/store1.ithpl.co.in/vendor/composer/autoload_real.php on line 41
+[25-Jul-2025 17:05:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/itactbku/store1.ithpl.co.in/vendor/composer/../phpunit/phpunit/src/Framework/Assert/Functions.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/itactbku/store1.ithpl.co.in/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home1/itactbku/store1.ithpl.co.in/vendor/composer/autoload_real.php(45): {closure}('ec07570ca5a8121...', '/home1/itactbku...')
+#1 /home1/itactbku/store1.ithpl.co.in/vendor/autoload.php(22): ComposerAutoloaderInit657ac079313fab046eb8c29fe1d6992b::getLoader()
+#2 /home1/itactbku/store1.ithpl.co.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(146): include('/home1/itactbku...')
+#3 /home1/itactbku/store1.ithpl.co.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(131): CodeIgniter\Autoloader\Autoloader->loadComposerAutoloader(Object(Config\Modules))
+#4 /home1/itactbku/store1.ithpl.co.in/vendor/codeigniter4/framework/system/Boot.php(253): CodeIgniter\Autoloader\Autoloader->initialize(Object(Config\Autoload), Object(Config\Modules))
+#5 /home1/itactbku/store1.ithpl.co.in/vendor/codeigniter4/framework/system/Boot.php(54): CodeIgniter\Boot::loadAutoloader()
+#6 /home1/itactbku/store1.ithpl.co.in/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#7 {main}
+  thrown in /home1/itactbku/store1.ithpl.co.in/vendor/composer/autoload_real.php on line 41
+[25-Jul-2025 17:05:11 UTC] PHP Warning:  require(/home1/itactbku/store1.ithpl.co.in/vendor/composer/../phpunit/phpunit/src/Framework/Assert/Functions.php): Failed to open stream: No such file or directory in /home1/itactbku/store1.ithpl.co.in/vendor/composer/autoload_real.php on line 41
+[25-Jul-2025 17:05:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/itactbku/store1.ithpl.co.in/vendor/composer/../phpunit/phpunit/src/Framework/Assert/Functions.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/itactbku/store1.ithpl.co.in/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home1/itactbku/store1.ithpl.co.in/vendor/composer/autoload_real.php(45): {closure}('ec07570ca5a8121...', '/home1/itactbku...')
+#1 /home1/itactbku/store1.ithpl.co.in/vendor/autoload.php(22): ComposerAutoloaderInit657ac079313fab046eb8c29fe1d6992b::getLoader()
+#2 /home1/itactbku/store1.ithpl.co.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(146): include('/home1/itactbku...')
+#3 /home1/itactbku/store1.ithpl.co.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(131): CodeIgniter\Autoloader\Autoloader->loadComposerAutoloader(Object(Config\Modules))
+#4 /home1/itactbku/store1.ithpl.co.in/vendor/codeigniter4/framework/system/Boot.php(253): CodeIgniter\Autoloader\Autoloader->initialize(Object(Config\Autoload), Object(Config\Modules))
+#5 /home1/itactbku/store1.ithpl.co.in/vendor/codeigniter4/framework/system/Boot.php(54): CodeIgniter\Boot::loadAutoloader()
+#6 /home1/itactbku/store1.ithpl.co.in/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#7 {main}
+  thrown in /home1/itactbku/store1.ithpl.co.in/vendor/composer/autoload_real.php on line 41
+[25-Jul-2025 17:05:16 UTC] PHP Warning:  require(/home1/itactbku/store1.ithpl.co.in/vendor/composer/../phpunit/phpunit/src/Framework/Assert/Functions.php): Failed to open stream: No such file or directory in /home1/itactbku/store1.ithpl.co.in/vendor/composer/autoload_real.php on line 41
+[25-Jul-2025 17:05:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/itactbku/store1.ithpl.co.in/vendor/composer/../phpunit/phpunit/src/Framework/Assert/Functions.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/itactbku/store1.ithpl.co.in/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home1/itactbku/store1.ithpl.co.in/vendor/composer/autoload_real.php(45): {closure}('ec07570ca5a8121...', '/home1/itactbku...')
+#1 /home1/itactbku/store1.ithpl.co.in/vendor/autoload.php(22): ComposerAutoloaderInit657ac079313fab046eb8c29fe1d6992b::getLoader()
+#2 /home1/itactbku/store1.ithpl.co.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(146): include('/home1/itactbku...')
+#3 /home1/itactbku/store1.ithpl.co.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(131): CodeIgniter\Autoloader\Autoloader->loadComposerAutoloader(Object(Config\Modules))
+#4 /home1/itactbku/store1.ithpl.co.in/vendor/codeigniter4/framework/system/Boot.php(253): CodeIgniter\Autoloader\Autoloader->initialize(Object(Config\Autoload), Object(Config\Modules))
+#5 /home1/itactbku/store1.ithpl.co.in/vendor/codeigniter4/framework/system/Boot.php(54): CodeIgniter\Boot::loadAutoloader()
+#6 /home1/itactbku/store1.ithpl.co.in/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#7 {main}
+  thrown in /home1/itactbku/store1.ithpl.co.in/vendor/composer/autoload_real.php on line 41
+[25-Jul-2025 17:12:22 UTC] PHP Warning:  require(/home1/itactbku/store1.ithpl.co.in/vendor/composer/../phpunit/phpunit/src/Framework/Assert/Functions.php): Failed to open stream: No such file or directory in /home1/itactbku/store1.ithpl.co.in/vendor/composer/autoload_real.php on line 41
+[25-Jul-2025 17:12:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/itactbku/store1.ithpl.co.in/vendor/composer/../phpunit/phpunit/src/Framework/Assert/Functions.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/itactbku/store1.ithpl.co.in/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home1/itactbku/store1.ithpl.co.in/vendor/composer/autoload_real.php(45): {closure}('ec07570ca5a8121...', '/home1/itactbku...')
+#1 /home1/itactbku/store1.ithpl.co.in/vendor/autoload.php(22): ComposerAutoloaderInit657ac079313fab046eb8c29fe1d6992b::getLoader()
+#2 /home1/itactbku/store1.ithpl.co.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(146): include('/home1/itactbku...')
+#3 /home1/itactbku/store1.ithpl.co.in/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(131): CodeIgniter\Autoloader\Autoloader->loadComposerAutoloader(Object(Config\Modules))
+#4 /home1/itactbku/store1.ithpl.co.in/vendor/codeigniter4/framework/system/Boot.php(253): CodeIgniter\Autoloader\Autoloader->initialize(Object(Config\Autoload), Object(Config\Modules))
+#5 /home1/itactbku/store1.ithpl.co.in/vendor/codeigniter4/framework/system/Boot.php(54): CodeIgniter\Boot::loadAutoloader()
+#6 /home1/itactbku/store1.ithpl.co.in/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#7 {main}
+  thrown in /home1/itactbku/store1.ithpl.co.in/vendor/composer/autoload_real.php on line 41
+[25-Jul-2025 18:35:58 UTC] PHP Warning:  require(/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[25-Jul-2025 18:35:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/itactbku/store1.ithpl.co.in/index.php:51
+Stack trace:
+#0 {main}
+  thrown in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[25-Jul-2025 18:36:10 UTC] PHP Warning:  require(/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[25-Jul-2025 18:36:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/itactbku/store1.ithpl.co.in/index.php:51
+Stack trace:
+#0 {main}
+  thrown in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[25-Jul-2025 18:50:45 UTC] PHP Warning:  require(/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[25-Jul-2025 18:50:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/itactbku/store1.ithpl.co.in/index.php:51
+Stack trace:
+#0 {main}
+  thrown in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[25-Jul-2025 18:52:59 UTC] PHP Warning:  require(/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[25-Jul-2025 18:52:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/itactbku/store1.ithpl.co.in/index.php:51
+Stack trace:
+#0 {main}
+  thrown in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[25-Jul-2025 18:53:12 UTC] PHP Warning:  require(/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[25-Jul-2025 18:53:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/itactbku/store1.ithpl.co.in/index.php:51
+Stack trace:
+#0 {main}
+  thrown in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[25-Jul-2025 18:53:52 UTC] PHP Warning:  require(/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[25-Jul-2025 18:53:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/itactbku/store1.ithpl.co.in/index.php:51
+Stack trace:
+#0 {main}
+  thrown in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[25-Jul-2025 18:53:52 UTC] PHP Warning:  require(/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[25-Jul-2025 18:53:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/itactbku/store1.ithpl.co.in/index.php:51
+Stack trace:
+#0 {main}
+  thrown in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[25-Jul-2025 18:53:58 UTC] PHP Warning:  require(/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[25-Jul-2025 18:53:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/itactbku/store1.ithpl.co.in/index.php:51
+Stack trace:
+#0 {main}
+  thrown in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[25-Jul-2025 18:55:32 UTC] PHP Warning:  require(/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[25-Jul-2025 18:55:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/itactbku/store1.ithpl.co.in/index.php:51
+Stack trace:
+#0 {main}
+  thrown in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[25-Jul-2025 18:55:32 UTC] PHP Warning:  require(/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[25-Jul-2025 18:55:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/itactbku/store1.ithpl.co.in/index.php:51
+Stack trace:
+#0 {main}
+  thrown in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[25-Jul-2025 18:55:52 UTC] PHP Warning:  require(/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[25-Jul-2025 18:55:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/itactbku/store1.ithpl.co.in/index.php:51
+Stack trace:
+#0 {main}
+  thrown in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[25-Jul-2025 18:55:52 UTC] PHP Warning:  require(/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[25-Jul-2025 18:55:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/itactbku/store1.ithpl.co.in/index.php:51
+Stack trace:
+#0 {main}
+  thrown in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[25-Jul-2025 19:26:33 UTC] PHP Warning:  require(/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php): Failed to open stream: No such file or directory in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
+[25-Jul-2025 19:26:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/itactbku/store1.ithpl.co.in/../app/Config/Paths.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home1/itactbku/store1.ithpl.co.in/index.php:51
+Stack trace:
+#0 {main}
+  thrown in /home1/itactbku/store1.ithpl.co.in/index.php on line 51
