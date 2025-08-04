@@ -1,0 +1,658 @@
+:root {
+    font-size: 16px;
+}
+
+/* Section Base */
+.business-section {
+    padding: 3.75rem 1.25rem 30rem;
+    position: relative;
+    border-radius: 1.21rem 1.21rem 1.25rem 1.25rem;
+    overflow: visible;
+    color: #050000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 1.25rem;
+    background: var(--Linear, linear-gradient(180deg, rgba(255, 255, 255, 0.38) 0%, rgba(159, 84, 213, 0.38) 37.98%, rgba(149, 0, 255, 0.38) 64.73%));
+    backdrop-filter: blur(0.206rem);
+}
+
+.business-title {
+    font-size: 5rem;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.business-highlight {
+    font-weight: 700;
+    background: linear-gradient(91deg, #3D00F8 35.9%, #C143FB 56.61%, #E100F6 70.88%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.business-box-subtext,
+.seamless-box h5,
+.seamless-box p {
+    color: rgba(2, 0, 0, 0.84);
+    font-family: Inter;
+    font-style: normal;
+    line-height: normal;
+}
+
+.business-box-subtext {
+    text-align: left;
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+
+.business-image-wrapper {
+    position: absolute;
+    bottom: -3.8rem;
+    left: 29%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 50rem;
+}
+
+.business-image {
+    width: 90rem;
+    height: auto;
+}
+
+.business-box-background {
+    padding-left: 1.86rem;
+    padding-top: 1.86rem;
+    width: 31.39rem;
+    height: 26.84rem;
+    flex-shrink: 0;
+    border-radius: 1.21rem;
+    border: 0.103rem solid rgba(254, 239, 253, 0.70);
+    background: rgba(255, 255, 255, 0.59);
+    backdrop-filter: blur(2.01rem);
+}
+
+.business-box-image {
+    width: 47.6rem;
+    height: 26.84rem;
+    flex-shrink: 0;
+    border-radius: 1.24rem;
+    background: rgba(58, 0, 248, 0.21);
+}
+
+.business-box-title {
+    font-size: 2.48rem;
+    color: #050000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.business-subtext {
+    font-size: 1.65rem;
+    font-family: Poppins;
+    color: #050000;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/* Button */
+.contact-us-btn {
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+    border-radius: 0.6rem;
+    border: 0 solid #F7F6F6;
+    background: linear-gradient(0deg, #FFF 0%, #FFF 100%);
+    box-shadow: 0 0.754rem 1.41rem rgba(12, 3, 3, 0.22);
+    display: inline-block;
+    width: 14.71rem;
+    height: 3.77rem;
+    padding: 1.13rem 2.41rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.contact-us-btn:hover {
+    background: #ef3e28;
+    color: #fff;
+    border-color: #ef3e28;
+    transform: translateY(-0.313rem) scale(1.05);
+    box-shadow: 0 0.376rem 0.565rem rgba(193, 68, 239, 0.34);
+}
+
+/* Decorative */
+.decorative-rectangles-section {
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.long-decorative-strip {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) rotate(10deg);
+    width: 125rem;
+    height: 37.5rem;
+    background: linear-gradient(90deg, rgba(216, 58, 255, 0.2), rgba(242, 242, 242, 0.2));
+    filter: blur(10rem);
+    border-radius: 3rem;
+    z-index: 0;
+}
+
+.decorative-rectangles-section .container {
+    position: relative;
+    z-index: 1;
+}
+
+/* Support Section */
+.bus-sup-container {
+    position: relative;
+    font-family: Inter;
+    padding: 7rem;
+}
+
+.bus-sup-iphone-bg-img {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 1.88rem;
+    z-index: 1;
+    opacity: 1;
+    filter: none;
+    pointer-events: none;
+    width: 35.15rem;
+    height: 49.63rem;
+    flex-shrink: 0;
+    aspect-ratio: 562.38 / 794.11;
+}
+
+.bus-sup-support-card {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.21rem;
+    border: 0.103rem solid rgba(255, 255, 255, 0.00);
+    background: rgba(154, 0, 255, 0.25);
+    backdrop-filter: blur(0.21rem);
+    width: 100%;
+    max-width: 80.64rem;
+    height: auto;
+    padding: 3rem 2rem;
+    margin: 0 auto;
+}
+
+.bus-sup-support-card h3 {
+    font-size: 3.3rem;
+}
+
+.bus-sup-support-card h5 {
+    font-size: 2.48rem;
+}
+
+.bus-sup-support-card p {
+    font-size: 2.48rem;
+}
+
+.white-border {
+    border-radius: 1.21rem;
+    border: 0.103rem solid rgba(255, 255, 255, 0.70);
+    background: rgba(255, 255, 255, 0.19);
+    backdrop-filter: blur(0.21rem);
+    width: 67.01rem;
+    height: 34.38rem;
+    flex-shrink: 0;
+    z-index: 2;
+}
+
+.bus-sup-offers-section {
+    position: relative;
+}
+
+.bus-sup-offers-section h4 {
+    font-size: 3.3rem;
+}
+
+.bus-sup-offers-section p {
+    font-size: 1.9rem;
+}
+
+.bus-sup-offers-content {
+    position: relative;
+    z-index: 2;
+    padding: 2rem;
+    margin-left: auto;
+    max-width: 37.5rem;
+    background: none;
+    text-align: right;
+}
+
+.bus-sup-icon-offer {
+    font-size: 2rem;
+    color: #a34cf6;
+    margin-bottom: 1rem;
+}
+
+.button-container {
+    display: flex;
+    gap: 0.625rem;
+}
+
+/* responsive */
+@media (max-width: 575.98px) {
+    .business-section {
+        padding: 2rem 1rem 10rem;
+        font-size: 1.25rem;
+    }
+
+    .business-title {
+        font-size: 3rem;
+    }
+
+    .business-box-subtext {
+        font-size: 1.8rem;
+    }
+
+    .business-box-title {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .business-subtext {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .business-image-wrapper {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 95%;
+        min-width: 100%;
+        bottom: -1rem;
+    }
+
+    .business-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .business-box-background,
+    .business-box-image {
+        width: 100%;
+        height: auto;
+        margin: 1rem auto;
+        padding: 0.5rem;
+    }
+
+    .contact-us-btn {
+        width: 9rem;
+        height: 3rem;
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    .bus-sup-iphone-bg-img {
+        width: 90%;
+        height: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .bus-sup-support-card h3 {
+        font-size: 2rem;
+        margin: 0.5rem 0;
+    }
+
+    .bus-sup-support-card h5,
+    .bus-sup-support-card p {
+        font-size: 1rem;
+        margin: 0.5rem 0;
+    }
+
+   .white-border {
+
+        width: 100%;
+        padding: 1rem;
+        margin: 1rem 2rem;
+        text-align: center;
+    }
+
+    .bus-sup-support-card h3,
+    .bus-sup-support-card h5,
+    .bus-sup-support-card p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .bus-sup-offers-section h4,
+    .bus-sup-offers-section p {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .bus-sup-offers-content {
+        margin: auto;
+        text-align: center;
+        padding: 0.5rem;
+    }
+
+    .contact-us-btn {
+        width: 100%;
+        font-size: 0.8rem;
+        padding: 0.75rem;
+        display: block;
+        margin: 1rem auto;
+    }
+
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Small Devices (Tablets, 576px to 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .business-section {
+        padding: 2.5rem 1rem 25rem;
+        font-size: 1.5rem;
+    }
+
+    .business-title {
+        font-size: 3.5rem;
+    }
+
+    .business-box-subtext {
+        font-size: 2rem;
+    }
+
+    .business-box-title {
+        font-size: 2rem;
+    }
+
+    .business-image-wrapper {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 95%;
+    }
+
+    .business-image {
+        width: 100%;
+    }
+
+    .contact-us-btn {
+        width: 13rem;
+        height: 3.2rem;
+        padding: 0.9rem 1.8rem;
+        font-size: 1.1rem;
+    }
+
+    .bus-sup-container {
+        padding: 4rem 1rem;
+    }
+
+    .bus-sup-support-card {
+        width: 100%;
+        padding: 2.5rem 1.5rem;
+    }
+
+    .bus-sup-support-card h3 {
+        font-size: 3rem;
+    }
+
+    .bus-sup-support-card h5,
+    .bus-sup-support-card p {
+        font-size: 2rem;
+    }
+
+    .white-border {
+        width: 90%;
+        height: auto;
+        padding: 1.5rem;
+    }
+
+    .bus-sup-offers-content {
+        font-size: 1.6rem;
+        padding: 1.2rem;
+        max-width: 95%;
+        text-align: center;
+    }
+
+    .business-box-content {
+        padding: 1.2rem;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+}
+
+/* Medium Devices (Tablets/Small Laptops, 768px to 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .business-section {
+        padding: 3rem 1.25rem 28rem;
+        font-size: 2rem;
+    }
+
+    .business-title {
+        font-size: 4rem;
+    }
+
+    .business-box-subtext {
+        font-size: 2.2rem;
+    }
+
+    .business-box-title {
+        font-size: 2.2rem;
+    }
+
+    .business-image-wrapper {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+    }
+
+    .business-image {
+        width: 100%;
+    }
+
+    .contact-us-btn {
+        width: 14rem;
+        height: 3.5rem;
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+    }
+
+    .bus-sup-container {
+        padding: 5rem;
+    }
+
+    .bus-sup-support-card {
+        max-width: 90%;
+        padding: 3rem 2rem;
+    }
+
+    .bus-sup-support-card h3 {
+        font-size: 3.3rem;
+    }
+
+    .bus-sup-support-card h5,
+    .bus-sup-support-card p {
+        font-size: 2.5rem;
+    }
+
+    .white-border {
+        width: 80%;
+        height: auto;
+        padding: 2rem;
+    }
+
+    .bus-sup-offers-content {
+        font-size: 1.8rem;
+        padding: 1.5rem;
+        max-width: 90%;
+        text-align: right;
+    }
+
+    .business-box-content {
+        padding: 1.5rem;
+        font-size: 1.6rem;
+        text-align: center;
+    }
+}
+
+/* Large Devices (Desktops, 992px to 1199.98px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .business-section {
+        padding: 3.75rem 1.25rem 30rem;
+        font-size: 2.5rem;
+    }
+
+    .business-title {
+        font-size: 5rem;
+    }
+
+    .business-box-subtext {
+        font-size: 2.3rem;
+    }
+
+    .business-box-title {
+        font-size: 2.48rem;
+    }
+
+    .business-image-wrapper {
+        left: 29%;
+        width: 90%;
+        max-width: 50rem;
+    }
+
+    .business-image {
+        width: 90rem;
+    }
+
+    .contact-us-btn {
+        width: 14.71rem;
+        height: 3.77rem;
+        padding: 1.13rem 2.41rem;
+        font-size: 1.3rem;
+    }
+
+    .bus-sup-container {
+        padding: 7rem;
+    }
+
+    .bus-sup-support-card {
+        max-width: 80.64rem;
+        padding: 3rem 2rem;
+    }
+
+    .bus-sup-support-card h3 {
+        font-size: 3.5rem;
+    }
+
+    .bus-sup-support-card h5,
+    .bus-sup-support-card p {
+        font-size: 2.8rem;
+    }
+
+    .white-border {
+        width: 67.01rem;
+        height: 34.38rem;
+    }
+
+    .bus-sup-offers-content {
+        font-size: 2rem;
+        padding: 1.8rem;
+        max-width: 85%;
+        text-align: right;
+    }
+
+    .business-box-content {
+        padding: 2rem;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+}
+
+/* Extra Large Devices (Large Desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .business-section {
+        padding: 4rem 1.5rem 32rem;
+        font-size: 2.75rem;
+    }
+
+    .business-title {
+        font-size: 5.5rem;
+    }
+
+    .business-box-subtext {
+        font-size: 2.5rem;
+    }
+
+    .business-box-title {
+        font-size: 2.75rem;
+    }
+
+    .business-image-wrapper {
+        left: 29%;
+        width: 90%;
+        max-width: 50rem;
+    }
+
+    .business-image {
+        width: 95rem;
+    }
+
+    .contact-us-btn {
+        width: 15rem;
+        height: 4rem;
+        padding: 1.2rem 2.5rem;
+        font-size: 1.4rem;
+    }
+
+    .bus-sup-container {
+        padding: 8rem;
+    }
+
+    .bus-sup-support-card {
+        max-width: 85rem;
+        padding: 3.5rem 2.5rem;
+    }
+
+    .bus-sup-support-card h3 {
+        font-size: 3.7rem;
+    }
+
+    .bus-sup-support-card h5,
+    .bus-sup-support-card p {
+        font-size: 3rem;
+    }
+
+    .white-border {
+        width: 70rem;
+        height: auto;
+        padding: 2.5rem;
+    }
+
+    .bus-sup-offers-content {
+        font-size: 2.2rem;
+        padding: 2rem;
+        max-width: 80%;
+        text-align: right;
+    }
+
+    .business-box-content {
+        padding: 2.5rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
