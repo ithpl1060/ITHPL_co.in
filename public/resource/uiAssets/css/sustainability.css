@@ -1,0 +1,461 @@
+:root {
+  --gradient-primary: linear-gradient(231deg, #ff12a9 36.52%, #3c00ff 54.28%, #296ff9 101.23%);
+  --gradient-bg: linear-gradient(159deg, rgba(255, 255, 255, 0.5) 24.5%, rgba(248, 172, 255, 0.5) 50.98%, rgba(140, 0, 242, 0.5) 85.48%);
+  --text-dark: rgba(2, 0, 0, 0.84);
+  --font-main: 'Inter';
+  --shadow-card: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+  --shadow-hover: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.2);
+  --icon-bg: #f3f3f3;
+  --icon-color: #7d4cdb;
+  --color-bar-bg: linear-gradient(180deg, #fff, rgba(144, 0, 255, 0.59) 100%);
+}
+
+/* Base Styles */
+body,
+.focus-body {
+  font-family: var(--font-main);
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+.hero-sus {
+  text-align: center;
+  border-radius: 1.1875rem;
+  background: var(--gradient-bg);
+  backdrop-filter: blur(1.25px);
+  padding: 2rem;
+}
+
+.hero-sus-title,
+.hero-sus-inn-tech {
+  font-size: 3.4375rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+
+.hero-sus-inn-tech {
+  background: var(--gradient-primary);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-sus-subtext {
+  font-size: 1.6875rem;
+  font-weight: 400;
+  color: var(--text-dark);
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.hero-sus-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 1.25rem;
+  margin: 3rem auto 0;
+}
+
+.focus-image {
+  display: block;
+  max-width: 120%;
+  height: 100%;
+  border-radius: 1.25rem;
+  padding: 0.1rem;
+}
+
+/* ESG Section */
+.esg-image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.esg-image-wrapper::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 10%;
+  background: #d8c5e7;
+  border-radius: 50%;
+  filter: blur(1.25px);
+  z-index: -1;
+  margin-bottom: 0.3125rem;
+}
+
+/* Service Card */
+.sus-service-card {
+  background: #fff;
+  border-radius: 0.875rem;
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 0.4rem;
+}
+
+.sus-service-card:hover {
+  transform: translateY(-0.625rem);
+  box-shadow: var(--shadow-hover);
+}
+
+.sus-service-card .card-body {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--text-dark);
+  padding: 0.5rem;
+  line-height: 1.9375rem;
+}
+
+.sus-card-title {
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 600;
+  padding: 10%;
+  color: #000;
+  letter-spacing: -0.5px;
+}
+
+/* Icon Box */
+.our-sus-serv-icon-box {
+  position: absolute;
+  top: 5.1875rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--icon-bg);
+  width: 5.9375rem;
+  height: 5.9375rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--icon-color);
+  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+/* Color Bar */
+.color-bar {
+  height: 0.625rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: var(--color-bar-bg);
+  backdrop-filter: blur(2.6rem);
+  border-radius: 1.5rem;
+  border: 1px solid #f7f6f6;
+}
+
+/* Focus Section */
+.focus-title {
+  color: #000;
+  font-family: Inter;
+  font-size: 2.25rem;
+  /* 36px -> 2.25rem */
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+.focus-feature {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  margin-bottom: 1.25rem;
+}
+
+.focus-feature span {
+  color: rgba(2, 0, 0, 0.84);
+  font-family: Inter;
+  font-size: 2rem;
+  /* 32px -> 2rem */
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4.6875rem;
+  /* 75px -> 4.6875rem */
+  padding-left: -2rem;
+  /* 234.375% */
+}
+
+
+.focus-icon {
+  width: 2.1875rem;
+  height: 2.1875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.9375rem;
+}
+
+.focus-button {
+  background: #fff;
+  border: none;
+  border-radius: 0.3rem;
+  margin-top: 1rem;
+  box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  /* style */
+  color: #050000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /* layout */
+  display: inline-flex;
+  padding: 9.962px 44.613px 13.038px 32.387px;
+  align-items: center;
+}
+
+.focus-button:hover {
+  background: #ef3e28;
+  color: #fff;
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 0.38rem 0.56rem rgba(193, 68, 239, 0.34);
+}
+
+/* Responsive Breakpoints */
+/* Responsive Styles */
+@media (max-width: 480px) {
+  .focus-image {
+    max-width: 100%;
+    /* Takes up full width on very small screens */
+    border-radius: 0.75rem;
+    /* Slightly smaller border radius */
+  }
+
+  .focus-feature span {
+    font-size: 1.25rem;
+    /* More compact for mobile */
+    line-height: 2.5rem;
+  }
+
+  .focus-button {
+    font-size: 1rem;
+    /* More compact for mobile */
+    padding: 0.4rem 1.5rem;
+    /* Smaller padding */
+    border-radius: 0.2rem;
+    /* Slightly reduced */
+  }
+}
+
+
+@media (min-width: 576px) {
+
+  .hero-sus-title,
+  .hero-sus-inn-tech {
+    font-size: 2.375rem;
+  }
+
+  .hero-sus-subtext {
+    font-size: 1.125rem;
+  }
+
+  .focus-title {
+    font-size: 1.5rem;
+  }
+
+  .hero-sus-img {
+    margin-top: 3.75rem;
+  }
+
+  .focus-image {
+    border-radius: 0.875rem;
+  }
+
+  .our-sus-serv-icon-box {
+    width: 4.375rem;
+    height: 4.375rem;
+    top: 4.0625rem;
+  }
+
+  .partner-logo {
+    width: 6rem;
+  }
+
+  .hero-sus-title,
+  .hero-sus-inn-tech {
+    font-size: 2rem;
+  }
+
+  .hero-sus-subtext {
+    font-size: 1rem;
+  }
+
+  .focus-title {
+    font-size: 1.25rem;
+  }
+
+  .focus-feature {
+    font-size: 0.9rem;
+  }
+
+  .our-sus-serv-icon-box {
+    width: 3.75rem;
+    height: 3.75rem;
+    top: 3.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .hero-sus-title,
+  .hero-sus-inn-tech {
+    font-size: 2.75rem;
+  }
+
+  .hero-sus-subtext {
+    font-size: 1.25rem;
+  }
+
+  .focus-title {
+    font-size: 1.75rem;
+  }
+
+  .hero-sus-img {
+    margin-top: 5rem;
+  }
+
+  .focus-image {
+    border-radius: 1rem;
+  }
+
+  .our-sus-serv-icon-box {
+    width: 5.3125rem;
+    height: 5.3125rem;
+    top: 4.6875rem;
+  }
+
+  .partner-logo {
+    width: 7rem;
+  }
+
+  .divider {
+    border-right: none;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .our-part-title {
+    font-size: 1.125rem;
+  }
+
+  .focus-image {
+    max-width: 90%;
+    /* Adjusts width for smaller screens */
+  }
+
+  .focus-feature span {
+    font-size: 1.5rem;
+    /* Slightly reduce font size */
+    line-height: 3.5rem;
+  }
+
+  .focus-button {
+    font-size: 1.125rem;
+    /* Slightly smaller font */
+    padding: 0.5rem 2rem;
+    /* Adjust padding */
+  }
+}
+
+@media (min-width: 992px) {
+
+  .hero-sus-title,
+  .hero-sus-inn-tech {
+    font-size: 3.125rem;
+  }
+
+  .hero-sus-subtext {
+    font-size: 1.375rem;
+  }
+
+  .focus-title {
+    font-size: 2rem;
+  }
+
+  .hero-sus-img {
+    margin-top: 5.625rem;
+  }
+
+  .focus-image {
+    border-radius: 1.125rem;
+
+  }
+
+  .partner-logo {
+    width: 8rem;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .hero-sus-title,
+  .hero-sus-inn-tech {
+    font-size: 3.4375rem;
+  }
+
+  .hero-sus-subtext {
+    font-size: 1.6875rem;
+  }
+
+  .focus-title {
+    font-size: 2.25rem;
+  }
+
+  .hero-sus-img {
+    margin-top: 6.25rem;
+  }
+
+  .focus-image {
+    border-radius: 1.25rem;
+    margin-left: -6rem;
+
+  }
+}
+
+@media (min-width: 1400px) {
+
+  .hero-sus-title,
+  .hero-sus-inn-tech {
+    font-size: 3.75rem;
+  }
+
+  .hero-sus-subtext {
+    font-size: 1.875rem;
+  }
+
+  .focus-title {
+    font-size: 2.5rem;
+  }
+
+  .focus-feature {
+    font-size: 1.25rem;
+  }
+
+  .hero-sus-img {
+    margin-top: 7.5rem;
+  }
+
+  .focus-image {
+    border-radius: 1.5rem;
+    margin-left: -6rem;
+
+  }
+}
