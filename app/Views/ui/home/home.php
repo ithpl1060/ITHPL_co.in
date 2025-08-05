@@ -36,7 +36,7 @@
     </div>
     <div class="stat-item">
         <p class="stat-number" data-target="700">700+</p>
-        <p class="stat-label">Successful Deployments</p>
+        <p class="stat-label">Trusting Clients.</p>
     </div>
     <div class="stat-item support-stat">
         <p class="stat-number">24/7</p>
@@ -371,10 +371,10 @@
                     </li>
                 </ul>
 
-                <p class="partners-description">
+                <!-- <p class="partners-description">
                     We work with 65+ OEM and AV partners to offer a wide range of
                     cutting-edge IT and AV solutions...
-                </p>
+                </p> -->
             </div>
             <div class="partners-logos">
                 <div class="logo-scroll-wrapper">
