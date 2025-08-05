@@ -1,0 +1,498 @@
+/* Root font size for rem calculations */
+:root {
+  font-size: 16px;
+  --epp-linear-gradient: linear-gradient(180deg,
+      rgba(255, 255, 255, 0.38) 0%,
+      rgba(159, 84, 213, 0.38) 37.98%,
+      rgba(149, 0, 255, 0.38) 64.73%);
+}
+
+body,
+.epp-section,
+.epp-subtext,
+.seamless-box p,
+.seamless-box h5 {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  line-height: normal;
+}
+
+.epp-section {
+  padding: 3.75rem 1.25rem 21.875rem;
+  position: relative;
+  border-radius: 1.2rem 1.2rem 1.25rem 1.25rem;
+  overflow: visible;
+  text-align: center;
+  margin: 0 1.25rem;
+  background: var(--epp-linear-gradient);
+  backdrop-filter: blur(3.3px);
+}
+
+.epp-title,
+.epp-highlight {
+  color: #050000;
+  font-size: 2.5rem;
+}
+
+.epp-title {
+  font-weight: 500;
+}
+
+.epp-highlight {
+  font-weight: 700;
+  background: linear-gradient(91deg, #3d00f8 35.9%, #c143fb 56.61%, #e100f6 70.88%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.epp-subtext {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: rgba(2, 0, 0, 0.84);
+}
+
+.epp-image-wrapper {
+  position: absolute;
+  bottom: -7%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 50rem;
+}
+
+.epp-image {
+  width: 100%;
+  height: auto;
+}
+
+.seamless-title {
+  color: #000;
+  font-size: 2.687rem;
+  font-weight: 600;
+  line-height: 3.72rem;
+  text-align: center;
+}
+
+.seamless-background {
+  border-radius: 0.62rem;
+  border: 0.1rem solid #fff;
+  background: rgba(255, 255, 255, 0.37);
+  backdrop-filter: blur(2.56rem);
+  padding: 4rem;
+  margin: 1rem;
+}
+
+.seamless-box {
+  text-align: left;
+  padding: 1rem;
+  position: relative;
+}
+
+.seamless-box h5 {
+  font-size: 1.34rem;
+  font-weight: 600;
+  margin: 1rem;
+  color: rgba(2, 0, 0, 0.84);
+}
+
+.seamless-box p {
+  font-size: 1.34rem;
+  font-weight: 400;
+  margin: 1rem;
+  color: rgba(2, 0, 0, 0.84);
+}
+
+.seamless-box:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  height: 2.5rem;
+  width: 0.0625rem;
+  background-color: #333;
+  opacity: 0.6;
+}
+
+.epp-why-section {
+  position: relative;
+  overflow: hidden;
+  padding: 4rem 0;
+  background: #fff;
+}
+
+.epp-why-title {
+  font-weight: bold;
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #111;
+  position: relative;
+  z-index: 1;
+}
+
+.epp-why-card {
+
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100%;
+  padding: 1rem;
+  background: relative;
+  border-radius: 0.9375rem;
+  /* box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.06); */
+}
+
+
+
+.epp-why-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.75rem 1.875rem rgba(0, 0, 0, 0.1);
+}
+
+.epp-why-icon {
+  padding-top: 0%;
+}
+
+.epp-why-card-title,
+.epp-why-card-text {
+
+  font-family: Inter;
+  font-size: 1.5rem;
+  /* Slightly rounded for uniformity */
+  font-style: normal;
+  line-height: 1.4;
+ 
+}
+
+/* Specific adjustments */
+.epp-why-card-title {
+  color: rgba(2, 0, 0, 0.84);
+  font-weight: 700;
+
+}
+
+.epp-why-card-text {
+  color: #000;
+  font-weight: 400;
+}
+
+
+
+.epp-why-fade {
+  position: absolute;
+  width: 25rem;
+  height: 56.25rem;
+  border: 0.1rem solid #000;
+  opacity: 0.71;
+  background: linear-gradient(90deg, rgba(255, 58, 232, 0.18) 68.75%, rgba(242, 242, 242, 0.18) 75.96%);
+  filter: blur(7.45rem);
+  z-index: 1;
+  transform: rotate(35deg);
+}
+
+.epp-why-fade-left {
+  top: -18.75rem;
+  left: 5%;
+}
+
+.epp-why-fade-right {
+  bottom: -18.75rem;
+  right: 5%;
+}
+
+.row>.col-md-4 {
+  display: flex;
+}
+
+.epp-deploy-section {
+  padding: 2.5rem 1.25rem;
+}
+
+.epp-deploy-image-wrapper {
+  overflow: hidden;
+  border-radius: 0.9375rem;
+  box-shadow: 0 0.375rem 1.25rem #f2f2f2;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 1.25rem;
+}
+
+/* .epp-deploy-image-wrapper:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0.625rem 1.5625rem #ef8fe4;
+} */
+
+.epp-deploy-section img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1.25rem;
+  border-radius: 1.24rem;
+  /* background: lightgray 0px -1.0225rem / 100% 116.515% no-repeat; */
+  /* box-shadow: 0.826rem 0.929rem 2.106rem rgba(0, 0, 0, 0.25); */
+}
+
+.epp-deploy-section h5 {
+  color: #000;
+  text-align: center;
+  font-size: 2.477rem;
+  font-weight: 600;
+  line-height: 3.72rem;
+}
+
+.epp-deploy-section p {
+  color: #050000;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 2.27rem;
+  font-weight: 400;
+}
+
+/* Responsive media queries can be updated similarly if needed */
+@media (max-width: 575.98px) {
+
+  .epp-title,
+  .epp-highlight {
+    font-size: 1.8rem;
+    /* unchanged */
+  }
+
+  .epp-subtext {
+    font-size: 1rem;
+    /* unchanged */
+  }
+
+  .seamless-title {
+    font-size: 1.75rem;
+    /* 28px / 16 = 1.75rem */
+    line-height: 2.25rem;
+    /* 36px / 16 = 2.25rem */
+  }
+
+  .seamless-box h5,
+  .seamless-box p {
+    font-size: 1rem;
+    /* 16px / 16 = 1rem */
+  }
+
+  .epp-why-title {
+    font-size: 1.5rem;
+    /* unchanged */
+  }
+
+  .epp-why-card-title {
+    font-size: 1rem;
+    /* unchanged */
+  }
+
+  .epp-why-card-text {
+    font-size: 0.875rem;
+    /* unchanged */
+  }
+
+  .epp-deploy-section h5 {
+    font-size: 1.5rem;
+    /* 24px / 16 = 1.5rem */
+    line-height: 2rem;
+    /* 32px / 16 = 2rem */
+  }
+
+  .epp-deploy-section p {
+    font-size: 1.125rem;
+    /* 18px / 16 = 1.125rem */
+  }
+}
+
+/* Mobile (up to 575.98px) */
+@media (max-width: 575.98px) {
+  .epp-section {
+    padding: 2.5rem 1rem 8rem;
+    margin: 0 0.75rem;
+    border-radius: 1rem;
+    backdrop-filter: blur(0.15rem);
+    /* ~2.4px */
+  }
+}
+
+/* Tablet (576px to 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .epp-title,
+  .epp-highlight {
+    font-size: 2rem;
+  }
+
+  .epp-subtext {
+    font-size: 1.1rem;
+  }
+
+  .seamless-title {
+    font-size: 2rem;
+    line-height: 2.75rem;
+  }
+
+  .seamless-box h5,
+  .seamless-box p {
+    font-size: 1.125rem;
+  }
+
+  .epp-why-title {
+    font-size: 1.75rem;
+  }
+
+  .epp-deploy-section h5 {
+    font-size: 1.75rem;
+  }
+
+  .epp-deploy-section p {
+    font-size: 1.25rem;
+  }
+
+  .epp-section {
+    padding: 3rem 1.25rem 10rem;
+    margin: 0 1.25rem;
+    border-radius: 1.1rem;
+    backdrop-filter: blur(0.18rem);
+    /* ~2.88px */
+  }
+}
+
+/* Small Laptop (768px to 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .epp-title,
+  .epp-highlight {
+    font-size: 2.2rem;
+  }
+
+  .epp-subtext {
+    font-size: 1.15rem;
+  }
+
+  .seamless-title {
+    font-size: 2.25rem;
+    line-height: 3rem;
+  }
+
+  .seamless-box h5,
+  .seamless-box p {
+    font-size: 1.1875rem;
+  }
+
+  .epp-why-title {
+    font-size: 2rem;
+  }
+
+  .epp-deploy-section h5 {
+    font-size: 2rem;
+  }
+
+  .epp-deploy-section p {
+    font-size: 1.5rem;
+  }
+
+  .epp-section {
+    padding: 3rem 1.25rem 10rem;
+    margin: 0 1.25rem;
+    border-radius: 1.1rem;
+    backdrop-filter: blur(0.18rem);
+    /* ~2.88px */
+  }
+}
+
+/* Laptop (992px to 1199.98px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  .epp-title,
+  .epp-highlight {
+    font-size: 2.4rem;
+  }
+
+  .epp-subtext {
+    font-size: 1.2rem;
+  }
+
+  .seamless-title {
+    font-size: 2.5rem;
+    line-height: 3.375rem;
+  }
+
+  .seamless-box h5,
+  .seamless-box p {
+    font-size: 1.25rem;
+  }
+
+  .epp-why-title {
+    font-size: 2.1rem;
+  }
+
+  .epp-deploy-section h5 {
+    font-size: 2.25rem;
+  }
+
+  .epp-deploy-section p {
+    font-size: 1.75rem;
+  }
+
+  .epp-section {
+    padding: 3.5rem 1.25rem 12rem;
+    margin: 0 1.5rem;
+    border-radius: 1.2rem;
+    backdrop-filter: blur(0.2rem);
+    /* ~3.2px */
+  }
+}
+
+/* Desktop (1200px and above) */
+@media (min-width: 1200px) {
+
+  .epp-title,
+  .epp-highlight {
+    font-size: 2.5rem;
+  }
+
+  .epp-subtext {
+    font-size: 1.25rem;
+  }
+
+  .seamless-title {
+    font-size: 2.6875rem;
+    line-height: 3.6875rem;
+  }
+
+  .seamless-box h5,
+  .seamless-box p {
+    font-size: 1.34375rem;
+  }
+
+  .epp-why-title {
+    font-size: 2.2rem;
+  }
+
+  .epp-deploy-section h5 {
+    font-size: 2.475rem;
+  }
+
+  .epp-deploy-section p {
+    font-size: 2.27rem;
+  }
+
+  .epp-section {
+    padding: 3.75rem 1.25rem 21.66rem;
+    /* 60px 20px 218.56px */
+    margin: 0 1.25rem;
+    border-radius: 1.2rem 1.2rem 1.25rem 1.25rem;
+    backdrop-filter: blur(0.206rem);
+    /* ~3.3px */
+  }
+}
