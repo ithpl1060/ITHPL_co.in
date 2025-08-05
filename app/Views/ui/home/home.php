@@ -17,7 +17,8 @@
         <div class="hero-image-container">
             <!--merged image-->
             <div class="macbook-image-wrapper">
-                <img src="<?= base_url(relativePath: 'images/mac-book.png'); ?>" alt="Macbook Air" class="macbook-img-1" />
+                <img src="<?= base_url(relativePath: 'images/mac-book.png'); ?>" alt="Macbook Air"
+                    class="macbook-img-1" />
                 <!-- <img src="<?= base_url(relativePath: 'images/d5f88f1599a72c6ce8de6836d3911db28345a3e4.png'); ?>" alt="Macbook Air" class="macbook-img-2">
     -->
             </div>
@@ -53,28 +54,32 @@
             </div>
             <div class="why-choose-us-grid">
                 <div class="feature-card">
-                    <img src="<?= base_url(relativePath: 'images/feature-card1.png'); ?>" alt="Icon" class="feature-icon" />
+                    <img src="<?= base_url(relativePath: 'images/feature-card1.png'); ?>" alt="Icon"
+                        class="feature-icon" />
                     <h3 class="feature-title">Tailored & Scalable Solutions</h3>
                     <p class="feature-description">
                         Providing customized IT solutions that grow with your business.
                     </p>
                 </div>
                 <div class="feature-card">
-                    <img src="<?= base_url(relativePath: 'images/feature-card2.png'); ?>" alt="Icon" class="feature-icon" />
+                    <img src="<?= base_url(relativePath: 'images/feature-card2.png'); ?>" alt="Icon"
+                        class="feature-icon" />
                     <h3 class="feature-title">Customer-Centric Commitment</h3>
                     <p class="feature-description">
                         Focused on reliability, efficiency, and proactive support.
                     </p>
                 </div>
                 <div class="feature-card">
-                    <img src="<?= base_url(relativePath: 'images/feature-card3.png'); ?>" alt="Icon" class="feature-icon" />
+                    <img src="<?= base_url(relativePath: 'images/feature-card3.png'); ?>" alt="Icon"
+                        class="feature-icon" />
                     <h3 class="feature-title">Certified Quality & Security</h3>
                     <p class="feature-description">
                         ISO 9001:2015 & ISO 27001:2013 certified for top-tier standards.
                     </p>
                 </div>
                 <div class="feature-card">
-                    <img src="<?= base_url(relativePath: 'images/feature-card4.png'); ?>" alt="Icon" class="feature-icon" />
+                    <img src="<?= base_url(relativePath: 'images/feature-card4.png'); ?>" alt="Icon"
+                        class="feature-icon" />
                     <h3 class="feature-title">Trusted Expertise & Partnerships</h3>
                     <p class="feature-description">
                         Leveraging global IT brands with a skilled, continuously trained
@@ -102,8 +107,8 @@
     <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 px-4">
             <div class="text-left rounded-2xl p-6 animate-fade-in-up">
-                <img src="<?= base_url(relativePath: 'images/e0b5f97019837cd094d3647e15a34f22313bf172.png'); ?>" alt="Team Icon"
-                    class="w-[123px] h-[123px] mb-5" />
+                <img src="<?= base_url(relativePath: 'images/e0b5f97019837cd094d3647e15a34f22313bf172.png'); ?>"
+                    alt="Team Icon" class="w-[123px] h-[123px] mb-5" />
                 <h4 class="font-poppins text-[32px] leading-[1.5] mb-4">
                     Trusted and experienced team
                 </h4>
@@ -113,8 +118,8 @@
                 </p>
             </div>
             <div class="text-left rounded-2xl p-6 animate-fade-in-up animate-delay-100">
-                <img src="<?= base_url(relativePath: 'images/03256fc0034c383fd8f9a28d84b6a04f3eb99cbd.png'); ?>" alt="Solutions Icon"
-                    class="w-[123px] h-[123px] mb-5" />
+                <img src="<?= base_url(relativePath: 'images/03256fc0034c383fd8f9a28d84b6a04f3eb99cbd.png'); ?>"
+                    alt="Solutions Icon" class="w-[123px] h-[123px] mb-5" />
                 <h4 class="font-poppins text-[30px] leading-[1.5] mb-4">
                     Future-Ready & Innovative Solutions
                 </h4>
@@ -124,8 +129,8 @@
                 </p>
             </div>
             <div class="text-left rounded-2xl p-6 animate-fade-in-up animate-delay-200">
-                <img src="<?= base_url(relativePath: 'images/3d5f6ca28d9eb4d17226b6c9c605d780f6ab9f5b.png'); ?>" alt="Approach Icon"
-                    class="w-[123px] h-[123px] mb-5" />
+                <img src="<?= base_url(relativePath: 'images/3d5f6ca28d9eb4d17226b6c9c605d780f6ab9f5b.png'); ?>"
+                    alt="Approach Icon" class="w-[123px] h-[123px] mb-5" />
                 <h4 class="font-poppins text-[32px] leading-[1.5] mb-4">
                     Customized Approach
                 </h4>
@@ -135,8 +140,8 @@
                 </p>
             </div>
             <div class="text-left rounded-2xl p-6 animate-fade-in-up animate-delay-300">
-                <img src="<?= base_url(relativePath: 'images/e81d0cbe1fd325d48d31e347c3d708c3b9432ae7.png'); ?>" alt="Support Icon"
-                    class="w-[123px] h-[123px] mb-5" />
+                <img src="<?= base_url(relativePath: 'images/e81d0cbe1fd325d48d31e347c3d708c3b9432ae7.png'); ?>"
+                    alt="Support Icon" class="w-[123px] h-[123px] mb-5" />
                 <h4 class="font-poppins text-[32px] leading-[1.5] mb-4">
                     Customer-Centric Support
                 </h4>
@@ -156,28 +161,32 @@
         </h2>
         <div class="services-grid">
             <div class="service-card">
-                <img src="<?= base_url(relativePath: 'images/it-support-icon.png'); ?>" alt="IT Support Icon" class="service-icon" />
+                <img src="<?= base_url(relativePath: 'images/it-support-icon.png'); ?>" alt="IT Support Icon"
+                    class="service-icon" />
                 <h3 class="service-title">IT Support & Consulting</h3>
                 <p class="service-description">
                     24/7 expert IT support and strategic consulting services.
                 </p>
             </div>
             <div class="service-card">
-                <img src="<?= base_url(relativePath: 'images/hardware-icon.png'); ?>" alt="Hardware Icon" class="service-icon" />
+                <img src="<?= base_url(relativePath: 'images/hardware-icon.png'); ?>" alt="Hardware Icon"
+                    class="service-icon" />
                 <h3 class="service-title">Enterprise Hardware Solutions</h3>
                 <p class="service-description">
                     Custom hardware solutions for enterprise needs.
                 </p>
             </div>
             <div class="service-card">
-                <img src="<?= base_url(relativePath: 'images/cloud-icon.png'); ?>" alt="Cloud Icon" class="service-icon" />
+                <img src="<?= base_url(relativePath: 'images/cloud-icon.png'); ?>" alt="Cloud Icon"
+                    class="service-icon" />
                 <h3 class="service-title">Software & Cloud Services</h3>
                 <p class="service-description">
                     Cloud-based solutions and software services.
                 </p>
             </div>
             <div class="service-card">
-                <img src="<?= base_url(relativePath: 'images/networking-icon.png'); ?>" alt="Networking Icon" class="service-icon" />
+                <img src="<?= base_url(relativePath: 'images/networking-icon.png'); ?>" alt="Networking Icon"
+                    class="service-icon" />
                 <h3 class="service-title">Video Conferencing & Networking</h3>
                 <p class="service-description">
                     Advanced networking and communication solutions.
@@ -193,7 +202,8 @@
         </h2>
         <div class="products-grid">
             <div class="product-card">
-                <img src="<?= base_url(relativePath: 'images/endpoint-it-solutions.png'); ?>" alt="Endpoint IT Solutions" class="product-bg" />
+                <img src="<?= base_url(relativePath: 'images/endpoint-it-solutions.png'); ?>"
+                    alt="Endpoint IT Solutions" class="product-bg" />
                 <div class="product-overlay"></div>
                 <div class="product-content">
                     <h3 class="product-title">Endpoint IT Solutions</h3>
@@ -202,7 +212,8 @@
                 </div>
             </div>
             <div class="product-card">
-                <img src="<?= base_url(relativePath: 'images/audio-video-solutions.png'); ?>" alt="Audio Video Solutions" class="product-bg" />
+                <img src="<?= base_url(relativePath: 'images/audio-video-solutions.png'); ?>"
+                    alt="Audio Video Solutions" class="product-bg" />
                 <div class="product-overlay"></div>
                 <div class="product-content">
                     <h3 class="product-title">Audio Video Solutions</h3>
@@ -213,7 +224,8 @@
                 </div>
             </div>
             <div class="product-card">
-                <img src="<?= base_url(relativePath: 'images/it-manpower-solutions.png'); ?>" alt="IT Manpower Solutions" class="product-bg" />
+                <img src="<?= base_url(relativePath: 'images/it-manpower-solutions.png'); ?>"
+                    alt="IT Manpower Solutions" class="product-bg" />
                 <div class="product-overlay"></div>
                 <div class="product-content">
                     <h3 class="product-title">IT Manpower Solutions</h3>
@@ -240,27 +252,33 @@
         </p>
         <div class="sustainability-grid">
             <div class="sustainability-item">
-                <img src="<?= base_url(relativePath: 'images/packaging-icon.png'); ?>" alt="Packaging Icon" class="sustainability-icon" />
+                <img src="<?= base_url(relativePath: 'images/packaging-icon.png'); ?>" alt="Packaging Icon"
+                    class="sustainability-icon" />
                 <p>Plastic-free, eco-friendly packaging</p>
             </div>
             <div class="sustainability-item">
-                <img src="<?= base_url(relativePath: 'images/solar-icon.png'); ?>" alt="Solar Icon" class="sustainability-icon" />
+                <img src="<?= base_url(relativePath: 'images/solar-icon.png'); ?>" alt="Solar Icon"
+                    class="sustainability-icon" />
                 <p>10% solar-powered operations</p>
             </div>
             <div class="sustainability-item">
-                <img src="<?= base_url(relativePath: 'images/lightning-icon.png'); ?>" alt="Lighting Icon" class="sustainability-icon" />
+                <img src="<?= base_url(relativePath: 'images/lightning-icon.png'); ?>" alt="Lighting Icon"
+                    class="sustainability-icon" />
                 <p>Paperless workflows & LED lighting</p>
             </div>
             <div class="sustainability-item">
-                <img src="<?= base_url(relativePath: 'images/recycling-icon.png'); ?>" alt="Recycling Icon" class="sustainability-icon" />
+                <img src="<?= base_url(relativePath: 'images/recycling-icon.png'); ?>" alt="Recycling Icon"
+                    class="sustainability-icon" />
                 <p>Internal & client-side recycling programs</p>
             </div>
             <div class="sustainability-item">
-                <img src="<?= base_url(relativePath: 'images/container-icon.png'); ?>" alt="Containers Icon" class="sustainability-icon" />
+                <img src="<?= base_url(relativePath: 'images/container-icon.png'); ?>" alt="Containers Icon"
+                    class="sustainability-icon" />
                 <p>Glass containers instead of plastic</p>
             </div>
             <div class="sustainability-item">
-                <img src="<?= base_url(relativePath: 'images/tissue-icon.png'); ?>" alt="Tissue Icon" class="sustainability-icon" />
+                <img src="<?= base_url(relativePath: 'images/tissue-icon.png'); ?>" alt="Tissue Icon"
+                    class="sustainability-icon" />
                 <p>Zero tissue use across all offices</p>
             </div>
         </div>
@@ -282,36 +300,44 @@
         <div class="certifications-container">
             <div class="certifications-grid">
                 <div class="certification-item">
-                    <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="iso Logo" class="certification-logo  large  " />
+                    <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="iso Logo"
+                        class="certification-logo  large  " />
                     <p>ISO/IEC 29136:2012</p>
                 </div>
                 <div class="certification-item">
-                    <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="ISO Logo" class="certification-logo large " />
+                    <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="ISO Logo"
+                        class="certification-logo large " />
                     <p>ISO:27001:2013</p>
                 </div>
                 <div class="certification-item">
-                    <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="ISO Logo" class="certification-logo large" />
+                    <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="ISO Logo"
+                        class="certification-logo large" />
                     <p>ISO:9001:2015</p>
                 </div>
                 <div class="certification-item">
-                    <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="ISO Logo" class="certification-logo large" />
+                    <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="ISO Logo"
+                        class="certification-logo large" />
                     <p>ISO 20000-1:2018</p>
                 </div>
 
                 <div class="certification-item">
-                    <img src="<?= base_url(relativePath: 'images/cmmi-logo.png'); ?>" alt="CMMI Logo" class="certification-logo large" />
+                    <img src="<?= base_url(relativePath: 'images/cmmi-logo.png'); ?>" alt="CMMI Logo"
+                        class="certification-logo large" />
                     <p>CMMI</p>
                 </div>
                 <div class="certification-item">
-                    <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="iso Logo" class="certification-logo  large  " />
+                    <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="iso Logo"
+                        class="certification-logo  large  " />
                     <p>ISO 14001:2015</p>
                 </div>
                 <div class="certification-item">
-                    <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="iso Logo" class="certification-logo  large  " />
+                    <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="iso Logo"
+                        class="certification-logo  large  " />
                     <p>ISO/IEC 29102:2023(en)</p>
                 </div>
                 <div class="certification-item">
-                    <img src="<?= base_url(relativePath: 'images/duns-logo.png'); ?>" alt="DUNS Logo" class="certification-logo  large  " />
+                    <img src="<?= base_url(relativePath: 'images/duns-logo.png'); ?>" alt="DUNS Logo"
+                        class="certification-logo  large  " />
                     <p>DUNS</p>
                 </div>
             </div>
@@ -388,7 +414,8 @@
                             <img src="<?= base_url(relativePath: 'images/lg.svg'); ?>" alt="lg  logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/msazure.svg'); ?>" alt="microsoft azure logo" />
+                            <img src="<?= base_url(relativePath: 'images/msazure.svg'); ?>"
+                                alt="microsoft azure logo" />
                         </div>
                         <div class="logo-item">
                             <img src="<?= base_url(relativePath: 'images/onsitego.svg'); ?>" alt="onsitego logo" />
@@ -400,10 +427,12 @@
                             <img src="<?= base_url(relativePath: 'images/samsung.svg'); ?>" alt="samsung logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/scalefusion.svg'); ?>" alt="scalefusion logo" />
+                            <img src="<?= base_url(relativePath: 'images/scalefusion.svg'); ?>"
+                                alt="scalefusion logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/sentinelone.svg'); ?>" alt="sentinelone logo" />
+                            <img src="<?= base_url(relativePath: 'images/sentinelone.svg'); ?>"
+                                alt="sentinelone logo" />
                         </div>
                         <div class="logo-item">
                             <img src="<?= base_url(relativePath: 'images/sonicwall.svg'); ?>" alt="sonicwall logo" />
@@ -496,7 +525,8 @@
                                 <img src="<?= base_url(relativePath: 'images/bajaj.svg'); ?>" alt="Allianz" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/bajaj-finserv.svg'); ?>" alt="bajaj-finserv" />
+                                <img src="<?= base_url(relativePath: 'images/bajaj-finserv.svg'); ?>"
+                                    alt="bajaj-finserv" />
                             </div>
                             <div class="logo-item">
                                 <img src="<?= base_url(relativePath: 'images/blackrock.svg'); ?>" alt="blackrock" />
@@ -596,7 +626,8 @@
                                 <img src="<?= base_url(relativePath: 'images/synechron.svg'); ?>" alt="synechron" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/tatatechnologies.svg'); ?>" alt="tatatechnologies" />
+                                <img src="<?= base_url(relativePath: 'images/tatatechnologies.svg'); ?>"
+                                    alt="tatatechnologies" />
                             </div>
                             <div class="logo-item">
                                 <img src="<?= base_url(relativePath: 'images/vois.svg'); ?>" alt="vois" />
@@ -645,3 +676,6 @@
         </div>
     </div>
 </section>
+
+<!-- <script src="js/global.js" defer></script> -->
+<script src="<?= base_url('js/global.js'); ?>" defer></script>
