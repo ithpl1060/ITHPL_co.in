@@ -72,7 +72,7 @@
 
                     <li class="nav-item">
                         <a href="<?= base_url('products') ?>" class="nav-hover">Products</a>
-                        <div class="dropdown-menu wide">
+                        <!-- <div class="dropdown-menu wide">
                             <div class="dropdown-arrow"></div>
                             <div class="dropdown-column">
                                 <a href="#">End Point</a>
@@ -85,12 +85,12 @@
                                 <a href="#">Peripheral</a>
                                 <a href="#">License</a>
                             </div>
-                        </div>
+                        </div> -->
                     </li>
 
                     <li class="nav-item">
                         <a href="<?= base_url('services') ?>" class="nav-hover">Services</a>
-                        <div class="dropdown-menu wide-3col">
+                        <!-- <div class="dropdown-menu wide-3col">
                             <div class="dropdown-arrow"></div>
                             <div class="dropdown-column">
                                 <a href="#">Managed Services</a>
@@ -110,12 +110,12 @@
                                 <a href="#">E-Waste Management</a>
                                 <a href="#">Connectivity</a>
                             </div>
-                        </div>
+                        </div> -->
                     </li>
 
                     <li class="nav-item">
                         <a href="<?= base_url('solutions') ?>" class="nav-hover">Solutions</a>
-                        <div class="dropdown-menu wide">
+                        <!-- <div class="dropdown-menu wide">
                             <div class="dropdown-arrow"></div>
                             <div class="dropdown-column">
                                 <a href="#">Server Solutions</a>
@@ -131,10 +131,10 @@
                                 <a href="#">Rental & Refurbished</a>
                                 <a href="#">Power</a>
                             </div>
-                        </div>
+                        </div> -->
                     </li>
 
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a href="<?= base_url('apple') ?>" class="nav-hover">Apple</a>
                         <div class="dropdown-menu single-column">
                             <div class="dropdown-arrow"></div>
@@ -144,18 +144,18 @@
                             <a href="<?= base_url('apple-smart-epp') ?>">Apple Smart EPP</a>
                             <a href="<?= base_url('apple#s-why') ?>">Why Apple?</a>
                         </div>
-                    </li>
+                    </li> -->
 
                     <li class="nav-item">
                         <a href="<?= base_url('sustainability') ?>" class="nav-hover">Sustainability</a>
-                        <div class="dropdown-menu single-column">
+                        <!-- <div class="dropdown-menu single-column">
                             <div class="dropdown-arrow"></div>
                             <a href="<?= base_url('ewaste-management') ?>">E-Waste Management</a>
                             <a href="#">Electronics & IT Asset Disposal</a>
                             <a href="#">Data Destruction & Cybersecurity</a>
                             <a href="#">Special Services & Corporate Programs</a>
                             <a href="#">Sustainability & Community Outreach</a>
-                        </div>
+                        </div> -->
                     </li>
                 </nav>
 

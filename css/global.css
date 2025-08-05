@@ -265,6 +265,8 @@ section {
   }
 }
 
+*/
+
 /* Base Header Styles */
 .site-header {
   position: fixed;
@@ -2403,26 +2405,52 @@ section {
 
 @media (max-width: 768px) {
 
+  #partners,
+  #clients {
+    margin: 15px 0;
+    border-radius: 20px;
+  }
+
   .partners-container,
   .clients-container {
+    flex-direction: column;
+    gap: 25px;
     padding: 25px;
+  }
+
+  .partners-logos,
+  .clients-text {
+    border-left: none;
+    padding-left: 0;
+    width: 100%;
+  }
+
+  .clients-container {
+    flex-direction: column-reverse;
   }
 
   .partners-title,
   .clients-title {
     font-size: 32px;
     margin-bottom: 15px;
+    text-align: center;
   }
 
   .partners-subtitle,
   .clients-subtitle {
     font-size: 22px;
     margin-bottom: 15px;
+    text-align: center;
   }
 
   .partners-description,
   .clients-description {
     font-size: 16px;
+    text-align: center;
+  }
+
+  .logo-scroll-wrapper {
+    padding: 15px 0;
   }
 
   .logo-item {
@@ -2430,13 +2458,8 @@ section {
   }
 
   .logo-row {
-    gap: 40px;
+    gap: 30px;
     margin-bottom: 15px;
-  }
-
-  .partners-row-2,
-  .clients-row-2 {
-    gap: 60px;
   }
 }
 
@@ -2444,7 +2467,7 @@ section {
 
   .partners-container,
   .clients-container {
-    padding: 20px;
+    padding: 20px 15px;
   }
 
   .partners-title,
@@ -2455,28 +2478,21 @@ section {
   .partners-subtitle,
   .clients-subtitle {
     font-size: 20px;
+    padding: 0 20px;
   }
 
   .partners-description,
   .clients-description {
     font-size: 15px;
+    padding: 0 10px;
   }
 
   .logo-item {
-    height: 40px;
+    height: 30px;
   }
 
   .logo-row {
-    gap: 40px;
-  }
-
-  .partners-row-2,
-  .clients-row-2 {
-    gap: 40px;
-  }
-
-  .logo-scroll-wrapper {
-    padding: 15px 0;
+    gap: 25px;
   }
 }
 
@@ -2490,19 +2506,35 @@ section {
   .partners-subtitle,
   .clients-subtitle {
     font-size: 18px;
+    padding: 0;
   }
 
   .logo-item {
-    height: 60px;
+    height: 25px;
   }
 
   .logo-row {
-    gap: 60px;
+    gap: 20px;
   }
 
-  .partners-row-2,
-  .clients-row-2 {
-    gap: 60px;
+
+
+
+  @media (max-width: 350px) {
+
+    .partners-title,
+    .clients-title {
+      font-size: 22px;
+    }
+
+    .logo-item {
+      height: 20px;
+
+    }
+
+    .logo-row {
+      gap: 15px;
+    }
   }
 }
 
@@ -3315,6 +3347,7 @@ section {
 .testimonial-slider-container {
   position: relative;
   height: 300px;
+
   perspective: 1000px;
   margin: 0 auto;
   max-width: 700px;
@@ -3468,6 +3501,9 @@ section {
   background: #7c3aed;
   transform: scale(1.2);
 }
+
+
+
 
 /* section testonomial end */
 

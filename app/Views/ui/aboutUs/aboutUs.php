@@ -203,8 +203,7 @@
             Our <span class="gradient-services">Journey</span>
         </h2>
         <p class="text-xl md:text-2xl font-medium text-black/85 mb-6  ">
-            Innovation Through Excellence, Growth Through Vision
-        </p>
+            Milestones That Made Us, Vision That Guides Us </p>
         <p class="text-base text-black/70 max-w-2xl mx-auto leading-relaxed">
             Explore the defining moments that shaped our evolution from a
             startup vision to industry leadership
@@ -526,7 +525,7 @@
                                 <div
                                     class="transform translate-y-20 group-hover:translate-y-0 transition-all duration-500">
                                     <h3 class="text-white text-2xl font-bold mb-2"> Vidyadhar Kamble</h3>
-                                    <p class="text-white/80 font-medium mb-4"> COO</p>
+                                    <p class="text-white/80 font-medium mb-4"> Director</p>
                                     <p
                                         class="text-white/70 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-200">
                                         Vidyadhar serves as a customer-centric leader and service expert, driving
@@ -660,7 +659,7 @@
 
                     <!-- Card 2 -->
                     <li class="testimonial-card testimonial-card--next">
-                        <p class="text-white italic mb-6">"To Whom It May Concern at Innovative, I am delighted to share
+                        <p class="text-white italic">"To Whom It May Concern at Innovative, I am delighted to share
                             my
                             exceptional experience with Innovative Tech Hub's services. Their expertise in Tablet
                             Management for
@@ -685,7 +684,7 @@
 
                     <!-- Card 3 -->
                     <li class="testimonial-card">
-                        <p class="text-white italic mb-6">"To Whom It May Concern at Innovative, I am delighted to share
+                        <p class="text-white italic">"To Whom It May Concern at Innovative, I am delighted to share
                             my
                             exceptional experience with Innovative Tech Hub's services. Their expertise in Tablet
                             Management for
@@ -731,7 +730,7 @@
     </div>
     <div class="stat-item">
         <p class="stat-number" data-target="700">700+</p>
-        <p class="stat-label">Successful Deployments</p>
+        <p class="stat-label">Trusting Clients.</p>
     </div>
     <div class="stat-item support-stat">
         <p class="stat-number">24/7</p>
@@ -765,10 +764,10 @@
                     </li>
                 </ul>
 
-                <p class="partners-description">
+                <!-- <p class="partners-description">
                     We work with 65+ OEM and AV partners to offer a wide range of
                     cutting-edge IT and AV solutions...
-                </p>
+                </p> -->
             </div>
             <div class="partners-logos">
                 <div class="logo-scroll-wrapper">
@@ -1074,4 +1073,3 @@
 <script src="<?= base_url('js/ScrollTrigger.min.js'); ?>" defer></script>
 <script src="<?= base_url('js/ScrollToPlugin.min.js'); ?>" defer></script>
 <script src="<?= base_url('js/global.js'); ?>" defer></script>
-
