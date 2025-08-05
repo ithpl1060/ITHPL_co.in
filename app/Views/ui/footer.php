@@ -55,7 +55,7 @@
                     rel="noopener noreferrer" aria-label="LinkedIn">
                     <img src="<?= base_url('images/linkedin-logo.png'); ?>" alt="LinkedIn" loading="lazy" />
                 </a>
-                <a href="https://www.facebook.com/?sk=welcome" target="_blank" rel="noopener noreferrer"
+                <a href="https://www.facebook.com/ithpl" target="_blank" rel="noopener noreferrer"
                     aria-label="Facebook">
                     <img src="<?= base_url('images/facebook.svg'); ?>" alt="Facebook" loading="lazy" />
                 </a>
@@ -79,7 +79,6 @@
 </body>
 
 <!-- JS Files -->
-<script src="<?= base_url('js/global.js'); ?>" defer></script>
 <script>
     // Optional: Scroll to top, footer animations, etc.
 </script>
@@ -101,8 +100,3 @@
         });
     });
 </script>
-<!-- <script src="js/gsap.min.js" defer></script>
-<script src="js/ScrollTrigger.min.js" defer></script>
-<script src="js/ScrollToPlugin.min.js" defer></script>
-<script src="js/Scrollbar.js" defer></script> -->
-<script src="js/global.js" defer></script>
