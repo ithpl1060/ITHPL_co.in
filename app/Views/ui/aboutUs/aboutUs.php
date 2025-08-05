@@ -1069,9 +1069,3 @@
         </div>
     </div>
 </section>
-
-<script src="<?= base_url('js/gsap.min.js'); ?>" defer></script>
-<script src="<?= base_url('js/ScrollTrigger.min.js'); ?>" defer></script>
-<script src="<?= base_url('js/ScrollToPlugin.min.js'); ?>" defer></script>
-<script src="<?= base_url('js/global.js'); ?>" defer></script>
-

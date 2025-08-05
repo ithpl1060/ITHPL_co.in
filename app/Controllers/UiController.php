@@ -106,16 +106,18 @@ class UiController extends BaseController
     public function solutions()
     {
         $data['meta'] = $this->seo->where('url_path', $this->url_path)->first();
-        return view('ui/solutions/solutions', $data);
-            // . view('ui/footer', $data)
-            // . view('ui/htmlend');
+        return view('ui/header', $data)
+            . view('ui/solutions/solutions', $data)
+            . view('ui/footer', $data)
+            . view('ui/htmlend');
     }
     public function services()
     {
         $data['meta'] = $this->seo->where('url_path', $this->url_path)->first();
-        return view('ui/services/services', $data);
-            // . view('ui/footer', $data)
-            // . view('ui/htmlend');
+        return view('ui/header', $data)
+            . view('ui/services/services', $data)
+            . view('ui/footer', $data)
+            . view('ui/htmlend');
     }
      public function sustainability()
     {

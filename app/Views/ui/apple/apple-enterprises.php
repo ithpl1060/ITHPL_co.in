@@ -304,5 +304,3 @@
     </div>
   </div>
 </section>
-
-<script src="<?= base_url('js/global.js'); ?>" defer></script>
