@@ -4,7 +4,7 @@
 
 <head>
     <!-- Meta Tags -->
-     <meta charset="UTF-8" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><?= esc($meta['meta_title'] ?? 'Innovative Tech Hub Pvt. Ltd.') ?></title>
     <meta name="description" content="<?= esc($meta['meta_description'] ?? '') ?>">
@@ -93,9 +93,9 @@
                     </li>
 
                     <!-- Products -->
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a href="#products" class="nav-hover">Products</a>
-                        <!-- <div class="dropdown-menu wide">
+                        <div class="dropdown-menu wide">
                             <div class="dropdown-arrow"></div>
                             <div class="dropdown-column">
                                 <a href="#">End Point</a>
@@ -108,16 +108,20 @@
                                 <a href="#">Peripheral</a>
                                 <a href="#">License</a>
                             </div>
-                        </div> -->
-                    </li>
+                        </div>
+                    </li> -->
 
                     <!-- Services -->
                     <li class="nav-item">
                         <a href="<?= base_url('services') ?>" class="nav-hover">Services</a>
-                        <!-- <div class="dropdown-menu wide-3col">
+                        <div class="dropdown-menu ">
                             <div class="dropdown-arrow"></div>
                             <div class="dropdown-column">
-                                <a href="<?= base_url('ewastemanagement') ?>">E-Waste Management</a>
+                                <a href="<?= base_url('ewaste-management') ?>">E-Waste Management</a>
+                                <!-- <div class="dropdown-menu wide-3col">
+                            <div class="dropdown-arrow"></div>
+                            <div class="dropdown-column">
+                                <a href="#">Managed Services</a>
                                 <a href="#">AMC & Break Fix</a>
                                 <a href="#">End User Computing</a>
                                 <a href="#">Data Center Management</a>
@@ -131,10 +135,11 @@
                                 <a href="#">Procurement & Billing</a>
                             </div>
                             <div class="dropdown-column">
-                                <a href="#">Managed Services</a>
+                                <a href="#">E-Waste Management</a>
                                 <a href="#">Connectivity</a>
                             </div>
                         </div> -->
+                            </div>
                     </li>
 
                     <!-- Solutions -->
@@ -210,7 +215,7 @@
         </nav>
     </header>
 
-    <section id="hero-about" class="">
+    <section id="hero-about" class="main-section">
         <div class="hero-background-a"></div>
 
         <div class="container hero-content-a">
@@ -233,11 +238,10 @@
     </section>
 
 
-    <section id="services-section" class="services">
+    <section id="services-section" class="main-section">
         <div class="container">
             <div class="about-container-a">
-                <h2 class="about-title-a">
-                    Our <span class="gradient-services">Services</span>
+                <h2 class="pl-30 text-[50px] mb-[30px] font-bold ">Our <span class="gradient-services">Services</span>
                 </h2>
             </div>
 
@@ -249,7 +253,7 @@
                         [
                             'icon' => 'managed-services.png',
                             'title' => 'Managed Services',
-                            'desc' => 'Unlock peace of mind with expert device management, security, and support, ensuring seamless operations and maximum productivity.'
+                            'desc' => 'Unlock peace of mind with expert device management, security & support, ensuring seamless operations & maximum productivity.'
                         ],
                         [
                             'icon' => 'tools.png',
@@ -284,7 +288,7 @@
                         [
                             'icon' => 'android-phoen.png',
                             'title' => 'Application Management',
-                            'desc' => 'Optimize applications with comprehensive support, ensuring seamless functionality, enhanced user experience, and continuous improvement.'
+                            'desc' => 'Optimize applications with comprehensive support, ensuring seamless functionality, enhanced user experience,continuous improvement.'
                         ],
                         [
                             'icon' => 'asset-management.png',
@@ -315,7 +319,7 @@
                                 <img src="<?= base_url('images/' . $service['icon']) ?>"
                                     alt="<?= esc($service['title']) ?>">
                             </div>
-                            <h3 class="service-card-title-s"><?= esc($service['title']) ?></h3>
+                            <h3 class="service-card-title-b"><?= esc($service['title']) ?></h3>
                             <p class="service-card-desc-s"><?= esc($service['desc']) ?></p>
                             <button class="service-card-button-s">Learn More</button>
                         </div>
@@ -327,82 +331,119 @@
     </section>
 
 
-    <section id="how-we-do-it-section" class="about-container-a">
-        <div class="container">
-            <h2 class="about-title-a">
-                How <span class="gradient-services">We Do</span> It?
-            </h2>
-            <p class="how-subtitle mb-20">
-                At Innovative, we provide expert services that help businesses thrive. Here's how we deliver them:
-            </p>
+    <section id="how-we-do-it-section" class="py-16">
+  <div class="container mx-auto text-center">
+    <h2 class="about-title-a text-3xl font-bold mb-4">
+      How <span class="gradient-services">We Do</span> It?
+    </h2>
+    <p class="how-subtitle mb-12">
+      At Innovative, we provide expert services that help businesses thrive.<br> Here's how we deliver them:
+    </p>
 
-            <div class="how-grid">
-                <?php
-                $howWeDoIt = [
-                    [
-                        'icon' => 'assesment-icon.png',
-                        'title' => 'Assessment and Planning',
-                        'desc' => 'We assess your needs and create a tailored plan to address your challenges.',
-                        'color' => '#ff0000',
-                        'dur' => '4s'
-                    ],
-                    [
-                        'icon' => 'execution-icon.png',
-                        'title' => 'Expert Execution',
-                        'desc' => 'Our skilled team delivers precise, high-quality services for outstanding results.',
-                        'color' => '#ff5e00',
-                        'dur' => '4.5s'
-                    ],
-                    [
-                        'icon' => 'collaboration-icon.png',
-                        'title' => 'Collaborative Approach',
-                        'desc' => 'We stay closely aligned with you to meet evolving needs and expectations.',
-                        'color' => '#5400fd',
-                        'dur' => '3.5s'
-                    ],
-                    [
-                        'icon' => 'improvement-icon.png',
-                        'title' => 'Continuous Improvement',
-                        'desc' => 'We regularly refine our services to stay aligned with best practices and your goals.',
-                        'color' => '#0040ff',
-                        'dur' => '5s'
-                    ],
-                ];
-                ?>
+    <!-- Responsive Grid -->
+    <div class="how-grid grid gap-8 md:grid-cols-2 lg:grid-cols-4">
 
-                <?php $i = 1;
-                foreach ($howWeDoIt as $step): ?>
-                    <div class="how-card-wrapper">
-                        <div class="how-card card-<?= $i ?>">
-                            <div class="border-animation-container">
-                                <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-                                    <path class="border-path"
-                                        d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                                        fill="none" stroke="<?= $step['color'] ?>" stroke-width="0.2" />
-                                    <line class="border-line" x1="0" y1="0" x2="15" y2="0">
-                                        <animateMotion dur="<?= $step['dur'] ?>" repeatCount="indefinite" rotate="auto">
-                                            <mpath href="#borderPath<?= $i ?>" />
-                                        </animateMotion>
-                                    </line>
-                                    <path id="borderPath<?= $i ?>"
-                                        d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                                        fill="none" opacity="0" />
-                                </svg>
-                            </div>
-                            <img src="<?= base_url('images/' . $step['icon']) ?>" alt="<?= esc($step['title']) ?>"
-                                class="how-icon">
-                            <h3 class="how-card-title"><?= esc($step['title']) ?></h3>
-                            <p class="how-card-desc"><?= esc($step['desc']) ?></p>
-                        </div>
-                        <div class="how-number-circle circle-<?= $i ?>"><?= $i ?></div>
-                    </div>
-                    <?php $i++; endforeach; ?>
-            </div>
+      <!-- Card 1 -->
+      <div class="how-card-wrapper flex flex-col h-full">
+        <div class="how-card card-1 flex flex-col justify-start h-full text-center p-6 relative">
+          <div class="border-animation-container mb-1">
+            <svg class="border-svg w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <path class="border-path" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                fill="none" stroke="#ff0000" stroke-width="0.2" />
+              <line class="border-line" x1="0" y1="0" x2="15" y2="0">
+                <animateMotion dur="4s" repeatCount="indefinite" rotate="auto">
+                  <mpath href="#borderPath1" />
+                </animateMotion>
+              </line>
+              <path id="borderPath1"
+                d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                fill="none" opacity="0" />
+            </svg>
+          </div>
+          <img src="images/assesment-icon.png" alt="Assessment Icon" class="how-icon mx-auto mb-4">
+          <h3 class="how-card-title font-semibold mb-2">Assessment and Planning</h3>
+          <p class="how-card-desc">We assess your needs and create a tailored plan to address your challenges.</p>
         </div>
-    </section>
+        <div class="how-number-circle circle-1 mt-4">1</div>
+      </div>
 
+      <!-- Card 2 -->
+      <div class="how-card-wrapper flex flex-col h-full">
+        <div class="how-card card-2 flex flex-col justify-start h-full text-center p-6 relative">
+          <div class="border-animation-container mb-1">
+            <svg class="border-svg w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <path class="border-path" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                fill="none" stroke="#ff5e00" stroke-width="0.2" />
+              <line class="border-line" x1="0" y1="0" x2="15" y2="0">
+                <animateMotion dur="4.5s" repeatCount="indefinite" rotate="auto">
+                  <mpath href="#borderPath2" />
+                </animateMotion>
+              </line>
+              <path id="borderPath2"
+                d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                fill="none" opacity="0" />
+            </svg>
+          </div>
+          <img src="images/execution-icon.png" alt="Execution Icon" class="how-icon mx-auto mb-4">
+          <h3 class="how-card-title font-semibold mb-2">Expert Execution</h3>
+          <p class="how-card-desc">Our skilled team delivers precise, high-quality services for outstanding results.</p>
+        </div>
+        <div class="how-number-circle circle-2 mt-4">2</div>
+      </div>
 
-    <section id="partners" class="">
+      <!-- Card 3 -->
+      <div class="how-card-wrapper flex flex-col h-full">
+        <div class="how-card card-3 flex flex-col justify-start h-full text-center p-6 relative">
+          <div class="border-animation-container mb-1">
+            <svg class="border-svg w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <path class="border-path" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                fill="none" stroke="#5400fd" stroke-width="0.2" />
+              <line class="border-line" x1="0" y1="0" x2="15" y2="0">
+                <animateMotion dur="3.5s" repeatCount="indefinite" rotate="auto">
+                  <mpath href="#borderPath3" />
+                </animateMotion>
+              </line>
+              <path id="borderPath3"
+                d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                fill="none" opacity="0" />
+            </svg>
+          </div>
+          <img src="images/collaboration-icon.png" alt="Collaboration Icon" class="how-icon mx-auto mb-4">
+          <h3 class="how-card-title font-semibold mb-2">Collaborative Approach</h3>
+          <p class="how-card-desc">We stay closely aligned with you to meet evolving needs and expectations.</p>
+        </div>
+        <div class="how-number-circle circle-3 mt-4">3</div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="how-card-wrapper flex flex-col h-full">
+        <div class="how-card card-4 flex flex-col justify-start h-full text-center p-6 relative">
+          <div class="border-animation-container mb-1">
+            <svg class="border-svg w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <path class="border-path" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                fill="none" stroke="#0040ff" stroke-width="0.2" />
+              <line class="border-line" x1="0" y1="0" x2="15" y2="0">
+                <animateMotion dur="5s" repeatCount="indefinite" rotate="auto">
+                  <mpath href="#borderPath4" />
+                </animateMotion>
+              </line>
+              <path id="borderPath4"
+                d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                fill="none" opacity="0" />
+            </svg>
+          </div>
+          <img src="images/improvement-icon.png" alt="Improvement Icon" class="how-icon mx-auto mb-4">
+          <h3 class="how-card-title font-semibold mb-2">Continuous Improvement</h3>
+          <p class="how-card-desc">We regularly refine our services to stay aligned with best practices & your goals.</p>
+        </div>
+        <div class="how-number-circle circle-4 mt-4">4</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <section id="partners" class="main-section">
         <h2 class="partners-title section-title-center">
             Our <span class="gradient-partners">Partners</span>
         </h2>
@@ -547,13 +588,14 @@
                     <li><a href="<?= base_url('about-us'); ?>">About Us</a></li>
                     <li><a href="<?= base_url('services'); ?>">Services</a></li>
                     <li><a href="<?= base_url('solutions'); ?>">Solutions</a></li>
-                    <li><a href="#products">Products</a></li>
+                    <!-- <li><a href="#products">Products</a></li> -->
+                    <li><a href="<?= base_url('sustainability'); ?>">Sustainability</a></li>
                     <li><a href="<?= base_url('contact-us'); ?>">Contact</a></li>
                 </ul>
             </div>
 
             <!-- Apple Related Links -->
-            <div class="footer-links pt-0 sm:pt-13">
+            <!-- <div class="footer-links pt-0 sm:pt-13">
                 <ul>
                     <li><a href="<?= base_url('apple'); ?>">Apple</a></li>
                     <li><a href="<?= base_url('apple-enterprises'); ?>">Apple for Enterprise</a></li>
@@ -561,7 +603,7 @@
                     <li><a href="<?= base_url('tco-calculator'); ?>">TCO Calculator</a></li>
                     <li><a href="<?= base_url('sustainability'); ?>">Sustainability</a></li>
                 </ul>
-            </div>
+            </div> -->
 
             <!-- Policies -->
             <div class="footer-links">
@@ -602,7 +644,7 @@
             </div>
         </div>
     </footer>
-    
+
     <script src="<?= base_url('js/gsap.min.js'); ?>" defer></script>
     <script src="<?= base_url('js/ScrollTrigger.min.js'); ?>" defer></script>
     <script src="<?= base_url('js/Scrollbar.js'); ?>" defer></script>

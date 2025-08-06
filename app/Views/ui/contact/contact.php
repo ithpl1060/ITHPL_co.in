@@ -1,4 +1,4 @@
-<section id="hero-about" class="fade-in-section">
+<section id="hero-about" class="main-section fade-in-section">
     <div class="hero-background-a"></div>
     <div class="container hero-content-a ">
 
@@ -38,13 +38,15 @@
                                 Innovative Tower, Kharadi, Pune, Maharashtra - 411014</span></li>
                     </ul>
                     <div class="social-icons-c">
-                        <a href="#"><img src="<?= base_url(relativePath: 'images/linkedin-before.png'); ?>"
-                                alt="LinkedIn"></a>
-                        <a href="#"><img src="<?= base_url(relativePath: 'images/instagram-before-icon.png'); ?>"
+                        <a href="https://www.linkedin.com/company/innovative-techhub-pvt-ltd/?viewAsMember=true"><img
+                                src="<?= base_url(relativePath: 'images/linkedin-before.png'); ?>" alt="LinkedIn"></a>
+                        <a href="https://www.instagram.com/innovativetechhubpvtltd/?next=%2F&hl=en"><img
+                                src="<?= base_url(relativePath: 'images/instagram-before-icon.png'); ?>"
                                 alt="Instagram"></a>
-                        <a href="#"><img src="<?= base_url(relativePath: 'images/facebook-before-icon.png'); ?>"
+                        <a href="https://www.facebook.com/ithpl"><img
+                                src="<?= base_url(relativePath: 'images/facebook-before-icon.png'); ?>"
                                 alt="Facebook"></a>
-                        <a href="#"><img src="<?= base_url(relativePath: 'images/x-before-icon.png'); ?>" alt="X"></a>
+                        <!-- <a href="#"><img src="<?= base_url(relativePath: 'images/x-before-icon.png'); ?>" alt="X"></a> -->
                         <a href="#"><img src="<?= base_url(relativePath: 'images/youtube-before-icon.png'); ?>"
                                 alt="YouTube"></a>
                     </div>
