@@ -71,7 +71,8 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="<?= base_url('products') ?>" class="nav-hover">Products</a>
+                        <!-- <a href="<?= base_url('products') ?>" class="nav-hover">Products</a> -->
+                        <a href="#" class="nav-hover">Products</a>
                         <!-- <div class="dropdown-menu wide">
                             <div class="dropdown-arrow"></div>
                             <div class="dropdown-column">
