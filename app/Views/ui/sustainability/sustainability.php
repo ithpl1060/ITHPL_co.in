@@ -945,7 +945,7 @@
 </head>
 
 <body style="min-height: 100vh">
-   <header class="site-header sticky top-0 z-50 glassmorphism transition-all duration-300 ease-out">
+    <header class="site-header sticky top-0 z-50 glassmorphism transition-all duration-300 ease-out">
         <div class="container max-w-7xl mx-auto px-8">
             <div class="header-container flex items-center justify-between min-h-20">
 
@@ -1560,4 +1560,61 @@
                 </div>
             </div>
         </section>
+        <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const ratios = [
+      { selector: '.impact-item:nth-child(1)', ratio: 100 / 68 },
+      { selector: '.impact-item:nth-child(2)', ratio: 150 / 124 },
+      { selector: '.impact-item:nth-child(3)', ratio: 1.5 / 1.2 },
+      { selector: '.impact-item:nth-child(4)', ratio: 5000 / 4300 }
+    ];
+
+    ratios.forEach(item => {
+      const element = document.querySelector(item.selector);
+      if (element) {
+        const liquidContainer = element.querySelector('.liquid-container');
+        const percentage = Math.round(item.ratio * 100);
+        liquidContainer.style.height = `${percentage}%`;
+      }
+    });
+  });
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const slides = document.querySelectorAll('.content-slide');
+    const images = document.querySelectorAll('.carousel-slide');
+    let currentSlide = 0;
+    let slideInterval;
+
+    function updateSlides() {
+      // Update content slides
+      slides.forEach(slide => slide.classList.remove('active'));
+      slides[currentSlide].classList.add('active');
+
+      // Update image carousel
+      images.forEach(img => img.classList.remove('active'));
+      images[currentSlide].classList.add('active');
+
+      currentSlide = (currentSlide + 1) % slides.length;
+    }
+
+    function startSlider() {
+      slideInterval = setInterval(updateSlides, 5000);
+    }
+
+    // Initialize
+    updateSlides();
+    startSlider();
+
+    // Pause on hover
+    const carousel = document.querySelector('.carousel-inner');
+    if (carousel) {
+      carousel.addEventListener('mouseenter', () => {
+        clearInterval(slideInterval);
+      });
+
+      carousel.addEventListener('mouseleave', startSlider);
+    }
+  });
+</script>
+
         <script src="<?= base_url('js/global.js'); ?>" defer></script>
