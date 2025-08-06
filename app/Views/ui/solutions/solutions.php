@@ -403,7 +403,7 @@
                                     fill="none" opacity="0" />
                             </svg>
                         </div>
-                        <img src="<?= base_url('images/Ideation-icon.png'); ?>" alt="Ideation Icon" class="how-icon"
+                        <img src="<?= base_url('images/ideation-icon.png'); ?>" alt="Ideation Icon" class="how-icon"
                             loading="lazy">
                             <!-- automatically converting to i->I so keep for now Ideation -->
                         <h3 class="how-card-title">Ideation and Design</h3>
