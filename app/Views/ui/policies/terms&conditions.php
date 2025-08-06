@@ -1,4 +1,4 @@
-<section class=" mx-40 ">
+<section class=" mx-40 main-section">
     <h2 class="text-center font-bold text-4xl  gradient-innovation">Terms and Conditions</h2>
     <p class="text-center text-gray-700">Welcome to Innovative Techhub Pvt. Ltd. (www.ithpl.com), operated by Innovative
       Techhub Pvt. Ltd., Pune. Please read these terms and conditions carefully before using our website or placing an

@@ -43,7 +43,7 @@
         <p class="stat-label">Support & Quick Response</p>
     </div>
 </div>
-<section id="why-choose-us" class="fade-in-section">
+<section id="why-choose-us" class=" main-section fade-in-section">
     <div class="container">
         <h2 class="section-title">
             Why Choose <span class="gradient-ithpl">ITHPL?</span>
@@ -103,7 +103,7 @@
 </section>
 
 <!-- exp -->
-<section id="core-values" class="pt-0 fade-in-section">
+<section id="core-values" class="fade-in-section">
     <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 px-4">
             <div class="text-left rounded-2xl p-6 animate-fade-in-up">
@@ -154,7 +154,7 @@
     </div>
 </section>
 
-<section id="services" class="fade-in-section">
+<section id="services" class=" py-20 fade-in-section">
     <div class="container">
         <h2 class="section-title">
             Our <span class="gradient-services">Services</span>
@@ -291,7 +291,7 @@
         </div>
     </div>
 </section>
-<section id="certifications" class="fade-in-section">
+<section id="certifications" class="main-section fade-in-section">
     <div class="container">
         <h2 class="section-title">
             Our <span class="gradient-certification">Certifications</span> &
@@ -345,7 +345,7 @@
     </div>
 </section>
 
-<section id="partners" class="fade-in-section">
+<section id="partners" class=" main-section fade-in-section">
     <h2 class="partners-title section-title-center">
         Our <span class="gradient-partners">Partners</span>
     </h2>
@@ -499,7 +499,7 @@
         </div>
 </section>
 
-<section id="clients" class="fade-in-section">
+<section id="clients" class="main-section fade-in-section">
     <h2 class="clients-title section-title-center">
         Our <span class="gradient-clients">Clients</span>
     </h2>

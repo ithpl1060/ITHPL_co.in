@@ -1,4 +1,4 @@
- <section class=" mx-40 ">
+ <section class=" mx-40 main-section">
 
     <h2 class="text-center font-bold text-4xl gradient-certification">Refund Policy</h2>
     <p class="text-center text-gray-600">Effective Date: 5-05-2025</p>

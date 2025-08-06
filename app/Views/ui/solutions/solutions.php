@@ -93,9 +93,9 @@
                     </li>
 
                     <!-- Products -->
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a href="#products" class="nav-hover">Products</a>
-                        <!-- <div class="dropdown-menu wide">
+                        <div class="dropdown-menu wide">
                             <div class="dropdown-arrow"></div>
                             <div class="dropdown-column">
                                 <a href="#">End Point</a>
@@ -108,16 +108,20 @@
                                 <a href="#">Peripheral</a>
                                 <a href="#">License</a>
                             </div>
-                        </div> -->
-                    </li>
+                        </div>
+                    </li> -->
 
                     <!-- Services -->
                     <li class="nav-item">
                         <a href="<?= base_url('services') ?>" class="nav-hover">Services</a>
-                        <!-- <div class="dropdown-menu wide-3col">
+                        <div class="dropdown-menu ">
                             <div class="dropdown-arrow"></div>
                             <div class="dropdown-column">
-                                <a href="<?= base_url('ewastemanagement') ?>">E-Waste Management</a>
+                                <a href="<?= base_url('ewaste-management') ?>">E-Waste Management</a>
+                                <!-- <div class="dropdown-menu wide-3col">
+                            <div class="dropdown-arrow"></div>
+                            <div class="dropdown-column">
+                                <a href="#">Managed Services</a>
                                 <a href="#">AMC & Break Fix</a>
                                 <a href="#">End User Computing</a>
                                 <a href="#">Data Center Management</a>
@@ -131,10 +135,11 @@
                                 <a href="#">Procurement & Billing</a>
                             </div>
                             <div class="dropdown-column">
-                                <a href="#">Managed Services</a>
+                                <a href="#">E-Waste Management</a>
                                 <a href="#">Connectivity</a>
                             </div>
                         </div> -->
+                            </div>
                     </li>
 
                     <!-- Solutions -->
@@ -210,7 +215,7 @@
         </nav>
     </header>
 
-    <section id="hero-about" class="">
+    <section id="hero-about" class="main-section">
         <div class="hero-background-a"></div>
         <div class="container hero-content-a">
 
@@ -233,272 +238,266 @@
         </div>
     </section>
 
-    <section id="services-section" class="services">
+    <section id="services-section" class="main-section">
         <div class="container">
-            <div class="about-container-a">
-                <h2 class="about-title-a">Our <span class="gradient-services">Solutions</span></h2>
+            <div class="about-container-a text-center mx-auto">
+                <h2 class="about-title-a">
+                    Our <span class="gradient-services">Solutions</span>
+                </h2>
             </div>
+
             <div class="horizontal-wrapper">
+
                 <div class="horizontal-container" id="servicesContainer">
 
                     <div class="service-card-s">
-                        <div class="service-icon-s">
-                            <img src="<?= base_url('images/managed-services.png'); ?>" alt="Server Solutions"
-                                loading="lazy">
-                        </div>
+                        <div class="service-icon-s"><img src="images/managed-services.png" alt="managed-services"></div>
                         <h3 class="service-card-title-s">Server Solutions</h3>
-                        <p class="service-card-desc-s">
-                            Boost performance with robust servers, ensuring high uptime, scalability, and security for
-                            business-critical applications and growth.
-                        </p>
+                        <p class="service-card-desc-s">Boost performance with robust servers, ensuring high uptime,
+                            scalability, and
+                            security for business-critical applications and growth..</p>
                         <button class="service-card-button-s">Learn More</button>
                     </div>
 
+
                     <div class="service-card-s">
-                        <div class="service-icon-s">
-                            <img src="<?= base_url('images/tools.png'); ?>" alt="Network Solutions" loading="lazy">
-                        </div>
+                        <div class="service-icon-s"><img src="images/tools.png" alt="tools-services"></div>
                         <h3 class="service-card-title-s">Network Solutions</h3>
-                        <p class="service-card-desc-s">
-                            Empower connectivity with secure, reliable, and high-performance networks, enabling seamless
-                            communication and business operations.
-                        </p>
+                        <p class="service-card-desc-s">Empower connectivity with secure, reliable, and high-performance
+                            networks,
+                            enabling seamless communication and business operations</p>
                         <button class="service-card-button-s">Learn More</button>
                     </div>
 
+
                     <div class="service-card-s">
-                        <div class="service-icon-s">
-                            <img src="<?= base_url('images/end-user-computing.png'); ?>" alt="Storage Solutions"
-                                loading="lazy">
+                        <div class="service-icon-s"><img src="images/end-user-computing.png" alt="end-user-computing">
                         </div>
+
                         <h3 class="service-card-title-s">Storage Solutions</h3>
-                        <p class="service-card-desc-s">
-                            Unlock data potential with scalable, secure, and high-performance storage systems, ensuring
-                            data availability and business intelligence.
-                        </p>
+                        <p class="service-card-desc-s">Unlock data potential with scalable, secure, and high-performance
+                            storage
+                            systems, ensuring data availability and business intelligence</p>
                         <button class="service-card-button-s">Learn More</button>
                     </div>
 
+
                     <div class="service-card-s">
-                        <div class="service-icon-s">
-                            <img src="<?= base_url('images/Cloud-solutions.png'); ?>" alt="Cloud Solutions"
-                                loading="lazy">
-                        </div>
+                        <div class="service-icon-s"><img src="images/Cloud-solutions.png" alt="Cloud-solutions"></div>
+
                         <h3 class="service-card-title-s">Cloud Solutions</h3>
-                        <p class="service-card-desc-s">
-                            Accelerate business with scalable, flexible, and cost-effective cloud infrastructure,
-                            enabling innovation and digital transformation.
-                        </p>
+                        <p class="service-card-desc-s">Accelerate business with scalable, flexible, and cost-effective
+                            cloud
+                            infrastructure, enabling innovation and digital transformation</p>
                         <button class="service-card-button-s">Learn More</button>
                     </div>
 
+
                     <div class="service-card-s">
-                        <div class="service-icon-s">
-                            <img src="<?= base_url('images/CyberSecurity-icon.png'); ?>" alt="Security Solutions"
-                                loading="lazy">
-                        </div>
+                        <div class="service-icon-s"><img src="images/CyberSecurity-icon.png"
+                                alt="Cybersecurity solutions"></div>
                         <h3 class="service-card-title-s">Security Solutions</h3>
-                        <p class="service-card-desc-s">
-                            Protect business with robust security systems, ensuring threat detection, vulnerability
-                            assessment, and incident response for data and systems.
-                        </p>
+                        <p class="service-card-desc-s">Protect business with robust security systems, ensuring threat
+                            detection,
+                            vulnerability assessment, and incident response for data and systems</p>
                         <button class="service-card-button-s">Learn More</button>
                     </div>
 
+
                     <div class="service-card-s">
-                        <div class="service-icon-s">
-                            <img src="<?= base_url('images/application-solution.png'); ?>" alt="Application Solutions"
-                                loading="lazy">
-                        </div>
+                        <div class="service-icon-s"><img src="images/application-solution.png"
+                                alt="application-solution"></div>
                         <h3 class="service-card-title-s">Application Solutions</h3>
-                        <p class="service-card-desc-s">
-                            Drive innovation with custom applications, ensuring seamless user experience, improved
-                            productivity, and enhanced business outcomes.
-                        </p>
+                        <p class="service-card-desc-s">Drive innovation with custom applications, ensuring seamless user
+                            experience,
+                            improved productivity, and enhanced business outcomes</p>
                         <button class="service-card-button-s">Learn More</button>
                     </div>
 
+
                     <div class="service-card-s">
-                        <div class="service-icon-s">
-                            <img src="<?= base_url('images/VideoConference.png'); ?>" alt="Audio Video Solutions"
-                                loading="lazy">
-                        </div>
+                        <div class="service-icon-s"><img src="images/VideoConference.png" alt="VideoConference"></div>
                         <h3 class="service-card-title-s">Audio Video Solutions</h3>
-                        <p class="service-card-desc-s">
-                            Enhance experiences with immersive AV systems, ensuring crystal-clear sound, stunning
-                            visuals, and seamless integration for collaboration.
-                        </p>
+                        <p class="service-card-desc-s">Enhance experiences with immersive AV systems, ensuring
+                            crystal-clear sound,
+                            stunning visuals, and seamless integration for collaboration</p>
                         <button class="service-card-button-s">Learn More</button>
                     </div>
 
+
                     <div class="service-card-s">
-                        <div class="service-icon-s">
-                            <img src="<?= base_url('images/irisScan2.png'); ?>" alt="Video Surveillance & Biometric"
-                                loading="lazy">
-                        </div>
+                        <div class="service-icon-s"><img src="images/irisScan2.png" alt="IrisScan"></div>
                         <h3 class="service-card-title-s">Video Surveillance & Biometric Solutions</h3>
-                        <p class="service-card-desc-s">
-                            Secure assets with intelligent security systems, ensuring real-time monitoring, threat
-                            detection, and identity verification for protection.
-                        </p>
+                        <p class="service-card-desc-s">Secure assets with intelligent security systems, ensuring
+                            real-time monitoring,
+                            threat detection, and identity verification for protection</p>
                         <button class="service-card-button-s">Learn More</button>
                     </div>
 
+
                     <div class="service-card-s">
-                        <div class="service-icon-s">
-                            <img src="<?= base_url('images/circularArrows.png'); ?>" alt="Rental & Refurbished"
-                                loading="lazy">
-                        </div>
+                        <div class="service-icon-s"><img src="images/circularArrows.png" alt="circularArrows"></div>
                         <h3 class="service-card-title-s">Rental & Refurbished</h3>
-                        <p class="service-card-desc-s">
-                            Save costs with flexible rental options and certified refurbished IT assets, reducing
-                            e-waste and environmental impact.
-                        </p>
+                        <p class="service-card-desc-s">Save costs with flexible rental options and certified refurbished
+                            IT assets,
+                            reducing e-waste and environmental impact.</p>
                         <button class="service-card-button-s">Learn More</button>
                     </div>
+
 
                     <div class="service-card-s">
-                        <div class="service-icon-s">
-                            <img src="<?= base_url('images/ChargingBattery.png'); ?>" alt="Power Solutions"
-                                loading="lazy">
-                        </div>
-                        <h3 class="service-card-title-s">Power Solutions</h3>
-                        <p class="service-card-desc-s">
-                            Ensure uptime with reliable power systems, including UPS, generators, and PDUs, supporting
-                            business continuity and critical infrastructure.
-                        </p>
+                        <div class="service-icon-s"><img src="images/ChargingBattery.png" alt="power solution"></div>
+                        <h3 class="service-card-title-s">Power Solution</h3>
+                        <p class="service-card-desc-s">Ensure uptime with reliable power systems, including UPS,
+                            generators, and PDUs,
+                            supporting business continuity and critical infrastructure</p>
                         <button class="service-card-button-s">Learn More</button>
                     </div>
 
+
+
+
+
+                </div>
+
+            </div>
+    </section>
+
+
+    <section id="how-we-do-it-section" class="py-12 overflow-x-hidden">
+        <div class="container mx-auto px-4 text-center">
+            <div class="text-center mb-16">
+                <h2 class="about-title-a">
+                    How <span class="gradient-services">We Do</span> It?
+                </h2>
+                <p class="how-subtitle mx-auto mt-4 mb-20 max-w-6xl leading-relaxed">
+                    At Innovative, we develop and deliver innovative solutions that drive business
+                    success. Here's our approach:
+                </p>
+            </div>
+
+
+            <!-- Flex wrapper to center entire grid -->
+            <div class="flex justify-center">
+                <div class="solution-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 items-stretch w-auto">
+
+                    <!-- Card 1 -->
+                    <div class="how-card-wrapper flex flex-col items-center w-full max-w-[250px]">
+                        <div
+                            class="how-card card-1 flex flex-col items-center justify-between h-full w-full min-h-[300px]">
+                            <div class="border-animation-container">
+                                <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                                    <path class="border-path"
+                                        d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                                        fill="none" stroke="#ff0000" stroke-width="0.2" />
+                                    <line class="border-line" x1="0" y1="0" x2="15" y2="0">
+                                        <animateMotion dur="4s" repeatCount="indefinite" rotate="auto">
+                                            <mpath href="#borderPath1" />
+                                        </animateMotion>
+                                    </line>
+                                    <path id="borderPath1"
+                                        d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                                        fill="none" opacity="0" />
+                                </svg>
+                            </div>
+                            <img src="images/ideation-icon.png" alt="Ideation Icon" class="how-icon">
+                            <h3 class="how-card-title">Ideation and Design</h3>
+                            <p class="how-card-desc">We collaborate to identify opportunities & craft solutions tailored
+                                to your needs.
+                            </p>
+                        </div>
+                        <div class="how-number-circle circle-1 mt-2">1</div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="how-card-wrapper flex flex-col items-center w-full max-w-[250px]">
+                        <div
+                            class="how-card card-2 flex flex-col items-center justify-between h-full w-full min-h-[300px]">
+                            <div class="border-animation-container">
+                                <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                                    <path class="border-path"
+                                        d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                                        fill="none" stroke="#ff5e00" stroke-width="0.2" />
+                                    <line class="border-line" x1="0" y1="0" x2="15" y2="0">
+                                        <animateMotion dur="4.5s" repeatCount="indefinite" rotate="auto">
+                                            <mpath href="#borderPath2" />
+                                        </animateMotion>
+                                    </line>
+                                    <path id="borderPath2"
+                                        d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                                        fill="none" opacity="0" />
+                                </svg>
+                            </div>
+                            <img src="images/development-icon.png" alt="Development Icon" class="how-icon">
+                            <h3 class="how-card-title">Development & Testing</h3>
+                            <p class="how-card-desc">Our team builds and thoroughly tests to ensure top quality and
+                                performance.</p>
+                        </div>
+                        <div class="how-number-circle circle-2 mt-2">2</div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="how-card-wrapper flex flex-col items-center w-full max-w-[250px]">
+                        <div
+                            class="how-card card-3 flex flex-col items-center justify-between h-full w-full min-h-[300px]">
+                            <div class="border-animation-container">
+                                <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                                    <path class="border-path"
+                                        d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                                        fill="none" stroke="#5400fd" stroke-width="0.2" />
+                                    <line class="border-line" x1="0" y1="0" x2="15" y2="0">
+                                        <animateMotion dur="3.5s" repeatCount="indefinite" rotate="auto">
+                                            <mpath href="#borderPath3" />
+                                        </animateMotion>
+                                    </line>
+                                    <path id="borderPath3"
+                                        d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                                        fill="none" opacity="0" />
+                                </svg>
+                            </div>
+                            <img src="images/imac-settings.png" alt="Implementation Icon" class="how-icon">
+                            <h3 class="how-card-title">Implementation & Integration</h3>
+                            <p class="how-card-desc">We seamlessly integrate solutions into your setup with minimal
+                                disruption.</p>
+                        </div>
+                        <div class="how-number-circle circle-3 mt-2">3</div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="how-card-wrapper flex flex-col items-center w-full max-w-[250px]">
+                        <div
+                            class="how-card card-4 flex flex-col items-center justify-between h-full w-full min-h-[300px]">
+                            <div class="border-animation-container">
+                                <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                                    <path class="border-path"
+                                        d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                                        fill="none" stroke="#0040ff" stroke-width="0.2" />
+                                    <line class="border-line" x1="0" y1="0" x2="15" y2="0">
+                                        <animateMotion dur="5s" repeatCount="indefinite" rotate="auto">
+                                            <mpath href="#borderPath4" />
+                                        </animateMotion>
+                                    </line>
+                                    <path id="borderPath4"
+                                        d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                                        fill="none" opacity="0" />
+                                </svg>
+                            </div>
+                            <img src="images/improvement-icon.png" alt="Improvement Icon" class="how-icon">
+                            <h3 class="how-card-title">Continuous Improvement</h3>
+                            <p class="how-card-desc">We regularly refine our services to stay aligned with best
+                                practices & your goals.
+                            </p>
+                        </div>
+                        <div class="how-number-circle circle-4 mt-2">4</div>
+                    </div>
+
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="how-we-do-it-section" class="about-container-a">
-        <div class="container">
-            <h2 class="about-title-a">How <span class="gradient-services">We Do</span> It?</h2>
-            <p class="how-subtitle mb-20">
-                At Innovative, we develop and deliver innovative solutions that drive business success. Here's our
-                approach:
-            </p>
 
-            <div class="solution-grid">
-
-                <!-- Card 1 -->
-                <div class="how-card-wrapper">
-                    <div class="how-card card-1">
-                        <div class="border-animation-container">
-                            <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-                                <path class="border-path"
-                                    d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                                    fill="none" stroke="#ff0000" stroke-width="0.2" />
-                                <line class="border-line" x1="0" y1="0" x2="15" y2="0">
-                                    <animateMotion dur="4s" repeatCount="indefinite" rotate="auto">
-                                        <mpath href="#borderPath1" />
-                                    </animateMotion>
-                                </line>
-                                <path id="borderPath1"
-                                    d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                                    fill="none" opacity="0" />
-                            </svg>
-                        </div>
-                        <img src="<?= base_url('images/Ideation-icon.png'); ?>" alt="Ideation Icon" class="how-icon"
-                            loading="lazy">
-                            <!-- automatically converting to i->I so keep for now Ideation -->
-                        <h3 class="how-card-title">Ideation and Design</h3>
-                        <p class="how-card-desc">We collaborate to identify opportunities & craft solutions tailored to
-                            your needs.</p>
-                    </div>
-                    <div class="how-number-circle circle-1">1</div>
-                </div>
-
-                <!-- Card 2 -->
-                <div class="how-card-wrapper">
-                    <div class="how-card card-2">
-                        <div class="border-animation-container">
-                            <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-                                <path class="border-path"
-                                    d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                                    fill="none" stroke="#ff5e00" stroke-width="0.2" />
-                                <line class="border-line" x1="0" y1="0" x2="15" y2="0">
-                                    <animateMotion dur="4.5s" repeatCount="indefinite" rotate="auto">
-                                        <mpath href="#borderPath2" />
-                                    </animateMotion>
-                                </line>
-                                <path id="borderPath2"
-                                    d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                                    fill="none" opacity="0" />
-                            </svg>
-                        </div>
-                        <img src="<?= base_url('images/development-icon.png'); ?>" alt="Development Icon"
-                            class="how-icon" loading="lazy">
-                        <h3 class="how-card-title">Development & Testing</h3>
-                        <p class="how-card-desc">Our team builds and thoroughly tests to ensure top quality and
-                            performance.</p>
-                    </div>
-                    <div class="how-number-circle circle-2">2</div>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="how-card-wrapper">
-                    <div class="how-card card-3">
-                        <div class="border-animation-container">
-                            <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-                                <path class="border-path"
-                                    d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                                    fill="none" stroke="#5400fd" stroke-width="0.2" />
-                                <line class="border-line" x1="0" y1="0" x2="15" y2="0">
-                                    <animateMotion dur="3.5s" repeatCount="indefinite" rotate="auto">
-                                        <mpath href="#borderPath3" />
-                                    </animateMotion>
-                                </line>
-                                <path id="borderPath3"
-                                    d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                                    fill="none" opacity="0" />
-                            </svg>
-                        </div>
-                        <img src="<?= base_url('images/imac-settings.png'); ?>" alt="Implementation Icon"
-                            class="how-icon" loading="lazy">
-                        <h3 class="how-card-title">Implementation & Integration</h3>
-                        <p class="how-card-desc">We seamlessly integrate solutions into your setup with minimal
-                            disruption.</p>
-                    </div>
-                    <div class="how-number-circle circle-3">3</div>
-                </div>
-
-                <!-- Card 4 -->
-                <div class="how-card-wrapper">
-                    <div class="how-card card-4">
-                        <div class="border-animation-container">
-                            <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-                                <path class="border-path"
-                                    d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                                    fill="none" stroke="#0040ff" stroke-width="0.2" />
-                                <line class="border-line" x1="0" y1="0" x2="15" y2="0">
-                                    <animateMotion dur="5s" repeatCount="indefinite" rotate="auto">
-                                        <mpath href="#borderPath4" />
-                                    </animateMotion>
-                                </line>
-                                <path id="borderPath4"
-                                    d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                                    fill="none" opacity="0" />
-                            </svg>
-                        </div>
-                        <img src="<?= base_url('images/improvement-icon.png'); ?>" alt="Improvement Icon"
-                            class="how-icon" loading="lazy">
-                        <h3 class="how-card-title">Continuous Improvement</h3>
-                        <p class="how-card-desc">We regularly refine our services to stay aligned with best practices &
-                            your goals.</p>
-                    </div>
-                    <div class="how-number-circle circle-4">4</div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section id="partners" class="">
+    <section id="partners" class="main-section">
         <h2 class="partners-title section-title-center">
             Our <span class="gradient-partners">Partners</span>
         </h2>
@@ -661,13 +660,14 @@
                     <li><a href="<?= base_url('about-us'); ?>">About Us</a></li>
                     <li><a href="<?= base_url('services'); ?>">Services</a></li>
                     <li><a href="<?= base_url('solutions'); ?>">Solutions</a></li>
-                    <li><a href="#products">Products</a></li>
+                    <!-- <li><a href="#products">Products</a></li> -->
+                    <li><a href="<?= base_url('sustainability'); ?>">Sustainability</a></li>
                     <li><a href="<?= base_url('contact-us'); ?>">Contact</a></li>
                 </ul>
             </div>
 
             <!-- Apple Related Links -->
-            <div class="footer-links pt-0 sm:pt-13">
+            <!-- <div class="footer-links pt-0 sm:pt-13">
                 <ul>
                     <li><a href="<?= base_url('apple'); ?>">Apple</a></li>
                     <li><a href="<?= base_url('apple-enterprises'); ?>">Apple for Enterprise</a></li>
@@ -675,7 +675,7 @@
                     <li><a href="<?= base_url('tco-calculator'); ?>">TCO Calculator</a></li>
                     <li><a href="<?= base_url('sustainability'); ?>">Sustainability</a></li>
                 </ul>
-            </div>
+            </div> -->
 
             <!-- Policies -->
             <div class="footer-links">

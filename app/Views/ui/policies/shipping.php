@@ -1,4 +1,4 @@
- <section class=" mx-40 ">
+ <section class=" mx-40 main-section">
     <h2 class="text-center text-4xl gradient-partners font-bold">Shipping Policy</h2>
 
     <p>

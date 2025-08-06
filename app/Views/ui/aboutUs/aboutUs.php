@@ -1,4 +1,4 @@
-<section id="hero-about" class="fade-in-section">
+<section id="hero-about" class=" main-section fade-in-section">
     <div class="hero-background-a"></div>
     <div class="container hero-content-a">
         <p class="hero-subtitle-1-a">About Our Company</p>
@@ -15,7 +15,7 @@
     </div>
 </section>
 
-<section id="about-a" class="fade-in-section">
+<section id="about-a" class="main-section fade-in-section">
     <div class="container about-container-a">
         <h2 class="about-title-a">
             Who <span class="gradient-we">We</span> Are?
@@ -132,7 +132,7 @@
     </div>
 </section>
 
-<section id="drives-us-a" class="fade-in-section">
+<section id="drives-us-a" class="main-section fade-in-section">
     <div class="container">
         <h2 class="drives-us-title-a">
             What <span class="gradient-services">Drives</span> Us?
@@ -738,7 +738,7 @@
     </div>
 </div>
 
-<section id="partners" class="fade-in-section">
+<section id="partners" class="main-section fade-in-section">
     <h2 class="partners-title section-title-center">
         Our <span class="gradient-partners">Partners</span>
     </h2>
@@ -892,7 +892,7 @@
         </div>
 </section>
 
-<section id="clients" class="fade-in-section">
+<section id="clients" class="main-section fade-in-section">
     <h2 class="clients-title section-title-center">
         Our <span class="gradient-clients">Clients</span>
     </h2>

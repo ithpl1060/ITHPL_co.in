@@ -513,16 +513,15 @@
 
 
         .card-back {
-            background: rgba(255, 255, 255);
+            background: rgba(255, 255, 255, 0.479);
             backdrop-filter: blur(80px);
             -webkit-backdrop-filter: blur(80px);
             transform: rotateY(180deg);
             display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
+            align-items: left;
+            padding: 10px;
             color: #ffffff;
-            font-size: 16px;
+            font-size: 22px;
             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
             border: 1px solid rgba(255, 255, 255, 0.3);
         }
@@ -539,12 +538,12 @@
             background-image: inherit;
             background-size: cover;
             background-position: center;
-            opacity: 0.5;
+            filter: blur(10px);
             z-index: -1;
         }
 
         .initiative-card p {
-            text-align: center;
+            text-align: left;
             margin-top: 50px;
             font-weight: 600;
             color: #000000;
@@ -606,7 +605,7 @@
 
             .card-back {
                 padding: 10px;
-                font-size: 13px;
+                font-size: 22px;
             }
         }
 
@@ -1002,9 +1001,9 @@
                     </li>
 
                     <!-- Products -->
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a href="#products" class="nav-hover">Products</a>
-                        <!-- <div class="dropdown-menu wide">
+                        <div class="dropdown-menu wide">
                             <div class="dropdown-arrow"></div>
                             <div class="dropdown-column">
                                 <a href="#">End Point</a>
@@ -1017,16 +1016,20 @@
                                 <a href="#">Peripheral</a>
                                 <a href="#">License</a>
                             </div>
-                        </div> -->
-                    </li>
+                        </div>
+                    </li> -->
 
                     <!-- Services -->
                     <li class="nav-item">
                         <a href="<?= base_url('services') ?>" class="nav-hover">Services</a>
-                        <!-- <div class="dropdown-menu wide-3col">
+                        <div class="dropdown-menu ">
                             <div class="dropdown-arrow"></div>
                             <div class="dropdown-column">
-                                <a href="<?= base_url('ewastemanagement') ?>">E-Waste Management</a>
+                                <a href="<?= base_url('ewaste-management') ?>">E-Waste Management</a>
+                                <!-- <div class="dropdown-menu wide-3col">
+                            <div class="dropdown-arrow"></div>
+                            <div class="dropdown-column">
+                                <a href="#">Managed Services</a>
                                 <a href="#">AMC & Break Fix</a>
                                 <a href="#">End User Computing</a>
                                 <a href="#">Data Center Management</a>
@@ -1040,10 +1043,11 @@
                                 <a href="#">Procurement & Billing</a>
                             </div>
                             <div class="dropdown-column">
-                                <a href="#">Managed Services</a>
+                                <a href="#">E-Waste Management</a>
                                 <a href="#">Connectivity</a>
                             </div>
                         </div> -->
+                            </div>
                     </li>
 
                     <!-- Solutions -->
@@ -1099,7 +1103,11 @@
                 <a href="<?= base_url('contact-us') ?>"
                     class="contact-button text-white font-semibold text-sm px-7 py-3.5 rounded-xl transition-all duration-300 relative overflow-hidden gradient-shine border border-white border-opacity-20 hover:shadow-xl active:scale-95"
                     style="background: linear-gradient(135deg, #d09bed 0%, #b678e3 100%);
-                      box-shadow: 0 4px 14px rgba(208, 155, 237, 0.25);">
+                      box-shadow: 0 4px 14px rgba(208, 155, 237, 0.25);"
+                    onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 8px 25px rgba(37, 170, 55, 0.34)'"
+                    onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 14px rgba(37, 170, 55, 0.34)'"
+                    onmousedown="this.style.transform='translateY(-1px)'"
+                    onmouseup="this.style.transform='translateY(-3px)'">
                     Contact
                 </a>
             </div>
@@ -1110,10 +1118,10 @@
             <div class="flex flex-col space-y-1">
                 <a href="<?= base_url('home') ?>">Home</a>
                 <a href="<?= base_url('about-us') ?>">About Us</a>
-                <a href="#products">Products</a>
+                <!-- <a href="#products">Products</a> -->
                 <a href="<?= base_url('services') ?>">Services</a>
                 <a href="<?= base_url('solutions') ?>">Solutions</a>
-                <a href="#">Apple</a>
+                <!-- <a href="#">Apple</a> -->
                 <a href="<?= base_url('sustainability') ?>">Sustainability</a>
             </div>
         </nav>
@@ -1166,7 +1174,7 @@
             </div>
         </section>
 
-        <section id="section-why-sustainability" class="page-container">
+        <section id="section-why-sustainability" class="main-section">
             <h2 class="section-title">Why <span class="gradient-susatcore">Sustainability</span>?</h2>
             <div class="why-sustainability-content">
                 <div class="why-sustainability-image">
@@ -1191,7 +1199,7 @@
             </div>
         </section>
 
-        <section id="section-initiatives" class="page-container">
+        <section id="section-initiatives" >
             <h2 class="section-title">What We're <span class="gradient-sustain2">Doing?</span></h2>
             <div class="initiatives-grid">
 
@@ -1312,7 +1320,7 @@
                                     alt="Segregated waste bins">
                             </div>
                             <div class="card-back" style="background-image: url('images/segragated-waste-bins.png')">
-                                <p>Our teams are trained to separate recyclables, e-waste, and general waste..</p>
+                                <p>Our teams are trained to separate recyclables, e-waste, and general waste.</p>
                             </div>
                         </div>
                     </div>
@@ -1333,7 +1341,7 @@
                                     alt="Waste bin with recyclable materials">
                             </div>
                             <div class="card-back" style="background-image: url('images/waste-bins.png')">
-                                <p>Active internal and client recycling programs to dispose of e-waste responsibly..
+                                <p>Active internal and client recycling programs to dispose of e-waste responsibly.
                                 </p>
                             </div>
                         </div>
@@ -1354,7 +1362,7 @@
                                     alt="Glass bottle instead of plastic">
                             </div>
                             <div class="card-back" style="background-image: url('images/glass-bottles.png')">
-                                <p>We've eliminated plastic bottles and now use glass containers to reduce
+                                <p>We've eliminated plastic bottles & now use glass containers to reduce
                                     single-use plastic.</p>
                             </div>
                         </div>
@@ -1364,7 +1372,7 @@
             </div>
         </section>
 
-        <section id="section-certified" class="page-container">
+        <section id="section-certified" class="main-section">
             <h2 class="section-title">Certified for a <span class="gradient-sustain2">Greener Tomorrow</span></h2>
             <div class="certified-content">
                 <div class="certified-image">
@@ -1561,60 +1569,60 @@
             </div>
         </section>
         <script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const ratios = [
-      { selector: '.impact-item:nth-child(1)', ratio: 100 / 68 },
-      { selector: '.impact-item:nth-child(2)', ratio: 150 / 124 },
-      { selector: '.impact-item:nth-child(3)', ratio: 1.5 / 1.2 },
-      { selector: '.impact-item:nth-child(4)', ratio: 5000 / 4300 }
-    ];
+            document.addEventListener('DOMContentLoaded', () => {
+                const ratios = [
+                    { selector: '.impact-item:nth-child(1)', ratio: 100 / 68 },
+                    { selector: '.impact-item:nth-child(2)', ratio: 150 / 124 },
+                    { selector: '.impact-item:nth-child(3)', ratio: 1.5 / 1.2 },
+                    { selector: '.impact-item:nth-child(4)', ratio: 5000 / 4300 }
+                ];
 
-    ratios.forEach(item => {
-      const element = document.querySelector(item.selector);
-      if (element) {
-        const liquidContainer = element.querySelector('.liquid-container');
-        const percentage = Math.round(item.ratio * 100);
-        liquidContainer.style.height = `${percentage}%`;
-      }
-    });
-  });
+                ratios.forEach(item => {
+                    const element = document.querySelector(item.selector);
+                    if (element) {
+                        const liquidContainer = element.querySelector('.liquid-container');
+                        const percentage = Math.round(item.ratio * 100);
+                        liquidContainer.style.height = `${percentage}%`;
+                    }
+                });
+            });
 
-  document.addEventListener('DOMContentLoaded', function () {
-    const slides = document.querySelectorAll('.content-slide');
-    const images = document.querySelectorAll('.carousel-slide');
-    let currentSlide = 0;
-    let slideInterval;
+            document.addEventListener('DOMContentLoaded', function () {
+                const slides = document.querySelectorAll('.content-slide');
+                const images = document.querySelectorAll('.carousel-slide');
+                let currentSlide = 0;
+                let slideInterval;
 
-    function updateSlides() {
-      // Update content slides
-      slides.forEach(slide => slide.classList.remove('active'));
-      slides[currentSlide].classList.add('active');
+                function updateSlides() {
+                    // Update content slides
+                    slides.forEach(slide => slide.classList.remove('active'));
+                    slides[currentSlide].classList.add('active');
 
-      // Update image carousel
-      images.forEach(img => img.classList.remove('active'));
-      images[currentSlide].classList.add('active');
+                    // Update image carousel
+                    images.forEach(img => img.classList.remove('active'));
+                    images[currentSlide].classList.add('active');
 
-      currentSlide = (currentSlide + 1) % slides.length;
-    }
+                    currentSlide = (currentSlide + 1) % slides.length;
+                }
 
-    function startSlider() {
-      slideInterval = setInterval(updateSlides, 5000);
-    }
+                function startSlider() {
+                    slideInterval = setInterval(updateSlides, 5000);
+                }
 
-    // Initialize
-    updateSlides();
-    startSlider();
+                // Initialize
+                updateSlides();
+                startSlider();
 
-    // Pause on hover
-    const carousel = document.querySelector('.carousel-inner');
-    if (carousel) {
-      carousel.addEventListener('mouseenter', () => {
-        clearInterval(slideInterval);
-      });
+                // Pause on hover
+                const carousel = document.querySelector('.carousel-inner');
+                if (carousel) {
+                    carousel.addEventListener('mouseenter', () => {
+                        clearInterval(slideInterval);
+                    });
 
-      carousel.addEventListener('mouseleave', startSlider);
-    }
-  });
-</script>
+                    carousel.addEventListener('mouseleave', startSlider);
+                }
+            });
+        </script>
 
         <script src="<?= base_url('js/global.js'); ?>" defer></script>
