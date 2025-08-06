@@ -4,18 +4,14 @@
 
 <head>
     <!-- Meta Tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><?= esc($meta['meta_title'] ?? 'Innovative Tech Hub Pvt. Ltd.') ?></title>
-    <meta name="description"
-        content="<?= esc($meta['meta_description'] ?? 'Your trusted IT services and solutions partner.') ?>">
-    <meta name="keywords"
-        content="<?= esc($meta['meta_keywords'] ?? 'IT services, IT solutions, Innovative Tech Hub') ?>">
-    <meta name="author" content="Innovative Tech Hub Pvt. Ltd.">
+    <meta name="description" content="<?= esc($meta['meta_description'] ?? '') ?>">
+    <meta name="keywords" content="<?= esc($meta['meta_keywords'] ?? '') ?>">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="<?= base_url('images/favicon.png') ?>">
+    <!-- <link rel="icon" type="image/png" href="<?= base_url('images/favicon.png') ?>"> -->
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -66,7 +62,7 @@
 
                     <!-- Home -->
                     <li class="nav-item">
-                        <a class="nav-hover">Home</a>
+                        <a href="<?= base_url('home') ?>" class="nav-hover">Home</a>
                         <div class="dropdown-menu single-column">
                             <div class="dropdown-arrow"></div>
                             <a href="<?= base_url('#why-choose-us') ?>">Why ITHPL</a>
@@ -99,7 +95,7 @@
                     <!-- Products -->
                     <li class="nav-item">
                         <a href="#products" class="nav-hover">Products</a>
-                        <div class="dropdown-menu wide">
+                        <!-- <div class="dropdown-menu wide">
                             <div class="dropdown-arrow"></div>
                             <div class="dropdown-column">
                                 <a href="#">End Point</a>
@@ -112,13 +108,13 @@
                                 <a href="#">Peripheral</a>
                                 <a href="#">License</a>
                             </div>
-                        </div>
+                        </div> -->
                     </li>
 
                     <!-- Services -->
                     <li class="nav-item">
                         <a href="<?= base_url('services') ?>" class="nav-hover">Services</a>
-                        <div class="dropdown-menu wide-3col">
+                        <!-- <div class="dropdown-menu wide-3col">
                             <div class="dropdown-arrow"></div>
                             <div class="dropdown-column">
                                 <a href="<?= base_url('ewastemanagement') ?>">E-Waste Management</a>
@@ -138,13 +134,13 @@
                                 <a href="#">Managed Services</a>
                                 <a href="#">Connectivity</a>
                             </div>
-                        </div>
+                        </div> -->
                     </li>
 
                     <!-- Solutions -->
                     <li class="nav-item">
                         <a href="<?= base_url('solutions') ?>" class="nav-hover">Solutions</a>
-                        <div class="dropdown-menu wide">
+                        <!-- <div class="dropdown-menu wide">
                             <div class="dropdown-arrow"></div>
                             <div class="dropdown-column">
                                 <a href="#">Server Solutions</a>
@@ -160,11 +156,11 @@
                                 <a href="#">Rental & Refurbished</a>
                                 <a href="#">Power</a>
                             </div>
-                        </div>
+                        </div> -->
                     </li>
 
                     <!-- Apple -->
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a href="#" class="nav-hover">Apple</a>
                         <div class="dropdown-menu single-column">
                             <div class="dropdown-arrow"></div>
@@ -174,24 +170,24 @@
                             <a href="<?= base_url('apple-smart-epp') ?>">Apple Smart EPP</a>
                             <a href="<?= base_url('apple#s-why') ?>">Why Apple?</a>
                         </div>
-                    </li>
+                    </li> -->
 
                     <!-- Sustainability -->
                     <li class="nav-item">
                         <a href="<?= base_url('sustainability') ?>" class="nav-hover">Sustainability</a>
-                        <div class="dropdown-menu single-column">
+                        <!-- <div class="dropdown-menu single-column">
                             <div class="dropdown-arrow"></div>
                             <a href="#">Managed Services</a>
                             <a href="#">Electronics & IT Asset Disposal</a>
                             <a href="#">Data Destruction & Cybersecurity</a>
                             <a href="#">Special Services & Corporate Programs</a>
                             <a href="#">Sustainability & Community Outreach</a>
-                        </div>
+                        </div> -->
                     </li>
                 </nav>
 
                 <!-- Contact Button -->
-                <a href="<?= base_url('contact') ?>"
+                <a href="<?= base_url('contact-us') ?>"
                     class="contact-button text-white font-semibold text-sm px-7 py-3.5 rounded-xl transition-all duration-300 relative overflow-hidden gradient-shine border border-white border-opacity-20 hover:shadow-xl active:scale-95"
                     style="background: linear-gradient(135deg, #d09bed 0%, #b678e3 100%);
                       box-shadow: 0 4px 14px rgba(208, 155, 237, 0.25);">
@@ -203,7 +199,7 @@
         <!-- Mobile Navigation -->
         <nav class="main-nav-mobile md:hidden" id="mobileNav">
             <div class="flex flex-col space-y-1">
-                <a href="<?= base_url() ?>">Home</a>
+                <a href="<?= base_url('home') ?>">Home</a>
                 <a href="<?= base_url('about-us') ?>">About Us</a>
                 <a href="#products">Products</a>
                 <a href="<?= base_url('services') ?>">Services</a>

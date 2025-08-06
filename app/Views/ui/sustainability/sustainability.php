@@ -945,11 +945,12 @@
 </head>
 
 <body style="min-height: 100vh">
-    <header class="site-header sticky top-0 z-50 glassmorphism transition-all duration-300 ease-out">
+   <header class="site-header sticky top-0 z-50 glassmorphism transition-all duration-300 ease-out">
         <div class="container max-w-7xl mx-auto px-8">
             <div class="header-container flex items-center justify-between min-h-20">
+
                 <!-- Logo -->
-                <a href="<?= base_url('home') ?>"
+                <a href="<?= base_url('/') ?>"
                     class="logo flex items-center relative logo-glow transition-transform duration-300 hover:scale-105">
                     <img src="<?= base_url('images/ithpllogo.png') ?>" alt="ITHPL Logo"
                         class="h-12 w-auto object-contain transition-all duration-300"
@@ -967,18 +968,21 @@
 
                 <!-- Desktop Navigation -->
                 <nav class="main-nav hidden md:flex items-center gap-2 mx-auto">
+
+                    <!-- Home -->
                     <li class="nav-item">
                         <a href="<?= base_url('home') ?>" class="nav-hover">Home</a>
                         <div class="dropdown-menu single-column">
                             <div class="dropdown-arrow"></div>
-                            <a href="<?= base_url('home#why-choose-us') ?>">Why ITHPL</a>
-                            <a href="<?= base_url('home#short-about') ?>">About Us</a>
-                            <a href="<?= base_url('home#core-values') ?>">Key Features</a>
-                            <a href="<?= base_url('home#products') ?>">Featured Products</a>
-                            <a href="<?= base_url('home#certifications') ?>">Certifications</a>
+                            <a href="<?= base_url('#why-choose-us') ?>">Why ITHPL</a>
+                            <a href="<?= base_url('#short-about') ?>">About Us</a>
+                            <a href="<?= base_url('#core-values') ?>">Key Features</a>
+                            <a href="<?= base_url('#products') ?>">Featured Products</a>
+                            <a href="<?= base_url('#certifications') ?>">Certifications</a>
                         </div>
                     </li>
 
+                    <!-- About Us -->
                     <li class="nav-item">
                         <a href="<?= base_url('about-us') ?>" class="nav-hover">About Us</a>
                         <div class="dropdown-menu wide">
@@ -997,9 +1001,10 @@
                         </div>
                     </li>
 
+                    <!-- Products -->
                     <li class="nav-item">
-                        <a href="<?= base_url('products') ?>" class="nav-hover">Products</a>
-                        <div class="dropdown-menu wide">
+                        <a href="#products" class="nav-hover">Products</a>
+                        <!-- <div class="dropdown-menu wide">
                             <div class="dropdown-arrow"></div>
                             <div class="dropdown-column">
                                 <a href="#">End Point</a>
@@ -1012,15 +1017,16 @@
                                 <a href="#">Peripheral</a>
                                 <a href="#">License</a>
                             </div>
-                        </div>
+                        </div> -->
                     </li>
 
+                    <!-- Services -->
                     <li class="nav-item">
                         <a href="<?= base_url('services') ?>" class="nav-hover">Services</a>
-                        <div class="dropdown-menu wide-3col">
+                        <!-- <div class="dropdown-menu wide-3col">
                             <div class="dropdown-arrow"></div>
                             <div class="dropdown-column">
-                                <a href="#">Managed Services</a>
+                                <a href="<?= base_url('ewastemanagement') ?>">E-Waste Management</a>
                                 <a href="#">AMC & Break Fix</a>
                                 <a href="#">End User Computing</a>
                                 <a href="#">Data Center Management</a>
@@ -1034,15 +1040,16 @@
                                 <a href="#">Procurement & Billing</a>
                             </div>
                             <div class="dropdown-column">
-                                <a href="#">E-Waste Management</a>
+                                <a href="#">Managed Services</a>
                                 <a href="#">Connectivity</a>
                             </div>
-                        </div>
+                        </div> -->
                     </li>
 
+                    <!-- Solutions -->
                     <li class="nav-item">
                         <a href="<?= base_url('solutions') ?>" class="nav-hover">Solutions</a>
-                        <div class="dropdown-menu wide">
+                        <!-- <div class="dropdown-menu wide">
                             <div class="dropdown-arrow"></div>
                             <div class="dropdown-column">
                                 <a href="#">Server Solutions</a>
@@ -1058,31 +1065,33 @@
                                 <a href="#">Rental & Refurbished</a>
                                 <a href="#">Power</a>
                             </div>
-                        </div>
+                        </div> -->
                     </li>
 
-                    <li class="nav-item">
-                        <a href="<?= base_url('apple') ?>" class="nav-hover">Apple</a>
+                    <!-- Apple -->
+                    <!-- <li class="nav-item">
+                        <a href="#" class="nav-hover">Apple</a>
                         <div class="dropdown-menu single-column">
                             <div class="dropdown-arrow"></div>
                             <a href="<?= base_url('apple-work') ?>">Apple At Work</a>
                             <a href="<?= base_url('apple-business') ?>">Apple for Business</a>
-                            <a href="<?= base_url('apple-enterprises') ?>">Apple for Enterprises</a>
+                            <a href="<?= base_url('apple-enterprise') ?>">Apple for Enterprises</a>
                             <a href="<?= base_url('apple-smart-epp') ?>">Apple Smart EPP</a>
                             <a href="<?= base_url('apple#s-why') ?>">Why Apple?</a>
                         </div>
-                    </li>
+                    </li> -->
 
+                    <!-- Sustainability -->
                     <li class="nav-item">
                         <a href="<?= base_url('sustainability') ?>" class="nav-hover">Sustainability</a>
-                        <div class="dropdown-menu single-column">
+                        <!-- <div class="dropdown-menu single-column">
                             <div class="dropdown-arrow"></div>
-                            <a href="<?= base_url('ewaste-management') ?>">E-Waste Management</a>
+                            <a href="#">Managed Services</a>
                             <a href="#">Electronics & IT Asset Disposal</a>
                             <a href="#">Data Destruction & Cybersecurity</a>
                             <a href="#">Special Services & Corporate Programs</a>
                             <a href="#">Sustainability & Community Outreach</a>
-                        </div>
+                        </div> -->
                     </li>
                 </nav>
 
@@ -1090,12 +1099,7 @@
                 <a href="<?= base_url('contact-us') ?>"
                     class="contact-button text-white font-semibold text-sm px-7 py-3.5 rounded-xl transition-all duration-300 relative overflow-hidden gradient-shine border border-white border-opacity-20 hover:shadow-xl active:scale-95"
                     style="background: linear-gradient(135deg, #d09bed 0%, #b678e3 100%);
-                      box-shadow: 0 4px 14px rgba(208, 155, 237, 0.25);
-                      transform: translateY(0);"
-                    onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 8px 25px rgba(208, 155, 237, 0.4)'"
-                    onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 14px rgba(208, 155, 237, 0.25)'"
-                    onmousedown="this.style.transform='translateY(-1px)'"
-                    onmouseup="this.style.transform='translateY(-3px)'">
+                      box-shadow: 0 4px 14px rgba(208, 155, 237, 0.25);">
                     Contact
                 </a>
             </div>
@@ -1106,19 +1110,13 @@
             <div class="flex flex-col space-y-1">
                 <a href="<?= base_url('home') ?>">Home</a>
                 <a href="<?= base_url('about-us') ?>">About Us</a>
-                <a href="<?= base_url('products') ?>">Products</a>
+                <a href="#products">Products</a>
                 <a href="<?= base_url('services') ?>">Services</a>
                 <a href="<?= base_url('solutions') ?>">Solutions</a>
-                <a href="<?= base_url('apple') ?>">Apple</a>
+                <a href="#">Apple</a>
                 <a href="<?= base_url('sustainability') ?>">Sustainability</a>
             </div>
         </nav>
-        <style id="sections-styles">
-            h3 {
-                font-weight: 700;
-                padding: 10px 0;
-            }
-        </style>
     </header>
     <main>
 
