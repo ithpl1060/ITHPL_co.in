@@ -28,35 +28,30 @@ if ($session_data == null) {
     <link rel="icon" href="<?php echo base_url() . 'resource/images/favicon.ico'; ?>">
     <!-- <link rel="icon" href="</?php echo base_url() . 'resource/images/images.jpg'; ?>"> -->
 
-    <title><?= esc($meta['meta_title'] ?? 'ITHPL | login') ?></title>
+    <title id="pageTitle">Admin Login</title>
 
     <!-- Bootstrap 4.1-->
-    <link rel="stylesheet"
-        href="<?php echo base_url() . 'resource/assets/vendor_components/bootstrap/dist/css/bootstrap.css'; ?>">
-    <link rel="stylesheet"
-        href="<?php echo base_url() . 'resource/assets/vendor_components/bootstrap/dist/css/bootstrap.min.css'; ?>">
+    <link rel="stylesheet" href="<?php echo base_url() . 'resource/assets/vendor_components/bootstrap/dist/css/bootstrap.css'; ?>">
+    <link rel="stylesheet" href="<?php echo base_url() . 'resource/assets/vendor_components/bootstrap/dist/css/bootstrap.min.css'; ?>">
 
     <!-- Bootstrap extend-->
     <link rel="stylesheet" href="<?php echo base_url() . 'resource/css/bootstrap-extend.css'; ?>">
     <link rel="stylesheet" href="<?php echo base_url() . 'resource/css/bootstrap-editable.css'; ?>">
 
     <!-- Data Table-->
-    <link rel="stylesheet" type="text/css"
-        href="<?php echo base_url() . 'resource/assets/vendor_components/datatable/datatables.min.css' ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url() . 'resource/assets/vendor_components/datatable/datatables.min.css' ?>" />
 
     <!-- Theme style -->
     <link rel="stylesheet" href="<?php echo base_url() . 'resource/css/master_style.css'; ?>">
 
-    <link rel="stylesheet" type="text/css"
-        href="<?php echo base_url() . 'resource/assets/vendor_components/sweetalert/sweetalert.css' ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url() . 'resource/assets/vendor_components/sweetalert/sweetalert.css' ?>" />
 
 
     <!-- SoftMaterial admin skins -->
     <link rel="stylesheet" href="<?php echo base_url() . 'resource/css/skins/_all-skins.css'; ?>">
 
     <!-- Select2 -->
-    <link rel="stylesheet"
-        href="<?php echo base_url() . 'resource/assets/vendor_components/select2/dist/css/select2.min.css' ?>">
+    <link rel="stylesheet" href="<?php echo base_url() . 'resource/assets/vendor_components/select2/dist/css/select2.min.css' ?>">
 
 
     <style>
@@ -195,14 +190,12 @@ if ($session_data == null) {
                         <!-- User Account-->
                         <li class="dropdown user user-menu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <img src="<?php echo base_url(); ?>resource/images/avatar-custom.png"
-                                    class="user-image rounded-circle" alt="User Image">
+                                <img src="<?php echo base_url(); ?>resource/images/avatar-custom.png" class="user-image rounded-circle" alt="User Image">
                             </a>
                             <ul class="dropdown-menu scale-up">
                                 <li class="user-header">
-
-                                    <img src="<?php echo base_url(); ?>resource/images/avatar-custom.png"
-                                        class="float-left rounded-circle" alt="User Image">
+                                    
+                                    <img src="<?php echo base_url(); ?>resource/images/avatar-custom.png" class="float-left rounded-circle" alt="User Image">
 
                                     <p>
                                         <span id="userName" class="text-sm"></span>
@@ -225,7 +218,7 @@ if ($session_data == null) {
                                 </li>
                             </ul>
                         </li>
-
+                        
                     </ul>
                 </div>
             </nav>

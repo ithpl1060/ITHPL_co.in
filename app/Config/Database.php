@@ -27,9 +27,10 @@ class Database extends Config
     public array $default = [
         'DSN'          => '',
         'hostname'     => 'localhost',
-        'username'     => 'root',
-        'password'     => '',
-        'database'     => 'ithpl_ci4',
+        'username'     => 'a16509c1_admin',
+        'password'     => 'ithpl@2025',
+        'database'     => 'a16509c1_ithpl2025',
+        // 'database'     => 'ci4setup',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,

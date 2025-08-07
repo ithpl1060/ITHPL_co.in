@@ -2,32 +2,19 @@
 <html lang="en">
 
 <head>
-   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><?= esc($meta['meta_title'] ?? 'Innovative Tech Hub Pvt. Ltd.') ?></title>
+    <meta name="description" content="<?= esc($meta['meta_description'] ?? '') ?>">
+    <meta name="keywords" content="<?= esc($meta['meta_keywords'] ?? '') ?>">
 
-    <!-- Dynamic Page Title -->
-    <title><?= esc($meta['meta_title'] ?? 'ITHPL | Sustainability') ?></title>
-
-    <!-- Favicon -->
-    <link rel="icon" href="<?= base_url('images/favicon.ico') ?>" type="image/x-icon" />
-
-    <!-- Dynamic Meta Tags -->
-    <meta name="description" content="<?= esc($meta['meta_description'] ?? 'Innovative Tech Hub Pvt. Ltd. offers cutting-edge solutions for enterprises.') ?>" />
-    <meta name="keywords" content="<?= esc($meta['meta_keywords'] ?? 'technology, enterprise solutions, IT services') ?>" />
-
-    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
-
-    <!-- Tailwind (Browser Plugin - Dev Only) -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
-    <!-- Global Styles -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600&display=swap"
+        rel="stylesheet" />
     <link rel="stylesheet" href="<?= base_url('css/global.css') ?>" />
-
-
     <style>
         .hero-section-s {
             min-height: 100vh;

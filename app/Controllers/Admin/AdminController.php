@@ -9,15 +9,12 @@ class AdminController extends BaseController
 {
     public function index()
     {
-        $data['meta']['meta_title'] = 'ITHPL | Login';
-        return view('login', $data);
+        return view('login');
     }
 
     public function users()
     {
-        $data['meta']['meta_title'] = 'ITHPL | Users';
-
-        return view('header', $data)
+        return view('header')
             . view('sidebar/side_bar')
             . view('users/users')
             . view('users/modal/addUsers')
@@ -38,9 +35,7 @@ class AdminController extends BaseController
     // }
     public function seo()
     {
-        $data['meta']['meta_title'] = 'ITHPL | SEO';
-
-        return view('header', $data)
+        return view('header')
             . view('sidebar/side_bar')
             . view('seo/seo')
             . view('footer')
@@ -50,9 +45,7 @@ class AdminController extends BaseController
 
     public function createSeo()
     {
-        $data['meta']['meta_title'] = 'Create SEO';
-
-        return view('header', $data)
+        return view('header')
             . view('sidebar/side_bar')
             . view('seo/addSeo')
             . view('footer')
@@ -63,9 +56,7 @@ class AdminController extends BaseController
     public function updateSeo($id = 0)
     {
         $data['id'] = $id;
-        $data['meta']['meta_title'] = 'Update SEO';
-
-        return view('header', $data)
+        return view('header')
             . view('sidebar/side_bar')
             . view('seo/addSeo')
             . view('footer')
