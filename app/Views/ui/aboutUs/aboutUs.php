@@ -204,10 +204,10 @@
         </h2>
         <p class="text-xl md:text-2xl font-medium text-black/85 mb-6  ">
             Milestones That Made Us, Vision That Guides Us </p>
-        <p class="text-base text-black/70 max-w-2xl mx-auto leading-relaxed">
+        <!-- <p class="text-base text-black/70 max-w-2xl mx-auto leading-relaxed">
             Explore the defining moments that shaped our evolution from a
             startup vision to industry leadership
-        </p>
+        </p> -->
     </div>
 </div>
 
