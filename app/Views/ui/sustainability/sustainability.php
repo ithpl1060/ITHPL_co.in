@@ -1102,12 +1102,15 @@
                 <!-- Contact Button -->
                 <a href="<?= base_url('contact-us') ?>"
                     class="contact-button text-white font-semibold text-sm px-7 py-3.5 rounded-xl transition-all duration-300 relative overflow-hidden gradient-shine border border-white border-opacity-20 hover:shadow-xl active:scale-95"
-                    style="background: linear-gradient(135deg, #d09bed 0%, #b678e3 100%);
-                      box-shadow: 0 4px 14px rgba(208, 155, 237, 0.25);"
-                    onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 8px 25px rgba(37, 170, 55, 0.34)'"
-                    onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 14px rgba(37, 170, 55, 0.34)'"
-                    onmousedown="this.style.transform='translateY(-1px)'"
-                    onmouseup="this.style.transform='translateY(-3px)'">
+            style="
+              background: #87a862;
+              box-shadow: 0 4px 14px rgba(37, 170, 55, 0.34);
+              transform: translateY(0);
+            "
+            onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 8px 25px rgba(37, 170, 55, 0.34)'"
+            onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 14px rgba(37, 170, 55, 0.34)'"
+            onmousedown="this.style.transform='translateY(-1px)'"
+            onmouseup="this.style.transform='translateY(-3px)'">
                     Contact
                 </a>
             </div>
