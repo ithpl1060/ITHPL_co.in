@@ -3,36 +3,34 @@
 <html lang="en">
 
 <head>
-    <!-- Meta Tags -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><?= esc($meta['meta_title'] ?? 'Innovative Tech Hub Pvt. Ltd.') ?></title>
-    <meta name="description" content="<?= esc($meta['meta_description'] ?? '') ?>">
-    <meta name="keywords" content="<?= esc($meta['meta_keywords'] ?? '') ?>">
+
+    <!-- Dynamic Page Title -->
+    <title><?= esc($meta['meta_title'] ?? 'ITHPL | Solutions') ?></title>
 
     <!-- Favicon -->
-    <!-- <link rel="icon" type="image/png" href="<?= base_url('images/favicon.png') ?>"> -->
+    <link rel="icon" href="<?= base_url('images/favicon.ico') ?>" type="image/x-icon" />
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600&display=swap"
-        rel="stylesheet">
+    <!-- Dynamic Meta Tags -->
+    <meta name="description" content="<?= esc($meta['meta_description'] ?? 'Innovative Tech Hub Pvt. Ltd. offers cutting-edge solutions for enterprises.') ?>" />
+    <meta name="keywords" content="<?= esc($meta['meta_keywords'] ?? 'technology, enterprise solutions, IT services') ?>" />
 
-    <!-- Tailwind CSS -->
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <!-- Tailwind (Browser Plugin - Dev Only) -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="<?= base_url('css/global.css') ?>">
+    <!-- Global Styles -->
+    <link rel="stylesheet" href="<?= base_url('css/global.css') ?>" />
 
-    <!-- Optional Open Graph for Social Sharing -->
-    <meta property="og:title" content="<?= esc($meta['meta_title'] ?? 'Innovative Tech Hub Pvt. Ltd.') ?>">
-    <meta property="og:description"
-        content="<?= esc($meta['meta_description'] ?? 'Comprehensive IT solutions including AMC, Managed Services, and Data Center Management.') ?>">
-    <meta property="og:image" content="<?= base_url('images/ithpllogo.png') ?>">
-    <meta property="og:type" content="website">
+    <!-- Optional: Section for Per-Page Styles -->
+    <?= $this->renderSection('headAssets') ?>
 </head>
+
 
 
 <body>
@@ -364,137 +362,118 @@
     </section>
 
 
-    <section id="how-we-do-it-section" class="py-12 overflow-x-hidden">
-        <div class="container mx-auto px-4 text-center">
-            <div class="text-center mb-16">
-                <h2 class="about-title-a">
-                    How <span class="gradient-services">We Do</span> It?
-                </h2>
-                <p class="how-subtitle mx-auto mt-4 mb-20 max-w-6xl leading-relaxed">
-                    At Innovative, we develop and deliver innovative solutions that drive business
-                    success. Here's our approach:
-                </p>
-            </div>
+    <section id="how-we-do-it-section">
+  <div class="container">
+    <h2 class="about-title-a text-center">How <span class="gradient-services">We Do</span> It?</h2>
+    <p class="how-subtitle mb-20">
+      At Innovative, we develop and deliver innovative solutions that drive business
+      success.<br> Here's our approach:
+    </p>
 
-
-            <!-- Flex wrapper to center entire grid -->
-            <div class="flex justify-center">
-                <div class="solution-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 items-stretch w-auto">
-
-                    <!-- Card 1 -->
-                    <div class="how-card-wrapper flex flex-col items-center w-full max-w-[250px]">
-                        <div
-                            class="how-card card-1 flex flex-col items-center justify-between h-full w-full min-h-[300px]">
-                            <div class="border-animation-container">
-                                <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-                                    <path class="border-path"
-                                        d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                                        fill="none" stroke="#ff0000" stroke-width="0.2" />
-                                    <line class="border-line" x1="0" y1="0" x2="15" y2="0">
-                                        <animateMotion dur="4s" repeatCount="indefinite" rotate="auto">
-                                            <mpath href="#borderPath1" />
-                                        </animateMotion>
-                                    </line>
-                                    <path id="borderPath1"
-                                        d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                                        fill="none" opacity="0" />
-                                </svg>
-                            </div>
-                            <img src="images/ideation-icon.png" alt="Ideation Icon" class="how-icon">
-                            <h3 class="how-card-title">Ideation and Design</h3>
-                            <p class="how-card-desc">We collaborate to identify opportunities & craft solutions tailored
-                                to your needs.
-                            </p>
-                        </div>
-                        <div class="how-number-circle circle-1 mt-2">1</div>
-                    </div>
-
-                    <!-- Card 2 -->
-                    <div class="how-card-wrapper flex flex-col items-center w-full max-w-[250px]">
-                        <div
-                            class="how-card card-2 flex flex-col items-center justify-between h-full w-full min-h-[300px]">
-                            <div class="border-animation-container">
-                                <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-                                    <path class="border-path"
-                                        d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                                        fill="none" stroke="#ff5e00" stroke-width="0.2" />
-                                    <line class="border-line" x1="0" y1="0" x2="15" y2="0">
-                                        <animateMotion dur="4.5s" repeatCount="indefinite" rotate="auto">
-                                            <mpath href="#borderPath2" />
-                                        </animateMotion>
-                                    </line>
-                                    <path id="borderPath2"
-                                        d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                                        fill="none" opacity="0" />
-                                </svg>
-                            </div>
-                            <img src="images/development-icon.png" alt="Development Icon" class="how-icon">
-                            <h3 class="how-card-title">Development & Testing</h3>
-                            <p class="how-card-desc">Our team builds and thoroughly tests to ensure top quality and
-                                performance.</p>
-                        </div>
-                        <div class="how-number-circle circle-2 mt-2">2</div>
-                    </div>
-
-                    <!-- Card 3 -->
-                    <div class="how-card-wrapper flex flex-col items-center w-full max-w-[250px]">
-                        <div
-                            class="how-card card-3 flex flex-col items-center justify-between h-full w-full min-h-[300px]">
-                            <div class="border-animation-container">
-                                <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-                                    <path class="border-path"
-                                        d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                                        fill="none" stroke="#5400fd" stroke-width="0.2" />
-                                    <line class="border-line" x1="0" y1="0" x2="15" y2="0">
-                                        <animateMotion dur="3.5s" repeatCount="indefinite" rotate="auto">
-                                            <mpath href="#borderPath3" />
-                                        </animateMotion>
-                                    </line>
-                                    <path id="borderPath3"
-                                        d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                                        fill="none" opacity="0" />
-                                </svg>
-                            </div>
-                            <img src="images/imac-settings.png" alt="Implementation Icon" class="how-icon">
-                            <h3 class="how-card-title">Implementation & Integration</h3>
-                            <p class="how-card-desc">We seamlessly integrate solutions into your setup with minimal
-                                disruption.</p>
-                        </div>
-                        <div class="how-number-circle circle-3 mt-2">3</div>
-                    </div>
-
-                    <!-- Card 4 -->
-                    <div class="how-card-wrapper flex flex-col items-center w-full max-w-[250px]">
-                        <div
-                            class="how-card card-4 flex flex-col items-center justify-between h-full w-full min-h-[300px]">
-                            <div class="border-animation-container">
-                                <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-                                    <path class="border-path"
-                                        d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                                        fill="none" stroke="#0040ff" stroke-width="0.2" />
-                                    <line class="border-line" x1="0" y1="0" x2="15" y2="0">
-                                        <animateMotion dur="5s" repeatCount="indefinite" rotate="auto">
-                                            <mpath href="#borderPath4" />
-                                        </animateMotion>
-                                    </line>
-                                    <path id="borderPath4"
-                                        d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                                        fill="none" opacity="0" />
-                                </svg>
-                            </div>
-                            <img src="images/improvement-icon.png" alt="Improvement Icon" class="how-icon">
-                            <h3 class="how-card-title">Continuous Improvement</h3>
-                            <p class="how-card-desc">We regularly refine our services to stay aligned with best
-                                practices & your goals.
-                            </p>
-                        </div>
-                        <div class="how-number-circle circle-4 mt-2">4</div>
-                    </div>
-
-                </div>
-            </div>
+    <div class="how-grid">
+      <!-- Card 1 -->
+      <div class="how-card-wrapper">
+        <div class="how-card card-1">
+          <div class="border-animation-container">
+            <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <path class="border-path" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                fill="none" stroke="#ff0000" stroke-width="0.2" />
+              <line class="border-line" x1="0" y1="0" x2="15" y2="0">
+                <animateMotion dur="4s" repeatCount="indefinite" rotate="auto">
+                  <mpath href="#borderPath1" />
+                </animateMotion>
+              </line>
+              <path id="borderPath1" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                fill="none" opacity="0" />
+            </svg>
+          </div>
+          <img src="<?= base_url('images/ideation-icon.png') ?>" alt="Ideation Icon" class="how-icon">
+          <h3 class="how-card-title">Ideation and Design</h3>
+          <p class="how-card-desc">
+            We collaborate to identify opportunities & craft solutions tailored to your needs.
+          </p>
         </div>
-    </section>
+        <div class="how-number-circle circle-1">1</div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="how-card-wrapper">
+        <div class="how-card card-2">
+          <div class="border-animation-container">
+            <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <path class="border-path" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                fill="none" stroke="#ff5e00" stroke-width="0.2" />
+              <line class="border-line" x1="0" y1="0" x2="15" y2="0">
+                <animateMotion dur="4.5s" repeatCount="indefinite" rotate="auto">
+                  <mpath href="#borderPath2" />
+                </animateMotion>
+              </line>
+              <path id="borderPath2" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                fill="none" opacity="0" />
+            </svg>
+          </div>
+          <img src="<?= base_url('images/development-icon.png') ?>" alt="Development Icon" class="how-icon">
+          <h3 class="how-card-title">Development & Testing</h3>
+          <p class="how-card-desc">
+            Our team builds and thoroughly tests to ensure top quality and performance.
+          </p>
+        </div>
+        <div class="how-number-circle circle-2">2</div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="how-card-wrapper">
+        <div class="how-card card-3">
+          <div class="border-animation-container">
+            <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <path class="border-path" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                fill="none" stroke="#5400fd" stroke-width="0.2" />
+              <line class="border-line" x1="0" y1="0" x2="15" y2="0">
+                <animateMotion dur="3.5s" repeatCount="indefinite" rotate="auto">
+                  <mpath href="#borderPath3" />
+                </animateMotion>
+              </line>
+              <path id="borderPath3" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                fill="none" opacity="0" />
+            </svg>
+          </div>
+          <img src="<?= base_url('images/imac-settings.png') ?>" alt="Implementation Icon" class="how-icon">
+          <h3 class="how-card-title">Implementation & Integration</h3>
+          <p class="how-card-desc">
+            We ensure seamlessly integrate solutions into  your setup with minimal disruption.
+          </p>
+        </div>
+        <div class="how-number-circle circle-3">3</div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="how-card-wrapper">
+        <div class="how-card card-4">
+          <div class="border-animation-container">
+            <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <path class="border-path" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                fill="none" stroke="#0040ff" stroke-width="0.2" />
+              <line class="border-line" x1="0" y1="0" x2="15" y2="0">
+                <animateMotion dur="5s" repeatCount="indefinite" rotate="auto">
+                  <mpath href="#borderPath4" />
+                </animateMotion>
+              </line>
+              <path id="borderPath4" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                fill="none" opacity="0" />
+            </svg>
+          </div>
+          <img src="<?= base_url('images/improvement-icon.png') ?>" alt="Improvement Icon" class="how-icon">
+          <h3 class="how-card-title">Continuous Improvement</h3>
+          <p class="how-card-desc">
+            We regularly refine our services to stay aligned with best practices & your goals.
+          </p>
+        </div>
+        <div class="how-number-circle circle-4">4</div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
     <section id="partners" class="main-section">
