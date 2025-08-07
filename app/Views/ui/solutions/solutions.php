@@ -504,10 +504,7 @@
                         </li>
                     </ul>
 
-                    <p class="partners-description">
-                        We work with 65+ OEM and AV partners to offer a wide range of
-                        cutting-edge IT and AV solutions...
-                    </p>
+                    
                 </div>
 
                 <!-- Partners Logos -->
