@@ -153,3 +153,5 @@
     </div>
   </div>
 </section>
+<!-- js file -->
+<script src="<?= base_url('js/global.js'); ?>" defer></script>

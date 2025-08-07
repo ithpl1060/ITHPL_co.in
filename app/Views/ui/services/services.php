@@ -6,12 +6,13 @@
     <!-- Meta Tags -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><?= esc($meta['meta_title'] ?? 'Innovative Tech Hub Pvt. Ltd.') ?></title>
+    <title><?= esc($meta['meta_title'] ?? 'ITHPL | Services') ?></title>
     <meta name="description" content="<?= esc($meta['meta_description'] ?? '') ?>">
     <meta name="keywords" content="<?= esc($meta['meta_keywords'] ?? '') ?>">
 
     <!-- Favicon -->
     <!-- <link rel="icon" type="image/png" href="<?= base_url('images/favicon.png') ?>"> -->
+    <link rel="icon" href="<?= base_url('images/favicon.ico') ?>" type="image/x-icon" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,12 +27,7 @@
     <!-- Global CSS -->
     <link rel="stylesheet" href="<?= base_url('css/global.css') ?>">
 
-    <!-- Optional Open Graph for Social Sharing -->
-    <meta property="og:title" content="<?= esc($meta['meta_title'] ?? 'Innovative Tech Hub Pvt. Ltd.') ?>">
-    <meta property="og:description"
-        content="<?= esc($meta['meta_description'] ?? 'Comprehensive IT solutions including AMC, Managed Services, and Data Center Management.') ?>">
-    <meta property="og:image" content="<?= base_url('images/ithpllogo.png') ?>">
-    <meta property="og:type" content="website">
+
 </head>
 
 
@@ -331,117 +327,109 @@
     </section>
 
 
-    <section id="how-we-do-it-section" class="py-16">
-  <div class="container mx-auto text-center">
-    <h2 class="about-title-a text-3xl font-bold mb-4">
-      How <span class="gradient-services">We Do</span> It?
-    </h2>
-    <p class="how-subtitle mb-12">
-      At Innovative, we provide expert services that help businesses thrive.<br> Here's how we deliver them:
-    </p>
+   <section id="how-we-do-it-section">
+    <div class="container text-center">
+        <h2 class="about-title-a">How <span class="gradient-services">We Do</span> It?</h2>
+        <p class="how-subtitle mb-20">
+            At Innovative, we provide expert services that help businesses thrive. <br>Here's how we deliver them:
+        </p>
 
-    <!-- Responsive Grid -->
-    <div class="how-grid grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div class="how-grid">
+            <!-- Card 1 -->
+            <div class="how-card-wrapper">
+                <div class="how-card card-1">
+                    <div class="border-animation-container">
+                        <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                            <path class="border-path" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                                  fill="none" stroke="#ff0000" stroke-width="0.2"/>
+                            <line class="border-line" x1="0" y1="0" x2="15" y2="0">
+                                <animateMotion dur="4s" repeatCount="indefinite" rotate="auto">
+                                    <mpath href="#borderPath1"/>
+                                </animateMotion>
+                            </line>
+                            <path id="borderPath1" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                                  fill="none" opacity="0"/>
+                        </svg>
+                    </div>
+                    <img src="<?= base_url('images/assesment-icon.png') ?>" alt="Assessment Icon" class="how-icon">
+                    <h3 class="how-card-title">Assessment and Planning</h3>
+                    <p class="how-card-desc">We assess your needs and create a tailored plan to address your challenges.</p>
+                </div>
+                <div class="how-number-circle circle-1">1</div>
+            </div>
 
-      <!-- Card 1 -->
-      <div class="how-card-wrapper flex flex-col h-full">
-        <div class="how-card card-1 flex flex-col justify-start h-full text-center p-6 relative">
-          <div class="border-animation-container mb-1">
-            <svg class="border-svg w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
-              <path class="border-path" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                fill="none" stroke="#ff0000" stroke-width="0.2" />
-              <line class="border-line" x1="0" y1="0" x2="15" y2="0">
-                <animateMotion dur="4s" repeatCount="indefinite" rotate="auto">
-                  <mpath href="#borderPath1" />
-                </animateMotion>
-              </line>
-              <path id="borderPath1"
-                d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                fill="none" opacity="0" />
-            </svg>
-          </div>
-          <img src="images/assesment-icon.png" alt="Assessment Icon" class="how-icon mx-auto mb-4">
-          <h3 class="how-card-title font-semibold mb-2">Assessment and Planning</h3>
-          <p class="how-card-desc">We assess your needs and create a tailored plan to address your challenges.</p>
+            <!-- Card 2 -->
+            <div class="how-card-wrapper">
+                <div class="how-card card-2">
+                    <div class="border-animation-container">
+                        <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                            <path class="border-path" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                                  fill="none" stroke="#ff5e00" stroke-width="0.2"/>
+                            <line class="border-line" x1="0" y1="0" x2="15" y2="0">
+                                <animateMotion dur="4.5s" repeatCount="indefinite" rotate="auto">
+                                    <mpath href="#borderPath2"/>
+                                </animateMotion>
+                            </line>
+                            <path id="borderPath2" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                                  fill="none" opacity="0"/>
+                        </svg>
+                    </div>
+                    <img src="<?= base_url('images/execution-icon.png') ?>" alt="Execution Icon" class="how-icon">
+                    <h3 class="how-card-title">Expert Execution</h3>
+                    <p class="how-card-desc">Our skilled team delivers precise, high-quality services for outstanding results.</p>
+                </div>
+                <div class="how-number-circle circle-2">2</div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="how-card-wrapper">
+                <div class="how-card card-3">
+                    <div class="border-animation-container">
+                        <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                            <path class="border-path" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                                  fill="none" stroke="#5400fd" stroke-width="0.2"/>
+                            <line class="border-line" x1="0" y1="0" x2="15" y2="0">
+                                <animateMotion dur="3.5s" repeatCount="indefinite" rotate="auto">
+                                    <mpath href="#borderPath3"/>
+                                </animateMotion>
+                            </line>
+                            <path id="borderPath3" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                                  fill="none" opacity="0"/>
+                        </svg>
+                    </div>
+                    <img src="<?= base_url('images/collaboration-icon.png') ?>" alt="Collaboration Icon" class="how-icon">
+                    <h3 class="how-card-title">Collaborative Approach</h3>
+                    <p class="how-card-desc">We stay closely aligned with you to meet evolving needs and expectations.</p>
+                </div>
+                <div class="how-number-circle circle-3">3</div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="how-card-wrapper">
+                <div class="how-card card-4">
+                    <div class="border-animation-container">
+                        <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                            <path class="border-path" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                                  fill="none" stroke="#0040ff" stroke-width="0.2"/>
+                            <line class="border-line" x1="0" y1="0" x2="15" y2="0">
+                                <animateMotion dur="5s" repeatCount="indefinite" rotate="auto">
+                                    <mpath href="#borderPath4"/>
+                                </animateMotion>
+                            </line>
+                            <path id="borderPath4" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                                  fill="none" opacity="0"/>
+                        </svg>
+                    </div>
+                    <img src="<?= base_url('images/improvement-icon.png') ?>" alt="Improvement Icon" class="how-icon">
+                    <h3 class="how-card-title">Continuous Improvement</h3>
+                    <p class="how-card-desc">We regularly refine our services to stay aligned with best practices & your goals.</p>
+                </div>
+                <div class="how-number-circle circle-4">4</div>
+            </div>
         </div>
-        <div class="how-number-circle circle-1 mt-4">1</div>
-      </div>
-
-      <!-- Card 2 -->
-      <div class="how-card-wrapper flex flex-col h-full">
-        <div class="how-card card-2 flex flex-col justify-start h-full text-center p-6 relative">
-          <div class="border-animation-container mb-1">
-            <svg class="border-svg w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
-              <path class="border-path" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                fill="none" stroke="#ff5e00" stroke-width="0.2" />
-              <line class="border-line" x1="0" y1="0" x2="15" y2="0">
-                <animateMotion dur="4.5s" repeatCount="indefinite" rotate="auto">
-                  <mpath href="#borderPath2" />
-                </animateMotion>
-              </line>
-              <path id="borderPath2"
-                d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                fill="none" opacity="0" />
-            </svg>
-          </div>
-          <img src="images/execution-icon.png" alt="Execution Icon" class="how-icon mx-auto mb-4">
-          <h3 class="how-card-title font-semibold mb-2">Expert Execution</h3>
-          <p class="how-card-desc">Our skilled team delivers precise, high-quality services for outstanding results.</p>
-        </div>
-        <div class="how-number-circle circle-2 mt-4">2</div>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="how-card-wrapper flex flex-col h-full">
-        <div class="how-card card-3 flex flex-col justify-start h-full text-center p-6 relative">
-          <div class="border-animation-container mb-1">
-            <svg class="border-svg w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
-              <path class="border-path" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                fill="none" stroke="#5400fd" stroke-width="0.2" />
-              <line class="border-line" x1="0" y1="0" x2="15" y2="0">
-                <animateMotion dur="3.5s" repeatCount="indefinite" rotate="auto">
-                  <mpath href="#borderPath3" />
-                </animateMotion>
-              </line>
-              <path id="borderPath3"
-                d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                fill="none" opacity="0" />
-            </svg>
-          </div>
-          <img src="images/collaboration-icon.png" alt="Collaboration Icon" class="how-icon mx-auto mb-4">
-          <h3 class="how-card-title font-semibold mb-2">Collaborative Approach</h3>
-          <p class="how-card-desc">We stay closely aligned with you to meet evolving needs and expectations.</p>
-        </div>
-        <div class="how-number-circle circle-3 mt-4">3</div>
-      </div>
-
-      <!-- Card 4 -->
-      <div class="how-card-wrapper flex flex-col h-full">
-        <div class="how-card card-4 flex flex-col justify-start h-full text-center p-6 relative">
-          <div class="border-animation-container mb-1">
-            <svg class="border-svg w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
-              <path class="border-path" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                fill="none" stroke="#0040ff" stroke-width="0.2" />
-              <line class="border-line" x1="0" y1="0" x2="15" y2="0">
-                <animateMotion dur="5s" repeatCount="indefinite" rotate="auto">
-                  <mpath href="#borderPath4" />
-                </animateMotion>
-              </line>
-              <path id="borderPath4"
-                d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                fill="none" opacity="0" />
-            </svg>
-          </div>
-          <img src="images/improvement-icon.png" alt="Improvement Icon" class="how-icon mx-auto mb-4">
-          <h3 class="how-card-title font-semibold mb-2">Continuous Improvement</h3>
-          <p class="how-card-desc">We regularly refine our services to stay aligned with best practices & your goals.</p>
-        </div>
-        <div class="how-number-circle circle-4 mt-4">4</div>
-      </div>
-
     </div>
-  </div>
 </section>
+
 
     <section id="partners" class="main-section">
         <h2 class="partners-title section-title-center">
