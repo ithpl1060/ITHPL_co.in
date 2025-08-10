@@ -8,45 +8,7 @@
             <div class="modal-body text-center px-4 py-4">
 
                 <style>
-                    /* Minimal Modern Password Strength */
-                    .password-checklist {
-                        font-size: 0.85rem;
-                        margin: 8px 0 0;
-                        padding: 0;
-                    }
-
-                    .password-checklist li {
-                        list-style: none;
-                        display: none;
-                        /* hidden until met */
-                        align-items: center;
-                        margin-bottom: 3px;
-                        color: #777;
-                        transition: 0.3s;
-                    }
-
-                    .password-checklist span {
-                        width: 16px;
-                        height: 16px;
-                        border-radius: 50%;
-                        background: #ccc;
-                        display: inline-flex;
-                        align-items: center;
-                        justify-content: center;
-                        font-size: 11px;
-                        margin-right: 6px;
-                        transition: background 0.3s, color 0.3s;
-                    }
-
-                    .password-checklist li.valid {
-                        color: #28a745;
-                    }
-
-                    .password-checklist li.valid span {
-                        background: #28a745;
-                        color: #fff;
-                    }
-
+                    /* ===== Password Strength Bar ===== */
                     .password-strength-bar {
                         height: 6px;
                         border-radius: 50px;
@@ -59,69 +21,140 @@
                     .password-strength-fill {
                         height: 100%;
                         width: 0%;
-                        background: linear-gradient(90deg, red, orange, green);
-                        transition: width 0.3s ease;
+                        background: var(--gradient, linear-gradient(90deg, red, orange, green));
+                        transition: width 0.3s ease, background 0.3s ease;
+                    }
+
+                    .strength-text {
+                        font-size: 0.75rem;
+                        margin-top: 4px;
+                        color: #555;
+                    }
+
+                    /* ===== Input Group Eye Icon ===== */
+                    .input-group-text {
+                        cursor: pointer;
+                        background: #fff;
+                        border-left: 0;
+                    }
+
+                    .input-group .form-control {
+                        border-right: 0;
                     }
                 </style>
 
                 <form id="changePasswordForm">
+                    <!-- New Password -->
                     <label class="font-weight-semibold mb-1">
                         <span class="text-danger">*</span> New Password
                     </label>
-                    <input type="password" id="uPassword" name="uPassword" class="form-control rounded-pill text-center"
-                        placeholder="Enter New Password" style="font-size:14px">
+                    <div class="input-group">
+                        <input type="password" id="uPassword" name="uPassword"
+                            class="form-control rounded-left text-center" placeholder="Enter New Password"
+                            style="font-size:14px">
+                        <div class="input-group-append">
+                            <span class="input-group-text" id="togglePass"><i class="ti-eye"></i></span>
+                        </div>
+                    </div>
 
+                    <!-- Strength Bar -->
                     <div class="password-strength-bar gradient-innovation" id="strength-bar">
                         <div class="password-strength-fill" id="strength-fill"></div>
                     </div>
+                    <div class="strength-text" id="strength-text"></div>
 
-                    <ul class="password-checklist" id="checklist">
-                        <li id="len"><span>•</span> At least 8 chars</li>
-                        <li id="lower"><span>•</span> Lowercase</li>
-                        <li id="upper"><span>•</span> Uppercase</li>
-                        <li id="num"><span>•</span> Number</li>
-                        <li id="special"><span>•</span> Special char</li>
-                    </ul>
+                    <!-- Confirm Password -->
+                    <label class="font-weight-semibold mb-1 mt-3">
+                        <span class="text-danger">*</span> Confirm Password
+                    </label>
+                    <div class="input-group">
+                        <input type="password" id="uConfirmPassword" name="uConfirmPassword"
+                            class="form-control rounded-left text-center" placeholder="Confirm New Password"
+                            style="font-size:14px">
+                        <div class="input-group-append">
+                            <span class="input-group-text" id="toggleConfirm"><i class="ti-eye"></i></span>
+                        </div>
+                    </div>
 
-                    <button type="submit" class="btn btn-primary btn-block rounded-pill py-2 mt-2">
+                    <!-- Confirm password match message -->
+                    <small id="matchMessage" style="display:none;" class="text-danger">Passwords do not match</small>
+
+                    <button type="submit" class="btn btn-primary btn-block rounded-pill py-2 mt-3">
                         <i class="ti-save-alt mr-1"></i> Save Password
                     </button>
                 </form>
 
                 <script>
                     const pass = document.getElementById('uPassword'),
+                        confirmPass = document.getElementById('uConfirmPassword'),
                         fill = document.getElementById('strength-fill'),
                         bar = document.getElementById('strength-bar'),
-                        rules = {
-                            len: v => v.length >= 8,
-                            lower: v => /[a-z]/.test(v),
-                            upper: v => /[A-Z]/.test(v),
-                            num: v => /\d/.test(v),
-                            special: v => /[\W_]/.test(v)
-                        };
+                        text = document.getElementById('strength-text'),
+                        matchMsg = document.getElementById('matchMessage');
 
+                    // Strength rules (no checklist UI)
+                    const rules = {
+                        len: v => v.length >= 8,
+                        lower: v => /[a-z]/.test(v),
+                        upper: v => /[A-Z]/.test(v),
+                        num: v => /\d/.test(v),
+                        special: v => /[\W_]/.test(v)
+                    };
+
+                    // Password strength check
                     pass.addEventListener('input', () => {
                         let val = pass.value.trim();
+                        bar.style.display = val ? "block" : "none";
 
-                        // Show/hide strength bar
-                        bar.style.display = val.length > 0 ? "block" : "none";
+                        let score = Object.values(rules).reduce((acc, fn) => acc + (fn(val) ? 1 : 0), 0);
 
-                        let score = 0;
-                        Object.entries(rules).forEach(([id, fn]) => {
-                            let item = document.getElementById(id);
-                            if (fn(val)) {
-                                item.style.display = "flex"; // show when met
-                                item.classList.add('valid');
-                                score++;
-                            } else {
-                                item.style.display = "none"; // hide if not met
-                                item.classList.remove('valid');
-                            }
+                        const percent = score / 5 * 100;
+                        fill.style.width = percent + '%';
+
+                        // Dynamic color change
+                        if (score <= 2) {
+                            fill.style.background = "red";
+                            text.textContent = "Weak";
+                        } else if (score <= 4) {
+                            fill.style.background = "orange";
+                            text.textContent = "Medium";
+                        } else {
+                            fill.style.background = "green";
+                            text.textContent = "Strong";
+                        }
+
+                        checkMatch();
+                    });
+
+                    // Confirm password match check
+                    confirmPass.addEventListener('input', checkMatch);
+                    function checkMatch() {
+                        matchMsg.style.display = (confirmPass.value && pass.value !== confirmPass.value) ? "block" : "none";
+                    }
+
+                    // Show password while holding mouse button
+                    function holdToShow(input, toggleId) {
+                        const toggle = document.getElementById(toggleId);
+                        const icon = toggle.querySelector('i');
+
+                        toggle.addEventListener('mousedown', () => {
+                            input.type = 'text';
+                            icon.classList.replace('ti-eye', 'ti-eye-off');
                         });
 
-                        fill.style.width = (score / 5 * 100) + '%';
-                    });
+                        ['mouseup', 'mouseleave'].forEach(evt => {
+                            toggle.addEventListener(evt, () => {
+                                input.type = 'password';
+                                icon.classList.replace('ti-eye-off', 'ti-eye');
+                            });
+                        });
+                    }
+
+                    holdToShow(pass, 'togglePass');
+                    holdToShow(confirmPass, 'toggleConfirm');
                 </script>
+
+
             </div>
         </div>
     </div>
