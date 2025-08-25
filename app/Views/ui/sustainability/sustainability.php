@@ -210,7 +210,8 @@
 
             .image-carousel-container {
                 height: 300px;
-                min-height: 250px;
+                min-height: 250px; 
+                padding:60px 20px;
             }
         }
 
@@ -278,7 +279,7 @@
             .hero-section-s {
 
                 min-height: auto;
-                padding: 40px 0;
+                padding: 60px 0;
             }
 
             .hero-content-wrapper {
@@ -987,7 +988,7 @@
                         <div class="dropdown-menu single-column">
                             <div class="dropdown-arrow"></div>
                             <a href="<?= base_url('#why-choose-us') ?>">Why ITHPL</a>
-                            <a href="<?= base_url('#short-about') ?>">About Us</a>
+                            <!-- <a href="<?= base_url('#short-about') ?>">About Us</a> -->
                             <a href="<?= base_url('#core-values') ?>">Key Features</a>
                             <a href="<?= base_url('#products') ?>">Featured Products</a>
                             <a href="<?= base_url('#certifications') ?>">Certifications</a>

@@ -1,4 +1,4 @@
- <section class=" mx-40 main-section">
+ <section class=" sm:mx-40 mx-4 sm:pt-20 pt-0" >
     <h2 class="text-center font-bold text-4xl  gradient-services">Privacy Policy</h2>
     <p class=" text-center text-gray-700">Effective Date: April 4, 2025</p>
     <div class=" ">
@@ -116,3 +116,4 @@
       </address>
     </div>
   </section>
+  <script src="<?= base_url('js/global.js'); ?>" defer></script>
