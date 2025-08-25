@@ -68,7 +68,7 @@
                         <div class="dropdown-menu single-column">
                             <div class="dropdown-arrow"></div>
                             <a href="<?= base_url('#why-choose-us') ?>">Why ITHPL</a>
-                            <a href="<?= base_url('#short-about') ?>">About Us</a>
+                            <!-- <a href="<?= base_url('#short-about') ?>">About Us</a> -->
                             <a href="<?= base_url('#core-values') ?>">Key Features</a>
                             <a href="<?= base_url('#products') ?>">Featured Products</a>
                             <a href="<?= base_url('#certifications') ?>">Certifications</a>
@@ -208,11 +208,12 @@
             <div class="flex flex-col space-y-1">
                 <a href="<?= base_url('home') ?>">Home</a>
                 <a href="<?= base_url('about-us') ?>">About Us</a>
-                <a href="#products">Products</a>
+                <!-- <a href="#products">Products</a> -->
                 <a href="<?= base_url('services') ?>">Services</a>
                 <a href="<?= base_url('solutions') ?>">Solutions</a>
-                <a href="#">Apple</a>
+                <!-- <a href="#">Apple</a> -->
                 <a href="<?= base_url('sustainability') ?>">Sustainability</a>
+                <a href="<?= base_url('contact-us') ?>"></a>
             </div>
         </nav>
     </header>
