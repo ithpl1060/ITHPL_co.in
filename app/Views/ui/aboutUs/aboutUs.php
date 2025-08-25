@@ -2,7 +2,7 @@
     <div class="hero-background-a"></div>
     <div class="container hero-content-a">
         <p class="hero-subtitle-1-a">About Our Company</p>
-        <h1 class="hero-title-a gradient-innovation ">Innovative TechHub</h1>
+        <h1 class="hero-title-a  gradient-services ">Innovative TechHub</h1>
         <p class="hero-subtitle-2-a">Smart | Scalable | Secure</p>
         <p class="hero-description-a">
             Helping Your Business Grow with Smart, Scalable, and Secure IT
@@ -198,7 +198,7 @@
 
 <div>
     <!-- Header Section -->
-    <div class="mt-20 text-center">
+    <div class=" text-center">
         <h2 class="text-5xl md:text-6xl font-extrabold text-black-600 mb-4 tracking-tight">
             Our <span class="gradient-services">Journey</span>
         </h2>
@@ -459,148 +459,131 @@
     <div class="relative">
         <div class="container">
             <h2 class="team-title">Meet The <span class="gradient-services">Brains</span></h2>
-            <!-- Horizontal scroll container -->
-            <div class="overflow-x-auto pb-6">
-                <ul class="flex space-x-8 w-max min-w-full px-4">
-                    <!-- Card 4 -->
-                    <li
-                        class="relative group overflow-hidden rounded-xl h-[28rem] w-80 flex-shrink-0 transition-all duration-500">
-                        <article
-                            class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
+
+            <div class="team-container">
+                <ul class="team-list">
+                    <!-- Aishwarya abnave -->
+                    <li class="team-card">
+                        <div class="card-background"
                             style="background-image: url('<?= base_url(relativePath: 'images/aishwarya-mam.png'); ?>');">
-                            <div
-                                class="absolute inset-0 bg-black/30 group-hover:bg-black/60 transition-all duration-500">
+                        </div>
+                        <div class="card-overlay"></div>
+                        <a href="#" class="card-link"></a>
+                        <div class="card-content">
+                            <div class="vertical-name">AISHWARYA <br> ABNAVE</div>
+                            <div class="horizontal-content">
+                                <h3 class="member-name">Aishwarya Abnave</h3>
+                                <p class="member-role">Founder, Director-Revenue Assurance</p>
+                                <p class="member-description">
+                                    As the strategic financial leader, Aishwarya spearheads organizational growth
+                                    through fiscal discipline, resource optimization, and financial planning.
+                                </p>
                             </div>
-                            <a href="#" class="absolute inset-0 flex items-end p-8">
-                                <div
-                                    class="transform translate-y-20 group-hover:translate-y-0 transition-all duration-500">
-                                    <h3 class="text-white text-2xl font-bold mb-2">Aishwarya Abhnave</h3>
-                                    <p class="text-white/80 font-medium mb-4">Founder, Director-Revenue Assurance</p>
-                                    <p
-                                        class="text-white/70 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-200">
-                                        As the strategic financial leader, Aishwarya spearheads organizational growth
-                                        through fiscal
-                                        discipline, resource optimization, and financial planning.
-                                    </p>
-                                </div>
-                            </a>
-                        </article>
+                        </div>
                     </li>
 
-                    <!-- Card 3 -->
-                    <li
-                        class="relative group overflow-hidden rounded-xl h-[28rem] w-80 flex-shrink-0 transition-all duration-500">
-                        <article
-                            class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
+                    <!-- Avinash abanave -->
+                    <li class="team-card">
+                        <div class="card-background"
                             style="background-image: url('<?= base_url(relativePath: 'images/avinash-sir.png'); ?>');">
-                            <div
-                                class="absolute inset-0 bg-black/30 group-hover:bg-black/60 transition-all duration-500">
+                        </div>
+                        <div class="card-overlay"></div>
+                        <a href="#" class="card-link"></a>
+                        <div class="card-content">
+                            <div class="vertical-name">AVINASH <br> ABNAVE</div>
+                            <div class="horizontal-content">
+                                <h3 class="member-name">Avinash Abnave</h3>
+                                <p class="member-role">Founder, CEO</p>
+                                <p class="member-description">
+                                    Avinash drives organizational growth through strategic leadership, innovation, and a
+                                    customer-centric approach as the visionary founder and CEO.
+                                </p>
                             </div>
-                            <a href="#" class="absolute inset-0 flex items-end p-8">
-                                <div
-                                    class="transform translate-y-20 group-hover:translate-y-0 transition-all duration-500">
-                                    <h3 class="text-white text-2xl font-bold mb-2">Avinash Abnave</h3>
-                                    <p class="text-white/80 font-medium mb-4">Founder, CEO</p>
-                                    <p
-                                        class="text-white/70 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-200">
-                                        Avinash drives organizational growth through strategic leadership, innovation,
-                                        and a
-                                        customer-centric approach as the visionary founder and CEO.
-                                    </p>
-                                </div>
-                            </a>
-                        </article>
+                        </div>
                     </li>
 
-                    <!-- Card 2 -->
-                    <li
-                        class="relative group overflow-hidden rounded-xl h-[28rem] w-80 flex-shrink-0 transition-all duration-500">
-                        <article
-                            class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
+                    <!-- Vidyadhar kambale -->
+                    <li class="team-card">
+                        <div class="card-background"
                             style="background-image: url('<?= base_url(relativePath: 'images/vidhyadhar-sir.png'); ?>');">
-                            <div
-                                class="absolute inset-0 bg-black/30 group-hover:bg-black/60 transition-all duration-500">
+                        </div>
+                        <div class="card-overlay"></div>
+                        <a href="#" class="card-link"></a>
+                        <div class="card-content">
+                            <div class="vertical-name">VIDYADHAR <br> KAMBLE</div>
+                            <div class="horizontal-content">
+                                <h3 class="member-name">Vidyadhar Kamble</h3>
+                                <p class="member-role">Director</p>
+                                <p class="member-description">
+                                    Vidyadhar serves as a customer-centric leader and service expert, driving
+                                    exceptional customer experiences through strategic service design.
+                                </p>
                             </div>
-                            <a href="#" class="absolute inset-0 flex items-end p-8">
-                                <div
-                                    class="transform translate-y-20 group-hover:translate-y-0 transition-all duration-500">
-                                    <h3 class="text-white text-2xl font-bold mb-2"> Vidyadhar Kamble</h3>
-                                    <p class="text-white/80 font-medium mb-4"> Director</p>
-                                    <p
-                                        class="text-white/70 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-200">
-                                        Vidyadhar serves as a customer-centric leader and service expert, driving
-                                        exceptional customer
-                                        experiences through strategic service design.
-
-                                    </p>
-                                </div>
-                            </a>
-                        </article>
+                        </div>
                     </li>
 
-                    <!-- Card 1 -->
-                    <li
-                        class="relative group overflow-hidden rounded-xl h-[28rem] w-80 flex-shrink-0 transition-all duration-500">
-                        <article
-                            class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
+                    <!-- Anuraj paniker -->
+                    <li class="team-card">
+                        <div class="card-background"
                             style="background-image: url('<?= base_url(relativePath: 'images/anuraj-sir.png'); ?>');">
-                            <div
-                                class="absolute inset-0 bg-black/30 group-hover:bg-black/60 transition-all duration-500">
+                        </div>
+                        <div class="card-overlay"></div>
+                        <a href="#" class="card-link"></a>
+                        <div class="card-content">
+                            <div class="vertical-name">ANURAJ <br> PANIKER</div>
+                            <div class="horizontal-content">
+                                <h3 class="member-name">Anuraj Paniker</h3>
+                                <p class="member-role">Director - IT, Marketing & Logistics</p>
+                                <p class="member-description">
+                                    Anuraj drives business growth through innovative marketing strategies and technology
+                                    solutions, fueling brand expansion and digital transformation.
+                                </p>
                             </div>
-                            <a href="#" class="absolute inset-0 flex items-end p-8">
-                                <div
-                                    class="transform translate-y-20 group-hover:translate-y-0 transition-all duration-500">
-                                    <h3 class="text-white text-2xl font-bold mb-2">Anuraj Paniker</h3>
-                                    <p class="text-white/80 font-medium mb-4">Director - IT, Marketing & Logistics</p>
-                                    <p
-                                        class="text-white/70 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-200">
-                                        Anuraj drives business growth through innovative marketing strategies and
-                                        technology solutions.
-                                        Leveraging expertise, they fuel brand expansion, customer engagement, and
-                                        digital transformation.
-                                    </p>
-                                </div>
-                            </a>
-                        </article>
+                        </div>
                     </li>
 
-
-
-
-
-
-
-
-                    <!-- Card 5 -->
-                    <li
-                        class="relative group overflow-hidden rounded-xl h-[28rem] w-80 flex-shrink-0 transition-all duration-500">
-                        <article
-                            class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
+                    <!-- monesh dalal -->
+                    <li class="team-card">
+                        <div class="card-background"
                             style="background-image: url('<?= base_url(relativePath: 'images/monesh-sir.png'); ?>');">
-                            <div
-                                class="absolute inset-0 bg-black/30 group-hover:bg-black/60 transition-all duration-500">
+                        </div>
+                        <div class="card-overlay"></div>
+                        <a href="#" class="card-link"></a>
+                        <div class="card-content">
+                            <div class="vertical-name">MONESH <br> DALAL</div>
+                            <div class="horizontal-content">
+                                <h3 class="member-name">Monesh Dalal</h3>
+                                <p class="member-role">Director - Service Delivery</p>
+                                <p class="member-description">
+                                    Monesh ensures efficient processes, quality delivery, and customer satisfaction
+                                    through strategic planning, process optimization, and team leadership.
+                                </p>
                             </div>
-                            <a href="#" class="absolute inset-0 flex items-end p-8">
-                                <div
-                                    class="transform translate-y-20 group-hover:translate-y-0 transition-all duration-500">
-                                    <h3 class="text-white text-2xl font-bold mb-2">Monesh Dalal </h3>
-                                    <p class="text-white/80 font-medium mb-4">Director - Service Delivery</p>
-                                    <p
-                                        class="text-white/70 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-200">
+                        </div>
+                    </li>
 
-                                        Monesh ensures efficient processes, quality delivery, and customer satisfaction
-                                        through strategic
-                                        planning, process optimization, and team leadership, driving business efficiency
-                                        and growth.
-                                    </p>
-                                </div>
-                            </a>
-                        </article>
+                    <!-- vinod Batra  -->
+                    <li class="team-card" id="last-card">
+                        <div class="card-background"
+                            style="background-image: url('<?= base_url(relativePath: 'images/vinod-batra-sir.png'); ?>');">
+                        </div>
+                        <div class="card-overlay"></div>
+                        <a href="#" class="card-link"></a>
+                        <div class="card-content">
+                            <div class="vertical-name">VINOD <br> BATRA</div>
+                            <div class="horizontal-content">
+                                <h3 class="member-name">Vinod Batra</h3>
+                                <p class="member-role">Director - Sales</p>
+                                <p class="member-description">
+                                    Vinod leads the India sales teams, driving revenue growth through tailored IT
+                                    infrastructure, Solutions and Managed services with a customer-centric approach.
+                                </p>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
         </div>
-
     </div>
 </section>
 
@@ -617,7 +600,7 @@
         <!-- Testimonial Slider -->
         <div class="relative max-w-4xl mx-auto">
             <!-- Navigation Arrows -->
-            <button class="slider-arrow prev" aria-label="Previous testimonial">
+            <!-- <button class="slider-arrow prev" aria-label="Previous testimonial">
                 <svg xmlns="http://www.w3.org/2000/svg'); ?>" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
                 </svg>
@@ -627,7 +610,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg'); ?>" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                 </svg>
-            </button>
+            </button> -->
 
             <!-- Testimonial Cards Container -->
             <div class="testimonial-slider-container">
@@ -726,7 +709,7 @@
     </div>
     <div class="stat-item">
         <p class="stat-number" data-target="500">500+</p>
-        <p class="stat-label">Certified Partner</p>
+        <p class="stat-label">Certified Partners</p>
     </div>
     <div class="stat-item">
         <p class="stat-number" data-target="700">700+</p>
@@ -738,7 +721,7 @@
     </div>
 </div>
 
-<section id="partners" class="main-section fade-in-section">
+<section id="partners" class=" main-section fade-in-section">
     <h2 class="partners-title section-title-center">
         Our <span class="gradient-partners">Partners</span>
     </h2>
@@ -776,19 +759,26 @@
                     <div class="logo-scroll-track">
                         <div class="logo-row partners-row-1">
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/lenovo.svg'); ?>" alt="lenovo logo" />
+                                <img src="<?= base_url(relativePath: 'images/Apple.svg'); ?>" alt="Apple logo" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/alogic.svg'); ?>" alt="alogic logo" />
+                                <img src="<?= base_url(relativePath: 'images/lenovo.svg'); ?>" alt="Lenovo logo" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/amazon.svg'); ?>" alt="amazon logo" />
+                                <img src="<?= base_url(relativePath: 'images/logitech-logo.svg'); ?>"
+                                    alt="Logitech logo" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/aruba.svg'); ?>" alt="aruba logo" />
+                                <img src="<?= base_url(relativePath: 'images/hp.svg'); ?>" alt="HP logo" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/asus.svg'); ?>" alt="asus logo" />
+                                <img src="<?= base_url(relativePath: 'images/poly.svg'); ?>" alt="Poly logo" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/dell.svg'); ?>" alt="Dell logo" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/jabra.svg'); ?>" alt="Jabra logo" />
                             </div>
                             <div class="logo-item">
                                 <img src="<?= base_url(relativePath: 'images/cadyce.svg'); ?>" alt="cadyce logo" />
@@ -797,14 +787,17 @@
                                 <img src="<?= base_url(relativePath: 'images/cisco.svg'); ?>" alt="Cisco logo" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/dell.png'); ?>" alt="dell logo" />
+                                <img src="<?= base_url(relativePath: 'images/aruba.svg'); ?>" alt="Aruba logo" />
                             </div>
                         </div>
 
                     </div>
                     <div class="logo-row partners-row-2">
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/lg.svg'); ?>" alt="lg  logo" />
+                            <img src="<?= base_url(relativePath: 'images/samsung.svg'); ?>" alt="Samsung logo" />
+                        </div>
+                        <div class="logo-item">
+                            <img src="<?= base_url(relativePath: 'images/lg.svg'); ?>" alt="LG logo" />
                         </div>
                         <div class="logo-item">
                             <img src="<?= base_url(relativePath: 'images/msazure.svg'); ?>"
@@ -816,9 +809,7 @@
                         <div class="logo-item">
                             <img src="<?= base_url(relativePath: 'images/paloalto.svg'); ?>" alt="paloalto logo" />
                         </div>
-                        <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/samsung.svg'); ?>" alt="samsung logo" />
-                        </div>
+
                         <div class="logo-item">
                             <img src="<?= base_url(relativePath: 'images/scalefusion.svg'); ?>"
                                 alt="scalefusion logo" />
@@ -839,14 +830,13 @@
                         <div class="logo-item">
                             <img src="<?= base_url(relativePath: 'images/hikvision.svg'); ?>" alt="hikvision logo" />
                         </div>
-                        <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/jabra.svg'); ?>" alt="jabra logo" />
-                        </div>
-                        <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/jamf.png'); ?>" alt="jamf logo" />
-                        </div>
                     </div>
+                    <!-- 12 -->
                     <div class="logo-row partners-row-3">
+
+                        <div class="logo-item">
+                            <img src="<?= base_url(relativePath: 'images/jamf.svg'); ?>" alt="jamf logo" />
+                        </div>
                         <div class="logo-item">
                             <img src="<?= base_url(relativePath: 'images/sophos.svg'); ?>" alt="sophos logo" />
                         </div>
@@ -856,11 +846,9 @@
                         <div class="logo-item">
                             <img src="<?= base_url(relativePath: 'images/veeam.svg'); ?>" alt="veeam logo" />
                         </div>
+
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/lg-logo.svg'); ?>" alt="LG logo" />
-                        </div>
-                        <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/crestron-logo.png'); ?>" alt="Crestron logo" />
+                            <img src="<?= base_url(relativePath: 'images/crestron-logo.svg'); ?>" alt="Crestron logo" />
                         </div>
                         <div class="logo-item">
                             <img src="<?= base_url(relativePath: 'images/yotta.svg'); ?>" alt="yotta logo" />
@@ -872,17 +860,15 @@
                             <img src="<?= base_url(relativePath: 'images/zoom.svg'); ?>" alt="zoom logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/Apple.svg'); ?>" alt="apple logo" />
+                            <img src="<?= base_url(relativePath: 'images/alogic.svg'); ?>" alt="Alogic logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/hp.svg'); ?>" alt="hp logo" />
+                            <img src="<?= base_url(relativePath: 'images/amazon.svg'); ?>" alt="Amazon logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/logitech-logo.svg'); ?>" alt="logitech logo" />
+                            <img src="<?= base_url(relativePath: 'images/asus.svg'); ?>" alt="Asus logo" />
                         </div>
-                        <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/poly.svg'); ?>" alt="poly logo" />
-                        </div>
+                        <!-- 10 -->
                     </div>
                 </div>
             </div>
@@ -906,22 +892,36 @@
                     <div class="logo-scroll-track-2">
                         <div class="logo-row clients-row-1">
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/abbott.svg'); ?>" alt="abbott" />
-                            </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/amdocs.svg'); ?>" alt="amdocs" />
-                            </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/atos.svg'); ?>" alt="atos" />
+                                <img src="<?= base_url(relativePath: 'images/blackrock.svg'); ?>" alt="blackrock" />
                             </div>
                             <div class="logo-item">
                                 <img src="<?= base_url(relativePath: 'images/bajaj.svg'); ?>" alt="Allianz" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/bajaj-finserv.svg'); ?>" alt="bajaj-finserv/>
-                  </div>
-                  <div class=" logo-item">
-                                <img src="<?= base_url(relativePath: 'images/blackrock.svg'); ?>" alt="blackrock" />
+                                <img src="<?= base_url(relativePath: 'images/bajaj-finserv.svg'); ?>"
+                                    alt="bajaj-finserv" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/capgemini.svg'); ?>" alt="capgemini" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/amdocs.svg'); ?>" alt="amdocs" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/abbott.svg'); ?>" alt="abbott" />
+                            </div>
+
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/atos.svg'); ?>" alt="atos" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/zs.svg'); ?>" alt="zs" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/indianoil.svg'); ?>" alt="indianoil" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/poonawalla.svg'); ?>" alt="poonawalla" />
                             </div>
                             <div class="logo-item">
                                 <img src="<?= base_url(relativePath: 'images/bny.svg'); ?>" alt="BNY Mellon" />
@@ -929,12 +929,7 @@
                             <div class="logo-item">
                                 <img src="<?= base_url(relativePath: 'images/bosch.svg'); ?>" alt="bosch" />
                             </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/bp.svg'); ?>" alt="bp" />
-                            </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/capgemini.svg'); ?>" alt="capgemini" />
-                            </div>
+
                             <div class="logo-item">
                                 <img src="<?= base_url(relativePath: 'images/castrol.svg'); ?>" alt="castrol" />
                             </div>
@@ -944,6 +939,15 @@
                         </div>
                         <div class="logo-row clients-row-2">
                             <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/bp.svg'); ?>" alt="bp" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/fujitsu.svg'); ?>" alt="fujitsu" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/roche.svg'); ?>" alt="roche" />
+                            </div>
+                            <div class="logo-item">
                                 <img src="<?= base_url(relativePath: 'images/dow.svg'); ?>" alt="dow" />
                             </div>
                             <div class="logo-item">
@@ -952,9 +956,7 @@
                             <div class="logo-item">
                                 <img src="<?= base_url(relativePath: 'images/emerson.svg'); ?>" alt="emerson" />
                             </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/fujitsu.svg'); ?>" alt="fujitsu" />
-                            </div>
+
                             <div class="logo-item">
                                 <img src="<?= base_url(relativePath: 'images/tata94.svg'); ?>" alt="Tata" />
                             </div>
@@ -967,9 +969,7 @@
                             <div class="logo-item">
                                 <img src="<?= base_url(relativePath: 'images/zf.svg'); ?>" alt="zf" />
                             </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/zs.svg'); ?>" alt="zs" />
-                            </div>
+
                         </div>
                         <div class="logo-row clients-row-3">
                             <div class="logo-item">
@@ -978,9 +978,7 @@
                             <div class="logo-item">
                                 <img src="<?= base_url(relativePath: 'images/idfc.svg'); ?>" alt="idfc" />
                             </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/indianoil.svg'); ?>" alt="indianoil" />
-                            </div>
+
                             <div class="logo-item">
                                 <img src="<?= base_url(relativePath: 'images/indoco.svg'); ?>" alt="indoco" />
                             </div>
@@ -997,14 +995,10 @@
                                 <img src="<?= base_url(relativePath: 'images/neeyamo.svg'); ?>" alt="neeyamo" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/persistent.svg'); ?>" alt="neeyamo" />
+                                <img src="<?= base_url(relativePath: 'images/persistent.svg'); ?>" alt="Persistent" />
                             </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/poonawalla.svg'); ?>" alt="poonawalla" />
-                            </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/roche.svg'); ?>" alt="roche" />
-                            </div>
+
+
                             <div class="logo-item">
                                 <img src="<?= base_url(relativePath: 'images/sas.svg'); ?>" alt="sas" />
                             </div>

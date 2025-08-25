@@ -237,7 +237,8 @@
     <section id="services-section" class="main-section">
         <div class="container">
             <div class="about-container-a">
-                <h2 class="pl-30 text-[50px] mb-[30px] font-bold ">Our <span class="gradient-services">Services</span>
+                <h2 class="sm:pl-30  pl-0 text-[50px] mb-[30px] font-bold ">Our <span
+                        class="gradient-services">Services</span>
                 </h2>
             </div>
 
@@ -327,206 +328,282 @@
     </section>
 
 
-   <section id="how-we-do-it-section">
-    <div class="container text-center">
-        <h2 class="about-title-a">How <span class="gradient-services">We Do</span> It?</h2>
-        <p class="how-subtitle mb-20">
-            At Innovative, we provide expert services that help businesses thrive. <br>Here's how we deliver them:
-        </p>
+    <section id="how-we-do-it-section">
+        <div class="container pb-[40px] text-center">
+            <h2 class="about-title-a">How <span class="gradient-services">We Do</span> It?</h2>
+            <p class="how-subtitle mb-20">
+                At Innovative, we provide expert services that help businesses thrive. <br>Here's how we deliver them:
+            </p>
 
-        <div class="how-grid">
-            <!-- Card 1 -->
-            <div class="how-card-wrapper">
-                <div class="how-card card-1">
-                    <div class="border-animation-container">
-                        <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-                            <path class="border-path" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                                  fill="none" stroke="#ff0000" stroke-width="0.2"/>
-                            <line class="border-line" x1="0" y1="0" x2="15" y2="0">
-                                <animateMotion dur="4s" repeatCount="indefinite" rotate="auto">
-                                    <mpath href="#borderPath1"/>
-                                </animateMotion>
-                            </line>
-                            <path id="borderPath1" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                                  fill="none" opacity="0"/>
-                        </svg>
+            <div class="how-grid">
+                <!-- Card 1 -->
+                <div class="how-card-wrapper">
+                    <div class="how-card card-1">
+                        <div class="border-animation-container">
+                            <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                                <path class="border-path"
+                                    d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                                    fill="none" stroke="#ff0000" stroke-width="0.2" />
+                                <line class="border-line" x1="0" y1="0" x2="15" y2="0">
+                                    <animateMotion dur="4s" repeatCount="indefinite" rotate="auto">
+                                        <mpath href="#borderPath1" />
+                                    </animateMotion>
+                                </line>
+                                <path id="borderPath1"
+                                    d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                                    fill="none" opacity="0" />
+                            </svg>
+                        </div>
+                        <img src="<?= base_url('images/assesment-icon.png') ?>" alt="Assessment Icon" class="how-icon">
+                        <h3 class="how-card-title">Assessment and Planning</h3>
+                        <p class="how-card-desc">We assess your needs and create a tailored plan to address your
+                            challenges.</p>
                     </div>
-                    <img src="<?= base_url('images/assesment-icon.png') ?>" alt="Assessment Icon" class="how-icon">
-                    <h3 class="how-card-title">Assessment and Planning</h3>
-                    <p class="how-card-desc">We assess your needs and create a tailored plan to address your challenges.</p>
+                    <div class="how-number-circle circle-1">1</div>
                 </div>
-                <div class="how-number-circle circle-1">1</div>
-            </div>
 
-            <!-- Card 2 -->
-            <div class="how-card-wrapper">
-                <div class="how-card card-2">
-                    <div class="border-animation-container">
-                        <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-                            <path class="border-path" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                                  fill="none" stroke="#ff5e00" stroke-width="0.2"/>
-                            <line class="border-line" x1="0" y1="0" x2="15" y2="0">
-                                <animateMotion dur="4.5s" repeatCount="indefinite" rotate="auto">
-                                    <mpath href="#borderPath2"/>
-                                </animateMotion>
-                            </line>
-                            <path id="borderPath2" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                                  fill="none" opacity="0"/>
-                        </svg>
+                <!-- Card 2 -->
+                <div class="how-card-wrapper">
+                    <div class="how-card card-2">
+                        <div class="border-animation-container">
+                            <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                                <path class="border-path"
+                                    d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                                    fill="none" stroke="#ff5e00" stroke-width="0.2" />
+                                <line class="border-line" x1="0" y1="0" x2="15" y2="0">
+                                    <animateMotion dur="4.5s" repeatCount="indefinite" rotate="auto">
+                                        <mpath href="#borderPath2" />
+                                    </animateMotion>
+                                </line>
+                                <path id="borderPath2"
+                                    d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                                    fill="none" opacity="0" />
+                            </svg>
+                        </div>
+                        <img src="<?= base_url('images/execution-icon.png') ?>" alt="Execution Icon" class="how-icon">
+                        <h3 class="how-card-title">Expert Execution</h3>
+                        <p class="how-card-desc">Our skilled team delivers precise, high-quality services for
+                            outstanding results.</p>
                     </div>
-                    <img src="<?= base_url('images/execution-icon.png') ?>" alt="Execution Icon" class="how-icon">
-                    <h3 class="how-card-title">Expert Execution</h3>
-                    <p class="how-card-desc">Our skilled team delivers precise, high-quality services for outstanding results.</p>
+                    <div class="how-number-circle circle-2">2</div>
                 </div>
-                <div class="how-number-circle circle-2">2</div>
-            </div>
 
-            <!-- Card 3 -->
-            <div class="how-card-wrapper">
-                <div class="how-card card-3">
-                    <div class="border-animation-container">
-                        <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-                            <path class="border-path" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                                  fill="none" stroke="#5400fd" stroke-width="0.2"/>
-                            <line class="border-line" x1="0" y1="0" x2="15" y2="0">
-                                <animateMotion dur="3.5s" repeatCount="indefinite" rotate="auto">
-                                    <mpath href="#borderPath3"/>
-                                </animateMotion>
-                            </line>
-                            <path id="borderPath3" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                                  fill="none" opacity="0"/>
-                        </svg>
+                <!-- Card 3 -->
+                <div class="how-card-wrapper">
+                    <div class="how-card card-3">
+                        <div class="border-animation-container">
+                            <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                                <path class="border-path"
+                                    d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                                    fill="none" stroke="#5400fd" stroke-width="0.2" />
+                                <line class="border-line" x1="0" y1="0" x2="15" y2="0">
+                                    <animateMotion dur="3.5s" repeatCount="indefinite" rotate="auto">
+                                        <mpath href="#borderPath3" />
+                                    </animateMotion>
+                                </line>
+                                <path id="borderPath3"
+                                    d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                                    fill="none" opacity="0" />
+                            </svg>
+                        </div>
+                        <img src="<?= base_url('images/collaboration-icon.png') ?>" alt="Collaboration Icon"
+                            class="how-icon">
+                        <h3 class="how-card-title">Collaborative Approach</h3>
+                        <p class="how-card-desc">We stay closely aligned with you to meet evolving needs and
+                            expectations.</p>
                     </div>
-                    <img src="<?= base_url('images/collaboration-icon.png') ?>" alt="Collaboration Icon" class="how-icon">
-                    <h3 class="how-card-title">Collaborative Approach</h3>
-                    <p class="how-card-desc">We stay closely aligned with you to meet evolving needs and expectations.</p>
+                    <div class="how-number-circle circle-3">3</div>
                 </div>
-                <div class="how-number-circle circle-3">3</div>
-            </div>
 
-            <!-- Card 4 -->
-            <div class="how-card-wrapper">
-                <div class="how-card card-4">
-                    <div class="border-animation-container">
-                        <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-                            <path class="border-path" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                                  fill="none" stroke="#0040ff" stroke-width="0.2"/>
-                            <line class="border-line" x1="0" y1="0" x2="15" y2="0">
-                                <animateMotion dur="5s" repeatCount="indefinite" rotate="auto">
-                                    <mpath href="#borderPath4"/>
-                                </animateMotion>
-                            </line>
-                            <path id="borderPath4" d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
-                                  fill="none" opacity="0"/>
-                        </svg>
+                <!-- Card 4 -->
+                <div class="how-card-wrapper">
+                    <div class="how-card card-4">
+                        <div class="border-animation-container">
+                            <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                                <path class="border-path"
+                                    d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                                    fill="none" stroke="#0040ff" stroke-width="0.2" />
+                                <line class="border-line" x1="0" y1="0" x2="15" y2="0">
+                                    <animateMotion dur="5s" repeatCount="indefinite" rotate="auto">
+                                        <mpath href="#borderPath4" />
+                                    </animateMotion>
+                                </line>
+                                <path id="borderPath4"
+                                    d="M8,2 L92,2 Q98,2 98,8 L98,92 Q98,98 92,98 L8,98 Q2,98 2,92 L2,8 Q2,2 8,2 Z"
+                                    fill="none" opacity="0" />
+                            </svg>
+                        </div>
+                        <img src="<?= base_url('images/improvement-icon.png') ?>" alt="Improvement Icon"
+                            class="how-icon">
+                        <h3 class="how-card-title">Continuous Improvement</h3>
+                        <p class="how-card-desc">We regularly refine our services to stay aligned with best practices &
+                            your goals.</p>
                     </div>
-                    <img src="<?= base_url('images/improvement-icon.png') ?>" alt="Improvement Icon" class="how-icon">
-                    <h3 class="how-card-title">Continuous Improvement</h3>
-                    <p class="how-card-desc">We regularly refine our services to stay aligned with best practices & your goals.</p>
+                    <div class="how-number-circle circle-4">4</div>
                 </div>
-                <div class="how-number-circle circle-4">4</div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
-    <section id="partners" class="main-section">
+    <section id="partners" class=" main-section fade-in-section">
         <h2 class="partners-title section-title-center">
             Our <span class="gradient-partners">Partners</span>
         </h2>
 
         <div class="container partners-container">
             <div class="partners-flex">
-
-                <!-- Left Text -->
                 <div class="partners-text">
                     <h3 class="partners-subtitle">
                         Trusted Collaborations with Leading Technology Providers
                     </h3>
                     <ul style="list-style-type: disc">
                         <li class="partners-description">
-                            We work with 65+ OEM and AV partners to offer a wide range of cutting-edge IT and AV
-                            solutions...
+                            We work with 65+ OEM and AV partners to offer a wide range of
+                            cutting-edge IT and AV solutions...
                         </li>
                         <li class="partners-description">
-                            Our partnerships include top-tier brands in hardware, software, and integrated systems.
+                            Our partnerships include top-tier brands in hardware, software,
+                            and integrated systems.
                         </li>
                         <li class="partners-description">
-                            These strategic alliances allow us to deliver reliable, future-ready infrastructure to our
-                            customers.
+                            These strategic alliances allow us to deliver reliable,
+                            future-ready infrastructure to our customers
                         </li>
                     </ul>
-                </div>
 
-                <!-- Logos Section -->
+                    <!-- <p class="partners-description">
+                    We work with 65+ OEM and AV partners to offer a wide range of
+                    cutting-edge IT and AV solutions...
+                </p> -->
+                </div>
                 <div class="partners-logos">
                     <div class="logo-scroll-wrapper">
                         <div class="logo-scroll-fade logo-scroll-fade-left"></div>
                         <div class="logo-scroll-fade logo-scroll-fade-right"></div>
                         <div class="logo-scroll-track">
-
-                            <?php
-                            $partnerRows = [
-                                [
-                                    'lenovo.svg',
-                                    'alogic.svg',
-                                    'amazon.svg',
-                                    'aruba.svg',
-                                    'asus.svg',
-                                    'cadyce.svg',
-                                    'cisco.svg',
-                                    'dell.svg'
-                                ],
-                                [
-                                    'lg.svg',
-                                    'msazure.svg',
-                                    'onsitego.svg',
-                                    'paloalto.svg',
-                                    'samsung.svg',
-                                    'scalefusion.svg',
-                                    'sentinelone.svg',
-                                    'sonicwall.svg',
-                                    'digisol.svg',
-                                    'fortinet.svg',
-                                    'hikvision.svg',
-                                    'jabra.svg',
-                                    'jamf.svg'
-                                ],
-                                [
-                                    'sophos.svg',
-                                    'symantec.svg',
-                                    'veeam.svg',
-                                    'lg-logo.svg',
-                                    'crestron-logo.svg',
-                                    'yotta.svg',
-                                    'zoho.svg',
-                                    'zoom.svg',
-                                    'Apple.svg',
-                                    'hp.svg',
-                                    'logitech-logo.svg',
-                                    'poly.svg'
-                                ]
-                            ];
-                            ?>
-
-                            <?php foreach ($partnerRows as $rowIndex => $row): ?>
-                                <div class="logo-row partners-row-<?= $rowIndex + 1 ?>">
-                                    <?php foreach ($row as $logo): ?>
-                                        <div class="logo-item">
-                                            <img src="<?= base_url('images/' . $logo) ?>"
-                                                alt="<?= pathinfo($logo, PATHINFO_FILENAME) ?> logo" />
-                                        </div>
-                                    <?php endforeach; ?>
+                            <div class="logo-row partners-row-1">
+                                <div class="logo-item">
+                                    <img src="<?= base_url(relativePath: 'images/Apple.svg'); ?>" alt="Apple logo" />
                                 </div>
-                            <?php endforeach; ?>
+                                <div class="logo-item">
+                                    <img src="<?= base_url(relativePath: 'images/lenovo.svg'); ?>" alt="Lenovo logo" />
+                                </div>
+                                <div class="logo-item">
+                                    <img src="<?= base_url(relativePath: 'images/logitech-logo.svg'); ?>"
+                                        alt="Logitech logo" />
+                                </div>
+                                <div class="logo-item">
+                                    <img src="<?= base_url(relativePath: 'images/hp.svg'); ?>" alt="HP logo" />
+                                </div>
+                                <div class="logo-item">
+                                    <img src="<?= base_url(relativePath: 'images/poly.svg'); ?>" alt="Poly logo" />
+                                </div>
+                                <div class="logo-item">
+                                    <img src="<?= base_url(relativePath: 'images/dell.svg'); ?>" alt="Dell logo" />
+                                </div>
+                                <div class="logo-item">
+                                    <img src="<?= base_url(relativePath: 'images/jabra.svg'); ?>" alt="Jabra logo" />
+                                </div>
+                                <div class="logo-item">
+                                    <img src="<?= base_url(relativePath: 'images/cadyce.svg'); ?>" alt="cadyce logo" />
+                                </div>
+                                <div class="logo-item">
+                                    <img src="<?= base_url(relativePath: 'images/cisco.svg'); ?>" alt="Cisco logo" />
+                                </div>
+                                <div class="logo-item">
+                                    <img src="<?= base_url(relativePath: 'images/aruba.svg'); ?>" alt="Aruba logo" />
+                                </div>
+                            </div>
 
+                        </div>
+                        <div class="logo-row partners-row-2">
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/samsung.svg'); ?>" alt="Samsung logo" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/lg.svg'); ?>" alt="LG logo" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/msazure.svg'); ?>"
+                                    alt="microsoft azure logo" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/onsitego.svg'); ?>" alt="onsitego logo" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/paloalto.svg'); ?>" alt="paloalto logo" />
+                            </div>
+
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/scalefusion.svg'); ?>"
+                                    alt="scalefusion logo" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/sentinelone.svg'); ?>"
+                                    alt="sentinelone logo" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/sonicwall.svg'); ?>"
+                                    alt="sonicwall logo" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/digisol.svg'); ?>" alt="digisol logo" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/fortinet.svg'); ?>" alt="fortinet logo" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/hikvision.svg'); ?>"
+                                    alt="hikvision logo" />
+                            </div>
+                        </div>
+                        <!-- 12 -->
+                        <div class="logo-row partners-row-3">
+
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/jamf.svg'); ?>" alt="jamf logo" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/sophos.svg'); ?>" alt="sophos logo" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/symantec.svg'); ?>" alt="symantec logo" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/veeam.svg'); ?>" alt="veeam logo" />
+                            </div>
+
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/crestron-logo.svg'); ?>"
+                                    alt="Crestron logo" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/yotta.svg'); ?>" alt="yotta logo" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/zoho.svg'); ?>" alt="zoho logo" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/zoom.svg'); ?>" alt="zoom logo" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/alogic.svg'); ?>" alt="Alogic logo" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/amazon.svg'); ?>" alt="Amazon logo" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/asus.svg'); ?>" alt="Asus logo" />
+                            </div>
+                            <!-- 10 -->
                         </div>
                     </div>
                 </div>
 
+
+
             </div>
-        </div>
     </section>
 
 
@@ -636,6 +713,7 @@
     <script src="<?= base_url('js/gsap.min.js'); ?>" defer></script>
     <script src="<?= base_url('js/ScrollTrigger.min.js'); ?>" defer></script>
     <script src="<?= base_url('js/Scrollbar.js'); ?>" defer></script>
+    <script src="<?= base_url('js/global.js'); ?>" defer></script>
 
 </body>
 

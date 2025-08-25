@@ -3,7 +3,7 @@
         <div class="hero-content">
             <h1 class="hero-title">
                 Supporting your journey towards <br />
-                digital <span class="gradient-innovation">INNOVATION.</span>
+                digital <span class=" gradient-services">INNOVATION.</span>
             </h1>
             <p class="hero-subtitle">
                 Seamless IT solutions for modern businesses—Hardware, Software & IT
@@ -32,7 +32,7 @@
     </div>
     <div class="stat-item">
         <p class="stat-number" data-target="500">500+</p>
-        <p class="stat-label">Certified Partner</p>
+        <p class="stat-label">Certified Partners</p>
     </div>
     <div class="stat-item">
         <p class="stat-number" data-target="700">700+</p>
@@ -88,6 +88,12 @@
                 </div>
             </div>
         </div>
+    </div>
+</section>
+
+
+<section id="core-values" class="fade-in-section">
+    <div class="container mx-auto px-4">
         <div class="tagline-section" id="short-about">
             <h3 class="tagline-title">
                 <span class="tagline-highlight-1">Smart.</span>
@@ -99,12 +105,7 @@
                 understands your IT needs and delivers lasting solutions.
             </p>
         </div>
-    </div>
-</section>
 
-<!-- exp -->
-<section id="core-values" class="fade-in-section">
-    <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 px-4">
             <div class="text-left rounded-2xl p-6 animate-fade-in-up">
                 <img src="<?= base_url(relativePath: 'images/e0b5f97019837cd094d3647e15a34f22313bf172.png'); ?>"
@@ -154,7 +155,7 @@
     </div>
 </section>
 
-<section id="services" class=" py-20 fade-in-section">
+<section id="services" class=" pt-10 fade-in-section">
     <div class="container">
         <h2 class="section-title">
             Our <span class="gradient-services">Services</span>
@@ -195,7 +196,7 @@
         </div>
     </div>
 </section>
-<section id="products" class="fade-in-section">
+<section id="products" class="pt-8 fade-in-section">
     <div class="container-2">
         <h2 class="section-title">
             Featured <span class="gradient-products">Products</span>
@@ -383,19 +384,26 @@
                     <div class="logo-scroll-track">
                         <div class="logo-row partners-row-1">
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/lenovo.svg'); ?>" alt="lenovo logo" />
+                                <img src="<?= base_url(relativePath: 'images/Apple.svg'); ?>" alt="Apple logo" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/alogic.svg'); ?>" alt="alogic logo" />
+                                <img src="<?= base_url(relativePath: 'images/lenovo.svg'); ?>" alt="Lenovo logo" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/amazon.svg'); ?>" alt="amazon logo" />
+                                <img src="<?= base_url(relativePath: 'images/logitech-logo.svg'); ?>"
+                                    alt="Logitech logo" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/aruba.svg'); ?>" alt="aruba logo" />
+                                <img src="<?= base_url(relativePath: 'images/hp.svg'); ?>" alt="HP logo" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/asus.svg'); ?>" alt="asus logo" />
+                                <img src="<?= base_url(relativePath: 'images/poly.svg'); ?>" alt="Poly logo" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/dell.svg'); ?>" alt="Dell logo" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/jabra.svg'); ?>" alt="Jabra logo" />
                             </div>
                             <div class="logo-item">
                                 <img src="<?= base_url(relativePath: 'images/cadyce.svg'); ?>" alt="cadyce logo" />
@@ -404,14 +412,17 @@
                                 <img src="<?= base_url(relativePath: 'images/cisco.svg'); ?>" alt="Cisco logo" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/dell.svg'); ?>" alt="dell logo" />
+                                <img src="<?= base_url(relativePath: 'images/aruba.svg'); ?>" alt="Aruba logo" />
                             </div>
                         </div>
 
                     </div>
                     <div class="logo-row partners-row-2">
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/lg.svg'); ?>" alt="lg  logo" />
+                            <img src="<?= base_url(relativePath: 'images/samsung.svg'); ?>" alt="Samsung logo" />
+                        </div>
+                        <div class="logo-item">
+                            <img src="<?= base_url(relativePath: 'images/lg.svg'); ?>" alt="LG logo" />
                         </div>
                         <div class="logo-item">
                             <img src="<?= base_url(relativePath: 'images/msazure.svg'); ?>"
@@ -423,9 +434,7 @@
                         <div class="logo-item">
                             <img src="<?= base_url(relativePath: 'images/paloalto.svg'); ?>" alt="paloalto logo" />
                         </div>
-                        <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/samsung.svg'); ?>" alt="samsung logo" />
-                        </div>
+
                         <div class="logo-item">
                             <img src="<?= base_url(relativePath: 'images/scalefusion.svg'); ?>"
                                 alt="scalefusion logo" />
@@ -446,14 +455,13 @@
                         <div class="logo-item">
                             <img src="<?= base_url(relativePath: 'images/hikvision.svg'); ?>" alt="hikvision logo" />
                         </div>
-                        <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/jabra.svg'); ?>" alt="jabra logo" />
-                        </div>
+                    </div>
+                    <!-- 12 -->
+                    <div class="logo-row partners-row-3">
+
                         <div class="logo-item">
                             <img src="<?= base_url(relativePath: 'images/jamf.svg'); ?>" alt="jamf logo" />
                         </div>
-                    </div>
-                    <div class="logo-row partners-row-3">
                         <div class="logo-item">
                             <img src="<?= base_url(relativePath: 'images/sophos.svg'); ?>" alt="sophos logo" />
                         </div>
@@ -463,9 +471,7 @@
                         <div class="logo-item">
                             <img src="<?= base_url(relativePath: 'images/veeam.svg'); ?>" alt="veeam logo" />
                         </div>
-                        <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/lg-logo.svg'); ?>" alt="LG logo" />
-                        </div>
+
                         <div class="logo-item">
                             <img src="<?= base_url(relativePath: 'images/crestron-logo.svg'); ?>" alt="Crestron logo" />
                         </div>
@@ -479,17 +485,15 @@
                             <img src="<?= base_url(relativePath: 'images/zoom.svg'); ?>" alt="zoom logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/Apple.svg'); ?>" alt="apple logo" />
+                            <img src="<?= base_url(relativePath: 'images/alogic.svg'); ?>" alt="Alogic logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/hp.svg'); ?>" alt="hp logo" />
+                            <img src="<?= base_url(relativePath: 'images/amazon.svg'); ?>" alt="Amazon logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/logitech-logo.svg'); ?>" alt="logitech logo" />
+                            <img src="<?= base_url(relativePath: 'images/asus.svg'); ?>" alt="Asus logo" />
                         </div>
-                        <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/poly.svg'); ?>" alt="poly logo" />
-                        </div>
+                        <!-- 10 -->
                     </div>
                 </div>
             </div>
@@ -513,13 +517,7 @@
                     <div class="logo-scroll-track-2">
                         <div class="logo-row clients-row-1">
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/abbott.svg'); ?>" alt="abbott" />
-                            </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/amdocs.svg'); ?>" alt="amdocs" />
-                            </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/atos.svg'); ?>" alt="atos" />
+                                <img src="<?= base_url(relativePath: 'images/blackrock.svg'); ?>" alt="blackrock" />
                             </div>
                             <div class="logo-item">
                                 <img src="<?= base_url(relativePath: 'images/bajaj.svg'); ?>" alt="Allianz" />
@@ -529,7 +527,26 @@
                                     alt="bajaj-finserv" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/blackrock.svg'); ?>" alt="blackrock" />
+                                <img src="<?= base_url(relativePath: 'images/capgemini.svg'); ?>" alt="capgemini" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/amdocs.svg'); ?>" alt="amdocs" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/abbott.svg'); ?>" alt="abbott" />
+                            </div>
+
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/atos.svg'); ?>" alt="atos" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/zs.svg'); ?>" alt="zs" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/indianoil.svg'); ?>" alt="indianoil" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/poonawalla.svg'); ?>" alt="poonawalla" />
                             </div>
                             <div class="logo-item">
                                 <img src="<?= base_url(relativePath: 'images/bny.svg'); ?>" alt="BNY Mellon" />
@@ -537,12 +554,7 @@
                             <div class="logo-item">
                                 <img src="<?= base_url(relativePath: 'images/bosch.svg'); ?>" alt="bosch" />
                             </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/bp.svg'); ?>" alt="bp" />
-                            </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/capgemini.svg'); ?>" alt="capgemini" />
-                            </div>
+
                             <div class="logo-item">
                                 <img src="<?= base_url(relativePath: 'images/castrol.svg'); ?>" alt="castrol" />
                             </div>
@@ -552,6 +564,15 @@
                         </div>
                         <div class="logo-row clients-row-2">
                             <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/bp.svg'); ?>" alt="bp" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/fujitsu.svg'); ?>" alt="fujitsu" />
+                            </div>
+                            <div class="logo-item">
+                                <img src="<?= base_url(relativePath: 'images/roche.svg'); ?>" alt="roche" />
+                            </div>
+                            <div class="logo-item">
                                 <img src="<?= base_url(relativePath: 'images/dow.svg'); ?>" alt="dow" />
                             </div>
                             <div class="logo-item">
@@ -560,9 +581,7 @@
                             <div class="logo-item">
                                 <img src="<?= base_url(relativePath: 'images/emerson.svg'); ?>" alt="emerson" />
                             </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/fujitsu.svg'); ?>" alt="fujitsu" />
-                            </div>
+
                             <div class="logo-item">
                                 <img src="<?= base_url(relativePath: 'images/tata94.svg'); ?>" alt="Tata" />
                             </div>
@@ -575,9 +594,7 @@
                             <div class="logo-item">
                                 <img src="<?= base_url(relativePath: 'images/zf.svg'); ?>" alt="zf" />
                             </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/zs.svg'); ?>" alt="zs" />
-                            </div>
+
                         </div>
                         <div class="logo-row clients-row-3">
                             <div class="logo-item">
@@ -586,9 +603,7 @@
                             <div class="logo-item">
                                 <img src="<?= base_url(relativePath: 'images/idfc.svg'); ?>" alt="idfc" />
                             </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/indianoil.svg'); ?>" alt="indianoil" />
-                            </div>
+
                             <div class="logo-item">
                                 <img src="<?= base_url(relativePath: 'images/indoco.svg'); ?>" alt="indoco" />
                             </div>
@@ -605,14 +620,10 @@
                                 <img src="<?= base_url(relativePath: 'images/neeyamo.svg'); ?>" alt="neeyamo" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/persistent.svg'); ?>" alt="neeyamo" />
+                                <img src="<?= base_url(relativePath: 'images/persistent.svg'); ?>" alt="Persistent" />
                             </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/poonawalla.svg'); ?>" alt="poonawalla" />
-                            </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/roche.svg'); ?>" alt="roche" />
-                            </div>
+
+
                             <div class="logo-item">
                                 <img src="<?= base_url(relativePath: 'images/sas.svg'); ?>" alt="sas" />
                             </div>

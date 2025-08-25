@@ -185,7 +185,7 @@ function initializeTimeline() {
         if (!isDragging) return;
         e.preventDefault();
         const x = e.touches[0].pageX - timeline.offsetLeft;
-        const walk = (x - startX) * 2;
+       const walk = (startX - x); 
         timeline.scrollLeft = scrollLeft - walk;
     });
 
@@ -474,14 +474,11 @@ function initWheelScroll() {
           fadeInObserver.observe(section);
         });
 
-       const cardsContainer = document.querySelector('.testimonial-cards');
-const cards = Array.from(document.querySelectorAll('.testimonial-card'));
-const prevBtn = document.querySelector('.prev');
-const nextBtn = document.querySelector('.next');
+     const cards = Array.from(document.querySelectorAll('.testimonial-card'));
 const dots = Array.from(document.querySelectorAll('.indicator-dot'));
 
 let currentIndex = 0;
-let previousIndex; // Move this outside the function
+let previousIndex;
 
 function updateSlider() {
     cards.forEach(card => {
@@ -492,37 +489,44 @@ function updateSlider() {
         );
     });
 
+    // Current card
     cards[currentIndex].classList.add('testimonial-card--current');
 
+    // Next card
     const nextIndex = (currentIndex + 1) % cards.length;
     cards[nextIndex].classList.add('testimonial-card--next');
 
-    // Fixed: Use the global previousIndex variable instead of this.previousIndex
+    // Previous card goes out
     if (previousIndex !== undefined) {
         cards[previousIndex].classList.add('testimonial-card--out');
     }
 
+    // Update dots
     dots.forEach((dot, index) => {
         dot.classList.toggle('active', index === currentIndex);
     });
 
-    prevBtn.disabled = currentIndex === 0;
-    nextBtn.disabled = currentIndex === cards.length - 1;
-
-    // Update previousIndex for next call
     previousIndex = currentIndex;
 }
 
-nextBtn.addEventListener('click', () => {
+function autoSlide() {
     currentIndex = (currentIndex + 1) % cards.length;
     updateSlider();
+}
+
+// Start automatic loop
+let autoSlideInterval = setInterval(autoSlide, 5000);
+
+// Pause on hover
+const sliderContainer = document.querySelector('.testimonial-slider-container');
+sliderContainer.addEventListener('mouseenter', () => {
+    clearInterval(autoSlideInterval);
+});
+sliderContainer.addEventListener('mouseleave', () => {
+    autoSlideInterval = setInterval(autoSlide, 5000);
 });
 
-prevBtn.addEventListener('click', () => {
-    currentIndex = (currentIndex - 1 + cards.length) % cards.length;
-    updateSlider();
-});
-
+// Dot navigation (still works)
 dots.forEach(dot => {
     dot.addEventListener('click', () => {
         const targetIndex = parseInt(dot.getAttribute('data-index'));
@@ -533,39 +537,9 @@ dots.forEach(dot => {
     });
 });
 
-document.addEventListener('keydown', (e) => {
-    if (e.key === 'ArrowLeft') {
-        prevBtn.click();
-    } else if (e.key === 'ArrowRight') {
-        nextBtn.click();
-    }
-});
-
+// Initialize
 updateSlider();
 
-let autoSlideInterval = setInterval(() => {
-    nextBtn.click();
-}, 5000);
-
-const sliderContainer = document.querySelector('.testimonial-slider-container');
-sliderContainer.addEventListener('mouseenter', () => {
-    clearInterval(autoSlideInterval);
-});
-
-sliderContainer.addEventListener('mouseleave', () => {
-    autoSlideInterval = setInterval(() => {
-        nextBtn.click();
-    }, 5000);
-});
-
-cards.forEach(card => {
-    card.addEventListener('click', () => {
-        if (!card.classList.contains('testimonial-card--current')) {
-            return;
-        }
-        nextBtn.click();
-    });
-});
       });
 
       
