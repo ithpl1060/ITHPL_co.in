@@ -83,24 +83,9 @@
                         </div>
                     </li>
 
-                    <!-- <li class="nav-item">
-                        <a href="<?= base_url('products') ?>" class="nav-hover">Products</a>
-                        <a href="#" class="nav-hover">Products</a>
-                        <div class="dropdown-menu wide">
-                            <div class="dropdown-arrow"></div>
-                            <div class="dropdown-column">
-                                <a href="#">End Point</a>
-                                <a href="#">Hand Held</a>
-                                <a href="#">Journey</a>
-                                <a href="#">Printing & Scanning</a>
-                                <a href="#">Visual Display</a>
-                            </div>
-                            <div class="dropdown-column">
-                                <a href="#">Peripheral</a>
-                                <a href="#">License</a>
-                            </div>
-                        </div>
-                    </li> -->
+                    <li class="nav-item">
+                        <a href="<?= base_url('https://store.ithpl.com/') ?>" class="nav-hover" target="_self">Products</a>
+                    </li>
 
                     <li class="nav-item">
                         <a href="<?= base_url('services') ?>" class="nav-hover">Services</a>
