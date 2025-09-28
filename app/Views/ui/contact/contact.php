@@ -15,7 +15,8 @@
     </div>
 </section>
 <section id="contact">
-    <h2 class="section-title">Contact <span class="gradient-services">Us</span></h2>
+    <h2 class="section-title  sm:pt-[40px]">Contact <span class="gradient-services">Us</span></h2>
+
     <div class="contact-section">
         <div class="contact-background"
             style="background-image: url('<?= base_url(relativePath: 'images/contact-form-background.png'); ?>');">

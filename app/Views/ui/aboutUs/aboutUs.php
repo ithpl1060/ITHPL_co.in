@@ -15,7 +15,7 @@
     </div>
 </section>
 
-<section id="about-a" class="main-section fade-in-section">
+<section id="about-a" class="scroll-mt-15 main-section fade-in-section">
     <div class="container about-container-a">
         <h2 class="about-title-a">
             Who <span class="gradient-we">We</span> Are?
@@ -132,7 +132,8 @@
     </div>
 </section>
 
-<section id="drives-us-a" class="main-section fade-in-section">
+<section id="drives-us-a" class=" scroll-mt-20 main-section fade-in-section">
+
     <div class="container">
         <h2 class="drives-us-title-a">
             What <span class="gradient-services">Drives</span> Us?
@@ -196,7 +197,7 @@
     </div>
 </section>
 
-<div>
+<div class="scroll-mt-20" id="journey">
     <!-- Header Section -->
     <div class=" text-center">
         <h2 class="text-5xl md:text-6xl font-extrabold text-black-600 mb-4 tracking-tight">
@@ -211,7 +212,8 @@
     </div>
 </div>
 
-<section class="horizontal-scroll-section" id="journey" data-scroll-section>
+<section class="horizontal-scroll-section" data-scroll-section>
+
     <div class="horizontal-scroll-wrapper max-w-7xl mx-auto">
         <!-- Timeline Container -->
         <div class="relative w-full">
@@ -587,7 +589,7 @@
     </div>
 </section>
 
-<section id="testimonials" class="relative py-16 overflow-hidden fade-in-section">
+<section id="testimonials" class="scroll-mt-20 relative py-16 overflow-hidden fade-in-section">
     <!-- Background -->
     <div class="absolute inset-0 bg-gray-100 -z-10 h-75"></div>
 
@@ -721,7 +723,7 @@
     </div>
 </div>
 
-<section id="partners" class=" main-section fade-in-section">
+<section id="partners" class="scroll-mt-20 main-section fade-in-section">
     <h2 class="partners-title section-title-center">
         Our <span class="gradient-partners">Partners</span>
     </h2>
@@ -878,7 +880,7 @@
         </div>
 </section>
 
-<section id="clients" class="main-section fade-in-section">
+<section id="clients" class="scroll-mt-20 main-section fade-in-section">
     <h2 class="clients-title section-title-center">
         Our <span class="gradient-clients">Clients</span>
     </h2>

@@ -542,4 +542,4 @@ updateSlider();
 
       });
 
-      
+  
