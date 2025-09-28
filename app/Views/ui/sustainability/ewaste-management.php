@@ -21,7 +21,8 @@
 </div>
 <section id="sustainability-focus" class="sustainability-focus-section">
   <div class="container">
-    <h2 class="section-title">Why Focus on <span class=" gradient-services">Sustainability?</span></h2>
+    <h2 class="section-title pt-20">Why Focus on <span class=" gradient-services">Sustainability?</span></h2>
+
     <div class="sustainability-content">
       <div class="sustainability-image-wrapper">
         <img src="<?= base_url(relativePath: 'images/hands-holding-esg.png'); ?>"

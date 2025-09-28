@@ -5,10 +5,11 @@
   }
 </style>
 
-<main class="container mx-auto px-4 py-8">
+     <main class="container mx-auto px-4 py-12">
+
   <!-- Refund Policy Section -->
   <section class="mx-auto max-w-4xl bg-white rounded-xl shadow-lg overflow-hidden">
-    <div class="p-6 md:p-8 lg:p-10 policy-content">
+    <div class="p-16 md:p-8 lg:p-10 policy-content">
       <div class="text-center mb-8"><br>
         <h2 class="text-3xl md:text-4xl font-bold gradient-certification mb-2">Refund Policy</h2>
         <p class="text-gray-700 text-lg">Effective Date: May 5, 2025</p>

@@ -12,13 +12,17 @@
     <link rel="icon" href="<?= base_url('images/favicon.ico') ?>" type="image/x-icon" />
 
     <!-- Dynamic Meta Tags -->
-    <meta name="description" content="<?= esc($meta['meta_description'] ?? 'Innovative Tech Hub Pvt. Ltd. offers cutting-edge solutions for enterprises.') ?>" />
-    <meta name="keywords" content="<?= esc($meta['meta_keywords'] ?? 'technology, enterprise solutions, IT services') ?>" />
+    <meta name="description"
+        content="<?= esc($meta['meta_description'] ?? 'Innovative Tech Hub Pvt. Ltd. offers cutting-edge solutions for enterprises.') ?>" />
+    <meta name="keywords"
+        content="<?= esc($meta['meta_keywords'] ?? 'technology, enterprise solutions, IT services') ?>" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600&display=swap"
+        rel="stylesheet" />
 
     <!-- Tailwind (Browser Plugin - Dev Only) -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -83,24 +87,10 @@
                         </div>
                     </li>
 
-                    <!-- <li class="nav-item">
-                        <a href="<?= base_url('products') ?>" class="nav-hover">Products</a>
-                        <a href="#" class="nav-hover">Products</a>
-                        <div class="dropdown-menu wide">
-                            <div class="dropdown-arrow"></div>
-                            <div class="dropdown-column">
-                                <a href="#">End Point</a>
-                                <a href="#">Hand Held</a>
-                                <a href="#">Journey</a>
-                                <a href="#">Printing & Scanning</a>
-                                <a href="#">Visual Display</a>
-                            </div>
-                            <div class="dropdown-column">
-                                <a href="#">Peripheral</a>
-                                <a href="#">License</a>
-                            </div>
-                        </div>
-                    </li> -->
+                    <li class="nav-item">
+                        <a href="https://store.ithpl.com/" class="nav-hover" target="_self">Products</a>
+                    </li>
+
 
                     <li class="nav-item">
                         <a href="<?= base_url('services') ?>" class="nav-hover">Services</a>
@@ -198,7 +188,7 @@
             <div class="flex flex-col space-y-1">
                 <a href="<?= base_url('home') ?>">Home</a>
                 <a href="<?= base_url('about-us') ?>">About Us</a>
-                <!-- <a href="<?= base_url('products') ?>">Products</a> -->
+                <a href="https://store.ithpl.com/" target="_self">Products</a>
                 <a href="<?= base_url('services') ?>">Services</a>
                 <a href="<?= base_url('solutions') ?>">Solutions</a>
                 <!-- <a href="<?= base_url('apple') ?>">Apple</a> -->
@@ -206,11 +196,11 @@
                 <a href="<?= base_url('contact-us') ?>"></a>
             </div>
         </nav>
-        <style id="sections-styles">
+        <!-- <style id="sections-styles">
             h3 {
                 font-weight: 700;
                 padding: 10px 0;
             }
-        </style>
+        </style> -->
     </header>
     <main>

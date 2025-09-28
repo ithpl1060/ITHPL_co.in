@@ -88,24 +88,9 @@
                         </div>
                     </li>
 
-                    <!-- Products -->
-                    <!-- <li class="nav-item">
-                        <a href="#products" class="nav-hover">Products</a>
-                        <div class="dropdown-menu wide">
-                            <div class="dropdown-arrow"></div>
-                            <div class="dropdown-column">
-                                <a href="#">End Point</a>
-                                <a href="#">Hand Held</a>
-                                <a href="#">Journey</a>
-                                <a href="#">Printing & Scanning</a>
-                                <a href="#">Visual Display</a>
-                            </div>
-                            <div class="dropdown-column">
-                                <a href="#">Peripheral</a>
-                                <a href="#">License</a>
-                            </div>
-                        </div>
-                    </li> -->
+                    <li class="nav-item">
+                        <a href="https://store.ithpl.com/" class="nav-hover" target="_self">Products</a>
+                    </li>
 
                     <!-- Services -->
                     <li class="nav-item">
@@ -202,7 +187,7 @@
             <div class="flex flex-col space-y-1">
                 <a href="<?= base_url('home') ?>">Home</a>
                 <a href="<?= base_url('about-us') ?>">About Us</a>
-                <!-- <a href="#products">Products</a> -->
+                <a href="https://store.ithpl.com/" target="_self">Products</a>
                 <a href="<?= base_url('services') ?>">Services</a>
                 <a href="<?= base_url('solutions') ?>">Solutions</a>
                 <!-- <a href="#">Apple</a> -->
@@ -238,7 +223,7 @@
     <section id="services-section" class="main-section">
         <div class="container">
             <div class="about-container-a">
-                <h2 class="sm:pl-30  pl-0 text-[50px] mb-[30px] font-bold ">Our <span
+                <h2 class="sm:pl-30  pl-0 text-[50px] my-[30px] font-bold ">Our <span
                         class="gradient-services">Services</span>
                 </h2>
             </div>

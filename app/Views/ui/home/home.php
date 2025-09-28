@@ -43,7 +43,7 @@
         <p class="stat-label">Support & Quick Response</p>
     </div>
 </div>
-<section id="why-choose-us" class=" main-section fade-in-section">
+<section id="why-choose-us" class="scroll-mt-15 main-section fade-in-section">
     <div class="container">
         <h2 class="section-title">
             Why Choose <span class="gradient-ithpl">ITHPL?</span>
@@ -292,7 +292,8 @@
         </div>
     </div>
 </section>
-<section id="certifications" class="main-section fade-in-section">
+<section id="certifications" class="scroll-mt-20 main-section fade-in-section">
+
     <div class="container">
         <h2 class="section-title">
             Our <span class="gradient-certification">Certifications</span> &
