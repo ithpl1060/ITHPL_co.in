@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 09, 2025 at 07:58 AM
+-- Generation Time: Jul 11, 2025 at 02:08 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -67,10 +67,10 @@ CREATE TABLE `seo_pages` (
 --
 
 INSERT INTO `seo_pages` (`id`, `page_slug`, `meta_title`, `url_path`, `meta_description`, `meta_keywords`, `created_at`, `updated_at`) VALUES
-(1, 'home', 'Home Title', 'localhost:8080/home', 'Home Description', 'home, seo', '2025-06-08 06:26:15', '2025-06-08 06:29:41'),
-(3, 'about-us', 'About Title', 'localhost:8080/aboutUs', 'About Description', 'about, seo', '2025-06-08 23:32:07', '2025-06-08 23:32:07'),
-(4, 'contact-us', 'Contact Title', 'localhost:8080/contactUs', 'Contact Description', 'contact, seo', '2025-06-09 00:01:54', '2025-06-09 00:02:14'),
-(5, 'product', 'Product Title', 'localhost:8080/product', 'Product Description', 'product, seo', '2025-06-09 00:03:21', '2025-06-09 00:03:21');
+(1, 'home', 'Innovative TechHub', 'home', 'Home Description', 'home, seo', '2025-06-08 06:26:15', '2025-07-11 00:02:59'),
+(3, 'about-us', 'About Title', 'about-us', 'About Description', 'about, seo', '2025-06-08 23:32:07', '2025-07-10 23:51:46'),
+(4, 'contact-us', 'Contact Title', 'contact-us', 'Contact Description', 'contact, seo', '2025-06-09 00:01:54', '2025-07-10 23:52:08'),
+(5, 'product', 'Product Title', 'product', 'Product Description', 'product, seo', '2025-06-09 00:03:21', '2025-06-11 05:35:55');
 
 -- --------------------------------------------------------
 

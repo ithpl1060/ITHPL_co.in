@@ -155,7 +155,12 @@
                         </div>
                     </li> -->
 
-                    <li class="nav-item">
+  <li class="nav-item">
+                        <a href="<?= base_url('hpforbusiness') ?>" class="nav-hover">HP</a>
+                       
+                    </li>
+
+   <li class="nav-item">
                         <a href="<?= base_url('sustainability') ?>" class="nav-hover">Sustainability</a>
                         <!-- <div class="dropdown-menu single-column">
                             <div class="dropdown-arrow"></div>
@@ -166,6 +171,9 @@
                             <a href="#">Sustainability & Community Outreach</a>
                         </div> -->
                     </li>
+
+
+                  
                 </nav>
 
                 <!-- Contact Button -->
@@ -192,6 +200,7 @@
                 <a href="<?= base_url('services') ?>">Services</a>
                 <a href="<?= base_url('solutions') ?>">Solutions</a>
                 <!-- <a href="<?= base_url('apple') ?>">Apple</a> -->
+                  <a href="<?= base_url('hpforbusiness') ?>">HP</a>
                 <a href="<?= base_url('sustainability') ?>">Sustainability</a>
                 <a href="<?= base_url('contact-us') ?>"></a>
             </div>
