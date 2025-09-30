@@ -158,6 +158,13 @@
                         </div>
                     </li> -->
 
+
+                    
+  <li class="nav-item">
+                        <a href="<?= base_url('hpforbusiness') ?>" class="nav-hover">HP</a>
+                       
+                    </li>
+
                     <!-- Sustainability -->
                     <li class="nav-item">
                         <a href="<?= base_url('sustainability') ?>" class="nav-hover">Sustainability</a>
@@ -191,6 +198,7 @@
                 <a href="<?= base_url('services') ?>">Services</a>
                 <a href="<?= base_url('solutions') ?>">Solutions</a>
                 <!-- <a href="#">Apple</a> -->
+                <a href="<?= base_url('hpforbusiness') ?>">HP</a>
                 <a href="<?= base_url('sustainability') ?>">Sustainability</a>
                 <a href="<?= base_url('contact-us') ?>"></a>
             </div>
