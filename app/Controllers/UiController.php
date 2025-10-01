@@ -125,4 +125,13 @@ class UiController extends BaseController
             . view('ui/htmlend');
     }
 
+     public function hpforbusiness()
+    {
+        $data['meta'] = $this->seo->where('url_path', $this->url_path)->first();
+           return view('ui/header', $data)
+            .  view('ui/hpforbusiness/hpforbusiness', $data)
+            . view('ui/footer', $data)
+            . view('ui/htmlend');
+    }
+
 }
