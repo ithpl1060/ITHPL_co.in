@@ -62,7 +62,5 @@ $routes->get('refund-policy', [UiController::class, 'refundPolicy']);
 $routes->get('services', [UiController::class, 'services']);
 $routes->get('solutions', [UiController::class, 'solutions']);
 $routes->get('sustainability', [UiController::class, 'sustainability']);
-$routes->get('hpforbusiness', [UiController::class, 'hpforbusiness']);
-
 
 
