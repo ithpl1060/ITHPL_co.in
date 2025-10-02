@@ -65,4 +65,11 @@ $routes->get('sustainability', [UiController::class, 'sustainability']);
 $routes->get('hpforbusiness', [UiController::class, 'hpforbusiness']);
 
 
+// --------------- BLOGS ----------
+use App\Controllers\Admin\BlogController;
+
+$routes->get('blogs/category', [BlogController::class, 'category']);
+$routes->get('blogs/posts', [BlogController::class, 'posts']);
+
+
 

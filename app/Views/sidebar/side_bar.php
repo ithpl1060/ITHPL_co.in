@@ -7,19 +7,33 @@
         <ul class="sidebar-menu" data-widget="tree">
 
             <li class="header nav-small-cap">PERSONAL</li>
+
             <li id="userMenu" style="display:none;">
                 <a href="<?php echo base_url('users'); ?>">
-                    <i class="fa fa fa-user"></i> <span>Users</span>
+                    <i class="fa fa-user"></i> <span>Users</span>
                 </a>
             </li>
+
             <li>
                 <a href="<?php echo base_url('seo'); ?>">
                     <i class="fa fa-circle-o"></i> <span>SEO</span>
                 </a>
             </li>
+
+            <!-- New Blogs Dropdown -->
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-book"></i> <span>Blogs</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-down pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="<?php echo base_url('blogs/category'); ?>"><i class="fa fa-circle-o"></i> Category</a></li>
+                    <li><a href="<?php echo base_url('blogs/posts'); ?>"><i class="fa fa-circle-o"></i> Posts</a></li>
+                </ul>
+            </li>
+
         </ul>
-
-
-
     </section>
 </aside>
