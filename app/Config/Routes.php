@@ -2,6 +2,7 @@
 
 use CodeIgniter\Router\RouteCollection;
 use App\Controllers\Admin\AdminController as WebAdminController;
+use App\Controllers\Admin\BlogController;
 use App\Controllers\Api\AdminController as ApiAdminController;
 use App\Controllers\Api\SeoController;
 use App\Controllers\UiController;
@@ -9,17 +10,25 @@ use App\Controllers\UiController;
 /**
  * @var RouteCollection $routes
  */
+//admin UI
 $routes->get('login', [WebAdminController::class, 'index']);
 
+// SEO
 $routes->group('seo', function ($routes) {
-    $routes->get('/', [WebAdminController::class, 'seo']);        // localhost/uservcard
-    $routes->get('create', [WebAdminController::class, 'createSeo']);   // localhost/uservcard/create
-    $routes->get('update/(:num)', [WebAdminController::class, 'updateSeo']);   // localhost/uservcard/create
+    $routes->get('/', [WebAdminController::class, 'seo']); 
+    $routes->get('create', [WebAdminController::class, 'createSeo']);   
+    $routes->get('update/(:num)', [WebAdminController::class, 'updateSeo']);   
     // Add more routes as needed
 });
 
+// Blogs
+$routes->group('blog',function ($routes){
+    $routes->get('category', [BlogController::class, 'category']);
+    $routes->get('create', [BlogController::class, 'createCategory']); 
+});
 
-// api 
+
+// api's 
 $routes->get('users', [WebAdminController::class, 'users']);
 $routes->post('signUP', [ApiAdminController::class, 'register']);
 $routes->post('login', [ApiAdminController::class, 'index']);
@@ -64,12 +73,6 @@ $routes->get('solutions', [UiController::class, 'solutions']);
 $routes->get('sustainability', [UiController::class, 'sustainability']);
 $routes->get('hpforbusiness', [UiController::class, 'hpforbusiness']);
 
-
-// --------------- BLOGS ----------
-use App\Controllers\Admin\BlogController;
-
-$routes->get('blogs/category', [BlogController::class, 'category']);
-$routes->get('blogs/posts', [BlogController::class, 'posts']);
 
 
 

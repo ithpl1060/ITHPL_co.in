@@ -3,12 +3,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            List of Categories
+            category
         </h1>
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="<?= base_url('blogs/category') ?>"><i class="fa fa-dashboard"></i>
+            <li class="breadcrumb-item"><a href="<?= base_url('blog/category') ?>"><i class="fa fa-vcard-o"></i>
                     Home</a></li>
-            <!--<li class="breadcrumb-item"><a href="#">Master</a></li>-->
+            <li class="breadcrumb-item"><a href="#">Blogs</a></li>
             <!-- <li class="breadcrumb-item active">Master</li> -->
             <li class="breadcrumb-item active">category</li>
         </ol>
@@ -20,7 +20,7 @@
         <!-- Default box -->
         <div class="box">
             <div class="box-header with-border">
-                <h3 class="box-title">Categories Details:</h3>
+                <h3 class="box-title">Category List:</h3>
 
                 <ul class="box-controls pull-right">
                     <li><a class="box-btn-close" href="#"></a></li>

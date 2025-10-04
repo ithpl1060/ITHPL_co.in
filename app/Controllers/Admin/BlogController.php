@@ -6,11 +6,10 @@ use App\Controllers\BaseController;
 
 class BlogController extends BaseController
 {
-    // ================== CATEGORY ==================
-
+    //category
     public function category(): string
     {
-        $data['meta']['meta_title'] = 'Blog Categories';
+        $data['meta']['meta_title'] = 'ITHPL | Category';
 
         return view('header', $data)
             . view('sidebar/side_bar')
@@ -26,7 +25,7 @@ class BlogController extends BaseController
 
         return view('header', $data)
             . view('sidebar/side_bar')
-            . view('blogs/add_category')
+            . view('blogs/addCategory')
             . view('footer')
             // . view('blogs/add_category_js')
             . view('htmlend');

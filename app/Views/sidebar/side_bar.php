@@ -21,18 +21,19 @@
             </li>
 
             <!-- New Blogs Dropdown -->
-            <li class="treeview">
-                <a href="#">
-                    <i class="fa fa-book"></i> <span>Blogs</span>
-                    <span class="pull-right-container">
-                        <i class="fa fa-angle-down pull-right"></i>
-                    </span>
-                </a>
-                <ul class="treeview-menu">
-                    <li><a href="<?php echo base_url('blogs/category'); ?>"><i class="fa fa-circle-o"></i> Category</a></li>
-                    <li><a href="<?php echo base_url('blogs/posts'); ?>"><i class="fa fa-circle-o"></i> Posts</a></li>
-                </ul>
-            </li>
+           <li class="treeview">
+          <a href="#">
+            <i class="fa fa-vcard-o"></i> <span>Blogs</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="<?php echo base_url('blog/category'); ?>"><i class="fa fa-circle-thin"></i>Category</a></li>
+            <li><a href="<?php echo base_url('blog/post'); ?>"><i class="fa fa-circle-thin"></i>Post</a></li>
+           
+          </ul>
+        </li>
 
         </ul>
     </section>
