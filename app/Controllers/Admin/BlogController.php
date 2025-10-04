@@ -27,7 +27,7 @@ class BlogController extends BaseController
             . view('sidebar/side_bar')
             . view('blogs/addCategory')
             . view('footer')
-            // . view('blogs/add_category_js')
+            . view('blogs/addCategory_js')
             . view('htmlend');
     }
 

@@ -1,0 +1,39 @@
+// console.log('addCategory');
+
+$('#cancelBtn').click(function () {
+    $(location).attr('href', base_url + 'blog/category');
+})
+
+
+$('#addCategoryForm').on('submit', function (e) {
+    e.preventDefault();
+
+    var returnVal = $("#addCategoryForm").valid();
+    var formdata = new FormData(this);
+
+    if (returnVal) {
+        $.ajax({
+            url: base_url + 'Category',
+            type: 'POST',
+            headers: {
+                "Authorization": token
+            },
+            data: formdata,
+            processData: false,
+            contentType: false,
+            dataType: 'json',
+            success: function (response) {
+                if (response.status === 200) {
+                    swal("Success!", response.message, "success").then(() => {
+                        // window.location.reload();
+                        $(location).attr('href', base_url + 'Category');
+                    });
+                } else {
+                    // Handle non-200 but successful request
+                    swal("Oops!", response.message, "error");
+                }
+            },
+        });
+    }
+});
+
