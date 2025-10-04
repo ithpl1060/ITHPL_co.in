@@ -34,9 +34,15 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label for="category" class="form-label required">Enter Category:</label>
-                                    <input type="text" class="form-control" placeholder="Enter Category" id="category" name="category">
+                                    <label for="category" class="form-label required"><span style="color:red;font-weight: bold;">*</span>Enter Category:</label>
+                                    <input type="text" class="form-control" placeholder="Enter Category" id="category" name="category" required>
                                     <input type="hidden" class="form-control" id="id" name="id">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="slug" class="form-label required">Enter Slug:</label>
+                                    <input type="text" class="form-control" placeholder="Enter Slug" id="slug" name="slug">
                                 </div>
                             </div>
                         </div>

@@ -5,6 +5,7 @@ use App\Controllers\Admin\AdminController as WebAdminController;
 use App\Controllers\Admin\BlogController;
 use App\Controllers\Api\AdminController as ApiAdminController;
 use App\Controllers\Api\SeoController;
+use App\Controllers\Api\BlogController as APIBlogController;
 use App\Controllers\UiController;
 
 /**
@@ -45,6 +46,8 @@ $routes->get('get_seo', [SeoController::class, 'getSeo']);
 $routes->get('get_seo/(:num)', [SeoController::class, 'getSeo']);
 $routes->delete('seo/(:num)', [SeoController::class, 'delete']);
 
+//category
+$routes->post('category', [APIBlogController::class, 'create']);
 
 
 
