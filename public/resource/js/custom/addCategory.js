@@ -13,7 +13,7 @@ $('#addCategoryForm').on('submit', function (e) {
 
     if (returnVal) {
         $.ajax({
-            url: base_url + 'Category',
+            url: base_url + 'category',
             type: 'POST',
             headers: {
                 "Authorization": token
@@ -26,7 +26,7 @@ $('#addCategoryForm').on('submit', function (e) {
                 if (response.status === 200) {
                     swal("Success!", response.message, "success").then(() => {
                         // window.location.reload();
-                        $(location).attr('href', base_url + 'Category');
+                        $(location).attr('href', base_url + 'blog/category');
                     });
                 } else {
                     // Handle non-200 but successful request

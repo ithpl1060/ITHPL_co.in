@@ -48,7 +48,8 @@ $routes->delete('seo/(:num)', [SeoController::class, 'delete']);
 
 //category
 $routes->post('category', [APIBlogController::class, 'create']);
-
+$routes->get('get-category', [APIBlogController::class, 'getCategory']);
+$routes->get('get-category/(:num)', [APIBlogController::class, 'getCategory']);
 
 
 

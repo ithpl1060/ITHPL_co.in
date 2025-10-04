@@ -13,14 +13,9 @@ class CategoryModel extends Model
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
     protected $allowedFields    = [
-        'page_slug',
-        'meta_title',
-        'url_path',
-        'meta_description',
-        'meta_keywords',
-        'created_at',
-        'updated_at',
-    ];
+        'name',
+        'slug'
+        ];
 
     protected bool $allowEmptyInserts = false;
     protected bool $updateOnlyChanged = true;

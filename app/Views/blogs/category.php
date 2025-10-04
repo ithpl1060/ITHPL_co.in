@@ -38,10 +38,12 @@
                         <!-- /.box-header -->
                         <div class="box-body">
                             <div class="table-responsive">
-                                <table id="categoryTable" class="table table-bordered table-striped">
+                                <table id="categoryList" class="table table-bordered table-striped">
                                     <thead>
                                         <tr>
+                                            <th>SR.NO</th>
                                             <th>CATAGORY</th>
+                                            <th>SLUG</th>
                                             <th>ACTION</th>
                                         </tr>
                                     </thead>
@@ -50,7 +52,9 @@
                                     </tbody>
                                     <tfoot>
                                         <tr>
+                                            <th>SR.NO</th>
                                             <th>CATAGORY</th>
+                                            <th>SLUG</th>
                                             <th>ACTION</th>
                                         </tr>
                                     </tfoot>

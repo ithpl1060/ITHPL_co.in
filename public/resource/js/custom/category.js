@@ -5,12 +5,12 @@ $('#addCategoryBtn').click(function () {
 });
 
 $(document).ready(function () {
-    $('#categoryTable').DataTable({
+     $('#categoryList').DataTable({
         processing: true,
         serverSide: true,
         ajax: {
-            url: 'fetchSeo', // Adjust this if your route group uses a prefix
-            type: 'POST'
+            url: base_url + 'get-category', // Adjust this if your route group uses a prefix
+            type: 'GET'
         },
         columns: [
             {
@@ -20,15 +20,24 @@ $(document).ready(function () {
                 },
                 orderable: false
             },
-            { data: 'page_slug' },
-            { data: 'meta_title' },
-            { data: 'url_path' },
-            { data: 'meta_description' },
-            { data: 'meta_keywords' },
-            { data: 'action', orderable: false, searchable: false }
+            { data: 'name' },
+            { data: 'slug' },
+            { data: 'action', orderable: false, searchable: false },
+            {
+                data: 'id',
+                render: function (data, type, row) {
+                    return `
+                        <button class="btn-view" data-id="${data.id}">View</button>
+                        <button class="btn-edit" data-id="${data.id}">Edit</button>
+                        <button class="btn-delete" data-id="${data.id}">Delete</button>
+                    `;
+                }
+            }
         ],
+        
         order: [[0, 'desc']]
     });
+    
 });
 
 
