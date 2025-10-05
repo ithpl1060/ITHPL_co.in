@@ -22,8 +22,8 @@ $(document).ready(function () {
             { data: 'title' },
             { data: 'slug' },
             { data: 'status' },
-            { data: 'created_by' },
-            { data: 'upadated_by' },
+            { data: 'created_at' },
+            { data: 'update_at' },
             {
                 data: 'id',
                 orderable: false,

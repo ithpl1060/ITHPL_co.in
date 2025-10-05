@@ -71,7 +71,7 @@ class BlogController extends BaseController
             'status' => $this->request->getVar('status'),
             'category_id' => $this->request->getVar('category_id')
         ];
-
+        // print_r($data); exit;
         $id = $post->insert($data);
 
         if ($id) {

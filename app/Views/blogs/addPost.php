@@ -34,7 +34,7 @@
             </div>
 
             <div class="box-body">
-                <form class="form" id="addPostForm" method="post" enctype="multipart/form-data">
+                <form class="form" id="addPostForm" method="post" >
                     <div class="box-body">
                         <hr class="my-15">
                         <div class="row g-3">
@@ -47,7 +47,7 @@
                                     </label>
                                     <input type="text" class="form-control" id="title" name="title"
                                         placeholder="Enter post title" required>
-                                    <input type="hidden" id="id" name="id">
+                                    <input type="hidden" class="form-control" id="id" name="id">
                                 </div>
                             </div>
 

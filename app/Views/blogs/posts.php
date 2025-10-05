@@ -50,8 +50,8 @@
                                             <th>TITLE</th>
                                             <th>SLUG</th>
                                             <th>STATUS</th>
-                                            <th>CREATED AT</th>
-                                            <th>UPDATED AT</th>
+                                            <th>CREATED </th>
+                                            <th>UPDATED </th>
                                             <th>ACTION</th>
                                         </tr>
                                     </thead>
@@ -64,8 +64,8 @@
                                             <th>TITLE</th>
                                             <th>SLUG</th>
                                             <th>STATUS</th>
-                                            <th>CREATED AT</th>
-                                            <th>UPDATED AT</th>
+                                            <th>CREATED </th>
+                                            <th>UPDATED </th>
                                             <th>ACTION</th>
                                         </tr>
                                     </tfoot>

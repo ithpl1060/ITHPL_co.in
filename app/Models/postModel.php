@@ -17,7 +17,7 @@ class PostModel extends Model
         'slug',
         'body',
         'status',
-        'created_id'
+        'category_id'
         ];
 
     protected bool $allowEmptyInserts = false;
