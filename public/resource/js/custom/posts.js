@@ -1,14 +1,14 @@
-// Redirect to Create Category page
-$('#addCategoryBtn').click(function () {
-    window.location.href = base_url + 'blog/category/create-category';
+// Redirect to Create post page
+$('#addPostBtn').click(function () {
+    window.location.href = base_url + 'blog/post/create-post';
 });
 
 $(document).ready(function () {
-    $('#categoryList').DataTable({
+    $('#postsList').DataTable({
         processing: true,
         serverSide: true,
         ajax: {
-            url: base_url + 'get-category', // Adjust this if your route uses a prefix
+            url: base_url + 'get-post', // Adjust this if your route uses a prefix
             type: 'GET'
         },
         columns: [
@@ -19,8 +19,11 @@ $(document).ready(function () {
                 },
                 orderable: false
             },
-            { data: 'name' },
+            { data: 'title' },
             { data: 'slug' },
+            { data: 'status' },
+            { data: 'created_by' },
+            { data: 'upadated_by' },
             {
                 data: 'id',
                 orderable: false,
@@ -29,6 +32,7 @@ $(document).ready(function () {
                     return `
                         <button class="btn-view" data-id="${data}">View</button>
                         <button class="btn-edit" data-id="${data}">Edit</button>
+                        <button class="btn-edit" data-id="${data}">Delete</button>
                     `;
                 }
             }
@@ -38,20 +42,20 @@ $(document).ready(function () {
 });
 
 
-// -------------------- category Functions --------------------
+// -------------------- post Functions --------------------
 
-// Redirect to category Update page
-// function updateCategoryDetails(id) {
-//     console.log('Updating category ID:', id);
-//     window.location.href = base_url + 'category/update/' + id;
+// Redirect to post Update page
+// function updatepostDetails(id) {
+//     console.log('Updating post ID:', id);
+//     window.location.href = base_url + 'post/update/' + id;
 // }
 
-// Delete category record
-// function deleteCategoryDetails(id) {
-//     console.log('Deleting category ID:', id);
+// Delete post record
+// function deletepostDetails(id) {
+//     console.log('Deleting post ID:', id);
 
 //     $.ajax({
-//         url: base_url + 'category/' + id,
+//         url: base_url + 'post/' + id,
 //         type: 'DELETE',
 //         dataType: 'json',
 //         success: function (response) {
@@ -70,16 +74,16 @@ $(document).ready(function () {
 //     });
 // }
 // View Button (optional — only if you plan to create a view page)
-$('#categoryList').on('click', '.btn-view', function () {
+$('#postList').on('click', '.btn-view', function () {
     const id = $(this).data('id');
-    console.log('Viewing category ID:', id);
+    console.log('Viewing post ID:', id);
     window.location.href = base_url + 'blog/view/' + id; // only works if you add this route
 });
 
 // Edit Button
-$('#categoryList').on('click', '.btn-edit', function () {
+$('#postList').on('click', '.btn-edit', function () {
     const id = $(this).data('id');
-    console.log('Editing category ID:', id);
-    window.location.href = base_url + 'blog/updateCategory/' + id;
+    console.log('Editing post ID:', id);
+    window.location.href = base_url + 'blog/updatepost/' + id;
 });
 

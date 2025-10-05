@@ -2,14 +2,24 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Category
+            Add Category
             <!--<small>Control panel</small>-->
         </h1>
         <ol class="breadcrumb">
-            <!-- <li class="breadcrumb-item"><a href="#"><i class="fa fa-dashboard"></i> Home</a></li> -->
-            <li class="breadcrumb-item"><a href="<?= base_url('blog/add-category') ?>"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li class="breadcrumb-item active">Category</li>
+            <li class="breadcrumb-item">
+                <a href="<?= base_url('blog/category') ?>">
+                    <i class="fa fa-vcard-o"></i> Home
+                </a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="#">Blogs</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="<?= base_url('blog/category') ?>">Category</a>
+            </li>
+            <li class="breadcrumb-item active">Create</li>
         </ol>
+
     </section>
 
     <!-- Main content -->
@@ -18,7 +28,7 @@
         <!-- Default box -->
         <div class="box">
             <div class="box-header with-border">
-                <h4 class="box-title">Category Details</h4>
+                <h4 class="box-title">Add Category Details</h4>
 
                 <ul class="box-controls pull-right">
                     <li><a class="box-btn-close" href="#"></a></li>
@@ -34,23 +44,27 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label for="category" class="form-label required"><span style="color:red;font-weight: bold;">*</span>Enter Category:</label>
-                                    <input type="text" class="form-control" placeholder="Enter Category" id="category" name="category" required>
+                                    <label for="category" class="form-label required"><span
+                                            style="color:red;font-weight: bold;">*</span>Enter Category:</label>
+                                    <input type="text" class="form-control" placeholder="Enter Category" id="category"
+                                        name="category" required>
                                     <input type="hidden" class="form-control" id="id" name="id">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label for="slug" class="form-label required">Enter Slug:</label>
-                                    <input type="text" class="form-control" placeholder="Enter Slug" id="slug" name="slug">
+                                    <input type="text" class="form-control" placeholder="Enter Slug" id="slug"
+                                        name="slug">
                                 </div>
                             </div>
                         </div>
-                       
+
                     </div>
 
                     <div class="modal-footer text-right">
-                        <button type="button" class="btn btn-danger waves-effect text-left" id="cancelBtn">Cancel</button>
+                        <button type="button" class="btn btn-danger waves-effect text-left"
+                            id="cancelBtn">Cancel</button>
                         <button type="submit" class="btn btn-primary btn-outline">
                             <i class="ti-save-alt"></i> Save
                         </button>

@@ -48,13 +48,13 @@ class BlogController extends BaseController
 
     public function posts(): string
     {
-        $data['meta']['meta_title'] = 'Blog Posts';
+        $data['meta']['meta_title'] = 'ITHPL | Posts';
 
         return view('header', $data)
             . view('sidebar/side_bar')
             . view('blogs/posts')
             . view('footer')
-            // . view('blogs/posts_js')
+            . view('blogs/posts_js')
             . view('htmlend');
     }
 
@@ -64,9 +64,9 @@ class BlogController extends BaseController
 
         return view('header', $data)
             . view('sidebar/side_bar')
-            . view('blogs/add_post')
+            . view('blogs/addPost')
             . view('footer')
-            // . view('blogs/add_post_js')
+            . view('blogs/addPost_js')
             . view('htmlend');
     }
 
@@ -82,4 +82,6 @@ class BlogController extends BaseController
             // . view('blogs/edit_post_js', $data)
             . view('htmlend');
     }
+    
+    
 }

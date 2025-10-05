@@ -3,15 +3,20 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            category
+            Category
         </h1>
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="<?= base_url('blog/category') ?>"><i class="fa fa-vcard-o"></i>
-                    Home</a></li>
-            <li class="breadcrumb-item"><a href="#">Blogs</a></li>
-            <!-- <li class="breadcrumb-item active">Master</li> -->
-            <li class="breadcrumb-item active">category</li>
+            <li class="breadcrumb-item">
+                <a href="<?= base_url('blog/category') ?>">
+                    <i class="fa fa-vcard-o"></i> Home
+                </a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="#">Blogs</a>
+            </li>
+            <li class="breadcrumb-item active">Category</li>
         </ol>
+
     </section>
 
     <!-- Main content -->
