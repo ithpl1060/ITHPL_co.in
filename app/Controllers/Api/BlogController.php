@@ -15,7 +15,8 @@ class BlogController extends BaseController
 
         $data = [
             'name' => $this->request->getVar('category'),
-            'slug' => $this->request->getVar('slug')
+            'slug' => $this->request->getVar('slug'),
+            'is_active' => $this->request->getVar('is_active') ?? 0,
         ];
         // print_r($data); exit; 
         $result = $category->insert($data);

@@ -58,6 +58,14 @@
                                         name="slug">
                                 </div>
                             </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                          
+									<input type="checkbox" id="checkbox_1" class="isActive"  value="1" name="is_active">
+									<label for="checkbox_1">Active</label>
+								</div>
+                            </div>
+                            
                         </div>
 
                     </div>

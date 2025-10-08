@@ -49,6 +49,7 @@
                                             <th>SR.NO</th>
                                             <th>CATAGORY</th>
                                             <th>SLUG</th>
+                                            <th>STATUS</th>
                                             <th>ACTION</th>
                                         </tr>
                                     </thead>
@@ -60,6 +61,7 @@
                                             <th>SR.NO</th>
                                             <th>CATAGORY</th>
                                             <th>SLUG</th>
+                                            <th>STATUS</th>
                                             <th>ACTION</th>
                                         </tr>
                                     </tfoot>

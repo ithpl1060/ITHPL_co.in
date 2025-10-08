@@ -7,9 +7,13 @@ $('#cancelBtn').click(function () {
 
 $('#addCategoryForm').on('submit', function (e) {
     e.preventDefault();
-
+    var isActive = 0;
+    if ($('.isActive').is(':checked')) {
+        isActive = 1;
+    }
     var returnVal = $("#addCategoryForm").valid();
     var formdata = new FormData(this);
+     formdata.is_active = isActive;
 
     if (returnVal) {
         $.ajax({
