@@ -13,9 +13,9 @@ class BlogController extends BaseController
 
         return view('header', $data)
             . view('sidebar/side_bar')
-            . view('blogs/category')
+            . view('blogs/category/category')
             . view('footer')
-            . view('blogs/category_js')
+            . view('blogs/category/category_js')
             . view('htmlend');
     }
 
@@ -25,9 +25,9 @@ class BlogController extends BaseController
 
         return view('header', $data)
             . view('sidebar/side_bar')
-            . view('blogs/addCategory')
+            . view('blogs/category/addCategory')
             . view('footer')
-            . view('blogs/addCategory_js')
+            . view('blogs/category/addCategory_js')
             . view('htmlend');
     }
 
@@ -38,9 +38,9 @@ class BlogController extends BaseController
 
         return view('header', $data)
             . view('sidebar/side_bar')
-            . view('blogs/edit_category', $data)
+            . view('blogs/category/addCategory')
             . view('footer')
-            // . view('blogs/edit_category_js', $data)
+            . view('blogs/category/updateCategory_js',$data)
             . view('htmlend');
     }
 

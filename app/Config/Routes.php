@@ -30,7 +30,8 @@ $routes->group('blog', static function ($routes) {
     // -------------------------
     $routes->group('category', static function ($routes) {
         $routes->get('/', [BlogController::class, 'category']);                  // list page → /blog/category
-        $routes->get('create-category', [BlogController::class, 'createCategory']); // create page → /blog/category/create-category
+        $routes->get('create', [BlogController::class, 'createCategory']); // create page → /blog/category/create-category
+        $routes->get('update/(:num)', [BlogController::class, 'updateCategory']); // create page → /blog/category/create-category
     });
 
     // -------------------------
@@ -38,6 +39,7 @@ $routes->group('blog', static function ($routes) {
     // -------------------------
     $routes->group('post', static function ($routes) {
         $routes->get('/', [BlogController::class, 'posts']);                    // list page → /blog/post
+        $routes->get('create-post', [BlogController::class, 'createPost']);     // create page → /blog/post/create-post
         $routes->get('create-post', [BlogController::class, 'createPost']);     // create page → /blog/post/create-post
     });
 });
@@ -63,8 +65,8 @@ $routes->delete('seo/(:num)', [SeoController::class, 'delete']);
 
 //category
 $routes->post('category', [APIBlogController::class, 'createCategory']);
-$routes->get('get-category', [APIBlogController::class, 'getCategory']);
-$routes->get('get-category/(:num)', [APIBlogController::class, 'getCategory']);
+$routes->post('get-category', [APIBlogController::class, 'getCategory']);
+$routes->get('get-category/(:num)', [APIBlogController::class, 'getCategoryById']);
 
 //post
 $routes->post('post', [APIBlogController::class, 'createPost']);

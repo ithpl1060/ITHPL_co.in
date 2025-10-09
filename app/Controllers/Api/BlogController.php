@@ -38,14 +38,56 @@ class BlogController extends BaseController
         }
     }
 
-    public function getCategory($id = 0)
+    public function getCategory()
     {
         $category = new CategoryModel();
+        $draw = $this->request->getVar('draw');
+        $start = $this->request->getVar('start');
+        $length = $this->request->getVar('length');
+        $searchValue = $this->request->getVar('search')['value'];
+        $orderColumnIndex = $this->request->getVar('order')[0]['column'] ?? 0;
+        $orderDir = $this->request->getVar('order')[0]['dir'] ?? 'asc';
+
+        $columns = [
+            'id',
+            'name',
+            'slug',
+            'is_active'
+        ];
+
+        $orderColumn = $columns[$orderColumnIndex] ?? 'id';
+        $dataList = $category->getAllCategories($searchValue, $length, $start, $orderColumn, $orderDir);
+        $totalRecords = $category->countAllCategories();
+        $totalFiltered = $category->countFilteredCategories($searchValue);
+        
+        $data = [];
+
+        foreach ($dataList as $row) {
+            $data[] = [
+                'id' => $row['id'],
+                'name' => $row['name'],
+                'slug' => $row['slug'],
+                'is_active' => $row['is_active'],
+            ];
+        }
+
+        return $this->response->setJSON([
+            'draw' => intval($draw),
+            'recordsTotal' => $totalRecords,
+            'recordsFiltered' => $totalFiltered,
+            'data' => $data
+        ]);
+    }
+
+    public function getCategoryById($id){
+         $category = new CategoryModel();
+
         if ($id) {
             $data = $category->where('id', $id)->first();
         } else {
             $data = $category->findAll();
         }
+
         if (!empty($data)) {
             $response = [
                 'status' => 200,
@@ -60,7 +102,6 @@ class BlogController extends BaseController
         }
         return $this->response->setJSON($response);
     }
-
     public function createPost()
     {
         $post = new PostModel();

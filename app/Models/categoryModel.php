@@ -48,4 +48,49 @@ class CategoryModel extends Model
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
 
+      public function getAllCategories($search = null, $limit = null, $offset = null, $orderColumn = null, $orderDir = 'desc')
+    {
+        $builder = $this->db->table('post_category pc');
+        $builder->select('*');
+
+        if (!empty($search)) {
+            $builder->groupStart()
+                ->like('pc.name', $search)
+                ->orLike('pc.slug', $search)
+                ->orLike('pc.is_active', $search)
+                ->groupEnd();
+        }
+
+        if (!empty($orderColumn)) {
+            $builder->orderBy($orderColumn, $orderDir);
+        }
+
+        if ($limit !== null && $offset !== null) {
+            $builder->limit($limit, $offset);
+        }
+
+        return $builder->get()->getResultArray();
+    }
+
+    public function countAllCategories()
+    {
+        $builder = $this->db->table('post_category');
+        return $builder->countAllResults();
+    }
+
+    public function countFilteredCategories($search = null)
+    {
+        $builder = $this->db->table('post_category pc');
+        $builder->select('*');
+
+        if (!empty($search)) {
+            $builder->groupStart()
+                ->like('pc.name', $search)
+                ->orLike('pc.slug', $search)
+                ->orLike('pc.is_active', $search)
+                ->groupEnd();
+        }
+
+        return $builder->countAllResults();
+    }
 }

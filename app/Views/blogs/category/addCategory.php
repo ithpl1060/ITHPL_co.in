@@ -73,7 +73,7 @@
                     <div class="modal-footer text-right">
                         <button type="button" class="btn btn-danger waves-effect text-left"
                             id="cancelBtn">Cancel</button>
-                        <button type="submit" class="btn btn-primary btn-outline">
+                        <button type="submit" id="savebtn" class="btn btn-primary btn-outline">
                             <i class="ti-save-alt"></i> Save
                         </button>
                     </div>

@@ -43,7 +43,7 @@
                         <!-- /.box-header -->
                         <div class="box-body">
                             <div class="table-responsive">
-                                <table id="categoryList" class="table table-bordered table-striped">
+                                <table id="categoryTable" class="table table-bordered table-striped">
                                     <thead>
                                         <tr>
                                             <th>SR.NO</th>
@@ -53,7 +53,7 @@
                                             <th>ACTION</th>
                                         </tr>
                                     </thead>
-                                    <tbody id="categoryList">
+                                    <tbody>
 
                                     </tbody>
                                     <tfoot>
