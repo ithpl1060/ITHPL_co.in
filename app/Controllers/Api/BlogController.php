@@ -155,11 +155,15 @@ class BlogController extends BaseController
         $data = [
             'title' => $this->request->getVar('title'),
             'slug' => $this->request->getVar('slug'),
-            'body' => $this->request->getVar('body'),
+            'user_id' => $this->request->getVar('empId'),
+            'highlight_text' => $this->request->getVar('post_highlight_content'),
+            'body' => $this->request->getVar('post_content'),
             'status' => $this->request->getVar('status'),
-            'category_id' => $this->request->getVar('category_id')
+            'category_id' => $this->request->getVar('category_id'),
+            'created_by' => $this->request->getVar('empId')
         ];
         // print_r($data); exit;
+        $data['img_url'] = $this->handleImageUpload('blog_image');
         $id = $post->insert($data);
 
         if ($id) {
@@ -178,7 +182,57 @@ class BlogController extends BaseController
         }
     }
 
-    public function getPost($id = 0)
+    public function getPost()
+    {
+        $post = new PostModel();
+        $draw = $this->request->getVar('draw');
+        $start = $this->request->getVar('start');
+        $length = $this->request->getVar('length');
+        $searchValue = $this->request->getVar('search')['value'];
+        $orderColumnIndex = $this->request->getVar('order')[0]['column'] ?? 0;
+        $orderDir = $this->request->getVar('order')[0]['dir'] ?? 'asc';
+
+        $columns = [
+            'id',
+            'title',
+        'slug',
+        'user_id',
+        'highlight_text',
+        'body',
+        'status',
+        'category_id',
+        'img_url',
+        'created_by',
+        'updated_by'
+        ];
+
+        $orderColumn = $columns[$orderColumnIndex] ?? 'id';
+        $dataList = $post->getAllPosts($searchValue, $length, $start, $orderColumn, $orderDir);
+        $totalRecords = $post->countAllPosts();
+        $totalFiltered = $post->countFilteredPosts($searchValue);
+
+        $data = [];
+
+        foreach ($dataList as $row) {
+            $data[] = [
+                'id' => $row['id'],
+                'title' => $row['title'],
+                'slug' => $row['slug'],
+                'status' => $row['status'],
+                'created_by' => $row['first_name'].' '.$row['last_name'],
+                'created_at' => $row['created_at'],
+                'category_id' => $row['category_id']
+            ];
+        }
+
+        return $this->response->setJSON([
+            'draw' => intval($draw),
+            'recordsTotal' => $totalRecords,
+            'recordsFiltered' => $totalFiltered,
+            'data' => $data
+        ]);
+    }
+    public function getPostById($id = 0)
     {
         $post = new PostModel();
         if ($id) {
@@ -199,5 +253,39 @@ class BlogController extends BaseController
             ];
         }
         return $this->response->setJSON($response);
+    }
+
+    private function handleImageUpload($fieldName)
+    {
+        $img = $this->request->getFile($fieldName);
+
+        if ($img && $img->isValid() && !$img->hasMoved()) {
+            $newName = $img->getRandomName();
+            $img->move('resource/blogs', $newName);
+
+            return 'resource/blogs/' . $newName;
+        }
+
+        return null;
+    }
+    private function handleImageUploadForUpdate($fieldName, $oldFilePath = null)
+    {
+        $img = $this->request->getFile($fieldName);
+
+        if ($img && $img->isValid() && !$img->hasMoved()) {
+            // Delete old file if exists
+            if ($oldFilePath && file_exists($oldFilePath)) {
+                @unlink($oldFilePath);
+            }
+
+            // Save new file with random name
+            $newName = $img->getRandomName();
+            $img->move('resource/blogs', $newName);
+
+            return 'resource/blogs/' . $newName;
+        }
+
+        // No new file uploaded, return old path
+        return $oldFilePath;
     }
 }

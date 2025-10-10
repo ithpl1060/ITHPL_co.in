@@ -61,30 +61,3 @@ function updateCategoryDetails(id) {
 
 }
 
-
-// function updateCategoryDetails(id) {
-//     console.log(id);
-//     alert('update id:'+id)
-// $.ajax({
-
-//     url: base_url + 'seo/' + id,
-
-//     type: 'DELETE',
-
-//     dataType: 'json',
-
-//     success: function (response) {
-//         if (response.status == 200) {
-
-//             swal("Good job!", response.message, "success").then(() => {
-//                 window.location.reload(); // Reload after SweetAlert confirmation
-//             });
-
-//         } else {
-//             swal("Error!", response.message, "error");
-
-//         }
-//     }
-
-// });
-

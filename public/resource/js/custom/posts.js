@@ -1,6 +1,6 @@
 // Redirect to Create post page
 $('#addPostBtn').click(function () {
-    window.location.href = base_url + 'blog/post/create-post';
+    window.location.href = base_url + 'blog/post/create';
 });
 
 $(document).ready(function () {
@@ -9,7 +9,7 @@ $(document).ready(function () {
         serverSide: true,
         ajax: {
             url: base_url + 'get-post', // Adjust this if your route uses a prefix
-            type: 'GET'
+            type: 'POST'
         },
         columns: [
             {
@@ -21,19 +21,50 @@ $(document).ready(function () {
             },
             { data: 'title' },
             { data: 'slug' },
-            { data: 'status' },
-            { data: 'created_at' },
-            { data: 'update_at' },
+            {
+                data: 'status',
+                render: function (data, type, row) {
+                    // console.log('Data='+data)
+                    //return data;
+                    if (data === 'published') {
+                        return `<span class="badge bg-success text-white rounded-pill px-5 py-5" style="border-radius: 50px;">
+                                ${data}
+                                </span>`;
+                    } else {
+                        return `<span class="badge bg-warning  text-white rounded-pill px-5 py-5 style="border-radius: 60px;">
+                                ${data}
+                                </span>`;
+                    }
+                }
+            },
+            { data: 'created_by' },
+            {
+                data: 'created_at',
+                render: function (data, type, row) {
+                    const date = new Date(data);
+                    // Get parts
+                    const day = date.getDate();
+                    const month = date.toLocaleString('en-US', { month: 'short' }).toUpperCase();
+                    const year = date.getFullYear();
+
+                    // Format time in 12-hour format
+                    const hours = date.getHours() % 12 || 12; // convert to 12h format
+                    const minutes = String(date.getMinutes()).padStart(2, '0');
+                    const ampm = date.getHours() >= 12 ? 'PM' : 'AM';
+
+                    // Combine all
+                    const formattedDateTime = `${day} ${month} ${year}, ${hours}:${minutes} ${ampm}`;
+                    return formattedDateTime;
+                }
+            },
             {
                 data: 'id',
                 orderable: false,
                 searchable: false,
                 render: function (data, type, row) {
-                    return `
-                        <button class="btn-view" data-id="${data}">View</button>
-                        <button class="btn-edit" data-id="${data}">Edit</button>
-                        <button class="btn-edit" data-id="${data}">Delete</button>
-                    `;
+                    console.log('dta:'+data)
+                    return `<a href="javascript:void(0);" onclick="updatePostDetails(${data})" title="Update Category ">
+                    <i class="mdi mdi-tooltip-edit" style="font-size: 20px;"></i></a>`;
                 }
             }
         ],
@@ -42,48 +73,9 @@ $(document).ready(function () {
 });
 
 
-// -------------------- post Functions --------------------
 
-// Redirect to post Update page
-// function updatepostDetails(id) {
-//     console.log('Updating post ID:', id);
-//     window.location.href = base_url + 'post/update/' + id;
-// }
+function updatePostDetails(id) {
 
-// Delete post record
-// function deletepostDetails(id) {
-//     console.log('Deleting post ID:', id);
+    $(location).attr('href', base_url + 'blog/post/update/' + id);
 
-//     $.ajax({
-//         url: base_url + 'post/' + id,
-//         type: 'DELETE',
-//         dataType: 'json',
-//         success: function (response) {
-//             if (response.status === 200) {
-//                 swal("Good job!", response.message, "success").then(() => {
-//                     window.location.reload(); // Reload after SweetAlert confirmation
-//                 });
-//             } else {
-//                 swal("Error!", response.message, "error");
-//             }
-//         },
-//         error: function (xhr, status, error) {
-//             console.error('AJAX Error:', error);
-//             swal("Error!", "Something went wrong while deleting.", "error");
-//         }
-//     });
-// }
-// View Button (optional — only if you plan to create a view page)
-$('#postList').on('click', '.btn-view', function () {
-    const id = $(this).data('id');
-    console.log('Viewing post ID:', id);
-    window.location.href = base_url + 'blog/view/' + id; // only works if you add this route
-});
-
-// Edit Button
-$('#postList').on('click', '.btn-edit', function () {
-    const id = $(this).data('id');
-    console.log('Editing post ID:', id);
-    window.location.href = base_url + 'blog/updatepost/' + id;
-});
-
+}

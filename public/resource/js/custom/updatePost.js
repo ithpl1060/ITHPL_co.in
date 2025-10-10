@@ -1,0 +1,166 @@
+
+$(function () {
+    "use strict";
+    CKEDITOR.replace('post_content')
+    CKEDITOR.replace('post_highlight_content')
+   	//$('#post_content').wysihtml5();		
+   	// $('#post_highlight_content').wysihtml5();		
+	
+  });
+
+$(document).ready(function () {
+
+    $.ajax({
+        url: base_url + 'get-category/' + 0,
+        type: 'GET',
+        dataType: 'json',
+        success: function (response) {
+            if (response.status === 200 && response.data) {
+                setCategory(response.data);
+            } 
+        },
+        error: function () {
+            swal("Error", "Unable to fetch category data.", "error");
+        }
+
+
+    });
+
+    function setCategory(data) {
+        // Empty existing options except first
+        $('#category_id').find('option:not(:first)').remove();
+
+        // Loop through response and append options
+        $.each(data, function (index, category) {
+            
+            if (category.is_active === '1') {
+                $('#category_id').append(
+                    $('<option>', {
+                        value: category.id,
+                        text: category.name
+                    })
+                );
+            }
+        });
+    }
+});
+
+function loadFile(event, targetId) {
+    const output = document.getElementById(targetId);
+    output.src = URL.createObjectURL(event.target.files[0]);
+    output.onload = function () {
+        URL.revokeObjectURL(output.src); // Free memory
+    }
+}
+// Cancel button → Go back to category list
+$('#cancelBtn').click(function () {
+    $(location).attr('href', base_url + 'blog/post');
+})
+
+function getPostById(id) {
+    $.ajax({
+        url: base_url + 'get-post/' + id,
+        type: 'GET',
+        dataType: 'json',
+        success: function (response) {
+            if (response.status === 200 && response.data) {
+                setPost(response.data);
+            } else {
+                swal("Error", "Category not found.", "error");
+            }
+        },
+        error: function () {
+            swal("Error", "Unable to fetch category data.", "error");
+        }
+    });
+}
+
+// Initialize: Load the category info for this ID
+getPostById(id);
+
+// --------------------
+// Set form data
+// --------------------
+function setPost(data) {
+    console.log('Fetched Category:', data);
+    $('#id').val(data.id);
+    $('#otherdpre').attr('src', base_url+data.img_url);
+    $('#title').val(data.title);
+    $('#slug').val(data.slug);
+    //select
+   // $('#category_id').val(data.category_id).trigger('change');
+    $('#category_id').val(data.category_id).trigger('change');
+
+    $('#status').val(data.status);
+    //ckeditor
+    $('#post_highlight_content').val(data.highlight_text);
+    $('#post_content').val(data.body);
+
+    if (data.is_active == 1 || data.is_active === '1') {
+        $('#checkbox_1').prop('checked', true);
+    } else {
+        $('#checkbox_1').prop('checked', false);
+    }
+}
+
+// --------------------
+// Update Category (Submit Form)
+// --------------------
+$('#UpdateCategoryForm').on('submit', function (e) {
+    e.preventDefault();
+
+    const isValid = $("#UpdateCategoryForm").valid(); // Optional, if using jQuery Validate
+    if (!isValid) return;
+
+    const categoryId = $('#id').val();
+    const formData = new FormData(this);
+
+    $.ajax({
+        url: base_url + 'update-category/' + categoryId,   // ✅ correct endpoint
+        type: 'POST',
+        headers: { "Authorization": token },
+        data: formData,
+        processData: false,
+        contentType: false,
+        dataType: 'json',
+        success: function (response) {
+            if (response.status === 200) {
+                swal("Success!", response.message, "success").then(() => {
+                    $(location).attr('href', base_url + 'blog/category'); // ✅ correct redirect
+                });
+            } else {
+                swal("Oops!", response.message, "error");
+            }
+        },
+        error: function (xhr, status, error) {
+            console.error("Error:", error);
+            swal("Error!", "Something went wrong during update.", "error");
+        }
+    });
+});
+
+// --------------------
+// Auto-generate slug
+// --------------------
+$('#category').on('keyup', function () {
+    let slug = $(this).val()
+        .toLowerCase()
+        .trim()
+        .replace(/[^a-z0-9\s-]/g, '')
+        .replace(/\s+/g, '-');
+    $('#slug').val(slug);
+});
+
+// --------------------
+// Form Validation
+// --------------------
+$("#UpdateCategoryForm").validate({
+    rules: {
+        name: { required: true },
+        slug: { required: true }
+    },
+    messages: {
+        name: "Please enter category name",
+        slug: "Please enter slug"
+    }
+});

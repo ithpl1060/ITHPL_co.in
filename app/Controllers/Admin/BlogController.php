@@ -80,9 +80,9 @@ class BlogController extends BaseController
 
         return view('header', $data)
             . view('sidebar/side_bar')
-            . view('blogs/post/edit_post', $data)
+            . view('blogs/post/addPost')
             . view('footer')
-            // . view('blogs/edit_post_js', $data)
+            . view('blogs/post/updatePost_js',$data)
             . view('htmlend');
     }
 

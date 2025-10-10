@@ -34,11 +34,44 @@
             </div>
 
             <div class="box-body">
-                <form class="form" id="addPostForm" method="post" >
+                <form class="form" id="addPostForm" method="post" enctype="multipart/form-data">
                     <div class="box-body">
                         <hr class="my-15">
                         <div class="row g-3">
+                        <!-- post image -->
+                          <div class="col-md-6">
+                                <div class="form-group text-center">
+                                    <label for="profile_image" class="form-label">Image Preview...</label><br>
 
+                                    <!-- Image Preview -->
+                                    <img
+                                        src="<?php echo base_url('resource/images/preview/post_preview01.png'); ?>"
+                                        alt="Image Preview..."
+                                        id="otherdpre"
+                                        style="height: 200px;object-fit: cover; border-radius: 10%;" />
+
+                                    <!-- Custom Upload Link -->
+                                    <p>
+                                        <label for="blog_image" style="cursor: pointer;" class="h6 text-primary">
+                                            <u>Upload...</u>
+                                        </label>
+                                    </p>
+
+                                    <!-- Hidden File Input -->
+                                    <input
+                                        type="file"
+                                        class="form-control-file"
+                                        name="blog_image"
+                                        id="blog_image"
+                                        style="display: none;"
+                                        accept="image/*"
+                                        onchange="loadFile(event, 'otherdpre')"
+                                         />
+                                         <input type="hidden" class="form-control" id="id" name="id">
+                                </div>
+                            </div>
+                            <div class="col-md-6"></div>
+                        <!-- post image end -->
                             <!-- Title -->
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -60,35 +93,13 @@
                                 </div>
                             </div>
 
-                            <!-- 🖼️ Blog Image Upload -->
-                            <!-- <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="image" class="form-label">Blog Image:</label>
-                                    <input type="file" class="form-control" id="image" name="image" accept="image/*">
-                                    <small class="text-muted">Allowed formats: JPG, PNG, JPEG. Max size: 2MB.</small>
-                                </div>
-                            </div> -->
-
-                            <!-- 🔍 Preview -->
-                            <!-- <div class="col-md-6 text-center">
-                                <div class="form-group">
-                                    <label class="form-label d-block">Preview:</label>
-                                    <img id="preview" src="<?= base_url('public/images/placeholder.png') ?>"
-                                        alt="Preview" class="img-thumbnail shadow-sm"
-                                        style="max-width: 220px; border-radius: 10px;">
-                                </div>
-                            </div> -->
-
-
-                            <!-- Category -->
+                     <!-- Category -->
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="category_id" class="form-label">Select Category:</label>
-                                    <select class="form-control" id="category_id" name="category_id">
+                                    <select class="form-control" id="category_id" name="category_id" required>
                                         <option value="">-- Select Category --</option>
-                                        <option value="1">Technology</option>
-                                        <option value="2">Business</option>
-                                        <option value="3">Lifestyle</option>
+                                        
                                     </select>
                                 </div>
                             </div>
@@ -97,7 +108,7 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="status" class="form-label">Status:</label>
-                                    <select class="form-control" id="status" name="status">
+                                    <select class="form-control" id="status" name="status" required>
                                         <option value="draft">Draft</option>
                                         <option value="published">Published</option>
                                     </select>
@@ -107,8 +118,15 @@
                             <!-- Body -->
                             <div class="col-md-12">
                                 <div class="form-group">
+                                    <label for="post_highlight_content" class="form-label">Post Highlight Content:</label>
+                                    <textarea class="form-control" id="post_highlight_content" name="post_highlight_content" rows="10"
+                                        placeholder="Write Highlight here..."></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
                                     <label for="body" class="form-label">Post Content:</label>
-                                    <textarea class="form-control" id="body" name="body" rows="5"
+                                    <textarea class="form-control" id="post_content" name="post_content" rows="20"
                                         placeholder="Write your post here..."></textarea>
                                 </div>
                             </div>
