@@ -21,15 +21,16 @@ $(document).ready(function () {
             },
             { data: 'name' },
             { data: 'slug' },
-            {data: 'is_active',
+            {
+                data: 'is_active',
                 render: function (data, type, row) {
                     //console.log('Data='+data)
                     //return data;
-                    if(data === '1'){
+                    if (data === '1') {
                         return `<span class="badge bg-success text-white rounded-pill px-5 py-5" style="border-radius: 50px;">
                                 Active
                                 </span>`;
-                    }else{
+                    } else {
                         return `<span class="badge bg-red text-white rounded-pill px-5 py-5 style="border-radius: 60px;">
                                 Inactive
                                 </span>`;
@@ -40,14 +41,12 @@ $(document).ready(function () {
                 data: 'id',
                 orderable: false,
                 searchable: false,
-                render: function (data, type, row,meta) {
+                render: function (data, type, row, meta) {
                     return `
-                        <a href="javascript:void(0);" onclick="viewCategoryDetails(${data})" title="View Category">
-                    <i class="fa fa-eye" style="font-size: 20px;"></i></a> &nbsp;
                     <a href="javascript:void(0);" onclick="updateCategoryDetails(${data})" title="Update Category ">
                     <i class="mdi mdi-tooltip-edit" style="font-size: 20px;"></i></a>
                     `;
-                    
+
                 }
             }
         ],
@@ -56,37 +55,36 @@ $(document).ready(function () {
 });
 
 
-function viewCategoryDetails(id) {
+function updateCategoryDetails(id) {
     console.log(id);
     $(location).attr('href', base_url + 'blog/category/update/' + id);
 
 }
 
 
-function updateCategoryDetails(id) {
-    console.log(id);
-    alert('update id:'+id)  
-    // $.ajax({
+// function updateCategoryDetails(id) {
+//     console.log(id);
+//     alert('update id:'+id)
+// $.ajax({
 
-    //     url: base_url + 'seo/' + id,
+//     url: base_url + 'seo/' + id,
 
-    //     type: 'DELETE',
+//     type: 'DELETE',
 
-    //     dataType: 'json',
+//     dataType: 'json',
 
-    //     success: function (response) {
-    //         if (response.status == 200) {
+//     success: function (response) {
+//         if (response.status == 200) {
 
-    //             swal("Good job!", response.message, "success").then(() => {
-    //                 window.location.reload(); // Reload after SweetAlert confirmation
-    //             });
+//             swal("Good job!", response.message, "success").then(() => {
+//                 window.location.reload(); // Reload after SweetAlert confirmation
+//             });
 
-    //         } else {
-    //             swal("Error!", response.message, "error");
+//         } else {
+//             swal("Error!", response.message, "error");
 
-    //         }
-    //     }
+//         }
+//     }
 
-    // });
+// });
 
-}

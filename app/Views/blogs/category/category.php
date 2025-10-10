@@ -8,7 +8,7 @@
         <ol class="breadcrumb">
             <li class="breadcrumb-item">
                 <a href="<?= base_url('blog/category') ?>">
-                    <i class="fa fa-vcard-o"></i> Home
+                    <i class="fa fa-dashboard"></i> Home
                 </a>
             </li>
             <li class="breadcrumb-item">

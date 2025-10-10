@@ -59,7 +59,7 @@ class BlogController extends BaseController
         $dataList = $category->getAllCategories($searchValue, $length, $start, $orderColumn, $orderDir);
         $totalRecords = $category->countAllCategories();
         $totalFiltered = $category->countFilteredCategories($searchValue);
-        
+
         $data = [];
 
         foreach ($dataList as $row) {
@@ -79,8 +79,9 @@ class BlogController extends BaseController
         ]);
     }
 
-    public function getCategoryById($id){
-         $category = new CategoryModel();
+    public function getCategoryById($id)
+    {
+        $category = new CategoryModel();
 
         if ($id) {
             $data = $category->where('id', $id)->first();
@@ -102,6 +103,51 @@ class BlogController extends BaseController
         }
         return $this->response->setJSON($response);
     }
+    public function updateCategory($id = null)
+    {
+        $category = new CategoryModel();
+
+        if (!$id) {
+            return $this->response->setJSON([
+                'status' => 400,
+                'message' => 'Invalid request: Category ID missing!'
+            ]);
+        }
+
+        // Collect input data from request
+        $data = [
+            'name' => $this->request->getVar('category'),
+            'slug' => $this->request->getVar('slug'),
+            'is_active' => $this->request->getVar('is_active') ?? 0,
+        ];
+
+        // Check if category exists
+        $existing = $category->find($id);
+        if (!$existing) {
+            return $this->response->setJSON([
+                'status' => 404,
+                'message' => 'Category not found!'
+            ]);
+        }
+
+        // Perform update
+        $result = $category->update($id, $data);
+
+        if ($result) {
+            $updatedData = $category->find($id);
+            return $this->response->setJSON([
+                'status' => 200,
+                'message' => 'Category Updated Successfully!',
+                'data' => $updatedData
+            ]);
+        } else {
+            return $this->response->setJSON([
+                'status' => 500,
+                'message' => 'Failed to update category!'
+            ]);
+        }
+    }
+
     public function createPost()
     {
         $post = new PostModel();

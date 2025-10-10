@@ -30,17 +30,20 @@ class BlogController extends BaseController
             . view('blogs/category/addCategory_js')
             . view('htmlend');
     }
-
     public function updateCategory($id = 0): string
     {
-        $data['id'] = $id;
-        $data['meta']['meta_title'] = 'Update Category';
+        $data = [
+            'id' => $id,
+            'meta' => [
+                'meta_title' => 'Update Category'
+            ]
+        ];
 
         return view('header', $data)
             . view('sidebar/side_bar')
-            . view('blogs/category/addCategory')
+            . view('blogs/category/updateCategory', $data)
             . view('footer')
-            . view('blogs/category/updateCategory_js',$data)
+            . view('blogs/category/updateCategory_js', $data)
             . view('htmlend');
     }
 
@@ -82,6 +85,6 @@ class BlogController extends BaseController
             // . view('blogs/edit_post_js', $data)
             . view('htmlend');
     }
-    
-    
+
+
 }
