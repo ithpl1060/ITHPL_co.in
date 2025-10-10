@@ -55,9 +55,9 @@ class BlogController extends BaseController
 
         return view('header', $data)
             . view('sidebar/side_bar')
-            . view('blogs/posts')
+            . view('blogs/post/posts')
             . view('footer')
-            . view('blogs/posts_js')
+            . view('blogs/post/posts_js')
             . view('htmlend');
     }
 
@@ -67,9 +67,9 @@ class BlogController extends BaseController
 
         return view('header', $data)
             . view('sidebar/side_bar')
-            . view('blogs/addPost')
+            . view('blogs/post/addPost')
             . view('footer')
-            . view('blogs/addPost_js')
+            . view('blogs/post/addPost_js')
             . view('htmlend');
     }
 
@@ -80,7 +80,7 @@ class BlogController extends BaseController
 
         return view('header', $data)
             . view('sidebar/side_bar')
-            . view('blogs/edit_post', $data)
+            . view('blogs/post/edit_post', $data)
             . view('footer')
             // . view('blogs/edit_post_js', $data)
             . view('htmlend');
