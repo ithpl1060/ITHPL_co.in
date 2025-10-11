@@ -31,6 +31,7 @@
           <ul class="treeview-menu">
             <li><a href="<?php echo base_url('blog/category'); ?>"><i class="fa fa-circle-thin"></i>Category</a></li>
             <li><a href="<?php echo base_url('blog/post'); ?>"><i class="fa fa-circle-thin"></i>Post</a></li>
+            <li><a href="<?php echo base_url('blog/qna'); ?>"><i class="fa fa-circle-thin"></i>Q&A</a></li>
            
           </ul>
         </li>
