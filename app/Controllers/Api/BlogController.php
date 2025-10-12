@@ -6,6 +6,8 @@ use App\Controllers\BaseController;
 use App\Models\CategoryModel;
 use App\Models\PostModel;
 use CodeIgniter\HTTP\ResponseInterface;
+use App\Models\qnaModel;
+
 
 class BlogController extends BaseController
 {
@@ -195,15 +197,15 @@ class BlogController extends BaseController
         $columns = [
             'id',
             'title',
-        'slug',
-        'user_id',
-        'highlight_text',
-        'body',
-        'status',
-        'category_id',
-        'img_url',
-        'created_by',
-        'updated_by'
+            'slug',
+            'user_id',
+            'highlight_text',
+            'body',
+            'status',
+            'category_id',
+            'img_url',
+            'created_by',
+            'updated_by'
         ];
 
         $orderColumn = $columns[$orderColumnIndex] ?? 'id';
@@ -219,7 +221,7 @@ class BlogController extends BaseController
                 'title' => $row['title'],
                 'slug' => $row['slug'],
                 'status' => $row['status'],
-                'created_by' => $row['first_name'].' '.$row['last_name'],
+                'created_by' => $row['first_name'] . ' ' . $row['last_name'],
                 'created_at' => $row['created_at'],
                 'category_id' => $row['category_id']
             ];
@@ -288,4 +290,108 @@ class BlogController extends BaseController
         // No new file uploaded, return old path
         return $oldFilePath;
     }
+
+    public function createQna()
+    {
+        $qna = new QnaModel();
+        $data = [
+            'post_id' => $this->request->getVar('post_id'),
+            'question' => $this->request->getVar('question'),
+            'answer' => $this->request->getVar('answer'),
+            'status' => $this->request->getVar('status') ?? 'draft',
+            'created_by' => $this->request->getVar('empId')
+        ];
+
+        $id = $qna->insert($data);
+        if ($id) {
+            return $this->response->setJSON([
+                'status' => 200,
+                'message' => 'Q&A Created Successfully!',
+                'data' => $qna->find($id)
+            ]);
+        }
+
+        return $this->response->setJSON([
+            'status' => 400,
+            'message' => 'Q&A creation failed!'
+        ]);
+    }
+
+    public function getQna()
+    {
+        $qna = new QnaModel();
+        $draw = $this->request->getVar('draw');
+        $start = $this->request->getVar('start');
+        $length = $this->request->getVar('length');
+        $searchValue = $this->request->getVar('search')['value'] ?? '';
+        $orderColumnIndex = $this->request->getVar('order')[0]['column'] ?? 0;
+        $orderDir = $this->request->getVar('order')[0]['dir'] ?? 'asc';
+
+        $columns = ['id', 'post_id', 'question', 'answer', 'status'];
+
+        $orderColumn = $columns[$orderColumnIndex] ?? 'id';
+
+        $dataList = $qna->getAllQna($searchValue, $length, $start, $orderColumn, $orderDir);
+        $totalRecords = $qna->countAllQna();
+        $totalFiltered = $qna->countFilteredQna($searchValue);
+
+        $data = [];
+        foreach ($dataList as $row) {
+            $data[] = [
+                'id' => $row['id'],
+                'post_id' => $row['post_id'],
+                'question' => $row['question'],
+                'answer' => $row['answer'],
+                'status' => $row['status']
+            ];
+        }
+
+        return $this->response->setJSON([
+            'draw' => intval($draw),
+            'recordsTotal' => $totalRecords,
+            'recordsFiltered' => $totalFiltered,
+            'data' => $data
+        ]);
+    }
+
+    public function updateQna($id)
+    {
+        $qna = new QnaModel();
+        $existing = $qna->find($id);
+        if (!$existing) {
+            return $this->response->setJSON([
+                'status' => 404,
+                'message' => 'Q&A not found!'
+            ]);
+        }
+
+        $data = [
+            'post_id' => $this->request->getVar('post_id'),
+            'question' => $this->request->getVar('question'),
+            'answer' => $this->request->getVar('answer'),
+            'status' => $this->request->getVar('status') ?? $existing['status'],
+            'updated_by' => $this->request->getVar('empId')
+        ];
+
+        $qna->update($id, $data);
+
+        return $this->response->setJSON([
+            'status' => 200,
+            'message' => 'Q&A Updated Successfully!',
+            'data' => $qna->find($id)
+        ]);
+    }
+
+    public function getQnaById($id = 0)
+    {
+        $qna = new QnaModel();
+        $data = $id ? $qna->find($id) : $qna->findAll();
+
+        return $this->response->setJSON([
+            'status' => !empty($data) ? 200 : 404,
+            'message' => !empty($data) ? 'Data fetched successfully' : 'Data not found',
+            'data' => $data
+        ]);
+    }
+
 }

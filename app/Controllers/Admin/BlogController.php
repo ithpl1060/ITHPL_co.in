@@ -82,7 +82,47 @@ class BlogController extends BaseController
             . view('sidebar/side_bar')
             . view('blogs/post/addPost')
             . view('footer')
-            . view('blogs/post/updatePost_js',$data)
+            . view('blogs/post/updatePost_js', $data)
+            . view('htmlend');
+    }
+
+    // ================== Q&A ==================
+    public function qna(): string
+    {
+        $data['meta']['meta_title'] = 'ITHPL | Q&A';
+        return view('header', $data)
+            . view('sidebar/side_bar')
+            . view('blogs/qna/qna')
+            . view('footer')
+            . view('blogs/qna/qna_js')
+            . view('htmlend');
+    }
+
+    public function createQna(): string
+    {
+        $data['meta']['meta_title'] = 'Create Q&A';
+        return view('header', $data)
+            . view('sidebar/side_bar')
+            // . view('blogs/qna/addQna')
+            . view('footer')
+            // . view('blogs/qna/addQna_js')
+            . view('htmlend');
+    }
+
+    public function updateQna($id = 0): string
+    {
+        $data = [
+            'id' => $id,
+            'meta' => [
+                'meta_title' => 'Update Q&A'
+            ]
+        ];
+
+        return view('header', $data)
+            . view('sidebar/side_bar')
+            // . view('blogs/qna/updateQna', $data)
+            . view('footer')
+            // . view('blogs/qna/updateQna_js', $data)
             . view('htmlend');
     }
 

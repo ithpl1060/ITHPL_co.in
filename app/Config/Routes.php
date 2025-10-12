@@ -42,6 +42,15 @@ $routes->group('blog', static function ($routes) {
         $routes->get('create', [BlogController::class, 'createPost']);     // create page → /blog/post/create-post
         $routes->get('update/(:num)', [BlogController::class, 'updatePost']);     // create page → /blog/post/create-post
     });
+
+    // -------------------------
+    // Q&A Management (Admin UI)
+    // -------------------------
+    $routes->group('qna', static function ($routes) {
+        $routes->get('/', [BlogController::class, 'qna']);                   
+        $routes->get('create', [BlogController::class, 'createQna']);     
+        $routes->get('update/(:num)', [BlogController::class, 'updateQna']);     
+    });
 });
 
 
@@ -73,6 +82,12 @@ $routes->post('update-category/(:num)', [APIBlogController::class, 'updateCatego
 $routes->post('post', [APIBlogController::class, 'createPost']);
 $routes->post('get-post', [APIBlogController::class, 'getPost']);
 $routes->get('get-post/(:num)', [APIBlogController::class, 'getPostById']);
+
+// Q&A
+$routes->post('qna', [APIBlogController::class, 'createQna']);                 
+$routes->post('get-qna', [APIBlogController::class, 'getQna']);              
+$routes->get('get-qna/(:num)', [APIBlogController::class, 'getQnaById/$1']); 
+$routes->post('update-qna/(:num)', [APIBlogController::class, 'updateQna/$1']); 
 
 
 
