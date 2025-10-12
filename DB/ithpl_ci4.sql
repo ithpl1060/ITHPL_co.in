@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 05, 2025 at 08:31 AM
+-- Generation Time: Oct 12, 2025 at 08:13 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -65,6 +65,13 @@ CREATE TABLE `posts` (
   `category_id` bigint(20) UNSIGNED DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Dumping data for table `posts`
+--
+
+INSERT INTO `posts` (`id`, `user_id`, `title`, `slug`, `body`, `status`, `created_at`, `update_at`, `created_by`, `updated_by`, `category_id`) VALUES
+(1, 12, 'test1', '#test1', 'test1', 'published', '2025-10-12 17:56:07', '2025-10-12 17:56:07', 12, 12, 1);
+
 -- --------------------------------------------------------
 
 --
@@ -74,8 +81,17 @@ CREATE TABLE `posts` (
 CREATE TABLE `post_category` (
   `id` bigint(20) UNSIGNED NOT NULL,
   `name` varchar(255) NOT NULL,
-  `slug` varchar(255) DEFAULT NULL
+  `slug` varchar(255) DEFAULT NULL,
+  `is_active` tinyint(1) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `post_category`
+--
+
+INSERT INTO `post_category` (`id`, `name`, `slug`, `is_active`) VALUES
+(1, 'test1', '#test1', 0),
+(2, 'food', '#food', 1);
 
 -- --------------------------------------------------------
 
@@ -208,13 +224,13 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `posts`
 --
 ALTER TABLE `posts`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `post_category`
 --
 ALTER TABLE `post_category`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `seo_pages`
