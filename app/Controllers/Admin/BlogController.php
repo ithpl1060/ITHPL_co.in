@@ -103,9 +103,9 @@ class BlogController extends BaseController
         $data['meta']['meta_title'] = 'Create Q&A';
         return view('header', $data)
             . view('sidebar/side_bar')
-            // . view('blogs/qna/addQna')
+            . view('blogs/qna/addQna')
             . view('footer')
-            // . view('blogs/qna/addQna_js')
+            . view('blogs/qna/addQna_js')
             . view('htmlend');
     }
 
@@ -120,9 +120,9 @@ class BlogController extends BaseController
 
         return view('header', $data)
             . view('sidebar/side_bar')
-            // . view('blogs/qna/updateQna', $data)
+            . view('blogs/qna/updateQna', $data)
             . view('footer')
-            // . view('blogs/qna/updateQna_js', $data)
+            . view('blogs/qna/updateQna_js', $data)
             . view('htmlend');
     }
 
