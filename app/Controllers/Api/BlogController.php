@@ -20,6 +20,7 @@ class BlogController extends BaseController
             'slug' => $this->request->getVar('slug'),
             'is_active' => $this->request->getVar('is_active') ?? 0,
         ];
+
         // print_r($data); exit; 
         $result = $category->insert($data);
 
@@ -155,6 +156,7 @@ class BlogController extends BaseController
         $post = new PostModel();
 
         $data = [
+            'id' => $this->request->getVar('id'),
             'title' => $this->request->getVar('title'),
             'slug' => $this->request->getVar('slug'),
             'user_id' => $this->request->getVar('empId'),
@@ -164,9 +166,21 @@ class BlogController extends BaseController
             'category_id' => $this->request->getVar('category_id'),
             'created_by' => $this->request->getVar('empId')
         ];
-        // print_r($data); exit;
-        $data['img_url'] = $this->handleImageUpload('blog_image');
-        $id = $post->insert($data);
+        
+        if (empty($data['id'])) {
+            $data['img_url'] = $this->handleImageUpload('blog_image');
+            $id = $post->insert($data);
+        }else{
+            //update the post
+                $fileName= $this->request->getFile('blog_image');
+                if($fileName === false || strlen($fileName) === 0){
+                }else{
+                    $data['img_url'] = $this->handleImageUpload('blog_image');
+                }
+           $id=$post->update($data['id'],$data);
+            //print_r($data); exit;
+        }
+        
 
         if ($id) {
             $newPost = $post->find($id);

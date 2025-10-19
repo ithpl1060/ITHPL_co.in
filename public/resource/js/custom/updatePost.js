@@ -82,15 +82,21 @@ getPostById(id);
 // Set form data
 // --------------------
 function setPost(data) {
-    console.log('Fetched Category:', data);
+    //console.log('Fetched Category:', data);
     $('#id').val(data.id);
     $('#otherdpre').attr('src', base_url+data.img_url);
     $('#title').val(data.title);
     $('#slug').val(data.slug);
+    
+//     if ($("#myFile").get(0).files.length === 0) {
+//   console.log("No file selected");
+// } else {
+//   console.log("File selected:", $("#myFile").get(0).files[0].name);
+// }
     //select
    // $('#category_id').val(data.category_id).trigger('change');
-    $('#category_id').val(data.category_id).trigger('change');
-
+    //$('#category_id').val(data.category_id).trigger('change');
+    $('#category_id').val(data.category_id);
     $('#status').val(data.status);
     //ckeditor
     $('#post_highlight_content').val(data.highlight_text);
@@ -106,55 +112,61 @@ function setPost(data) {
 // --------------------
 // Update Category (Submit Form)
 // --------------------
-$('#UpdateCategoryForm').on('submit', function (e) {
+$('#addPostForm').on('submit', function (e) {
     e.preventDefault();
+    //  if ($('#fileInput').val() === '') {
 
-    const isValid = $("#UpdateCategoryForm").valid(); // Optional, if using jQuery Validate
-    if (!isValid) return;
-
-    const categoryId = $('#id').val();
-    const formData = new FormData(this);
-
-    $.ajax({
-        url: base_url + 'update-category/' + categoryId,   // ✅ correct endpoint
-        type: 'POST',
-        headers: { "Authorization": token },
-        data: formData,
-        processData: false,
-        contentType: false,
-        dataType: 'json',
-        success: function (response) {
-            if (response.status === 200) {
-                swal("Success!", response.message, "success").then(() => {
-                    $(location).attr('href', base_url + 'blog/category'); // ✅ correct redirect
-                });
-            } else {
-                swal("Oops!", response.message, "error");
-            }
-        },
-        error: function (xhr, status, error) {
-            console.error("Error:", error);
-            swal("Error!", "Something went wrong during update.", "error");
-        }
-    });
+    //  }
+    const post_content = CKEDITOR.instances.post_content.getData();
+   const post_highlight_content = CKEDITOR.instances.post_highlight_content.getData();
+    var returnVal = $("#addPostForm").valid();
+    var formdata = new FormData(this);
+        formdata.append("empId",empData.id);
+        formdata.append("postId",empData.id);
+        formdata.append("post_highlight_content",post_highlight_content);
+        formdata.append("post_content",post_content);
+    if (returnVal) {
+        $.ajax({
+            url: base_url + 'post',
+            type: 'POST',
+            headers: {
+                "Authorization": token
+            },
+            data: formdata,
+            processData: false,
+            contentType: false,
+            dataType: 'json',
+            success: function (response) {
+                if (response.status === 200) {
+                    swal("Success!", response.message, "success").then(() => {
+                        // window.location.reload();
+                        //$(location).attr('href', base_url + 'blog/post111');
+                    });
+                } else {
+                    // Handle non-200 but successful request
+                    swal("Oops!", response.message, "error");
+                }
+            },
+        });
+    }
 });
 
 // --------------------
 // Auto-generate slug
 // --------------------
-$('#category').on('keyup', function () {
-    let slug = $(this).val()
-        .toLowerCase()
-        .trim()
-        .replace(/[^a-z0-9\s-]/g, '')
-        .replace(/\s+/g, '-');
-    $('#slug').val(slug);
-});
+// $('#category').on('keyup', function () {
+//     let slug = $(this).val()
+//         .toLowerCase()
+//         .trim()
+//         .replace(/[^a-z0-9\s-]/g, '')
+//         .replace(/\s+/g, '-');
+//     $('#slug').val(slug);
+// });
 
 // --------------------
 // Form Validation
 // --------------------
-$("#UpdateCategoryForm").validate({
+$("#addPostForm").validate({
     rules: {
         name: { required: true },
         slug: { required: true }

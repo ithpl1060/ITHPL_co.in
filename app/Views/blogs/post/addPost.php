@@ -80,7 +80,7 @@
                                     </label>
                                     <input type="text" class="form-control" id="title" name="title"
                                         placeholder="Enter post title" required>
-                                    <input type="hidden" class="form-control" id="id" name="id">
+                                    
                                 </div>
                             </div>
 
