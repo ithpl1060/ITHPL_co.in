@@ -87,9 +87,9 @@
                             <!-- Slug -->
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="slug" class="form-label">Slug:</label>
+                                    <label for="slug" class="form-label"><span style="color:red;font-weight:bold;">*</span>Slug:</label>
                                     <input type="text" class="form-control" id="slug" name="slug"
-                                        placeholder="Enter slug (optional)">
+                                        placeholder="Enter slug" required>
                                 </div>
                             </div>
 

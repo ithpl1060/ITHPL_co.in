@@ -37,6 +37,7 @@ function setCategory(data) {
     $('#id').val(data.id);
     $('#category').val(data.name);
     $('#slug').val(data.slug);
+    $('#iconfile').attr('src',base_url+data.icon_img);
 
     if (data.is_active == 1 || data.is_active === '1') {
         $('#checkbox_1').prop('checked', true);

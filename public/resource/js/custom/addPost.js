@@ -93,3 +93,11 @@ $('#addPostForm').on('submit', function (e) {
     }
 });
 
+$('#title').on('keyup', function () {
+    let slug = $(this).val()
+        .toLowerCase()
+        .trim()
+        .replace(/[^a-z0-9\s-]/g, '')
+        .replace(/\s+/g, '-');
+    $('#slug').val(slug);
+});

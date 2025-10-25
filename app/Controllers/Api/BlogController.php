@@ -21,7 +21,8 @@ class BlogController extends BaseController
             'is_active' => $this->request->getVar('is_active') ?? 0,
         ];
 
-        // print_r($data); exit; 
+        $data['icon_img'] = $this->handleImageUpload('icon_image');
+        //print_r($data); exit; 
         $result = $category->insert($data);
 
         if (!empty($result)) {
@@ -134,6 +135,11 @@ class BlogController extends BaseController
         }
 
         // Perform update
+        $fileName = $this->request->getFile('icon_image');
+        if ($fileName === false || strlen($fileName) === 0) {
+        } else {
+            $data['icon_img'] = $this->handleImageUpload('icon_image');
+        }
         $result = $category->update($id, $data);
 
         if ($result) {
@@ -166,21 +172,21 @@ class BlogController extends BaseController
             'category_id' => $this->request->getVar('category_id'),
             'created_by' => $this->request->getVar('empId')
         ];
-        
+
         if (empty($data['id'])) {
             $data['img_url'] = $this->handleImageUpload('blog_image');
             $id = $post->insert($data);
-        }else{
+        } else {
             //update the post
-                $fileName= $this->request->getFile('blog_image');
-                if($fileName === false || strlen($fileName) === 0){
-                }else{
-                    $data['img_url'] = $this->handleImageUpload('blog_image');
-                }
-           $id=$post->update($data['id'],$data);
+            $fileName = $this->request->getFile('blog_image');
+            if ($fileName === false || strlen($fileName) === 0) {
+            } else {
+                $data['img_url'] = $this->handleImageUpload('blog_image');
+            }
+            $id = $post->update($data['id'], $data);
             //print_r($data); exit;
         }
-        
+
 
         if ($id) {
             $newPost = $post->find($id);
@@ -198,6 +204,51 @@ class BlogController extends BaseController
         }
     }
 
+    public function getPostForUI()
+    {
+        $start = $this->request->getVar('page') ?? 0;
+        $length = $this->request->getVar('limit') ?? 6; // posts per page
+        $searchValue = $this->request->getVar('search');
+        //$searchValue = $this->request->getGet('category');
+        $orderColumn = '';
+        $orderDir = 'desc';
+        $post = new PostModel();
+        
+        $dataList = $post->getAllPosts($searchValue, $length, $start, $orderColumn, $orderDir);
+        $totalRecords = $post->countAllPosts();
+        $totalFiltered = $post->countFilteredPosts($searchValue);
+        $pagination = ceil($totalRecords/$length);
+        $data = [];
+        
+        foreach ($dataList as $row) {
+            $data[] = [
+                'id' => $row['id'],
+                'title' => $row['title'],
+                'slug' => $row['slug'],
+                'url' => $row['img_url'],
+                'status' => $row['status'],
+                'created_by' => $row['first_name'] . ' ' . $row['last_name'],
+                'created_at' => $row['created_at'],
+                'category_id' => $row['category_id'],
+                'category' => $row['cname'],
+                'highlight_text' => $row['highlight_text'],
+                ' body' => $row['body']
+            ];
+        }
+        //print_r($data);exit;
+        return $this->response->setJSON([
+            'status' => 200,
+            'message' => 'Posts fetched successfully',
+            'data' => $data,
+            'start' => $start,
+            'totalPages' => $pagination,
+            //'totalItems' => $post->pager->getTotal(),
+            'perPage' => (int)$length,            
+            //'hasNext' => $post->pager->hasMore(),
+            'recordsTotal' => $totalRecords,
+            'recordsFiltered' => $totalFiltered,
+        ]);
+    }
     public function getPost()
     {
         $post = new PostModel();
@@ -407,5 +458,7 @@ class BlogController extends BaseController
             'data' => $data
         ]);
     }
+
+
 
 }

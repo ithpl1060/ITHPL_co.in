@@ -133,5 +133,14 @@ class UiController extends BaseController
             . view('ui/footer', $data)
             . view('ui/htmlend');
     }
+     public function blogs()
+    {
+        $data['meta'] = $this->seo->where('url_path', $this->url_path)->first();
+           return view('ui/header', $data)
+            .  view('ui/blogs/blog', $data)
+            . view('ui/footer', $data)
+            .view('ui/blogs/blog_js')
+            . view('ui/htmlend');
+    }
 
 }

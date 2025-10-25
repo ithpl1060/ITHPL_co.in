@@ -3,12 +3,12 @@ $(function () {
     "use strict";
     CKEDITOR.replace('post_content')
     CKEDITOR.replace('post_highlight_content')
-   	//$('#post_content').wysihtml5();		
-   	// $('#post_highlight_content').wysihtml5();		
-	
-  });
+    //$('#post_content').wysihtml5();		
+    // $('#post_highlight_content').wysihtml5();		
 
-$(document).ready(function () {
+});
+
+function getCategory () {
 
     $.ajax({
         url: base_url + 'get-category/' + 0,
@@ -17,7 +17,7 @@ $(document).ready(function () {
         success: function (response) {
             if (response.status === 200 && response.data) {
                 setCategory(response.data);
-            } 
+            }
         },
         error: function () {
             swal("Error", "Unable to fetch category data.", "error");
@@ -32,7 +32,7 @@ $(document).ready(function () {
 
         // Loop through response and append options
         $.each(data, function (index, category) {
-            
+
             if (category.is_active === '1') {
                 $('#category_id').append(
                     $('<option>', {
@@ -43,7 +43,8 @@ $(document).ready(function () {
             }
         });
     }
-});
+}
+getCategory();
 
 function loadFile(event, targetId) {
     const output = document.getElementById(targetId);
@@ -84,95 +85,97 @@ getPostById(id);
 function setPost(data) {
     //console.log('Fetched Category:', data);
     $('#id').val(data.id);
-    $('#otherdpre').attr('src', base_url+data.img_url);
+    $('#otherdpre').attr('src', base_url + data.img_url);
     $('#title').val(data.title);
     $('#slug').val(data.slug);
-    
-//     if ($("#myFile").get(0).files.length === 0) {
-//   console.log("No file selected");
-// } else {
-//   console.log("File selected:", $("#myFile").get(0).files[0].name);
-// }
-    //select
-   // $('#category_id').val(data.category_id).trigger('change');
-    //$('#category_id').val(data.category_id).trigger('change');
+
     $('#category_id').val(data.category_id);
-    $('#status').val(data.status);
-    //ckeditor
-    $('#post_highlight_content').val(data.highlight_text);
-    $('#post_content').val(data.body);
+   
+        $('#status').val(data.status);
+        //ckeditor
+        $('#post_highlight_content').val(data.highlight_text);
+        $('#post_content').val(data.body);
 
-    if (data.is_active == 1 || data.is_active === '1') {
-        $('#checkbox_1').prop('checked', true);
-    } else {
-        $('#checkbox_1').prop('checked', false);
+        if (data.is_active == 1 || data.is_active === '1') {
+            $('#checkbox_1').prop('checked', true);
+        } else {
+            $('#checkbox_1').prop('checked', false);
+        }
     }
-}
 
-// --------------------
-// Update Category (Submit Form)
-// --------------------
-$('#addPostForm').on('submit', function (e) {
-    e.preventDefault();
-    //  if ($('#fileInput').val() === '') {
+    // --------------------
+    // Update Category (Submit Form)
+    // --------------------
+    $('#addPostForm').on('submit', function (e) {
+        e.preventDefault();
+        //  if ($('#fileInput').val() === '') {
 
-    //  }
-    const post_content = CKEDITOR.instances.post_content.getData();
-   const post_highlight_content = CKEDITOR.instances.post_highlight_content.getData();
-    var returnVal = $("#addPostForm").valid();
-    var formdata = new FormData(this);
-        formdata.append("empId",empData.id);
-        formdata.append("postId",empData.id);
-        formdata.append("post_highlight_content",post_highlight_content);
-        formdata.append("post_content",post_content);
-    if (returnVal) {
-        $.ajax({
-            url: base_url + 'post',
-            type: 'POST',
-            headers: {
-                "Authorization": token
-            },
-            data: formdata,
-            processData: false,
-            contentType: false,
-            dataType: 'json',
-            success: function (response) {
-                if (response.status === 200) {
-                    swal("Success!", response.message, "success").then(() => {
-                        // window.location.reload();
-                        //$(location).attr('href', base_url + 'blog/post111');
-                    });
-                } else {
-                    // Handle non-200 but successful request
-                    swal("Oops!", response.message, "error");
-                }
-            },
-        });
-    }
-});
+        //  }
+        const post_content = CKEDITOR.instances.post_content.getData();
+        const post_highlight_content = CKEDITOR.instances.post_highlight_content.getData();
+        var returnVal = $("#addPostForm").valid();
+        var formdata = new FormData(this);
+        formdata.append("empId", empData.id);
+        formdata.append("postId", empData.id);
+        formdata.append("post_highlight_content", post_highlight_content);
+        formdata.append("post_content", post_content);
+        if (returnVal) {
+            $.ajax({
+                url: base_url + 'post',
+                type: 'POST',
+                headers: {
+                    "Authorization": token
+                },
+                data: formdata,
+                processData: false,
+                contentType: false,
+                dataType: 'json',
+                success: function (response) {
+                    if (response.status === 200) {
+                        swal("Success!", response.message, "success").then(() => {
+                            // window.location.reload();
+                            //$(location).attr('href', base_url + 'blog/post111');
+                        });
+                    } else {
+                        // Handle non-200 but successful request
+                        swal("Oops!", response.message, "error");
+                    }
+                },
+            });
+        }
+    });
 
-// --------------------
-// Auto-generate slug
-// --------------------
-// $('#category').on('keyup', function () {
-//     let slug = $(this).val()
-//         .toLowerCase()
-//         .trim()
-//         .replace(/[^a-z0-9\s-]/g, '')
-//         .replace(/\s+/g, '-');
-//     $('#slug').val(slug);
-// });
+    // --------------------
+    // Auto-generate slug
+    // --------------------
+    // $('#category').on('keyup', function () {
+    //     let slug = $(this).val()
+    //         .toLowerCase()
+    //         .trim()
+    //         .replace(/[^a-z0-9\s-]/g, '')
+    //         .replace(/\s+/g, '-');
+    //     $('#slug').val(slug);
+    // });
 
-// --------------------
-// Form Validation
-// --------------------
-$("#addPostForm").validate({
-    rules: {
-        name: { required: true },
-        slug: { required: true }
-    },
-    messages: {
-        name: "Please enter category name",
-        slug: "Please enter slug"
-    }
-});
+    // --------------------
+    // Form Validation
+    // --------------------
+    $("#addPostForm").validate({
+        rules: {
+            name: { required: true },
+            slug: { required: true }
+        },
+        messages: {
+            name: "Please enter category name",
+            slug: "Please enter slug"
+        }
+    });
+
+    $('#title').on('keyup', function () {
+        let slug = $(this).val()
+            .toLowerCase()
+            .trim()
+            .replace(/[^a-z0-9\s-]/g, '')
+            .replace(/\s+/g, '-');
+        $('#slug').val(slug);
+    });

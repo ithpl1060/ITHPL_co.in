@@ -13,9 +13,13 @@ $('#addCategoryForm').on('submit', function (e) {
     }
     var returnVal = $("#addCategoryForm").valid();
     var formdata = new FormData(this);
-     formdata.is_active = isActive;
+    formdata.is_active = isActive;
+    const fileInput = document.getElementById('icon_image');
 
-    if (returnVal) {
+    if (fileInput.files.length === 0) {
+        swal("Oops!", "Please Select the Image...", "error");
+    } else {
+         if (returnVal) {
         $.ajax({
             url: base_url + 'category',
             type: 'POST',
@@ -39,5 +43,25 @@ $('#addCategoryForm').on('submit', function (e) {
             },
         });
     }
+    }
 });
 
+// --------------------
+// Auto-generate slug
+// --------------------
+$('#category').on('keyup', function () {
+    let slug = $(this).val()
+        .toLowerCase()
+        .trim()
+        .replace(/[^a-z0-9\s-]/g, '')
+        .replace(/\s+/g, '-');
+    $('#slug').val(slug);
+});
+
+function loadFile(event, targetId) {
+    const output = document.getElementById(targetId);
+    output.src = URL.createObjectURL(event.target.files[0]);
+    output.onload = function () {
+        URL.revokeObjectURL(output.src); // Free memory
+    }
+}

@@ -15,7 +15,8 @@ class CategoryModel extends Model
     protected $allowedFields    = [
         'name',
         'slug',
-        'is_active'
+        'is_active',
+        'icon_img'
         ];
 
     protected bool $allowEmptyInserts = false;

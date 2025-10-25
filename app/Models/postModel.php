@@ -58,9 +58,10 @@ class PostModel extends Model
     public function getAllPosts($search = null, $limit = null, $offset = null, $orderColumn = null, $orderDir = 'desc')
     {
         $builder = $this->db->table('posts ps');
-        // $builder->select('*');
-        $builder->select('ps.*, u.id as user_id, u.first_name, u.last_name');
+        
+        $builder->select('ps.*, u.id as user_id, u.first_name, u.last_name,pc.name as cname');
         $builder->join('users u', 'u.id = ps.created_by', 'left');
+        $builder->join('post_category pc', 'pc.id = ps.category_id', 'left');
         if (!empty($search)) {
             $builder->groupStart()
                 ->like('ps.title', $search)
@@ -69,6 +70,7 @@ class PostModel extends Model
                 ->orLike('ps.created_by', $search)
                 ->orLike('u.first_name', $search)
                 ->orLike('u.last_name', $search)
+                ->orLike('pc.name', $search)
                 ->groupEnd();
         }
 
@@ -80,11 +82,9 @@ class PostModel extends Model
         } else {
             $builder->orderBy('ps.id', 'desc');
         }
-
         if ($limit !== null && $offset !== null) {
             $builder->limit($limit, $offset);
         }
-
         return $builder->get()->getResultArray();
     }
 
@@ -99,6 +99,7 @@ class PostModel extends Model
         $builder = $this->db->table('posts ps');
         $builder->select('*');
         $builder->join('users u', 'u.id = ps.created_by', 'left');
+        $builder->join('post_category pc', 'pc.id = ps.category_id', 'left');
         if (!empty($search)) {
             $builder->groupStart()
                 ->like('ps.title', $search)
@@ -107,6 +108,7 @@ class PostModel extends Model
                 ->orLike('ps.created_by', $search)
                 ->orLike('u.first_name', $search)
                 ->orLike('u.last_name', $search)
+                ->orLike('pc.name', $search)
                 ->groupEnd();
         }
 

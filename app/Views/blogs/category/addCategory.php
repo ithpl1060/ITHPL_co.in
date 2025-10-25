@@ -37,11 +37,43 @@
                 </ul>
             </div>
             <div class="box-body">
-                <form class="form" id="addCategoryForm" method="post">
+                <form class="form" id="addCategoryForm" method="post" enctype="multipart/form-data">
 
                     <div class="box-body">
                         <hr class="my-15">
                         <div class="row">
+                            <!-- Category image -->
+                          <div class="col-md-4">
+                                <div class="form-group text-center">
+                                    <label for="icon_image" class="form-label">Image Preview...</label><br>
+
+                                    <!-- Image Preview -->
+                                    <img
+                                        src="<?php echo base_url('resource/images/icon_sample.png'); ?>"
+                                        alt="Image Preview..."
+                                        id="iconfile"
+                                        style="width: 100px;height: 100px;object-fit: cover; border-radius: 10%;" />
+
+                                    <!-- Custom Upload Link -->
+                                    <p>
+                                        <label for="icon_image" style="cursor: pointer;" class="h6 text-primary">
+                                            <u>Upload...</u>
+                                        </label>
+                                    </p>
+
+                                    <!-- Hidden File Input -->
+                                    <input
+                                        type="file"
+                                        class="form-control-file"
+                                        name="icon_image"
+                                        id="icon_image"
+                                        style="display: none;"
+                                        accept="image/*"
+                                        onchange="loadFile(event, 'iconfile')"
+                                         />
+                                </div>
+                            </div>
+                            <!-- Category image end -->
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label for="category" class="form-label required"><span
