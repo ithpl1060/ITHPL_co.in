@@ -181,7 +181,9 @@
       <div class="lg:col-span-2">
         <div class="flex justify-between items-center mb-8">
           <h2 class="font-inter font-bold text-3xl sm:text-4xl text-gray-800">Our Featured Post</h2>
-        <button class="contact-button text-white font-semibold text-sm px-7 py-3.5 rounded-xl transition-all duration-300 relative overflow-hidden gradient-shine border border-white border-opacity-20 hover:shadow-xl active:scale-95"
+        <button 
+        onclick="viewAll();"
+        class="contact-button text-white font-semibold text-sm px-7 py-3.5 rounded-xl transition-all duration-300 relative overflow-hidden gradient-shine border border-white border-opacity-20 hover:shadow-xl active:scale-95"
             style="
               background: linear-gradient(135deg, #d09bed 0%, #b678e3 100%);
               box-shadow: 0 4px 14px rgba(208, 155, 237, 0.25);
@@ -190,40 +192,11 @@
             onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 8px 25px rgba(208, 155, 237, 0.4)'"
             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 14px rgba(208, 155, 237, 0.25)'"
             onmousedown="this.style.transform='translateY(-1px)'"
-            onmouseup="this.style.transform='translateY(-3px)'">View ALl</button>  
+            onmouseup="this.style.transform='translateY(-3px)'">View ALL</button>  
         </div>
         <div id="all-post-list" class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <!-- Blog Card 1 -->
-          <!-- <div class="flex flex-col">
-            <img class="rounded-2xl h-64 w-full object-cover" src="images/train-on-bridge.png" alt="Train on a bridge">
-            <div class="mt-4">
-              <div class="flex space-x-4 text-xs "><p class="font-bold text-gray-800">Travel</p><p class="text-gray-400 font-medium">13 Sept 2025</p></div>
-              <h3 class="font-raleway font-bold text-2xl mt-2 text-gray-800">Train Or Bus Journey?Which one suits?</h3>
-              <p class=" text-base text-gray-600 mt-2">The choice between a train or bus journey depends on various factors such as the distance of the journey, the time available, the cost, and person</p>
-              <a href="#" class=" font-bold text-lg mt-4 text-[#C48BE8]">Read More...</a>
-            </div>
-          </div> -->
-          <!-- Blog Card 2 -->
-          <!-- <div class="flex flex-col">
-            <img class="rounded-2xl h-64 w-full object-cover" src="images/laptop-with-food.png" alt="Laptop with food">
-            <div class="mt-4">
-              <div class="flex space-x-4 text-xs "><p class="font-bold text-gray-800">DEVELOPMENT</p><p class="text-gray-400 font-medium">11 Sept 2025</p></div>
-              <h3 class="font-raleway font-bold text-2xl mt-2 text-gray-800">Best Website to research for your next project</h3>
-              <p class=" text-base text-gray-600 mt-2">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs</p>
-              <a href="#" class=" font-bold text-lg mt-4 text-[#C48BE8]">Read More...</a>
-            </div>
-          </div> -->
-          <!-- Blog Card 3 -->
-          <!-- <div class="flex flex-col">
-            <img class="rounded-2xl h-64 w-full object-cover" src="images/singer-on-stage.png" alt="Singer on stage">
-            <div class="mt-4">
-              <div class="flex space-x-4 text-xs "><p class="font-bold text-gray-800">Travel</p><p class="text-gray-400 font-medium">13 Sept 2025</p></div>
-              <h3 class="font-raleway font-bold text-2xl mt-2 text-gray-800">Who is the best singer on chart? Know him?</h3>
-              <p class=" text-base text-gray-600 mt-2">chart by Billboard which ranks the all-time greatest artists based on their performance on the weekly Billboard Hot 100 and</p>
-              <a href="#" class=" font-bold text-lg mt-4 text-[#C48BE8]">Read More...</a>
-            </div>
-          </div> -->
-
+         
           </div>
           </div>
           </div>
@@ -231,7 +204,7 @@
           
     </section>
     
-<section id="subscribe" class="fade-in-section">
+<section id="subscribe" class="">
       <div class="container">
         <div class="subscribe-box">
           <h2 class="subscribe-title">

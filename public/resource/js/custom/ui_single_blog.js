@@ -123,3 +123,7 @@ function setAllPosts(data) {
         }
     });
 }
+
+function viewAll(){
+    getPost(0,100,'');
+}

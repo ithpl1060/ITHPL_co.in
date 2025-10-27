@@ -91,6 +91,7 @@
     <script src="<?php echo base_url() . 'resource/assets/vendor_components/jquery-3.3.1/jquery-3.3.1.js'; ?>"></script>
 <script src="<?php echo base_url() . 'resource/js/ajax-jquery.js'; ?>"></script>
 <script src="<?php echo base_url() . 'resource/js/sweetalert.js' ?>"></script>
+<script src="<?php echo base_url() . 'resource/js/global.js' ?>"></script>
 <script>
 // Simple fade-in animation on scroll
 document.addEventListener('DOMContentLoaded', function () {
