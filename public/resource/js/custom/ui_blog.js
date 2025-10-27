@@ -1,4 +1,6 @@
 const base_url = sessionStorage.getItem("uibaseurl");
+const graytextclass = 'flex items-center justify-center px-4 h-10 leading-tight text-gray-800 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white';
+const purpletextclass = 'flex items-center justify-center px-4 h-10 text-purple-600 border border-gray-300 bg-purple-50 hover:bg-purple-100 hover:text-purple-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white';
 //console.log('myurl' + base_url);
 
 function getDateFormat(sdate) {
@@ -18,7 +20,7 @@ function getDateFormat(sdate) {
     return formattedDateTime;
 }
 
-function getPost(page, limit, search) {
+function getPost(page, limit, search='') {
     var formdata = new FormData();
     formdata.append("page", page);
     formdata.append("limit", limit);
@@ -34,7 +36,7 @@ function getPost(page, limit, search) {
             if (response.status === 200 && response.data) {
                 setRecentPost(response.data[0]);
                 setAllPosts(response.data);
-                setPaginations(response);
+                setPaginations(response,search);
                 //console.log(response.data);
             }
         },
@@ -48,6 +50,7 @@ function getPost(page, limit, search) {
 
 function setRecentPost(data) {
     $('#recentBlogimg').attr('src', base_url + data.url);
+    $('#rhero-buttons').attr('href', base_url+'blog/' + data.slug);
     $('#recentBlogimg').attr('alt', base_url + data.slug);
     $('#rcategory').text(data.category);
     $('#rpdate').text(getDateFormat(data.created_at));
@@ -68,33 +71,45 @@ function setAllPosts(data) {
               <div class="flex space-x-4 text-xs "><p class="font-bold text-gray-800">${post.category}</p><p class="text-gray-400 font-medium">${getDateFormat(post.created_at)}</p></div>
               <h3 class="font-raleway font-bold text-2xl mt-2 text-gray-800">${post.title}</h3>
               <p class=" text-base text-gray-600 mt-2">${post.highlight_text.replace(/<\/?p>/g, '')}</p>
-              <a href="#" class=" font-bold text-lg mt-4 text-[#C48BE8]">Read More...</a>
+              <a href="${base_url}blog/${post.slug}" class=" font-bold text-lg mt-4 text-[#C48BE8]">Read More...</a>
             </div>
           </div>`
             );
         }
     });
 }
-function setPaginations(response) {
+function setPaginations(response,search) {
+    let previousId = sessionStorage.getItem("paginationId");
+
     var paginate = `<ul class="inline-flex -space-x-px text-base h-15">
             <li>
-              <a href="javascript:void(0);"
+              <a href="javascript:void(0);" id="previouspagi" onclick="previousPage(${previousId},${Number(response.perPage)},'${search}');"
                 class="flex items-center justify-center px-4 h-10 ms-0 leading-tight text-gray-800 bg-[#E1ACF9] border border-e-0 border-gray-300 rounded-s-lg hover:bg-purple-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Previous</a>
             </li>`;
-    for (let  i = 0; i<response.totalPages; i++) {
-        console.log(response.perPage);
-        paginate +=`<li>
-              <a href="javascript:void(0);" onclick="getPost(${Number(response.perPage) * i}, ${Number(response.perPage)}, '');"
-                class="flex items-center justify-center px-4 h-10 leading-tight text-gray-800 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">${i+1}</a>
+    for (let i = 0; i < response.totalPages; i++) {
+        if (previousId != null && previousId == i) {
+            paginate += `<li>
+              <a href="javascript:void(0);" aria-current="page" id="pg-${i}" onclick="getPost(${Number(response.perPage) * i}, ${Number(response.perPage)}, '${search}');changetext(${i});"
+                class="${purpletextclass}">${i + 1}</a>
             </li>`;
+        } else {
+            paginate += `<li>
+              <a href="javascript:void(0);" id="pg-${i}" onclick="getPost(${Number(response.perPage) * i}, ${Number(response.perPage)}, '${search}');changetext(${i});"
+                class="${graytextclass}">${i + 1}</a>
+            </li>`;
+        }
     }
     paginate += `<li>
-              <a href="javascript:void(0);"
+              <a href="javascript:void(0);" id="nextpagi" onclick="nextPage(${previousId},${Number(response.perPage)},${response.totalPages},'${search}');"
                 class="flex items-center justify-center px-4 h-10 leading-tight text-gray-800 bg-[#E1ACF9] border border-gray-300 rounded-e-lg hover:bg-purple-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Next</a>
             </li>
           </ul>`;
- //console.log(paginate);
+    //console.log(paginate);
     $('#paginations').html(paginate);
+}
+
+function changetext(eleId) {
+    sessionStorage.setItem("paginationId", eleId);
 }
 $(document).ready(function () {
     $.ajax({
@@ -120,7 +135,7 @@ $(document).ready(function () {
 
             if (category.is_active === '1') {
                 $('#categories').append(
-                    `<a href="#" class="flex items-center p-5 bg-gray-200 rounded-xl w-full hover:bg-gray-300 transition-colors"><img class="w-10 h-10" src="${category.icon_img}" alt="${category.slug} icon"><span class="font-inter font-bold text-2xl sm:text-3xl ml-6 text-black">${category.name}</span></a>`
+                    `<a href="javascript:void(0);" onclick="getPostByCategory('${category.name}');" class="flex items-center p-5 bg-gray-200 rounded-xl w-full hover:bg-gray-300 transition-colors"><img class="w-10 h-10" src="${category.icon_img}" alt="${category.slug} icon"><span class="font-inter font-bold text-2xl sm:text-3xl ml-6 text-black">${category.name}</span></a>`
                 );
 
             }
@@ -131,6 +146,25 @@ $(document).ready(function () {
 });
 
 
+function previousPage(i,perPage,search){
+    if(i>0){
+    sessionStorage.setItem("paginationId", i-1);
+    getPost((i*perPage)-perPage,perPage,search);
+    }
+}
+function nextPage(i,perPage,totalpages,search){
+    if(i<totalpages){
+    sessionStorage.setItem("paginationId", i+1);
+    getPost((i*perPage)+perPage,perPage,search);
+    }
+}
 
+function viewAll(){
+    getPost(0,100,'');
+}
 
-
+function getPostByCategory(cname){
+    console.log('cname='+cname);
+    sessionStorage.setItem("paginationId", 0);
+    getPost(0,4,cname);
+}

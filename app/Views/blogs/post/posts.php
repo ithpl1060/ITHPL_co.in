@@ -48,6 +48,7 @@
                                         <tr>
                                             <th>SR. NO</th>
                                             <th>TITLE</th>
+                                            <th>CATEGORY</th>
                                             <th>SLUG</th>
                                             <th>STATUS</th>
                                             <th>CREATED BY </th>
@@ -62,6 +63,7 @@
                                         <tr>
                                             <th>SR. NO</th>
                                             <th>TITLE</th>
+                                            <th>CATEGORY</th>
                                             <th>SLUG</th>
                                             <th>STATUS</th>
                                             <th>CREATED BY </th>

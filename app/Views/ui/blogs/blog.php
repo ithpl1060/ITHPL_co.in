@@ -21,6 +21,7 @@
     <h1 class="font-bold text-3xl">Our Recent Post</h1>
   </div>
   <div class="float-right"> <button
+      onclick="viewAll();"
       class="contact-button text-white font-semibold text-sm px-7 py-3.5 rounded-xl transition-all duration-300 relative overflow-hidden gradient-shine border border-white border-opacity-20 hover:shadow-xl active:scale-95"
       style="
               background: linear-gradient(135deg, #d09bed 0%, #b678e3 100%);
@@ -59,7 +60,7 @@
     <!-- Post Title -->
     <h3 id="rblogtitle"
       class="font-raleway font-bold text-2xl leading-[1.3] mb-4 max-w-[900px] text-white max-lg:text-[1.75rem] max-md:text-2xl max-[480px]:text-xl">
-      How to Make Games More Attractive with New VR & AI Technology
+      
     </h3>
 
     <!-- Post Excerpt -->
@@ -69,7 +70,7 @@
 
     <!-- Read More Button -->
     <div class="hero-buttons">
-      <a href="#" class="hero-button">Read More</a>
+      <a id="rhero-buttons" href="" class="hero-button">Read More</a>
     </div>
   </div>
 </section>
@@ -83,6 +84,7 @@
         <div class="flex justify-between items-center mb-8">
           <h2 class="font-inter font-bold text-3xl sm:text-4xl text-gray-800">Our Featured Post</h2>
           <button
+            onclick="viewAll();"
             class="contact-button text-white font-semibold text-sm px-7 py-3.5 rounded-xl transition-all duration-300 relative overflow-hidden gradient-shine border border-white border-opacity-20 hover:shadow-xl active:scale-95"
             style="
               background: linear-gradient(135deg, #d09bed 0%, #b678e3 100%);
@@ -92,14 +94,14 @@
             onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 8px 25px rgba(208, 155, 237, 0.4)'"
             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 14px rgba(208, 155, 237, 0.25)'"
             onmousedown="this.style.transform='translateY(-1px)'"
-            onmouseup="this.style.transform='translateY(-3px)'">View ALl</button>
+            onmouseup="this.style.transform='translateY(-3px)'">View ALL</button>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8" id="all-post-list">
 
         </div>
         <!-- Pagination -->
         <nav id="paginations" class="flex justify-center py-20">
-          <!-- <ul class="inline-flex -space-x-px text-base h-15">
+           <!-- <ul class="inline-flex -space-x-px text-base h-15">
             <li>
               <a href="#"
                 class="flex items-center justify-center px-4 h-10 ms-0 leading-tight text-gray-800 bg-[#E1ACF9] border border-e-0 border-gray-300 rounded-s-lg hover:bg-purple-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Previous</a>

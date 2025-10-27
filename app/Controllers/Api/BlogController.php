@@ -217,7 +217,7 @@ class BlogController extends BaseController
         $dataList = $post->getAllPosts($searchValue, $length, $start, $orderColumn, $orderDir);
         $totalRecords = $post->countAllPosts();
         $totalFiltered = $post->countFilteredPosts($searchValue);
-        $pagination = ceil($totalRecords/$length);
+        $pagination = ceil($totalFiltered/$length);
         $data = [];
         
         foreach ($dataList as $row) {
@@ -284,6 +284,7 @@ class BlogController extends BaseController
             $data[] = [
                 'id' => $row['id'],
                 'title' => $row['title'],
+                'category' => $row['cname'],
                 'slug' => $row['slug'],
                 'status' => $row['status'],
                 'created_by' => $row['first_name'] . ' ' . $row['last_name'],
@@ -304,6 +305,29 @@ class BlogController extends BaseController
         $post = new PostModel();
         if ($id) {
             $data = $post->where('id', $id)->first();
+        } else {
+            $data = $post->findAll();
+        }
+        if (!empty($data)) {
+            $response = [
+                'status' => 200,
+                'message' => 'All Data Fetch successfully!',
+                'data' => $data
+            ];
+        } else {
+            $response = [
+                'status' => 404,
+                'message' => 'Data not Found!'
+            ];
+        }
+        return $this->response->setJSON($response);
+    }
+    public function getPostBySlug($slug)
+    {
+        $post = new PostModel();
+        if ($slug) {
+           // $data = $post->where('slug', $slug)->first();
+           $data =$post->getPostBySlug($slug);
         } else {
             $data = $post->findAll();
         }

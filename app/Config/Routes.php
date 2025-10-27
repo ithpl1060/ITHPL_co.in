@@ -82,6 +82,7 @@ $routes->post('update-category/(:num)', [APIBlogController::class, 'updateCatego
 $routes->post('post', [APIBlogController::class, 'createPost']);
 $routes->post('get-post', [APIBlogController::class, 'getPost']);
 $routes->get('get-post/(:num)', [APIBlogController::class, 'getPostById']);
+$routes->get('get-post-by-slug/(:any)', [APIBlogController::class, 'getPostBySlug/$1']);
 $routes->post('get-post-ui', [APIBlogController::class, 'getPostForUI']);
 
 // Q&A
@@ -116,6 +117,7 @@ $routes->get('solutions', [UiController::class, 'solutions']);
 $routes->get('sustainability', [UiController::class, 'sustainability']);
 $routes->get('hpforbusiness', [UiController::class, 'hpforbusiness']);
 $routes->get('blogs', [UiController::class, 'blogs']);
+$routes->get('blog/(:any)', [UiController::class, 'blog']);
 
 
 

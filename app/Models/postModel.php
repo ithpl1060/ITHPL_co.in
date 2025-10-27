@@ -58,7 +58,7 @@ class PostModel extends Model
     public function getAllPosts($search = null, $limit = null, $offset = null, $orderColumn = null, $orderDir = 'desc')
     {
         $builder = $this->db->table('posts ps');
-        
+
         $builder->select('ps.*, u.id as user_id, u.first_name, u.last_name,pc.name as cname');
         $builder->join('users u', 'u.id = ps.created_by', 'left');
         $builder->join('post_category pc', 'pc.id = ps.category_id', 'left');
@@ -114,4 +114,13 @@ class PostModel extends Model
 
         return $builder->countAllResults();
     }
+
+    public function getPostBySlug($slug)
+    {
+        return $this->select('posts.*, post_category.name as category')
+            ->join('post_category', 'post_category.id = posts.category_id', 'left')
+            ->where('posts.slug', $slug)
+            ->first();
+    }
+
 }

@@ -20,6 +20,7 @@ $(document).ready(function () {
                 orderable: false
             },
             { data: 'title' },
+            { data: 'category' },
             { data: 'slug' },
             {
                 data: 'status',
