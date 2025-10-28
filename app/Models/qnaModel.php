@@ -14,11 +14,16 @@ class QnaModel extends Model
     // Get all Q&A for DataTable with search, order, limit
     public function getAllQna($search = '', $limit = 10, $start = 0, $orderColumn = 'id', $orderDir = 'asc')
     {
-        $builder = $this->builder();
+        //$builder = $this->builder();
+         $builder = $this->db->table('qna q');
+
+        $builder->select('q.*, p.title as post');
+        $builder->join('posts p', 'p.id = q.post_id', 'left');
         if ($search) {
             $builder->groupStart()
-                    ->like('question', $search)
-                    ->orLike('answer', $search)
+                    ->like('q.question', $search)
+                    ->orLike('q.answer', $search)
+                    ->orLike('p.title', $search)
                     ->groupEnd();
         }
         $builder->orderBy($orderColumn, $orderDir);
@@ -41,5 +46,12 @@ class QnaModel extends Model
                     ->groupEnd();
         }
         return $builder->countAllResults();
+    }
+    public function getQNAById($id)
+    {
+        return $this->select('qna.*, p.title as post')
+            ->join('posts p', 'p.id = q.post_id', 'left')
+            ->where('qna.id', $id)
+            ->first();
     }
 }

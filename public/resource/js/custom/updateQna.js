@@ -1,66 +1,24 @@
 $(function () {
     "use strict";
+    console.log('id='+id);
+    //console.log('JS loaded');  // To confirm JS is running
 
-    // Initialize CKEditor for the answer textarea
-    if (typeof CKEDITOR !== 'undefined') {
-        CKEDITOR.replace('answer');
-    }
-});
-
-$(document).ready(function () {
+    // Load posts dropdown
     loadPostOptions();
+    getQNA(id);
+    // Setup character counters for both textareas
+    setupCharCounter('question', 'questionCharCount');
+    setupCharCounter('answer', 'answerCharCount');
 
-    if (id && id > 0) {
-        getQnaById(id);
-    }
-
-    // Initialize character count on page load for question
-    updateCharCount('question', 'questionCharCount');
-
-    // Update question char count on input
-    $('#question').on('input', function () {
-        updateCharCount('question', 'questionCharCount');
-    });
-
-    // For CKEditor answer field character count
-    if (typeof CKEDITOR !== 'undefined') {
-        CKEDITOR.instances['answer'].on('contentDom', function () {
-            updateCkEditorCharCount('answer', 'answerCharCount');
-
-            this.document.on('keyup', function () {
-                updateCkEditorCharCount('answer', 'answerCharCount');
-            });
-        });
-
-        // Also initialize count when data is set (for editing existing QnA)
-        if (CKEDITOR.instances['answer']) {
-            updateCkEditorCharCount('answer', 'answerCharCount');
-        }
-    } else {
-        // If CKEditor not loaded fallback to textarea input
-        updateCharCount('answer', 'answerCharCount');
-        $('#answer').on('input', function () {
-            updateCharCount('answer', 'answerCharCount');
-        });
-    }
-
-    // Cancel button → Go back to Q&A list
+    // Cancel button action
     $('#cancelBtn').click(function () {
         window.location.href = base_url + 'blog/qna';
     });
 
     // Form submission
-    $('#updateQnaForm').on('submit', function (e) {
+    $('#addQnaForm').on('submit', function (e) {
         e.preventDefault();
 
-        // Update CKEditor textarea before submit
-        if (typeof CKEDITOR !== 'undefined') {
-            for (const instance in CKEDITOR.instances) {
-                CKEDITOR.instances[instance].updateElement();
-            }
-        }
-
-        // Basic validation
         if (!$('#post_id').val()) {
             swal("Validation Error", "Please select a post.", "error");
             return;
@@ -75,9 +33,9 @@ $(document).ready(function () {
         }
 
         const formData = new FormData(this);
-
+        formData.append("empId", empData.id);
         $.ajax({
-            url: base_url + 'update-qna/' + id,
+            url: base_url + 'update-qna/'+id,
             type: 'POST',
             headers: { "Authorization": token },
             data: formData,
@@ -85,104 +43,105 @@ $(document).ready(function () {
             contentType: false,
             dataType: 'json',
             success: function (response) {
+                console.log('Response:', response);
                 if (response.status === 200) {
-                    swal("Success!", response.message, "success")
-                        .then(() => window.location.href = base_url + 'blog/qna');
+                    swal("Success!", response.message, "success").then(() => {
+                        //window.location.href = base_url + 'blog/qna';
+                    });
+                } else {
+                    swal("Oops!", response.message || "Failed to save Q&A", "error");
+                }
+            },
+            error: function (xhr, status, error) {
+                console.error('AJAX error:', error);
+                swal("Error", "An error occurred while submitting the form.", "error");
+            }
+        });
+    });
+
+    // Function to load post options from API
+    function loadPostOptions() {
+        console.log('Loading posts...');
+        $.ajax({
+            url: base_url + 'fetch-post',
+            type: 'POST',
+            dataType: 'json',
+            success: function (response) {
+                console.log('Posts response:', response);
+                if (response.status === 200 && response.data) {
+                    populatePosts(response.data);
+                } else {
+                    swal("Error", "Unable to fetch posts.", "error");
+                }
+            },
+            error: function (xhr, status, error) {
+                console.error('Error loading posts:', error);
+                swal("Error", "Unable to fetch posts.", "error");
+            }
+        });
+    }
+
+    // Populate post dropdown options
+    function populatePosts(posts) {
+        const select = $('#post_id');
+        select.find('option:not(:first)').remove();
+
+        $.each(posts, function (i, post) {
+
+            select.append($('<option>', {
+                value: post.id,
+                text: post.title
+            }));
+
+        });
+    }
+
+    // Character counter setup
+    function setupCharCounter(textareaId, counterId) {
+        const $textarea = $('#' + textareaId);
+        const $counter = $('#' + counterId);
+
+        updateCharCount();
+
+        $textarea.on('input', updateCharCount);
+
+        function updateCharCount() {
+            const length = $textarea.val().length;
+            $counter.text(length + ' characters');
+        }
+    }
+
+    function getQNA(id) {
+        const formData = new FormData(this);
+        formData.append("empId", empData.id);
+        $.ajax({
+            url: base_url + 'get-qna/'+id,
+            type: 'GET',
+            headers: { "Authorization": token },
+            data: formData,
+            processData: false,
+            contentType: false,
+            dataType: 'json',
+            success: function (response) {
+                console.log('Response:', response);
+                if (response.status === 200) {
+                    setQan(response.data);
                 } else {
                     swal("Oops!", response.message, "error");
                 }
             },
             error: function (xhr, status, error) {
-                console.error("Error:", error);
-                swal("Error!", "Something went wrong during update.", "error");
+                console.error('AJAX error:', error);
+                swal("Error", "An error occurred while submitting the form.", "error");
             }
         });
-    });
-});
-
-// Fetch and populate post dropdown options
-function loadPostOptions() {
-    $.ajax({
-        url: base_url + 'get-post/0',
-        type: 'GET',
-        dataType: 'json',
-        success: function (response) {
-            if (response.status === 200 && response.data) {
-                populatePosts(response.data);
-            } else {
-                swal("Error", "Unable to fetch posts.", "error");
-            }
-        },
-        error: function () {
-            swal("Error", "Unable to fetch posts.", "error");
-        }
-    });
-}
-
-function populatePosts(posts) {
-    const select = $('#post_id');
-    select.find('option:not(:first)').remove();
-
-    $.each(posts, function (i, post) {
-        if (post.is_active === '1' || post.status === 'active') {
-            select.append($('<option>', {
-                value: post.id,
-                text: post.title
-            }));
-        }
-    });
-}
-
-// Fetch QnA by ID and populate the form
-function getQnaById(qnaId) {
-    $.ajax({
-        url: base_url + 'get-qna/' + qnaId,
-        type: 'GET',
-        dataType: 'json',
-        success: function (response) {
-            if (response.status === 200 && response.data) {
-                setQnaForm(response.data);
-            } else {
-                swal("Error", "Q&A not found.", "error");
-            }
-        },
-        error: function () {
-            swal("Error", "Unable to fetch Q&A data.", "error");
-        }
-    });
-}
-
-function setQnaForm(data) {
-    $('#post_id').val(data.post_id).trigger('change');
-    $('#status').val(data.status);
-    $('#question').val(data.question);
-    updateCharCount('question', 'questionCharCount'); // update char count when form loads
-
-    if (typeof CKEDITOR !== 'undefined') {
-        CKEDITOR.instances['answer'].setData(data.answer);
-        // Update char count for CKEditor
-        updateCkEditorCharCount('answer', 'answerCharCount');
-    } else {
-        $('#answer').val(data.answer);
-        updateCharCount('answer', 'answerCharCount');
     }
-}
-
-// ---------
-// Character counting helpers
-// ---------
-
-// Function to count chars for normal textarea
-function updateCharCount(textareaId, counterId) {
-    const length = $('#' + textareaId).val().length;
-    $('#' + counterId).text(length + ' characters');
-}
-
-// Function to count chars for CKEditor content (strips HTML tags)
-function updateCkEditorCharCount(editorName, counterId) {
-    const editor = CKEDITOR.instances[editorName];
-    if (!editor) return;
-
-    const data = editor.getData().replace(/<[^>]*>/g, ''); // Strip HTML tags
-    $('#' + counterId).text(data.length + ' characters');
-}
+    function setQan(data){
+        $('#id').val(data.id);
+        //$('#post_id').val(data.post_id);
+        $('#post_id').val(data.post_id).trigger('change');
+        $('#status').val(data.status);
+        $('#question').text(data.question);
+        $('#answer').text(data.answer);
+    }
+});

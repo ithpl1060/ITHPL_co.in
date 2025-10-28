@@ -114,12 +114,12 @@
 
             </div>
 
-                <div class="scroll-reveal pt-12">
-                <h3 class="text-2xl font-bold text-slate-900 mb-8 tracking-tight">Frequently Asked Questions</h3>
+                <div id="fnq-div" class="scroll-reveal pt-12">
+                <h3  class="text-2xl font-bold text-slate-900 mb-8 tracking-tight">Frequently Asked Questions</h3>
                 
-                <div class="space-y-4">
+                <div id="qnaList" class="space-y-4">
                     <!-- FAQ Item 1 -->
-                    <div class="group border border-slate-200 rounded-xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-purple-200">
+                    <!-- <div class="group border border-slate-200 rounded-xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-purple-200">
                         <button onclick="toggleFaq(1)" class="w-full flex items-center justify-between p-6 text-left bg-white hover:bg-slate-50 transition-colors duration-300">
                             <span class="font-semibold text-slate-900 pr-8">How does VR technology improve gaming experiences?</span>
                             <svg id="icon-1" class="w-6 h-6 text-purple-600 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -131,10 +131,10 @@
                                 VR creates immersive 3D environments that make players feel physically present in the game world, enhancing engagement and emotional connection through realistic interactions and spatial awareness.
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <!-- FAQ Item 2 -->
-                    <div class="group border border-slate-200 rounded-xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-purple-200">
+                    <!-- <div class="group border border-slate-200 rounded-xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-purple-200">
                         <button onclick="toggleFaq(2)" class="w-full flex items-center justify-between p-6 text-left bg-white hover:bg-slate-50 transition-colors duration-300">
                             <span class="font-semibold text-slate-900 pr-8">What role does AI play in modern game development?</span>
                             <svg id="icon-2" class="w-6 h-6 text-purple-600 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -146,10 +146,10 @@
                                 AI powers intelligent NPCs, procedural content generation, adaptive difficulty systems, and personalized gaming experiences that respond dynamically to player behavior and preferences.
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <!-- FAQ Item 3 -->
-                    <div class="group border border-slate-200 rounded-xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-purple-200">
+                    <!-- <div class="group border border-slate-200 rounded-xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-purple-200">
                         <button onclick="toggleFaq(3)" class="w-full flex items-center justify-between p-6 text-left bg-white hover:bg-slate-50 transition-colors duration-300">
                             <span class="font-semibold text-slate-900 pr-8">Can VR and AI technologies work together in games?</span>
                             <svg id="icon-3" class="w-6 h-6 text-purple-600 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -161,7 +161,7 @@
                                 Yes, combining VR and AI creates next-generation experiences with intelligent virtual characters, realistic physics, voice recognition, and environments that adapt in real-time to player actions and emotions.
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     
                 </div>

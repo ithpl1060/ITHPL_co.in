@@ -24,13 +24,13 @@ $(document).ready(function () {
                 },
                 orderable: false
             },
-            { data: 'post_id' }, // You can replace with post title via server-side join
+            { data: 'post' }, // You can replace with post title via server-side join
             { data: 'question' },
             { data: 'answer' },
             {
                 data: 'status',
                 render: function (data) {
-                    if (data === 'published') {
+                    if (data === 'Published') {
                         return `<span class="badge bg-success text-white rounded-pill px-3 py-2">${data}</span>`;
                     } else {
                         return `<span class="badge bg-warning text-white rounded-pill px-3 py-2">${data}</span>`;

@@ -160,7 +160,7 @@ class BlogController extends BaseController
     public function createPost()
     {
         $post = new PostModel();
-
+        $isInsert=false;
         $data = [
             'id' => $this->request->getVar('id'),
             'title' => $this->request->getVar('title'),
@@ -176,23 +176,27 @@ class BlogController extends BaseController
         if (empty($data['id'])) {
             $data['img_url'] = $this->handleImageUpload('blog_image');
             $id = $post->insert($data);
+            $isInsert = true;
         } else {
             //update the post
+            $data['updated_by']=$this->request->getVar('empId');
             $fileName = $this->request->getFile('blog_image');
             if ($fileName === false || strlen($fileName) === 0) {
             } else {
                 $data['img_url'] = $this->handleImageUpload('blog_image');
             }
-            $id = $post->update($data['id'], $data);
+             $post->update($data['id'], $data);
+             $id = $data['id'];
             //print_r($data); exit;
         }
 
 
         if ($id) {
+            
             $newPost = $post->find($id);
             return $this->response->setJSON([
                 'status' => 200,
-                'message' => 'Post Created Successfully!',
+                'message' => $isInsert? 'Post Created Succssfully' : 'Post Updated Successfully!',
                 'data' => $newPost
             ]);
         } else {
@@ -275,6 +279,7 @@ class BlogController extends BaseController
 
         $orderColumn = $columns[$orderColumnIndex] ?? 'id';
         $dataList = $post->getAllPosts($searchValue, $length, $start, $orderColumn, $orderDir);
+        //print_r($dataList);exit;
         $totalRecords = $post->countAllPosts();
         $totalFiltered = $post->countFilteredPosts($searchValue);
 
@@ -429,6 +434,7 @@ class BlogController extends BaseController
             $data[] = [
                 'id' => $row['id'],
                 'post_id' => $row['post_id'],
+                'post' => $row['post'],
                 'question' => $row['question'],
                 'answer' => $row['answer'],
                 'status' => $row['status']
@@ -442,7 +448,7 @@ class BlogController extends BaseController
             'data' => $data
         ]);
     }
-
+   
     public function updateQna($id)
     {
         $qna = new QnaModel();
@@ -475,6 +481,17 @@ class BlogController extends BaseController
     {
         $qna = new QnaModel();
         $data = $id ? $qna->find($id) : $qna->findAll();
+
+        return $this->response->setJSON([
+            'status' => !empty($data) ? 200 : 404,
+            'message' => !empty($data) ? 'Data fetched successfully' : 'Data not found',
+            'data' => $data
+        ]);
+    }
+    public function fetchAllPosts()
+    {
+        $post = new PostModel();
+        $data = $post->fetchAllPosts();
 
         return $this->response->setJSON([
             'status' => !empty($data) ? 200 : 404,

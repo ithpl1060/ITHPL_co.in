@@ -1,7 +1,7 @@
 const base_url = sessionStorage.getItem("uibaseurl");
 const pageUrl = encodeURIComponent(window.location.href);
-  const pageTitle = encodeURIComponent(document.title);
-let title ='';
+const pageTitle = encodeURIComponent(document.title);
+let title = '';
 function getDateFormat(sdate) {
     const date = new Date(sdate);
     // Get parts
@@ -27,6 +27,7 @@ function getPostBySlug(slug) {
         success: function (response) {
             if (response.status === 200 && response.data) {
                 setPost(response.data);
+                setQna(response.data.qna);
             } else {
                 swal("Error", "blog not found.", "error");
             }
@@ -39,43 +40,76 @@ function getPostBySlug(slug) {
 
 getPostBySlug(slug);
 
-function setPost(data){
- //   console.log(JSON.stringify(data));
- title =data.title;
- $('#category').html(data.category);
- $('#created-at').html(getDateFormat(data.created_at));
- $('#title').html(data.title);
- $('#img-url').attr('src',base_url+data.img_url);
- $('#img-url').attr('alt',data.slug);
- $('#highlight-text').html(data.highlight_text.replace(/<\/?p>/g, ''));
- $('#body').html(data.body.replace(/<\/?p>/g, ''));
+function setPost(data) {
+    //   console.log(JSON.stringify(data));
+    title = data.title;
+    $('#category').html(data.category);
+    $('#created-at').html(getDateFormat(data.created_at));
+    $('#title').html(data.title);
+    $('#img-url').attr('src', base_url + data.img_url);
+    $('#img-url').attr('alt', data.slug);
+    $('#highlight-text').html(data.highlight_text.replace(/<\/?p>/g, ''));
+    $('#body').html(data.body.replace(/<\/?p>/g, ''));
+}
+
+function setQna(qnaData) {
+    if (qnaData.length > 0) {
+       var flag =0;
+        for (let i = 0; i < qnaData.length; i++) {
+            if (qnaData[i].status === 'Published') {
+                flag =1;
+                $('#qnaList').append(
+                    `<div class="group border border-slate-200 rounded-xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-purple-200">
+                        <button onclick="toggleFaq(${i})" class="w-full flex items-center justify-between p-6 text-left bg-white hover:bg-slate-50 transition-colors duration-300">
+                            <span class="font-semibold text-slate-900 pr-8">${qnaData[i].question}</span>
+                            <svg id="icon-${i}" class="w-6 h-6 text-purple-600 transition-transform duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div id="answer-${i}" class="max-h-0 overflow-hidden transition-all duration-300">
+                            <div class="p-6 pt-0 text-slate-600 leading-relaxed">
+                                ${qnaData[i].answer}
+                            </div>
+                        </div>
+                    </div>
+`);
+            }
+        }
+        if(flag == 1){
+             $('#fnq-div').show();
+        }else{
+             $('#fnq-div').hide();
+        }
+    } else {
+        $('#fnq-div').hide();
+    }
 }
 
 // Facebook Share
-  $('#share-facebook').on('click', function() {
-    window.open(`https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`, 
-      '_blank', 'width=600,height=400');
-  });
+$('#share-facebook').on('click', function () {
+    window.open(`https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`,
+        '_blank', 'width=600,height=400');
+});
 
-  // LinkedIn Share
-  $('#share-linkedin').on('click', function() {
-    window.open(`https://www.linkedin.com/shareArticle?mini=true&url=${pageUrl}&title=${title}`, 
-      '_blank', 'width=600,height=400');
-  });
+// LinkedIn Share
+$('#share-linkedin').on('click', function () {
+    window.open(`https://www.linkedin.com/shareArticle?mini=true&url=${pageUrl}&title=${title}`,
+        '_blank', 'width=600,height=400');
+});
 
-  // WhatsApp Share
-  $('#share-whatsapp').on('click', function() {
+// WhatsApp Share
+$('#share-whatsapp').on('click', function () {
     window.open(`https://api.whatsapp.com/send?text=${title}%20${pageUrl}`, '_blank');
-  });
+});
 
-  function copyLink(){
+function copyLink() {
     navigator.clipboard.writeText(window.location.href)
-      .then(() => alert('✅ Link copied to clipboard!'))
-      .catch(() => alert('❌ Failed to copy link.'));
-  }
+        .then(() => alert('✅ Link copied to clipboard!'))
+        .catch(() => alert('❌ Failed to copy link.'));
+}
 
 
-  function getPost(page, limit, search='') {
+function getPost(page, limit, search = '') {
     var formdata = new FormData();
     formdata.append("page", page);
     formdata.append("limit", limit);
@@ -124,6 +158,6 @@ function setAllPosts(data) {
     });
 }
 
-function viewAll(){
-    getPost(0,100,'');
+function viewAll() {
+    getPost(0, 100, '');
 }

@@ -33,7 +33,7 @@ $(function () {
         }
 
         const formData = new FormData(this);
-
+        formData.append("empId",empData.id);
         $.ajax({
             url: base_url + 'qna',
             type: 'POST',
@@ -63,8 +63,8 @@ $(function () {
     function loadPostOptions() {
         console.log('Loading posts...');
         $.ajax({
-            url: base_url + 'get-post',
-            type: 'GET',
+            url: base_url + 'fetch-post',
+            type: 'POST',
             dataType: 'json',
             success: function (response) {
                 console.log('Posts response:', response);
@@ -87,12 +87,12 @@ $(function () {
         select.find('option:not(:first)').remove();
 
         $.each(posts, function (i, post) {
-            if (post.is_active === '1' || post.status === 'active') {
+            
                 select.append($('<option>', {
                     value: post.id,
                     text: post.title
                 }));
-            }
+            
         });
     }
 

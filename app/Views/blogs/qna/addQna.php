@@ -28,9 +28,10 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="post_id" class="form-label">Select Post:</label>
-                                    <select class="form-control" id="post_id" name="post_id" required>
-                                        <option value="">-- Select Post --</option>
+                                    <select class="form-control select2" id="post_id" name="post_id" required>
+                                        <option value="" selected disabled>-- Select Post --</option>
                                     </select>
+                                    <input type="hidden" id="id" name="id"/>
                                 </div>
                             </div>
 
@@ -39,32 +40,34 @@
                                 <div class="form-group">
                                     <label for="status" class="form-label">Status:</label>
                                     <select class="form-control" id="status" name="status" required>
-                                        <option value="active">Active</option>
-                                        <option value="inactive">Inactive</option>
+                                        <option value="Draft">Draft</option>
+                                        <option value="Published">Published</option>
                                     </select>
                                 </div>
                             </div>
 
                             <!-- Question -->
-                            <div class="form-group">
-                                <label for="question" class="form-label">
-                                    <span style="color:red">*</span> Question:
-                                </label>
-                                <textarea class="form-control" id="question" name="question" rows="4"
-                                    placeholder="Enter your question..." required></textarea>
-                                <small id="questionCharCount" class="form-text text-muted">0 characters</small>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="question" class="form-label">
+                                        <span style="color:red">*</span> Question:
+                                    </label>
+                                    <textarea class="form-control" id="question" name="question" rows="4"
+                                        placeholder="Enter your question..." required></textarea>
+                                    <small id="questionCharCount" class="form-text text-muted">0 characters</small>
+                                </div>
                             </div>
-
                             <!-- Answer -->
-                            <div class="form-group">
-                                <label for="answer" class="form-label">
-                                    <span style="color:red">*</span> Answer:
-                                </label>
-                                <textarea class="form-control" id="answer" name="answer" rows="6"
-                                    placeholder="Write the answer..." required></textarea>
-                                <small id="answerCharCount" class="form-text text-muted">0 characters</small>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="answer" class="form-label">
+                                        <span style="color:red">*</span> Answer:
+                                    </label>
+                                    <textarea class="form-control" id="answer" name="answer" rows="6"
+                                        placeholder="Write the answer..." required></textarea>
+                                    <small id="answerCharCount" class="form-text text-muted">0 characters</small>
+                                </div>
                             </div>
-
                         </div>
                     </div>
 

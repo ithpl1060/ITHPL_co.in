@@ -81,6 +81,7 @@ $routes->post('update-category/(:num)', [APIBlogController::class, 'updateCatego
 //post
 $routes->post('post', [APIBlogController::class, 'createPost']);
 $routes->post('get-post', [APIBlogController::class, 'getPost']);
+$routes->post('fetch-post', [APIBlogController::class, 'fetchAllPosts']);
 $routes->get('get-post/(:num)', [APIBlogController::class, 'getPostById']);
 $routes->get('get-post-by-slug/(:any)', [APIBlogController::class, 'getPostBySlug/$1']);
 $routes->post('get-post-ui', [APIBlogController::class, 'getPostForUI']);

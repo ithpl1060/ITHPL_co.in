@@ -120,7 +120,7 @@ class BlogController extends BaseController
 
         return view('header', $data)
             . view('sidebar/side_bar')
-            . view('blogs/qna/updateQna', $data)
+            . view('blogs/qna/addQna', $data)
             . view('footer')
             . view('blogs/qna/updateQna_js', $data)
             . view('htmlend');

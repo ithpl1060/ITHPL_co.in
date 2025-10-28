@@ -62,6 +62,7 @@ class PostModel extends Model
         $builder->select('ps.*, u.id as user_id, u.first_name, u.last_name,pc.name as cname');
         $builder->join('users u', 'u.id = ps.created_by', 'left');
         $builder->join('post_category pc', 'pc.id = ps.category_id', 'left');
+    
         if (!empty($search)) {
             $builder->groupStart()
                 ->like('ps.title', $search)
@@ -117,10 +118,39 @@ class PostModel extends Model
 
     public function getPostBySlug($slug)
     {
+        // return $this->select('posts.*, post_category.name as category')
+        //     ->join('post_category', 'post_category.id = posts.category_id', 'left')
+        //     ->where('posts.slug', $slug)
+        //     ->first();
+    //     return $this->db->table('posts')
+    // ->select('posts.*, post_category.name as category,
+    //     GROUP_CONCAT(JSON_OBJECT("question", q.question, "answer", q.answer)) as qna')
+    // ->join('post_category', 'post_category.id = posts.category_id', 'left')
+    // ->join('qna q', 'q.post_id = posts.id', 'left')
+    // ->where('posts.slug', $slug)
+    // ->groupBy('posts.id')
+    // ->get()
+    // ->getRow();
+    $post = $this->select('posts.*, post_category.name as category')
+        ->join('post_category', 'post_category.id = posts.category_id', 'left')
+        ->where('posts.slug', $slug)
+        ->first();
+
+    if ($post) {
+        $qnaModel = new \App\Models\QnaModel();
+        $post['qna'] = $qnaModel
+        ->where('post_id', $post['id'])
+        ->orderBy('created_at', 'DESC')->findAll();
+    }
+
+    return $post;
+    }
+    public function fetchAllPosts()
+    {
         return $this->select('posts.*, post_category.name as category')
             ->join('post_category', 'post_category.id = posts.category_id', 'left')
-            ->where('posts.slug', $slug)
-            ->first();
+            ->orderBy('posts.created_at', 'DESC')
+            ->findAll();
     }
 
 }
