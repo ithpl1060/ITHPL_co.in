@@ -170,7 +170,8 @@ class BlogController extends BaseController
             'body' => $this->request->getVar('post_content'),
             'status' => $this->request->getVar('status'),
             'category_id' => $this->request->getVar('category_id'),
-            'created_by' => $this->request->getVar('empId')
+            'created_by' => $this->request->getVar('empId'),
+            'is_popular' => $this->request->getVar('popular')
         ];
 
         if (empty($data['id'])) {

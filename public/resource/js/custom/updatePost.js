@@ -8,7 +8,7 @@ $(function () {
 
 });
 
-function getCategory () {
+function getCategory() {
 
     $.ajax({
         url: base_url + 'get-category/' + 0,
@@ -90,92 +90,94 @@ function setPost(data) {
     $('#slug').val(data.slug);
 
     $('#category_id').val(data.category_id);
-   
-        $('#status').val(data.status);
-        //ckeditor
-        $('#post_highlight_content').val(data.highlight_text);
-        $('#post_content').val(data.body);
 
-        if (data.is_active == 1 || data.is_active === '1') {
-            $('#checkbox_1').prop('checked', true);
-        } else {
-            $('#checkbox_1').prop('checked', false);
-        }
+    $('#status').val(data.status);
+    //ckeditor
+    $('#post_highlight_content').val(data.highlight_text);
+    $('#post_content').val(data.body);
+
+    if (data.is_active == 1 || data.is_active === '1') {
+        $('#checkbox_1').prop('checked', true);
+    } else {
+        $('#checkbox_1').prop('checked', false);
     }
+}
 
-    // --------------------
-    // Update Category (Submit Form)
-    // --------------------
-    $('#addPostForm').on('submit', function (e) {
-        e.preventDefault();
-        //  if ($('#fileInput').val() === '') {
+// --------------------
+// Update Category (Submit Form)
+// --------------------
+$('#addPostForm').on('submit', function (e) {
+    e.preventDefault();
+    var isPopular = 0;
+    if ($('#checkbox_1').is(':checked')) {
+        isPopular = 1;
+    }
+    const post_content = CKEDITOR.instances.post_content.getData();
+    const post_highlight_content = CKEDITOR.instances.post_highlight_content.getData();
+    var returnVal = $("#addPostForm").valid();
+    var formdata = new FormData(this);
+    formdata.append("popular",isPopular);
+    formdata.append("empId", empData.id);
+    formdata.append("postId", empData.id);
+    formdata.append("post_highlight_content", post_highlight_content);
+    formdata.append("post_content", post_content);
+    if (returnVal) {
+        $.ajax({
+            url: base_url + 'post',
+            type: 'POST',
+            headers: {
+                "Authorization": token
+            },
+            data: formdata,
+            processData: false,
+            contentType: false,
+            dataType: 'json',
+            success: function (response) {
+                if (response.status === 200) {
+                    swal("Success!", response.message, "success").then(() => {
+                        // window.location.reload();
+                        //$(location).attr('href', base_url + 'blog/post111');
+                    });
+                } else {
+                    // Handle non-200 but successful request
+                    swal("Oops!", response.message, "error");
+                }
+            },
+        });
+    }
+});
 
-        //  }
-        const post_content = CKEDITOR.instances.post_content.getData();
-        const post_highlight_content = CKEDITOR.instances.post_highlight_content.getData();
-        var returnVal = $("#addPostForm").valid();
-        var formdata = new FormData(this);
-        formdata.append("empId", empData.id);
-        formdata.append("postId", empData.id);
-        formdata.append("post_highlight_content", post_highlight_content);
-        formdata.append("post_content", post_content);
-        if (returnVal) {
-            $.ajax({
-                url: base_url + 'post',
-                type: 'POST',
-                headers: {
-                    "Authorization": token
-                },
-                data: formdata,
-                processData: false,
-                contentType: false,
-                dataType: 'json',
-                success: function (response) {
-                    if (response.status === 200) {
-                        swal("Success!", response.message, "success").then(() => {
-                            // window.location.reload();
-                            //$(location).attr('href', base_url + 'blog/post111');
-                        });
-                    } else {
-                        // Handle non-200 but successful request
-                        swal("Oops!", response.message, "error");
-                    }
-                },
-            });
-        }
-    });
+// --------------------
+// Auto-generate slug
+// --------------------
+// $('#category').on('keyup', function () {
+//     let slug = $(this).val()
+//         .toLowerCase()
+//         .trim()
+//         .replace(/[^a-z0-9\s-]/g, '')
+//         .replace(/\s+/g, '-');
+//     $('#slug').val(slug);
+// });
 
-    // --------------------
-    // Auto-generate slug
-    // --------------------
-    // $('#category').on('keyup', function () {
-    //     let slug = $(this).val()
-    //         .toLowerCase()
-    //         .trim()
-    //         .replace(/[^a-z0-9\s-]/g, '')
-    //         .replace(/\s+/g, '-');
-    //     $('#slug').val(slug);
-    // });
+// --------------------
+// Form Validation
+// --------------------
+$("#addPostForm").validate({
+    rules: {
+        name: { required: true },
+        slug: { required: true }
+    },
+    messages: {
+        name: "Please enter category name",
+        slug: "Please enter slug"
+    }
+});
 
-    // --------------------
-    // Form Validation
-    // --------------------
-    $("#addPostForm").validate({
-        rules: {
-            name: { required: true },
-            slug: { required: true }
-        },
-        messages: {
-            name: "Please enter category name",
-            slug: "Please enter slug"
-        }
-    });
-
-    $('#title').on('keyup', function () {
-        let slug = $(this).val()
-            .toLowerCase()
-            .trim()
-            .replace(/[^a-z0-9\s-]/g, '')
-            .replace(/\s+/g, '-');
-        $('#slug').val(slug);
-    });
+$('#title').on('keyup', function () {
+    let slug = $(this).val()
+        .toLowerCase()
+        .trim()
+        .replace(/[^a-z0-9\s-]/g, '')
+        .replace(/\s+/g, '-');
+    $('#slug').val(slug);
+});

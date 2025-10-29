@@ -60,10 +60,15 @@ $('#cancelBtn').click(function () {
 
 $('#addPostForm').on('submit', function (e) {
     e.preventDefault();
+    var isPopular = 0;
+    if ($('#checkbox_1').is(':checked')) {
+        isPopular = 1;
+    }
     const post_content = CKEDITOR.instances.post_content.getData();
     const post_highlight_content = CKEDITOR.instances.post_highlight_content.getData();
     var returnVal = $("#addPostForm").valid();
     var formdata = new FormData(this);
+        formdata.append("popular",isPopular);
         formdata.append("empId",empData.id);
         formdata.append("post_highlight_content",post_highlight_content);
         formdata.append("post_content",post_content);

@@ -38,16 +38,14 @@
                     <div class="box-body">
                         <hr class="my-15">
                         <div class="row g-3">
-                        <!-- post image -->
-                          <div class="col-md-6">
+                            <!-- post image -->
+                            <div class="col-md-6">
                                 <div class="form-group text-center">
                                     <label for="profile_image" class="form-label">Image Preview...</label><br>
 
                                     <!-- Image Preview -->
-                                    <img
-                                        src="<?php echo base_url('resource/images/preview/post_preview01.png'); ?>"
-                                        alt="Image Preview..."
-                                        id="otherdpre"
+                                    <img src="<?php echo base_url('resource/images/preview/post_preview01.png'); ?>"
+                                        alt="Image Preview..." id="otherdpre"
                                         style="height: 200px;object-fit: cover; border-radius: 10%;" />
 
                                     <!-- Custom Upload Link -->
@@ -58,20 +56,19 @@
                                     </p>
 
                                     <!-- Hidden File Input -->
-                                    <input
-                                        type="file"
-                                        class="form-control-file"
-                                        name="blog_image"
-                                        id="blog_image"
-                                        style="display: none;"
-                                        accept="image/*"
-                                        onchange="loadFile(event, 'otherdpre')"
-                                         />
-                                         <input type="hidden" class="form-control" id="id" name="id">
+                                    <input type="file" class="form-control-file" name="blog_image" id="blog_image"
+                                        style="display: none;" accept="image/*"
+                                        onchange="loadFile(event, 'otherdpre')" />
+                                    <input type="hidden" class="form-control" id="id" name="id">
                                 </div>
                             </div>
-                            <div class="col-md-6"></div>
-                        <!-- post image end -->
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="checkbox" id="checkbox_1" class="isActive" value="1" name="is_active">
+                                    <label for="checkbox_1">Popular</label>
+                                </div>
+                            </div>
+                            <!-- post image end -->
                             <!-- Title -->
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -80,26 +77,27 @@
                                     </label>
                                     <input type="text" class="form-control" id="title" name="title"
                                         placeholder="Enter post title" required>
-                                    
+
                                 </div>
                             </div>
 
                             <!-- Slug -->
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="slug" class="form-label"><span style="color:red;font-weight:bold;">*</span>Slug:</label>
+                                    <label for="slug" class="form-label"><span
+                                            style="color:red;font-weight:bold;">*</span>Slug:</label>
                                     <input type="text" class="form-control" id="slug" name="slug"
                                         placeholder="Enter slug" required>
                                 </div>
                             </div>
 
-                     <!-- Category -->
+                            <!-- Category -->
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="category_id" class="form-label">Select Category:</label>
                                     <select class="form-control" id="category_id" name="category_id" required>
                                         <option value="">-- Select Category --</option>
-                                        
+
                                     </select>
                                 </div>
                             </div>
@@ -118,8 +116,10 @@
                             <!-- Body -->
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label for="post_highlight_content" class="form-label">Post Highlight Content:</label>
-                                    <textarea class="form-control" id="post_highlight_content" name="post_highlight_content" rows="10"
+                                    <label for="post_highlight_content" class="form-label">Post Highlight
+                                        Content:</label>
+                                    <textarea class="form-control" id="post_highlight_content"
+                                        name="post_highlight_content" rows="10"
                                         placeholder="Write Highlight here..."></textarea>
                                 </div>
                             </div>
