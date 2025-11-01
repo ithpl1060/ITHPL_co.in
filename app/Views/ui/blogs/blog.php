@@ -146,7 +146,7 @@
             <h3 class="font-inter font-bold text-xl text-gray-800">Popular Post</h3>
             <!-- <a href="#" class="bg-custom-purple-light text-white px-6 py-2 rounded-md text-[10px] font-bold">View All</a> -->
           </div>
-          <div class="mt-6 space-y-8" id="popular-posts">
+          <div class="mt-6 space-y-8 h-150 overflow-y-auto" id="popular-posts">
             <!-- Popular Post Item 1 -->
             <!-- <div class="flex flex-col group">
               <img class="rounded-xl h-48 w-full object-cover transition-transform duration-700 group-hover:scale-105 "
