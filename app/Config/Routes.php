@@ -85,7 +85,7 @@ $routes->post('fetch-post', [APIBlogController::class, 'fetchAllPosts']);
 $routes->get('get-post/(:num)', [APIBlogController::class, 'getPostById']);
 $routes->get('get-post-by-slug/(:any)', [APIBlogController::class, 'getPostBySlug/$1']);
 $routes->post('get-post-ui', [APIBlogController::class, 'getPostForUI']);
-
+$routes->post('get-popular-post', [APIBlogController::class, 'gePopulartPost']);
 // Q&A
 $routes->post('qna', [APIBlogController::class, 'createQna']);                 
 $routes->post('get-qna', [APIBlogController::class, 'getQna']);              

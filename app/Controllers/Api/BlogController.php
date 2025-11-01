@@ -351,6 +351,25 @@ class BlogController extends BaseController
         }
         return $this->response->setJSON($response);
     }
+    public function gePopulartPost()
+    {
+        $post = new PostModel();
+        $data =$post->getPopularPosts();
+         
+        if (!empty($data)) {
+            $response = [
+                'status' => 200,
+                'message' => 'All Data Fetch successfully!',
+                'data' => $data
+            ];
+        } else {
+            $response = [
+                'status' => 404,
+                'message' => 'Data not Found!'
+            ];
+        }
+        return $this->response->setJSON($response);
+    }
 
     private function handleImageUpload($fieldName)
     {
@@ -398,6 +417,7 @@ class BlogController extends BaseController
         ];
 
         $id = $qna->insert($data);
+        
         if ($id) {
             return $this->response->setJSON([
                 'status' => 200,

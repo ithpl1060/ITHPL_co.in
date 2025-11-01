@@ -62,7 +62,7 @@ function setAllPosts(data) {
     $('#all-post-list').empty();
     // Loop through response and append options
     $.each(data, function (index, post) {
-
+        console.log('.....'+post);
         if (post.status === 'published') {
             $('#all-post-list').append(
                 ` <div class="flex flex-col  group">
@@ -167,4 +167,51 @@ function getPostByCategory(cname){
     console.log('cname='+cname);
     sessionStorage.setItem("paginationId", 0);
     getPost(0,4,cname);
+}
+
+function getPopularPost() {
+    var formdata = new FormData();
+    
+    $.ajax({
+        url: base_url + 'get-popular-post',
+        type: 'POST',
+        data: formdata,
+        processData: false,
+        contentType: false,
+        dataType: 'json',
+        success: function (response) {
+            if (response.status === 200 && response.data) {
+                setPopularPost(response.data);
+             }
+        },
+        error: function () {
+            // swal("Error", "Unable to fetch category data.", "error");
+        }
+
+
+    });
+}
+getPopularPost();
+function setPopularPost(data){
+ $('#popular-posts').empty();
+    // Loop through response and append options
+    $.each(data, function (index, post) {
+
+        if (post.status === 'published') {
+            $('#popular-posts').append(
+                ` <div class="flex flex-col group">
+              <img class="rounded-xl h-48 w-full object-cover transition-transform duration-700 group-hover:scale-105 "
+                src="${base_url + post.img_url}" alt="${post.slug}">
+              <div class="mt-2">
+                <div class="flex space-x-2 text-[9px] ">
+                  <p class="font-bold text-gray-800">${post.category}</p>
+                  <p class="text-gray-400 font-medium">${getDateFormat(post.created_at)}</p>
+                </div>
+                <h4 class="font-raleway font-bold text-lg mt-1 text-gray-800 group-hover:text-custom-purple-light">${post.title}</h4>
+                <a href="${base_url}blog/${post.slug}" class=" font-bold text-sm mt-2 text-[#C48BE8]">Read More...</a>
+              </div>
+            </div>`
+            );
+        }
+    });   
 }

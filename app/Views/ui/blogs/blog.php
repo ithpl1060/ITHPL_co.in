@@ -146,9 +146,9 @@
             <h3 class="font-inter font-bold text-xl text-gray-800">Popular Post</h3>
             <!-- <a href="#" class="bg-custom-purple-light text-white px-6 py-2 rounded-md text-[10px] font-bold">View All</a> -->
           </div>
-          <div class="mt-6 space-y-8">
+          <div class="mt-6 space-y-8" id="popular-posts">
             <!-- Popular Post Item 1 -->
-            <div class="flex flex-col group">
+            <!-- <div class="flex flex-col group">
               <img class="rounded-xl h-48 w-full object-cover transition-transform duration-700 group-hover:scale-105 "
                 src="images/sea-travel.png" alt="Sea travel">
               <div class="mt-2">
@@ -160,9 +160,9 @@
                   Rules of Travelling In Sea You Need To Know</h4>
                 <a href="#" class=" font-bold text-sm mt-2 text-[#C48BE8]">Read More...</a>
               </div>
-            </div>
+            </div> -->
             <!-- Popular Post Item 2 -->
-            <div class="flex flex-col group">
+            <!-- <div class="flex flex-col group">
               <img class="rounded-xl h-48 w-full object-cover transition-transform duration-700 group-hover:scale-105 "
                 src="images/ui-uxdesign.png" alt="UI/UX design">
               <div class="mt-2">
@@ -174,7 +174,7 @@
                   to build strong portfolio and get a Job in UI/UX</h4>
                 <a href="#" class=" font-bold text-sm mt-2 text-[#C48BE8]">Read More...</a>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </aside>

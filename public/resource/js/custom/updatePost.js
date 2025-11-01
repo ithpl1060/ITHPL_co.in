@@ -96,7 +96,7 @@ function setPost(data) {
     $('#post_highlight_content').val(data.highlight_text);
     $('#post_content').val(data.body);
 
-    if (data.is_active == 1 || data.is_active === '1') {
+    if (data.is_popular == 1 || data.is_popular === '1') {
         $('#checkbox_1').prop('checked', true);
     } else {
         $('#checkbox_1').prop('checked', false);
