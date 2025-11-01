@@ -69,8 +69,6 @@ CREATE TABLE `posts` (
 -- Dumping data for table `posts`
 --
 
-INSERT INTO `posts` (`id`, `user_id`, `title`, `slug`, `body`, `status`, `created_at`, `update_at`, `created_by`, `updated_by`, `category_id`) VALUES
-(1, 12, 'test1', '#test1', 'test1', 'published', '2025-10-12 17:56:07', '2025-10-12 17:56:07', 12, 12, 1);
 
 -- --------------------------------------------------------
 
@@ -89,9 +87,6 @@ CREATE TABLE `post_category` (
 -- Dumping data for table `post_category`
 --
 
-INSERT INTO `post_category` (`id`, `name`, `slug`, `is_active`) VALUES
-(1, 'test1', '#test1', 0),
-(2, 'food', '#food', 1);
 
 -- --------------------------------------------------------
 
@@ -155,11 +150,6 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `first_name`, `last_name`, `contact`, `email`, `password`, `is_admin`, `created_at`, `updated_at`) VALUES
-(10, 'bhagwan', 'bharose', '9856235685', 'user1@ithpl.co.in', '$2y$10$VDYrHBjn23l2udaSJzJcYukN1uWqSalwzIKJd4b4KCV6N7AUh3dbq', 0, '2025-07-17 12:14:28', '2025-07-17 12:30:03'),
-(11, 'tobi', 'thomson', '8956223564', 'user2@ithpl.co.in', '$2y$10$G0K1OdFZJNR2Jr9J1or3GeXJ.qth2pk7QcXbNktceV3gLNKGwROam', 0, '2025-07-17 12:15:49', '2025-07-17 12:15:49'),
-(12, 'admin', 'adwani', '7845784578', 'admin@ithpl.com', '$2y$10$DbmjLmItR11aD1f0GX3PSuHPJeRzvVLoiyENAvkqa093jPo6cpR1q', 1, '2025-07-17 12:16:43', '2025-08-09 13:24:04'),
-(13, 'Havaban', 'Harde', '9999999999', 'user4@ithpl.com', '$2y$10$T02jhpo2uwfuRftgxO2opOT05y4WAtAm06vrqc5JVjByZy6wKc6uy', 0, '2025-07-17 12:18:38', '2025-08-09 13:23:40');
 
 --
 -- Indexes for dumped tables
