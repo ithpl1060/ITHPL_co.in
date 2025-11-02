@@ -1,5 +1,6 @@
 const base_url = sessionStorage.getItem("uibaseurl");
 const pageUrl = encodeURIComponent(window.location.href);
+//var pageUrl ='';
 const pageTitle = encodeURIComponent(document.title);
 let title = '';
 function getDateFormat(sdate) {
@@ -42,6 +43,8 @@ getPostBySlug(slug);
 
 function setPost(data) {
     //   console.log(JSON.stringify(data));
+    //pageUrl = base_url+'blog/'+data.slug;
+    //pageTitle = data.title; 
     title = data.title;
     $('#category').html(data.category);
     $('#created-at').html(getDateFormat(data.created_at));
@@ -50,6 +53,7 @@ function setPost(data) {
     $('#img-url').attr('alt', data.slug);
     $('#highlight-text').html(data.highlight_text.replace(/<\/?p>/g, ''));
     $('#body').html(data.body.replace(/<\/?p>/g, ''));
+    //$('#share-whatsapp').attr('href','https://wa.me/?text=' + location.href);
 }
 
 function setQna(qnaData) {
@@ -99,7 +103,9 @@ $('#share-linkedin').on('click', function () {
 
 // WhatsApp Share
 $('#share-whatsapp').on('click', function () {
-    window.open(`https://api.whatsapp.com/send?text=${title}%20${pageUrl}`, '_blank');
+   // window.open(`https://api.whatsapp.com/send?text=${title}%20${pageUrl}`, '_blank');
+    window.open('https://wa.me/?text=' + location.href, '_blank');
+   // window.open(`https://api.whatsapp.com/send?text=abcdefgh%20http://localhost:8080/blog/best-website-to-research-for-your-next-project`, '_blank');
 });
 
 function copyLink() {
