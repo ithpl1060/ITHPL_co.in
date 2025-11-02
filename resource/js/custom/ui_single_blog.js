@@ -51,12 +51,12 @@ function setPost(data) {
     $('#title').html(data.title);
     $('#img-url').attr('src', base_url + data.img_url);
     $('#img-url').attr('alt', data.slug);
-    CKEDITOR.instances.post_highlight_content.setData(data.highlight_text || '');
-    CKEDITOR.instances.post_content.setData(data.body || '');
+    //CKEDITOR.instances.post_highlight_content.setData(data.highlight_text || '');
+    //CKEDITOR.instances.post_content.setData(data.body || '');
     // $('#highlight-text').html(data.highlight_text.replace(/<\/?p>/g, ''));
-    //$('#highlight-text').html(data.highlight_text);
+    $('#highlight-text').html(data.highlight_text);
     // $('#body').html(data.body.replace(/<\/?p>/g, ''));
-    //$('#body').html(data.body);
+    $('#body').html(data.body);
     //$('#share-whatsapp').attr('href','https://wa.me/?text=' + location.href);
 }
 
