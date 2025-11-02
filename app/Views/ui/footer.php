@@ -82,22 +82,33 @@
 <!-- JS Files -->
 <script>
     // Optional: Scroll to top, footer animations, etc.
+    const BASE_URL = "<?= base_url() ?>";
+    sessionStorage.setItem("uibaseurl", BASE_URL);
+    // console.log('Base URL set in sessionStorage:', sessionStorage.getItem('uibaseurl'));
 </script>
+
+    <!-- jQuery 3 -->
+    <script src="<?php echo base_url() . 'resource/assets/vendor_components/jquery-3.3.1/jquery-3.3.1.js'; ?>"></script>
+<script src="<?php echo base_url() . 'resource/js/ajax-jquery.js'; ?>"></script>
+<script src="<?php echo base_url() . 'resource/js/sweetalert.js' ?>"></script>
+<script src="<?php echo base_url() . 'resource/js/global.js' ?>"></script>
 <script>
-    // Simple fade-in animation on scroll
-    document.addEventListener('DOMContentLoaded', function () {
-        const animatedEls = document.querySelectorAll('.animate-fade-in-up');
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('opacity-100', 'translate-y-0');
-                    entry.target.classList.remove('opacity-0', 'translate-y-8');
-                }
-            });
-        }, { threshold: 0.15 });
-        animatedEls.forEach((el) => {
-            el.classList.add('opacity-0', 'translate-y-8', 'transition-all', 'duration-700');
-            observer.observe(el);
-        });
-    });
+// Simple fade-in animation on scroll
+document.addEventListener('DOMContentLoaded', function () {
+const animatedEls = document.querySelectorAll('.animate-fade-in-up');
+const observer = new IntersectionObserver((entries) => {
+entries.forEach((entry) => {
+if (entry.isIntersecting) {
+entry.target.classList.add('opacity-100', 'translate-y-0');
+entry.target.classList.remove('opacity-0', 'translate-y-8');
+}
+});
+}, { threshold: 0.15 });
+animatedEls.forEach((el) => {
+el.classList.add('opacity-0', 'translate-y-8', 'transition-all', 'duration-700');
+observer.observe(el);
+});
+});
+
+
 </script>

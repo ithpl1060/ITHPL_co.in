@@ -177,6 +177,9 @@
                             <a href="#">Sustainability & Community Outreach</a>
                         </div> -->
                     </li>
+                    <li class="nav-item">
+                        <a href="<?= base_url('blogs') ?>" class="nav-hover">Blogs</a>
+                   </li>
                 </nav>
 
                 <!-- Contact Button -->

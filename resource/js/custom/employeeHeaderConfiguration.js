@@ -4,10 +4,6 @@ var token = sessionStorage.getItem('etoken');
 var type = sessionStorage.getItem('etype');
 // var type = sessionStorage.getItem('empDetails');
 var empdetails = JSON.parse(sessionStorage.getItem("empDetails"));
-console.log('base_url:', base_url);
-console.log('token:', token);
-console.log('type:', type);
-console.log(empdetails);
 
 // alert(etoken);
 if (token == null) {

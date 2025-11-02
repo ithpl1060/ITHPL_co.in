@@ -1,0 +1,130 @@
+<?php
+
+namespace App\Controllers\Admin;
+
+use App\Controllers\BaseController;
+
+class BlogController extends BaseController
+{
+    //category
+    public function category(): string
+    {
+        $data['meta']['meta_title'] = 'ITHPL | Category';
+
+        return view('header', $data)
+            . view('sidebar/side_bar')
+            . view('blogs/category/category')
+            . view('footer')
+            . view('blogs/category/category_js')
+            . view('htmlend');
+    }
+
+    public function createCategory(): string
+    {
+        $data['meta']['meta_title'] = 'Create Category';
+
+        return view('header', $data)
+            . view('sidebar/side_bar')
+            . view('blogs/category/addCategory')
+            . view('footer')
+            . view('blogs/category/addCategory_js')
+            . view('htmlend');
+    }
+    public function updateCategory($id = 0): string
+    {
+        $data = [
+            'id' => $id,
+            'meta' => [
+                'meta_title' => 'Update Category'
+            ]
+        ];
+
+        return view('header', $data)
+            . view('sidebar/side_bar')
+            . view('blogs/category/updateCategory', $data)
+            . view('footer')
+            . view('blogs/category/updateCategory_js', $data)
+            . view('htmlend');
+    }
+
+    // ================== POSTS ==================
+
+    public function posts(): string
+    {
+        $data['meta']['meta_title'] = 'ITHPL | Posts';
+
+        return view('header', $data)
+            . view('sidebar/side_bar')
+            . view('blogs/post/posts')
+            . view('footer')
+            . view('blogs/post/posts_js')
+            . view('htmlend');
+    }
+
+    public function createPost(): string
+    {
+        $data['meta']['meta_title'] = 'Create Post';
+
+        return view('header', $data)
+            . view('sidebar/side_bar')
+            . view('blogs/post/addPost')
+            . view('footer')
+            . view('blogs/post/addPost_js')
+            . view('htmlend');
+    }
+
+    public function updatePost($id = 0): string
+    {
+        $data['id'] = $id;
+        $data['meta']['meta_title'] = 'Update Post';
+
+        return view('header', $data)
+            . view('sidebar/side_bar')
+            . view('blogs/post/addPost')
+            . view('footer')
+            . view('blogs/post/updatePost_js', $data)
+            . view('htmlend');
+    }
+
+    // ================== Q&A ==================
+    public function qna(): string
+    {
+        $data['meta']['meta_title'] = 'ITHPL | Q&A';
+        return view('header', $data)
+            . view('sidebar/side_bar')
+            . view('blogs/qna/qna')
+            . view('footer')
+            . view('blogs/qna/qna_js')
+            . view('htmlend');
+    }
+
+    public function createQna(): string
+    {
+        $data['meta']['meta_title'] = 'Create Q&A';
+        return view('header', $data)
+            . view('sidebar/side_bar')
+            . view('blogs/qna/addQna')
+            . view('footer')
+            . view('blogs/qna/addQna_js')
+            . view('htmlend');
+    }
+
+    public function updateQna($id = 0): string
+    {
+        $data = [
+            'id' => $id,
+            'meta' => [
+                'meta_title' => 'Update Q&A'
+            ]
+        ];
+
+        return view('header', $data)
+            . view('sidebar/side_bar')
+            . view('blogs/qna/addQna', $data)
+            . view('footer')
+            . view('blogs/qna/updateQna_js', $data)
+            . view('htmlend');
+    }
+
+
+}

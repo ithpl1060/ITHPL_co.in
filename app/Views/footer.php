@@ -211,8 +211,7 @@
 
 
 <!-- popper -->
-<!--<script src="<?php // echo base_url().'resource/assets/vendor_components/popper/dist/popper.min.js'; 
-                    ?>"></script>-->
+<script src="<?php echo base_url().'resource/assets/vendor_components/popper/dist/popper.min.js';?>"></script>
 
 <!-- Bootstrap 4.1-->
 <script src="<?php echo base_url() . 'resource/assets/vendor_components/bootstrap/dist/js/bootstrap.min.js'; ?>"></script>
@@ -283,6 +282,10 @@
 
 <!-- side_bar -->
 <script src="<?php echo base_url() . 'resource/js/custom/employeeHeaderConfiguration.js'; ?>"></script>
+<!-- CK Editor -->
+<script src="<?php echo base_url() . 'resource/assets/vendor_components/ckeditor/ckeditor.js'; ?>"></script>
+<!-- Bootstrap WYSIHTML5 -->
+<script src="<?php echo base_url() . 'resource/assets/vendor_plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js'; ?>"></script>
 <!-- <script src="</?php echo base_url() . 'resource/js/custom/sidebar.js'; ?>"></script> -->
 
 <script>
