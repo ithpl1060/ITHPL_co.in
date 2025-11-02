@@ -51,7 +51,8 @@ function setPost(data) {
     $('#title').html(data.title);
     $('#img-url').attr('src', base_url + data.img_url);
     $('#img-url').attr('alt', data.slug);
-    $('#highlight-text').html(data.highlight_text.replace(/<\/?p>/g, ''));
+    // $('#highlight-text').html(data.highlight_text.replace(/<\/?p>/g, ''));
+    $('#highlight-text').html(data.highlight_text);
     $('#body').html(data.body.replace(/<\/?p>/g, ''));
     //$('#share-whatsapp').attr('href','https://wa.me/?text=' + location.href);
 }
