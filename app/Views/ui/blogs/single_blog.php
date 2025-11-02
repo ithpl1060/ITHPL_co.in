@@ -69,7 +69,7 @@
                     <!-- Facebook -->
                     <a 
                     id="share-facebook"
-                    href="https://www.facebook.com/sharer/sharer.php?u=" 
+                    href="" 
                        target="_blank"
                        class="group overflow-hidden gradient-shine  active:scale-95 flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-blue-600/50 hover:-translate-y-1">
                         <svg class="w-5 h-5  transition-transform duration-300 group-hover:scale-110" fill="currentColor" viewBox="0 0 24 24">
@@ -81,7 +81,7 @@
                     <!-- LinkedIn -->
                     <a
                     id="share-linkedin"
-                    href="https://www.linkedin.com/shareArticle?mini=true&url=&title=How to Make Games More Attractive with New VR & AI Technology" 
+                    href="" 
                        target="_blank"
                        class="group overflow-hidden gradient-shine  active:scale-95 flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-blue-700 to-blue-800 text-white rounded-xl font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-blue-700/50 hover:-translate-y-1">
                         <svg class="w-5 h-5 transition-transform duration-300 group-hover:scale-110" fill="currentColor" viewBox="0 0 24 24">
@@ -93,7 +93,7 @@
                     <!-- WhatsApp -->
                     <a
                     id="share-whatsapp"
-                    href="https://wa.me/?text=How to Make Games More Attractive with New VR & AI Technology" 
+                    href="" 
                        target="_blank"
                        class="group overflow-hidden gradient-shine  active:scale-95 flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-xl font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-green-500/50 hover:-translate-y-1">
                         <svg class="w-5 h-5 transition-transform duration-300 group-hover:scale-110" fill="currentColor" viewBox="0 0 24 24">
