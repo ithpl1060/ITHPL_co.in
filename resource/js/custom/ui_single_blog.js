@@ -51,18 +51,21 @@ function setPost(data) {
     $('#title').html(data.title);
     $('#img-url').attr('src', base_url + data.img_url);
     $('#img-url').attr('alt', data.slug);
+    CKEDITOR.instances.post_highlight_content.setData(data.highlight_text || '');
+    CKEDITOR.instances.post_content.setData(data.body || '');
     // $('#highlight-text').html(data.highlight_text.replace(/<\/?p>/g, ''));
-    $('#highlight-text').html(data.highlight_text);
-    $('#body').html(data.body.replace(/<\/?p>/g, ''));
+    //$('#highlight-text').html(data.highlight_text);
+    // $('#body').html(data.body.replace(/<\/?p>/g, ''));
+    //$('#body').html(data.body);
     //$('#share-whatsapp').attr('href','https://wa.me/?text=' + location.href);
 }
 
 function setQna(qnaData) {
     if (qnaData.length > 0) {
-       var flag =0;
+        var flag = 0;
         for (let i = 0; i < qnaData.length; i++) {
             if (qnaData[i].status === 'Published') {
-                flag =1;
+                flag = 1;
                 $('#qnaList').append(
                     `<div class="group border border-slate-200 rounded-xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-purple-200">
                         <button onclick="toggleFaq(${i})" class="w-full flex items-center justify-between p-6 text-left bg-white hover:bg-slate-50 transition-colors duration-300">
@@ -80,10 +83,10 @@ function setQna(qnaData) {
 `);
             }
         }
-        if(flag == 1){
-             $('#fnq-div').show();
-        }else{
-             $('#fnq-div').hide();
+        if (flag == 1) {
+            $('#fnq-div').show();
+        } else {
+            $('#fnq-div').hide();
         }
     } else {
         $('#fnq-div').hide();
@@ -104,9 +107,9 @@ $('#share-linkedin').on('click', function () {
 
 // WhatsApp Share
 $('#share-whatsapp').on('click', function () {
-   // window.open(`https://api.whatsapp.com/send?text=${title}%20${pageUrl}`, '_blank');
+    // window.open(`https://api.whatsapp.com/send?text=${title}%20${pageUrl}`, '_blank');
     window.open('https://wa.me/?text=' + location.href, '_blank');
-   // window.open(`https://api.whatsapp.com/send?text=abcdefgh%20http://localhost:8080/blog/best-website-to-research-for-your-next-project`, '_blank');
+    // window.open(`https://api.whatsapp.com/send?text=abcdefgh%20http://localhost:8080/blog/best-website-to-research-for-your-next-project`, '_blank');
 });
 
 function copyLink() {
