@@ -93,8 +93,8 @@ function setPost(data) {
 
     $('#status').val(data.status);
     //ckeditor
-    $('#post_highlight_content').val(data.highlight_text);
-    $('#post_content').val(data.body);
+    $('#post_highlight_content').html(data.highlight_text);
+    $('#post_content').html(data.body);
 
     if (data.is_popular == 1 || data.is_popular === '1') {
         $('#checkbox_1').prop('checked', true);
