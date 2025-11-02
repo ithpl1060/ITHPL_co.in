@@ -54,4 +54,5 @@ class QnaModel extends Model
             ->where('qna.id', $id)
             ->first();
     }
+
 }
