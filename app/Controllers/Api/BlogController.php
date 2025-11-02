@@ -6,7 +6,7 @@ use App\Controllers\BaseController;
 use App\Models\CategoryModel;
 use App\Models\PostModel;
 use CodeIgniter\HTTP\ResponseInterface;
-use App\Models\qnaModel;
+use App\Models\QnaModel;
 
 
 class BlogController extends BaseController
