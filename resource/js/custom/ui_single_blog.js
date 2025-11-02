@@ -54,9 +54,9 @@ function setPost(data) {
     //CKEDITOR.instances.post_highlight_content.setData(data.highlight_text || '');
     //CKEDITOR.instances.post_content.setData(data.body || '');
     //$('#highlight-text').html(data.highlight_text.replace(/<\/?p>/g, ''));
-    $('#highlight-text').html(data.highlight_text);
     //$('#body').html(data.body.replace(/<\/?p>/g, ''));
-    $('#body').html(data.body);
+    $('#highlight-text').html(data.highlight_text.find('p').addClass('text-lg leading-relaxed text-slate-700 mb-6'));
+    $('#body').html(data.body.find('p').addClass('text-lg leading-relaxed text-slate-700 mb-6'));
     //$('#share-whatsapp').attr('href','https://wa.me/?text=' + location.href);
 }
 
