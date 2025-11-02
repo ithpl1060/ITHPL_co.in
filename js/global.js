@@ -442,6 +442,14 @@ function initWheelScroll() {
     ScrollTrigger.refresh();
 };
 
+document.addEventListener("DOMContentLoaded", () => {
+  if ('scrollRestoration' in history) {
+    history.scrollRestoration = 'manual';
+  }
+  window.scrollTo(0, 0);
+});
+
+
 (() => {
     const sections = document.querySelectorAll(".fade-in-section");
     const observer = new IntersectionObserver((entries, obs) => {
@@ -541,5 +549,22 @@ dots.forEach(dot => {
 updateSlider();
 
       });
+
+
+    //   for faq section
+         function toggleFaq(num) {
+    const answer = document.getElementById(`answer-${num}`);
+    const icon = document.getElementById(`icon-${num}`);
+    
+    if (answer.classList.contains('max-h-0')) {
+        answer.classList.remove('max-h-0');
+        answer.classList.add('max-h-96');
+        icon.style.transform = 'rotate(180deg)';
+    } else {
+        answer.classList.remove('max-h-96');
+        answer.classList.add('max-h-0');
+        icon.style.transform = 'rotate(0deg)';
+    }
+}
 
   

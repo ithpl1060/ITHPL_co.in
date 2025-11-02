@@ -57,6 +57,9 @@ if ($session_data == null) {
     <!-- Select2 -->
     <link rel="stylesheet"
         href="<?php echo base_url() . 'resource/assets/vendor_components/select2/dist/css/select2.min.css' ?>">
+    <!-- bootstrap wysihtml5 - text editor -->
+    <link rel="stylesheet"
+        href="<?php echo base_url() . 'resource/assets/vendor_plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css' ?>">
 
 
     <style>

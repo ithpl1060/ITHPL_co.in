@@ -7,6 +7,11 @@
   );
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
@@ -1093,7 +1098,7 @@ section {
 
 .why-choose-us-image img {
   width: 590px;
-  height: 610px;
+  height: 520px;
   flex-shrink: 1;
 }
 
@@ -2739,6 +2744,13 @@ section {
 
 .hero-description-a {
   font-size: 26px;
+  color: rgba(2, 0, 0, 0.84);
+  max-width: 1029px;
+  margin: 0 auto 12px;
+}
+
+.hero-description-b {
+  font-size: 18px;
   color: rgba(2, 0, 0, 0.84);
   max-width: 1029px;
   margin: 0 auto 12px;

@@ -2,24 +2,60 @@
 
 use CodeIgniter\Router\RouteCollection;
 use App\Controllers\Admin\AdminController as WebAdminController;
+use App\Controllers\Admin\BlogController;
 use App\Controllers\Api\AdminController as ApiAdminController;
 use App\Controllers\Api\SeoController;
+use App\Controllers\Api\BlogController as APIBlogController;
 use App\Controllers\UiController;
 
 /**
  * @var RouteCollection $routes
  */
+//admin UI
 $routes->get('login', [WebAdminController::class, 'index']);
 
+// SEO
 $routes->group('seo', function ($routes) {
-    $routes->get('/', [WebAdminController::class, 'seo']);        // localhost/uservcard
-    $routes->get('create', [WebAdminController::class, 'createSeo']);   // localhost/uservcard/create
-    $routes->get('update/(:num)', [WebAdminController::class, 'updateSeo']);   // localhost/uservcard/create
+    $routes->get('/', [WebAdminController::class, 'seo']); 
+    $routes->get('create', [WebAdminController::class, 'createSeo']);   
+    $routes->get('update/(:num)', [WebAdminController::class, 'updateSeo']);   
     // Add more routes as needed
 });
 
+// Blogs
+$routes->group('blog', static function ($routes) {
 
-// api 
+    // -------------------------
+    // Category Management (Admin UI)
+    // -------------------------
+    $routes->group('category', static function ($routes) {
+        $routes->get('/', [BlogController::class, 'category']);                  // list page → /blog/category
+        $routes->get('create', [BlogController::class, 'createCategory']); // create page → /blog/category/create-category
+        $routes->get('update/(:num)', [BlogController::class, 'updateCategory']); // create page → /blog/category/create-category
+    });
+
+    // -------------------------
+    // Post Management (Admin UI)
+    // -------------------------
+    $routes->group('post', static function ($routes) {
+        $routes->get('/', [BlogController::class, 'posts']);                    // list page → /blog/post
+        $routes->get('create', [BlogController::class, 'createPost']);     // create page → /blog/post/create-post
+        $routes->get('update/(:num)', [BlogController::class, 'updatePost']);     // create page → /blog/post/create-post
+    });
+
+    // -------------------------
+    // Q&A Management (Admin UI)
+    // -------------------------
+    $routes->group('qna', static function ($routes) {
+        $routes->get('/', [BlogController::class, 'qna']);                   
+        $routes->get('create', [BlogController::class, 'createQna']);     
+        $routes->get('update/(:num)', [BlogController::class, 'updateQna']);     
+    });
+});
+
+
+
+// api's 
 $routes->get('users', [WebAdminController::class, 'users']);
 $routes->post('signUP', [ApiAdminController::class, 'register']);
 $routes->post('login', [ApiAdminController::class, 'index']);
@@ -36,7 +72,25 @@ $routes->get('get_seo', [SeoController::class, 'getSeo']);
 $routes->get('get_seo/(:num)', [SeoController::class, 'getSeo']);
 $routes->delete('seo/(:num)', [SeoController::class, 'delete']);
 
+//category
+$routes->post('category', [APIBlogController::class, 'createCategory']);
+$routes->post('get-category', [APIBlogController::class, 'getCategory']);
+$routes->get('get-category/(:num)', [APIBlogController::class, 'getCategoryById']);
+$routes->post('update-category/(:num)', [APIBlogController::class, 'updateCategory']);
 
+//post
+$routes->post('post', [APIBlogController::class, 'createPost']);
+$routes->post('get-post', [APIBlogController::class, 'getPost']);
+$routes->post('fetch-post', [APIBlogController::class, 'fetchAllPosts']);
+$routes->get('get-post/(:num)', [APIBlogController::class, 'getPostById']);
+$routes->get('get-post-by-slug/(:any)', [APIBlogController::class, 'getPostBySlug/$1']);
+$routes->post('get-post-ui', [APIBlogController::class, 'getPostForUI']);
+$routes->post('get-popular-post', [APIBlogController::class, 'gePopulartPost']);
+// Q&A
+$routes->post('qna', [APIBlogController::class, 'createQna']);                 
+$routes->post('get-qna', [APIBlogController::class, 'getQna']);              
+$routes->get('get-qna/(:num)', [APIBlogController::class, 'getQnaById/$1']); 
+$routes->post('update-qna/(:num)', [APIBlogController::class, 'updateQna/$1']); 
 
 
 
@@ -63,5 +117,9 @@ $routes->get('services', [UiController::class, 'services']);
 $routes->get('solutions', [UiController::class, 'solutions']);
 $routes->get('sustainability', [UiController::class, 'sustainability']);
 $routes->get('hpforbusiness', [UiController::class, 'hpforbusiness']);
+$routes->get('blogs', [UiController::class, 'blogs']);
+$routes->get('blog/(:any)', [UiController::class, 'blog']);
+
+
 
 
