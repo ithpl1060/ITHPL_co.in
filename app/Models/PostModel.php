@@ -165,4 +165,5 @@ class PostModel extends Model
             ->orderBy('posts.created_at', 'DESC')
             ->findAll();
     }
+
 }

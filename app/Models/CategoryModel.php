@@ -94,5 +94,4 @@ class CategoryModel extends Model
 
         return $builder->countAllResults();
     }
-    
 }
