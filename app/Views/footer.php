@@ -9,7 +9,7 @@
             </li>
         </ul>
     </div>
-    &copy; 2024 <a href="#">themis.in</a>. All Rights Reserved.
+    &copy; 2025 <a href="https://ithpl.com/">ithpl.com</a>. All Rights Reserved.
 </footer>
 <!-- Control Sidebar -->
 <aside class="control-sidebar control-sidebar-light">
