@@ -147,8 +147,8 @@
       <h2 class="subscribe-title">
         Ready to Take the First Step Toward a Greener Future?
       </h2>
-      <form class="subscribe-form">
-        <input type="email" placeholder="Enter your email" class="subscribe-input" />
+      <form class="subscribe-form" id="mailSubscriptionForm">
+        <input type="email" name="email" id="subscriptionEmail" placeholder="Enter your email" class="subscribe-input" />
         <button type="submit" class="subscribe-button">Submit</button>
       </form>
     </div>
@@ -156,3 +156,5 @@
 </section>
 <!-- js file -->
 <script src="<?= base_url('js/global.js'); ?>" defer></script>
+<!-- Mail Subscription -->
+<script src="<?= base_url('js/mail_subscription.js'); ?>"></script>

@@ -21,13 +21,22 @@
                 <li><a href="<?= base_url('services'); ?>">Services</a></li>
                 <li><a href="<?= base_url('solutions'); ?>">Solutions</a></li>
                 <!-- <li><a href="#products">Products</a></li> -->
-                <li><a href="<?= base_url('Sustainability'); ?>">Sustainability</a></li>
-                <li><a href="<?= base_url('contact-us'); ?>">Contact</a></li>
+                <li><a href="<?= base_url('sustainability'); ?>">Sustainability</a></li>
+                <!-- <li><a href="<?= base_url('contact-us'); ?>">Contact</a></li>
+                <li><a href="<?= base_url('blogs'); ?>">Blogs</a></li> -->
             </ul>
         </div>
 
-        <!-- Apple Related Links -->
-        <!-- <div class="footer-links pt-0 sm:pt-13">
+         <div class="footer-links pt-0 sm:pt-13">
+            <ul>
+               <li><a href="<?= base_url('contact-us'); ?>">Contact</a></li>
+                <li><a href="<?= base_url('blogs'); ?>">Blogs</a></li>
+                <li><a href="<?= base_url('hpforbusiness'); ?>">HP</a></li>
+              </ul>
+        </div>
+
+        <!-- Apple Related Links --> 
+         <!-- <div class="footer-links pt-0 sm:pt-13">
             <ul>
                 <li><a href="<?= base_url('apple'); ?>">Apple</a></li>
                 <li><a href="<?= base_url('apple-enterprises'); ?>">Apple for Enterprise</a></li>
@@ -79,6 +88,8 @@
 
 </body>
 
+<!-- Mail Subscription -->
+<script src="<?= base_url('js/mail_subscription.js'); ?>"></script>
 <!-- JS Files -->
 <script>
     // Optional: Scroll to top, footer animations, etc.

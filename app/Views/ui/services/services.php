@@ -84,6 +84,8 @@
                             <div class="dropdown-column">
                                 <a href="<?= base_url('about-us#clients') ?>">Customers</a>
                                 <a href="<?= base_url('about-us#testimonials') ?>">Testimonials</a>
+                                <a href="<?= base_url('blogs') ?>" class="nav-hover">Blogs</a>
+                 
                             </div>
                         </div>
                     </li>
@@ -146,24 +148,24 @@
                     </li>
 
                     <!-- Apple -->
-                    <!-- <li class="nav-item">
-                        <a href="#" class="nav-hover">Apple</a>
+                       <li class="nav-item">
+                        <a href="<?= base_url('apple') ?>" class="nav-hover">Apple</a>
                         <div class="dropdown-menu single-column">
                             <div class="dropdown-arrow"></div>
-                            <a href="<?= base_url('apple-work') ?>">Apple At Work</a>
-                            <a href="<?= base_url('apple-business') ?>">Apple for Business</a>
-                            <a href="<?= base_url('apple-enterprise') ?>">Apple for Enterprises</a>
+                            <!-- <a href="<?= base_url('apple-work') ?>">Apple At Work</a> -->
+                            <!-- <a href="<?= base_url('apple-business') ?>">Apple for Business</a> -->
+                            <a href="<?= base_url('apple-enterprises') ?>">Apple for Enterprises</a>
                             <a href="<?= base_url('apple-smart-epp') ?>">Apple Smart EPP</a>
-                            <a href="<?= base_url('apple#s-why') ?>">Why Apple?</a>
+                            <a href="<?= base_url('apple-tco-calc') ?>">Apple TCO Calculator</a>
                         </div>
-                    </li> -->
+                    </li>
 
 
-                    
+<!--                     
   <li class="nav-item">
                         <a href="<?= base_url('hpforbusiness') ?>" class="nav-hover">HP</a>
                        
-                    </li>
+                    </li> -->
 
                     <!-- Sustainability -->
                     <li class="nav-item">
@@ -177,9 +179,9 @@
                             <a href="#">Sustainability & Community Outreach</a>
                         </div> -->
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a href="<?= base_url('blogs') ?>" class="nav-hover">Blogs</a>
-                   </li>
+                   </li> -->
                 </nav>
 
                 <!-- Contact Button -->
@@ -201,7 +203,7 @@
                 <a href="<?= base_url('services') ?>">Services</a>
                 <a href="<?= base_url('solutions') ?>">Solutions</a>
                 <!-- <a href="#">Apple</a> -->
-                <a href="<?= base_url('hpforbusiness') ?>">HP</a>
+                <!-- <a href="<?= base_url('hpforbusiness') ?>">HP</a> -->
                 <a href="<?= base_url('sustainability') ?>">Sustainability</a>
                 <a href="<?= base_url('contact-us') ?>"></a>
             </div>
@@ -315,7 +317,7 @@
                             </div>
                             <h3 class="service-card-title-b"><?= esc($service['title']) ?></h3>
                             <p class="service-card-desc-s"><?= esc($service['desc']) ?></p>
-                            <button class="service-card-button-s">Learn More</button>
+                            <a href="<?= base_url('contact-us#contact') ?>" class="service-card-button-s">Learn More</a>
                         </div>
                     <?php endforeach; ?>
 
@@ -615,15 +617,12 @@
                 </p>
 
                 <!-- Subscribe Form -->
-                <form class="subscribe-form" method="post" action="<?= base_url('subscribe') ?>">
-                    <input type="email" name="email" placeholder="Enter your email" class="subscribe-input" required />
+                <form class="subscribe-form" id="mailSubscriptionForm" >
+                    <input type="email" name="email" id="subscriptionEmail" placeholder="Enter your email" class="subscribe-input" required />
                     <button type="submit" class="subscribe-button">Submit</button>
                 </form>
 
-                <!-- Success/Error Message -->
-                <?php if (session()->getFlashdata('message')): ?>
-                    <p class="text-green-500 mt-2"><?= session()->getFlashdata('message') ?></p>
-                <?php endif; ?>
+                
             </div>
         </div>
     </section>
@@ -711,6 +710,8 @@
     <script src="<?= base_url('js/ScrollTrigger.min.js'); ?>" defer></script>
     <script src="<?= base_url('js/Scrollbar.js'); ?>" defer></script>
     <script src="<?= base_url('js/global.js'); ?>" defer></script>
+<!-- Mail Subscription -->
+<script src="<?= base_url('js/mail_subscription.js'); ?>"></script>
 
 </body>
 

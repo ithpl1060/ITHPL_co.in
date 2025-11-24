@@ -555,7 +555,7 @@ section {
   opacity: 1;
 }
 
-.main-nav-mobile .flex {
+.main-nav-mobile .flex  #mobileNav {
   padding: 1rem;
 }
 
@@ -1754,6 +1754,31 @@ section {
 }
 
 /* CSS for section section:certifications */
+
+.scroll-track {
+  display: flex;
+  width: max-content;
+  white-space: nowrap;
+  will-change: transform;
+  animation: scrollLinear 20s linear infinite;
+}
+
+@keyframes scrollLinear {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Disable scrollbars */
+.certifications-container {
+  overflow: hidden;
+}
+
+/* Ensure slides do not wrap */
+.certifications-grid {
+  display: flex;
+  gap: 24px;
+}
+
 .certifications-container {
   width: 100%;
 
@@ -1764,6 +1789,9 @@ section {
   /* Remove scrollbar styling */
   scrollbar-width: none; /* For Firefox */
 }
+
+
+
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 .certifications-container::-webkit-scrollbar {
@@ -2080,6 +2108,7 @@ section {
     font-size: 10px;
   }
 }
+
 
 /* CSS for section section:partners */
 /* exp */
@@ -2500,6 +2529,7 @@ section {
   }
 }
 
+
 /* CSS for section section:subscribe */
 #subscribe {
   padding-top: 60px;
@@ -2730,6 +2760,12 @@ section {
   font-weight: 700;
   color: #050000;
 }
+.hero-subtitle-2-a {
+  font-size: 42px;
+  font-weight: 700;
+  color: #050000;
+}
+
 
 .hero-title-a {
   font-size: 42px;
@@ -2748,6 +2784,13 @@ section {
   max-width: 1029px;
   margin: 0 auto 12px;
 }
+.hero-description-c {
+  font-size: 21px;
+  color: rgba(2, 0, 0, 0.84);
+  max-width: 1029px;
+  margin: 0 auto 12px;
+}
+
 
 .hero-description-b {
   font-size: 18px;
@@ -3112,6 +3155,7 @@ section {
   }
 }
 
+/* milestone card section start */
 .horizontal-scroll-section {
   position: relative;
   width: 100%;
@@ -3162,15 +3206,16 @@ section {
 
 .scroll-content,
 .horizontal-scroll-content {
-  /* display: flex;
-  align-items: center; */
-  /* height: 100%; */
+  display: flex;
+  align-items: flex-end; /* Changed from center to flex-end for proper card alignment */
 }
 
 .horizontal-scroll-content {
-  /* padding: 2rem 4rem; */
-  padding: 6rem  4rem 0 4rem;
+  /* CRITICAL FIX: Add substantial right padding to ensure last cards are fully visible */
+  padding: 6rem 40vw 6rem 4rem; /* Increased right padding from 4rem to 40vw */
   gap: 2rem;
+  /* Ensure content doesn't collapse */
+  min-height: 35rem;
 }
 
 .milestone-card {
@@ -3194,8 +3239,10 @@ section {
   align-items: center;
   position: relative;
   overflow: hidden;
-  scroll-snap-align: start;
+  scroll-snap-align: center; /* Changed from start to center for better positioning */
   transition: all 0.4s ease;
+  /* Ensure cards maintain their position */
+  margin-bottom: 2rem;
 }
 
 .milestone-card:hover {
@@ -3212,11 +3259,19 @@ section {
   );
   filter: drop-shadow(-9px 11px 40.2px rgba(123, 0, 255, 0.34)) blur(0.55px);
 }
+.horizontal-scroll-section,
+.horizontal-scroll-content,
+.scroll-container {
+  touch-action: pan-y;
+  -ms-touch-action: pan-y;
+}
 
+/* Ensure last cards are fully visible on mobile */
 @media (max-width: 768px) {
   .horizontal-scroll-content {
-    padding: 2rem 1rem;
+    padding: 2rem 50vw 2rem 1rem; /* Even more right padding on mobile */
     gap: 1rem;
+    min-height: 32rem;
   }
 
   .milestone-card {
@@ -3228,11 +3283,50 @@ section {
     min-height: 30rem;
   }
 }
+
+/* Tablet adjustments */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .horizontal-scroll-content {
+    padding: 6rem 45vw 6rem 3rem;
+  }
+}
+
+/* Smooth scroll snap behavior */
 .scroll-container {
   scroll-snap-type: x mandatory;
+  scroll-padding: 0 20vw 0 0; /* Add scroll padding to account for viewport edge */
 }
+
 .milestone-card {
   scroll-snap-align: center;
+  scroll-margin-right: 5rem; /* Add margin to prevent snap cutting off content */
+}
+
+/* Optional: Add visual indicator for more content */
+.horizontal-scroll-section::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.1), transparent);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.horizontal-scroll-section.has-more-content::after {
+  opacity: 1;
+}
+
+/* Ensure proper z-index stacking */
+.milestone-card {
+  z-index: 1;
+}
+
+.milestone-card:hover {
+  z-index: 2;
 }
 
 /* css for team */
@@ -5047,6 +5141,13 @@ section {
   padding: 5px;
   color: var(--text-dark);
 }
+
+.service-card-title-j {
+  font-size: clamp(1.17rem, 2vw, 1rem);
+  font-weight: 600;
+  padding: 6px;
+  color: var(--text-dark);
+}
 .service-card-title-b {
   font-size: clamp(1rem, 1.4vw, 1.2rem);
   font-weight: 800;
@@ -5064,6 +5165,15 @@ section {
   align-items: center;
 }
 
+.service-card-desc-a {
+  font-size: clamp(1.rem, 2vw, 1rem);
+  font-weight: 500;
+  color: var(--text-light);
+  padding: 10px;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
 .service-card-button-s {
   font-size: 21px;
   font-weight: 700;
@@ -5168,7 +5278,7 @@ section {
       rgba(0, 0, 0, 0.28) 16.35%,
       rgba(84, 78, 78, 0.03) 100%
     ),
-    url("images/tco-table-background.png") no-repeat center center;
+  url("../images/tco-table-background.png") no-repeat center center;
   background-size: cover;
   border-radius: 26px;
   backdrop-filter: blur(10px);
@@ -5198,6 +5308,9 @@ section {
   box-shadow: inset 0 0 20px rgba(115, 51, 226, 0.1);
   backdrop-filter: blur(10px);
 }
+
+
+
 .tco-table {
   color: var(--color-white);
 }
@@ -5292,6 +5405,8 @@ section {
     gap: 0.5rem;
   }
 }
+
+
 
 /* CSS for section section:tco-matters */
 #tco-matters {
@@ -5506,10 +5621,10 @@ section {
 }
 
 .intro-text {
-  font-size: clamp(1rem, 3vw, 2rem);
-  line-height: 1;
+  font-size: clamp(3rem, 4vw, 3rem);
+  line-height: 5;
   text-align: center;
-  max-width: 960px;
+  max-width: 1060px;
   margin: 0 auto;
   padding: 40px 0;
   color: var(--color-text-dark);
@@ -5683,6 +5798,7 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: clamp(1.5rem, 4vw, 2rem);
+  padding-bottom: 25px;
 }
 
 .support-card {
@@ -5731,8 +5847,8 @@ section {
 .product-button2 {
   display: inline-block;
   width: 100%;
-  padding: 1rem 1.5rem;
-  margin-bottom: 1rem;
+   padding: 8px ;
+  /* margin-bottom: 1rem;  */
   background: #fff;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -5947,9 +6063,9 @@ section {
 }
 
 /* CSS for section section:ownership */
-.ownership-section {
-  /* padding: 60px 20px; */
-}
+/* .ownership-section {
+  padding: 60px 20px;
+} */
 
 .section-title {
   text-align: center;
@@ -5965,7 +6081,7 @@ section {
   text-align: center;
   line-height: 1.5;
   max-width: 900px;
-  margin: 0 auto 60px;
+  margin: 0 auto 20px;
   color: #000;
 }
 .ownership-subtitle .highlight {
@@ -5976,16 +6092,16 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 700px;
+  min-height: 750px;
 }
 .ownership-image-wrapper {
   position: absolute;
-  bottom: 0;
-
+  bottom: 0%;
+  
   right: 60%;
-
-  height: auto;
-  width: 600px;
+ height: auto;
+ 
+  width: 550px;
 }
 .ownership-table-wrapper {
   background-color: rgba(246, 246, 246, 0.81);
@@ -6034,7 +6150,13 @@ section {
 .table-row:last-child {
   border-bottom: none;
 }
-.row-label,
+.row-label{
+  text-align: left;
+   padding-left: 16px;
+}
+
+
+
 .row-value,
 .row-calc,
 .header-cell {
@@ -6073,6 +6195,31 @@ section {
     font-size: 20px;
   }
 }
+
+
+.ownership-table-wrapper {
+  background-color: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.ownership-table-wrapper::before {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.08);
+}
+
+.table-header {
+  border-bottom: 2px solid rgba(204, 204, 204, 0.5);
+}
+
+.table-row {
+  border-bottom: 1px solid rgba(221, 221, 221, 0.4);
+}
+
 
 /* CSS for section section:protection */
 .protection-grid {
@@ -6267,10 +6414,13 @@ section {
 }
 
 /* CSS for section section:features */
+
+/* CSS for section section:features */
 .features-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
+  grid-template-columns: repeat(2, 0.4fr);
+  gap: 60px;
+  
 }
 .feature-card2 {
   position: relative;
@@ -6295,7 +6445,7 @@ section {
 .feature-card-content {
   position: relative;
   z-index: 1;
-  padding: 40px;
+  /* padding: 40px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6306,9 +6456,9 @@ section {
   margin-bottom: 30px;
 }
 .feature-card-title {
-  font-size: 33px;
+  font-size: 26px;
   font-weight: 700;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   align-self: flex-start;
   padding-left: 20px;
 }
@@ -6323,7 +6473,7 @@ section {
   display: flex;
   align-items: center;
   gap: 15px;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 500;
   text-align: left;
 }
@@ -6388,10 +6538,6 @@ section {
   justify-items: stretch;
   align-items: stretch;
 }
-
-
-
-
 
 
 .solutions-container {
@@ -6511,10 +6657,10 @@ section {
 }
 
 .intro-text {
-  font-size: clamp(1rem, 3vw, 2rem);
-  line-height: 1;
+  font-size: clamp(2.3rem, 4vw, 2rem); 
+  line-height: 1.2;
   text-align: center;
-  max-width: 960px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 40px 0;
   color: var(--color-text-dark);
@@ -6563,8 +6709,8 @@ section {
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 20px;
   padding: 2rem;
-  backdrop-filter: blur(8px);
-  box-shadow: 0 20px 40px rgba(115, 51, 226, 0.12);
+  backdrop-filter: blur(8px); 
+box-shadow: 0 20px 40px rgba(115, 51, 226, 0.12); 
   display: flex;
   flex-direction: column;
   transition: all 0.3s ease-in-out;
@@ -6635,7 +6781,7 @@ section {
 }
 
 .solution-card {
-  background: rgba(221, 221, 221, 0.95);
+  background: #ffff;
   border-radius: 12px;
   width: 100%;
   max-width: 500px;
@@ -6736,8 +6882,8 @@ section {
 .product-button2 {
   display: inline-block;
   width: 100%;
-  padding: 1rem 1.5rem;
-  margin-bottom: 1rem;
+  /* padding: 1rem 1.5rem;
+  margin-bottom: 1rem; */
   background: #fff;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -6820,3 +6966,267 @@ section {
  .container-2   #policy {
 padding-top: 90px;
  }
+
+/* Mobile submenu - Start HIDDEN by default */
+.apple-submenu {
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+/* IMPORTANT: Ensure hidden class actually hides the element */
+.apple-submenu.hidden {
+  display: none;
+}
+
+/* Only show when not hidden */
+.apple-submenu:not(.hidden) {
+  display: block;
+}
+
+.arrow {
+  transition: transform 0.3s ease-in-out;
+  transform: rotate(0deg); /* Start pointing down */
+}
+
+.arrow.rotate-180 {
+  transform: rotate(180deg); /* Rotate when open */
+}
+
+/* Mobile touch improvements */
+.arrow-btn {
+  padding: 12px 16px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+/* Ensure proper mobile viewport */
+@media (max-width: 768px) {
+  .apple-submenu {
+    position: static;
+    width: 100%;
+    box-shadow: none;
+  }
+  
+  
+  
+  /* Smooth animation for mobile */
+  .apple-submenu:not(.hidden) {
+    max-height: 500px;
+    opacity: 1;
+  }
+  
+  .apple-submenu.hidden {
+    max-height: 0;
+    opacity: 0;
+  }
+}
+
+
+     .security-title {
+            color: #000;
+            text-align: center;
+            font-family: var(--font-primary);
+            font-size: 1.75rem;
+            font-weight: 600;
+            line-height: 1.4;
+            margin-bottom: 1rem;
+        }
+
+        .security-description {
+            color: #000;
+            text-align: center;
+            font-family: var(--font-primary);
+            font-size: 1.125rem;
+            font-weight: 400;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .sync-title {
+            color: #000;
+            font-family: var(--font-primary);
+            font-size: 1.25rem;
+            font-weight: 600;
+            line-height: 1.4;
+            margin-bottom: 0.5rem;
+        }
+
+        .sync-description {
+            color: #000;
+            font-family: var(--font-primary);
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #374151;
+        }
+
+        /* Responsive additions only */
+        .row {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1.5rem;
+        }
+
+        .column {
+            flex: 1;
+        }
+
+        .column img {
+            max-width: 100%;
+            height: auto;
+            aspect-ratio: 16/9;
+            object-fit: cover;
+        }
+
+        .column > div {
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+
+        .column > div img {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+            flex-shrink: 0;
+        }
+
+        .text-content {
+            flex: 1;
+        }
+
+       
+
+        /* Responsive breakpoints */
+        @media (max-width: 768px) {
+            .security-title {
+                font-size: 32px;
+                line-height: 44px;
+            }
+
+            .security-description {
+                font-size: 24px;
+                line-height: 34px;
+            }
+
+            .sync-title {
+                font-size: 22px;
+                line-height: 26px;
+            }
+
+            .sync-description {
+                font-size: 18px;
+                line-height: 22px;
+            }
+
+            .row {
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            .column > div {
+                margin-bottom: 30px;
+            }
+
+            #security-compliance {
+                padding: 40px 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .security-title {
+                font-size: 28px;
+                line-height: 38px;
+            }
+
+            .security-description {
+                font-size: 20px;
+                line-height: 28px;
+            }
+
+            .sync-title {
+                font-size: 20px;
+                line-height: 24px;
+            }
+
+            .sync-description {
+                font-size: 16px;
+                line-height: 20px;
+            }
+
+            .column > div {
+                margin-bottom: 25px;
+                gap: 15px;
+            }
+
+            .column > div img {
+                width: 50px;
+                height: 50px;
+            }
+
+            #security-compliance {
+                padding: 30px 10px;
+            }
+
+
+        }
+
+.service-list2 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block; /* shrink list to content */
+  text-align: left;      /* normal left alignment inside */
+}
+
+.service-list2 li {
+  position: relative;
+  padding-left: 1.25rem;
+  color: #374151;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.service-list2 li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%); /* vertical center */
+  width: 8px;
+  height: 8px;
+  background: #000;
+  border-radius: 50%;
+}
+
+.service-list2 li:hover {
+  color: #1f2937;
+  transform: translateX(2px);
+}
+
+/* Center the whole list */
+.service-list2-wrapper {
+  text-align: center;
+}
+
+       
+.glass-card-subtle:hover {
+    border-radius: 15.87px;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.14);
+    box-shadow: 28px 42px 85px -20px rgba(115, 51, 226, 0.52);
+    transition: all 0.3s ease-in-out;
+}
+
+.hover-glow:hover {
+    box-shadow: 32px 32px 85px -20px rgba(115, 51, 226, 0.52);
+}

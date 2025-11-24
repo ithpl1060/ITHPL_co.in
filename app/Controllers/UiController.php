@@ -54,10 +54,29 @@ class UiController extends BaseController
             . view('ui/footer', $data)
             . view('ui/htmlend');
     }
+    
+    public function apple()
+    {
+        $data['meta'] = $this->seo->where('url_path', $this->url_path)->first();
+        return view('ui/appleheader', $data)
+            . view('ui/apple/apple', $data)
+            . view('ui/footer', $data)
+            . view('ui/htmlend');
+    }
+
+    public function appleTcoCalculator()
+    {
+        $data['meta'] = $this->seo->where('url_path', $this->url_path)->first();
+        return view('ui/appleheader', $data)
+            . view('ui/apple/apple-tco-calc', $data)
+            . view('ui/footer', $data)
+            . view('ui/htmlend');
+    }
+
     public function appleEnterprises()
     {
         $data['meta'] = $this->seo->where('url_path', $this->url_path)->first();
-        return view('ui/header', $data)
+        return view('ui/appleheader', $data)
             . view('ui/apple/apple-enterprises', $data)
             . view('ui/footer', $data)
             . view('ui/htmlend');
@@ -65,7 +84,7 @@ class UiController extends BaseController
     public function appleSmartEpp()
     {
         $data['meta'] = $this->seo->where('url_path', $this->url_path)->first();
-        return view('ui/header', $data)
+        return view('ui/appleheader', $data)
             . view('ui/apple/apple-smart-epp', $data)
             . view('ui/footer', $data)
             . view('ui/htmlend');

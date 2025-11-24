@@ -38,7 +38,7 @@
 
 
 <body>
-    <header class="site-header sticky top-0 z-50 glassmorphism transition-all duration-300 ease-out">
+     <header class="site-header sticky top-0 z-50 glassmorphism transition-all duration-300 ease-out">
         <div class="container max-w-7xl mx-auto px-8">
             <div class="header-container flex items-center justify-between min-h-20">
 
@@ -90,6 +90,8 @@
                             <div class="dropdown-column">
                                 <a href="<?= base_url('about-us#clients') ?>">Customers</a>
                                 <a href="<?= base_url('about-us#testimonials') ?>">Testimonials</a>
+                                <a href="<?= base_url('blogs') ?>" class="nav-hover">Blogs</a>
+                 
                             </div>
                         </div>
                     </li>
@@ -152,23 +154,24 @@
                     </li>
 
                     <!-- Apple -->
-                    <!-- <li class="nav-item">
-                        <a href="#" class="nav-hover">Apple</a>
+                       <li class="nav-item">
+                        <a href="<?= base_url('apple') ?>" class="nav-hover">Apple</a>
                         <div class="dropdown-menu single-column">
                             <div class="dropdown-arrow"></div>
-                            <a href="<?= base_url('apple-work') ?>">Apple At Work</a>
-                            <a href="<?= base_url('apple-business') ?>">Apple for Business</a>
-                            <a href="<?= base_url('apple-enterprise') ?>">Apple for Enterprises</a>
+                            <!-- <a href="<?= base_url('apple-work') ?>">Apple At Work</a> -->
+                            <!-- <a href="<?= base_url('apple-business') ?>">Apple for Business</a> -->
+                            <a href="<?= base_url('apple-enterprises') ?>">Apple for Enterprises</a>
                             <a href="<?= base_url('apple-smart-epp') ?>">Apple Smart EPP</a>
-                            <a href="<?= base_url('apple#s-why') ?>">Why Apple?</a>
+                            <a href="<?= base_url('apple-tco-calc') ?>">Apple TCO Calculator</a>
                         </div>
-                    </li> -->
+                    </li>
 
-                    
+
+<!--                     
   <li class="nav-item">
                         <a href="<?= base_url('hpforbusiness') ?>" class="nav-hover">HP</a>
                        
-                    </li>
+                    </li> -->
 
                     <!-- Sustainability -->
                     <li class="nav-item">
@@ -182,9 +185,9 @@
                             <a href="#">Sustainability & Community Outreach</a>
                         </div> -->
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a href="<?= base_url('blogs') ?>" class="nav-hover">Blogs</a>
-                   </li>
+                   </li> -->
                 </nav>
 
                 <!-- Contact Button -->
@@ -205,9 +208,31 @@
                 <a href="https://store.ithpl.com/" target="_self">Products</a>
                 <a href="<?= base_url('services') ?>">Services</a>
                 <a href="<?= base_url('solutions') ?>">Solutions</a>
-                 <a href="<?= base_url('hpforbusiness') ?>">HP</a>
-                <!-- <a href="#">Apple</a> -->
+                  <!-- Apple with submenu -->
+   <div class="w-full flex flex-col items-center text-gray-600 p-4">
+
+  <div class="flex items-center gap-2">
+    <!-- Apple Link -->
+    <a href="<?= base_url('apple') ?>" class="mobile-link">Apple</a>
+
+    <!-- Arrow Toggle Button -->
+    <button type="button" class="arrow-btn">
+      <span class="arrow">▾</span>
+    </button>
+  </div>
+
+  <div id="appleSubmenu"
+       class=" flex flex-col items-center space-y-2 mt-2 text-sm">
+    <a class="mobile-sublink" href="<?= base_url('apple-enterprises') ?>">Apple for Enterprises</a>
+    <a href="<?= base_url('apple-smart-epp') ?>" class="mobile-sublink">Apple Smart EPP</a>
+    <a href="<?= base_url('apple-tco-calc') ?>" class="mobile-sublink">Apple TCO Calculator</a>
+  </div>
+
+</div>
+
+                <!-- <a href="<?= base_url('hpforbusiness') ?>">HP</a> -->
                 <a href="<?= base_url('sustainability') ?>">Sustainability</a>
+                <a href="<?= base_url('blogs') ?>">Blogs</a>
                 <a href="<?= base_url('contact-us') ?>"></a>
             </div>
         </nav>
@@ -254,17 +279,17 @@
                         <p class="service-card-desc-s">Boost performance with robust servers, ensuring high uptime,
                             scalability, and
                             security for business-critical applications and growth..</p>
-                        <button class="service-card-button-s">Learn More</button>
+                        <a href="<?= base_url('contact-us#contact') ?>" class="service-card-button-s">Learn More</a>
                     </div>
 
 
                     <div class="service-card-s">
                         <div class="service-icon-s"><img src="images/tools.png" alt="tools-services"></div>
                         <h3 class="service-card-title-s">Network Solutions</h3>
-                        <p class="service-card-desc-s">Empower connectivity with secure, reliable, and high-performance
+                        <p class="service-card-desc-a">Empower connectivity with secure, reliable, and high-performance
                             networks,
                             enabling seamless communication and business operations</p>
-                        <button class="service-card-button-s">Learn More</button>
+                        <a href="<?= base_url('contact-us#contact') ?>" class="service-card-button-s">Learn More</a>
                     </div>
 
 
@@ -276,7 +301,7 @@
                         <p class="service-card-desc-s">Unlock data potential with scalable, secure, and high-performance
                             storage
                             systems, ensuring data availability and business intelligence</p>
-                        <button class="service-card-button-s">Learn More</button>
+                        <a href="<?= base_url('contact-us#contact') ?>" class="service-card-button-s">Learn More</a>
                     </div>
 
 
@@ -287,7 +312,7 @@
                         <p class="service-card-desc-s">Accelerate business with scalable, flexible, and cost-effective
                             cloud
                             infrastructure, enabling innovation and digital transformation</p>
-                        <button class="service-card-button-s">Learn More</button>
+                        <a href="<?= base_url('contact-us#contact') ?>" class="service-card-button-s">Learn More</a>
                     </div>
 
 
@@ -298,7 +323,7 @@
                         <p class="service-card-desc-s">Protect business with robust security systems, ensuring threat
                             detection,
                             vulnerability assessment, and incident response for data and systems</p>
-                        <button class="service-card-button-s">Learn More</button>
+                        <a href="<?= base_url('contact-us#contact') ?>" class="service-card-button-s">Learn More</a>
                     </div>
 
 
@@ -309,7 +334,7 @@
                         <p class="service-card-desc-s">Drive innovation with custom applications, ensuring seamless user
                             experience,
                             improved productivity, and enhanced business outcomes</p>
-                        <button class="service-card-button-s">Learn More</button>
+                        <a href="<?= base_url('contact-us#contact') ?>" class="service-card-button-s">Learn More</a>
                     </div>
 
 
@@ -319,17 +344,17 @@
                         <p class="service-card-desc-s">Enhance experiences with immersive AV systems, ensuring
                             crystal-clear sound,
                             stunning visuals, and seamless integration for collaboration</p>
-                        <button class="service-card-button-s">Learn More</button>
+                        <a href="<?= base_url('contact-us#contact') ?>" class="service-card-button-s">Learn More</a>
                     </div>
 
 
                     <div class="service-card-s">
                         <div class="service-icon-s"><img src="images/irisScan2.png" alt="IrisScan"></div>
-                        <h3 class="service-card-title-s">Video Surveillance & Biometric Solutions</h3>
+                        <h3 class="service-card-title-j">Video Surveillance & Biometric Solutions</h3>
                         <p class="service-card-desc-s">Secure assets with intelligent security systems, ensuring
                             real-time monitoring,
                             threat detection, and identity verification for protection</p>
-                        <button class="service-card-button-s">Learn More</button>
+                        <a href="<?= base_url('contact-us#contact') ?>" class="service-card-button-s">Learn More</a>
                     </div>
 
 
@@ -339,7 +364,7 @@
                         <p class="service-card-desc-s">Save costs with flexible rental options and certified refurbished
                             IT assets,
                             reducing e-waste and environmental impact.</p>
-                        <button class="service-card-button-s">Learn More</button>
+                        <a href="<?= base_url('contact-us#contact') ?>" class="service-card-button-s">Learn More</a>
                     </div>
 
 
@@ -349,7 +374,7 @@
                         <p class="service-card-desc-s">Ensure uptime with reliable power systems, including UPS,
                             generators, and PDUs,
                             supporting business continuity and critical infrastructure</p>
-                        <button class="service-card-button-s">Learn More</button>
+                        <a href="<?= base_url('contact-us#contact') ?>" class="service-card-button-s">Learn More</a>
                     </div>
 
 
@@ -658,8 +683,8 @@
                 </p>
 
                 <!-- Dynamic Subscribe Form -->
-                <form class="subscribe-form" action="<?= base_url('subscribe'); ?>" method="post">
-                    <input type="email" name="email" placeholder="Enter your email" class="subscribe-input" required />
+                <form class="subscribe-form" id="mailSubscriptionForm" >
+                    <input type="email" name="email" id="subscriptionEmail" placeholder="Enter your email" class="subscribe-input" required />
                     <button type="submit" class="subscribe-button">Submit</button>
                 </form>
             </div>
@@ -750,6 +775,8 @@
     <script src="<?= base_url('js/ScrollTrigger.min.js'); ?>" defer></script>
     <script src="<?= base_url('js/Scrollbar.js'); ?>" defer></script>
     <script src="<?= base_url('js/global.js'); ?>" defer></script>
+<!-- Mail Subscription -->
+<script src="<?= base_url('js/mail_subscription.js'); ?>"></script>
 
 
 </body>
