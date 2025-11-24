@@ -10,8 +10,8 @@
                 Support.
             </p>
             <div class="hero-buttons">
-                <a href="#products" class="hero-button mt-2 sm:mt-16">Explore Solutions</a>
-                <a href="#contact" class="hero-button mt-2 sm:mt-16">Contact Us</a>
+                <a href="<?= base_url('solutions') ?>" class="hero-button mt-2 sm:mt-16">Explore Solutions</a>
+                <a href="<?= base_url('contact-us') ?>" class="hero-button mt-2 sm:mt-16">Contact Us</a>
             </div>
         </div>
         <div class="hero-image-container">
@@ -43,7 +43,7 @@
         <p class="stat-label">Support & Quick Response</p>
     </div>
 </div>
-<section id="why-choose-us" class="scroll-mt-15 main-section fade-in-section">
+<section id="why-choose-us" class="scroll-mt-20 main-section fade-in-section">
     <div class="container">
         <h2 class="section-title">
             Why Choose <span class="gradient-ithpl">ITHPL?</span>
@@ -92,7 +92,7 @@
 </section>
 
 
-<section id="core-values" class="fade-in-section">
+<section id="core-values" class="scroll-mt-20 fade-in-section">
     <div class="container mx-auto px-4">
         <div class="tagline-section" id="short-about">
             <h3 class="tagline-title">
@@ -155,7 +155,7 @@
     </div>
 </section>
 
-<section id="services" class=" pt-10 fade-in-section">
+<section id="services" class=" pt-8 fade-in-section">
     <div class="container">
         <h2 class="section-title">
             Our <span class="gradient-services">Services</span>
@@ -196,7 +196,7 @@
         </div>
     </div>
 </section>
-<section id="products" class="pt-8 fade-in-section">
+<section id="products" class=" scroll-mt-10 pt-8 fade-in-section">
     <div class="container-2">
         <h2 class="section-title">
             Featured <span class="gradient-products">Products</span>
@@ -209,7 +209,7 @@
                 <div class="product-content">
                     <h3 class="product-title">Endpoint IT Solutions</h3>
                     <p class="product-description">Laptops, desktops, and beyond.</p>
-                    <a href="#" class="product-button">Learn More</a>
+                    <a href="https://store.ithpl.com/" class="product-button">Learn More</a>
                 </div>
             </div>
             <div class="product-card">
@@ -221,7 +221,7 @@
                     <p class="product-description">
                         Displays, conferencing, and more.
                     </p>
-                    <a href="#" class="product-button">Learn More</a>
+                    <a href="https://store.ithpl.com/" class="product-button">Learn More</a>
                 </div>
             </div>
             <div class="product-card">
@@ -233,7 +233,7 @@
                     <p class="product-description">
                         Engineers, IT support, and more.
                     </p>
-                    <a href="#" class="product-button">Learn More</a>
+                    <a href="https://store.ithpl.com/" class="product-button">Learn More</a>
                 </div>
             </div>
         </div>
@@ -288,59 +288,61 @@
             getting started.
         </p>
         <div class="sustainability-button-container">
-            <a href="#" class="hero-button">Learn More</a>
+            <a href="<?= base_url('sustainability') ?>" class="hero-button">Know More</a>
         </div>
     </div>
 </section>
-<section id="certifications" class="scroll-mt-20 main-section fade-in-section">
 
+<section id="certifications" class="scroll-mt-30 main-section fade-in-section">
     <div class="container">
         <h2 class="section-title">
             Our <span class="gradient-certification">Certifications</span> &
             Accreditations
         </h2>
         <div class="certifications-container">
-            <div class="certifications-grid">
-                <div class="certification-item">
-                    <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="iso Logo"
-                        class="certification-logo  large  " />
-                    <p>ISO/IEC 29136:2012</p>
-                </div>
-                <div class="certification-item">
-                    <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="ISO Logo"
-                        class="certification-logo large " />
-                    <p>ISO:27001:2013</p>
-                </div>
-                <div class="certification-item">
-                    <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="ISO Logo"
-                        class="certification-logo large" />
-                    <p>ISO:9001:2015</p>
-                </div>
-                <div class="certification-item">
-                    <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="ISO Logo"
-                        class="certification-logo large" />
-                    <p>ISO 20000-1:2018</p>
-                </div>
+            <div class="scroll-track" id="scrollTrack">
+                <div class="certifications-grid" id="certGrid">
+                    <div class="certification-item">
+                        <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="iso Logo"
+                            class="certification-logo  large  " />
+                        <p>ISO/IEC 29136:2012</p>
+                    </div>
+                    <div class="certification-item">
+                        <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="ISO Logo"
+                            class="certification-logo large " />
+                        <p>ISO:27001:2013</p>
+                    </div>
+                    <div class="certification-item">
+                        <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="ISO Logo"
+                            class="certification-logo large" />
+                        <p>ISO:9001:2015</p>
+                    </div>
+                    <div class="certification-item">
+                        <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="ISO Logo"
+                            class="certification-logo large" />
+                        <p>ISO 20000-1:2018</p>
+                    </div>
 
-                <div class="certification-item">
-                    <img src="<?= base_url(relativePath: 'images/cmmi-logo.png'); ?>" alt="CMMI Logo"
-                        class="certification-logo large" />
-                    <p>CMMI</p>
-                </div>
-                <div class="certification-item">
-                    <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="iso Logo"
-                        class="certification-logo  large  " />
-                    <p>ISO 14001:2015</p>
-                </div>
-                <div class="certification-item">
-                    <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="iso Logo"
-                        class="certification-logo  large  " />
-                    <p>ISO/IEC 29102:2023(en)</p>
-                </div>
-                <div class="certification-item">
-                    <img src="<?= base_url(relativePath: 'images/duns-logo.png'); ?>" alt="DUNS Logo"
-                        class="certification-logo  large  " />
-                    <p>DUNS</p>
+                    <div class="certification-item">
+                        <img src="<?= base_url(relativePath: 'images/cmmi-logo.png'); ?>" alt="CMMI Logo"
+                            class="certification-logo large" />
+                        <p>CMMI</p>
+                    </div>
+                    <div class="certification-item">
+                        <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="iso Logo"
+                            class="certification-logo  large  " />
+                        <p>ISO 14001:2015</p>
+                    </div>
+                    <div class="certification-item">
+                        <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="iso Logo"
+                            class="certification-logo  large  " />
+                        <p>ISO/IEC 29102:2023(en)</p>
+                    </div>
+                    <div class="certification-item">
+                        <img src="<?= base_url(relativePath: 'images/duns-logo.png'); ?>" alt="DUNS Logo"
+                            class="certification-logo  large  " />
+                        <p>DUNS</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -681,8 +683,9 @@
             <h2 class="subscribe-title">
                 Stay Updated with IT Trends & Exclusive Offers!
             </h2>
-            <form class="subscribe-form">
-                <input type="email" placeholder="Enter your email" class="subscribe-input" />
+            <form class="subscribe-form" id="mailSubscriptionForm">
+                <input type="email" name="email" id="subscriptionEmail" placeholder="Enter your email"
+                    class="subscribe-input" />
                 <button type="submit" class="subscribe-button">Submit</button>
             </form>
         </div>
@@ -691,3 +694,6 @@
 
 <!-- <script src="js/global.js" defer></script> -->
 <script src="<?= base_url('js/global.js'); ?>" defer></script>
+
+<!-- Mail Subscription -->
+<script src="<?= base_url('js/mail_subscription.js'); ?>"></script>

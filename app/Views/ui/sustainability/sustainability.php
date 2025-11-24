@@ -355,7 +355,7 @@
 
             .why-sustainability-image img {
                 width: 100%;
-                height: auto;
+                height: 390px;
                 border-radius: 16px;
             }
 
@@ -364,7 +364,7 @@
             }
 
             .why-sustainability-text h3 {
-                font-size: 42px;
+                font-size: 32px;
                 font-weight: 600;
                 line-height: 1.2;
                 color: var(--text-light);
@@ -372,8 +372,8 @@
             }
 
             .why-sustainability-text p {
-                font-size: 33px;
-                line-height: 1.5;
+                font-size: 26px;
+                /* line-height: 1.5; */
                 margin-bottom: 40px;
             }
 
@@ -476,8 +476,8 @@
                 left: 50%;
                 bottom: 0;
                 transform: translate(-50%, 50%);
-                width: 95px;
-                height: 95px;
+                width: 85px;
+                height: 85px;
                 z-index: 10;
                 pointer-events: none;
             }
@@ -517,7 +517,7 @@
             .card-front,
             .card-back {
                 position: absolute;
-                width: 100%;
+                width: 100;
                 height: 100%;
                 backface-visibility: hidden;
                 border-radius: 14px;
@@ -548,7 +548,7 @@
                 background-image: inherit;
                 background-size: cover;
                 background-position: center;
-                filter: blur(10px);
+                filter: blur(50px);
                 z-index: -1;
             }
 
@@ -1036,6 +1036,8 @@
                             <div class="dropdown-column">
                                 <a href="<?= base_url('about-us#clients') ?>">Customers</a>
                                 <a href="<?= base_url('about-us#testimonials') ?>">Testimonials</a>
+                                <a href="<?= base_url('blogs') ?>" class="nav-hover">Blogs</a>
+                 
                             </div>
                         </div>
                     </li>
@@ -1098,23 +1100,24 @@
                     </li>
 
                     <!-- Apple -->
-                    <!-- <li class="nav-item">
-                        <a href="#" class="nav-hover">Apple</a>
+                       <li class="nav-item">
+                        <a href="<?= base_url('apple') ?>" class="nav-hover">Apple</a>
                         <div class="dropdown-menu single-column">
                             <div class="dropdown-arrow"></div>
-                            <a href="<?= base_url('apple-work') ?>">Apple At Work</a>
-                            <a href="<?= base_url('apple-business') ?>">Apple for Business</a>
-                            <a href="<?= base_url('apple-enterprise') ?>">Apple for Enterprises</a>
+                            <!-- <a href="<?= base_url('apple-work') ?>">Apple At Work</a> -->
+                            <!-- <a href="<?= base_url('apple-business') ?>">Apple for Business</a> -->
+                            <a href="<?= base_url('apple-enterprises') ?>">Apple for Enterprises</a>
                             <a href="<?= base_url('apple-smart-epp') ?>">Apple Smart EPP</a>
-                            <a href="<?= base_url('apple#s-why') ?>">Why Apple?</a>
+                            <a href="<?= base_url('apple-tco-calc') ?>">Apple TCO Calculator</a>
                         </div>
-                    </li> -->
+                    </li>
 
-                    
+
+<!--                     
   <li class="nav-item">
                         <a href="<?= base_url('hpforbusiness') ?>" class="nav-hover">HP</a>
                        
-                    </li>
+                    </li> -->
 
                     <!-- Sustainability -->
                     <li class="nav-item">
@@ -1128,9 +1131,9 @@
                             <a href="#">Sustainability & Community Outreach</a>
                         </div> -->
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a href="<?= base_url('blogs') ?>" class="nav-hover">Blogs</a>
-                   </li>
+                   </li> -->
                 </nav>
 
                 <!-- Contact Button -->
@@ -1150,16 +1153,39 @@
         </div>
 
         <!-- Mobile Navigation -->
-        <nav class="main-nav-mobile md:hidden" id="mobileNav">
+           <nav class="main-nav-mobile md:hidden" id="mobileNav">
             <div class="flex flex-col space-y-1">
                 <a href="<?= base_url('home') ?>">Home</a>
                 <a href="<?= base_url('about-us') ?>">About Us</a>
                 <a href="https://store.ithpl.com/" target="_self">Products</a>
                 <a href="<?= base_url('services') ?>">Services</a>
                 <a href="<?= base_url('solutions') ?>">Solutions</a>
-                 <a href="<?= base_url('hpforbusiness') ?>">HP</a>
-                <!-- <a href="#">Apple</a> -->
+                  <!-- Apple with submenu -->
+   <div class="w-full flex flex-col items-center text-gray-600 p-4">
+
+  <div class="flex items-center gap-2">
+    <!-- Apple Link -->
+    <a href="<?= base_url('apple') ?>" class="mobile-link">Apple</a>
+
+    <!-- Arrow Toggle Button -->
+    <button type="button" class="arrow-btn">
+      <span class="arrow">▾</span>
+    </button>
+  </div>
+
+  <div id="appleSubmenu"
+       class=" flex flex-col items-center space-y-2 mt-2 text-sm">
+    <a class="mobile-sublink" href="<?= base_url('apple-enterprises') ?>">Apple for Enterprises</a>
+    <a href="<?= base_url('apple-smart-epp') ?>" class="mobile-sublink">Apple Smart EPP</a>
+    <a href="<?= base_url('apple-tco-calc') ?>" class="mobile-sublink">Apple TCO Calculator</a>
+  </div>
+
+</div>
+
+                <!-- <a href="<?= base_url('hpforbusiness') ?>">HP</a> -->
                 <a href="<?= base_url('sustainability') ?>">Sustainability</a>
+                <a href="<?= base_url('blogs') ?>">Blogs</a>
+                <a href="<?= base_url('contact-us') ?>"></a>
             </div>
         </nav>
     </header>
@@ -1192,12 +1218,12 @@
                         </div>
                     </div>
                     <div class="hero-buttons">
-                        <a href="#section-initiatives" class="hero-button">Explore More</a>
+                        <a href="#sec-why-sus" class="hero-button">Explore More</a>
                     </div>
                 </div>
 
                 <div class="image-carousel-container ">
-                    <div class="image-carousel ">
+                    <div class="image-carousel">
                         <div class="carousel-inner ">
                             <img src="<?= base_url(relativePath: 'images/tree-planting.png'); ?>" alt="Tree planting"
                                 class="carousel-slide ">
@@ -1210,11 +1236,12 @@
                 </div>
             </div>
         </section>
+        <div class="scroll-mt-10" id="sec-why-sus"> </div>
 
-        <section id="section-why-sustainability" class="main-section">
-            <h2 class="section-title">Why <span class="gradient-susatcore">Sustainability</span>?</h2>
-            <div class="why-sustainability-content">
-                <div class="why-sustainability-image">
+<section id="section-why-sustainability" class="main-section">
+  <h2 class="section-title">Why <span class="gradient-susatcore">Sustainability</span>?</h2>
+  <div class="why-sustainability-content">
+    <div class="why-sustainability-image"   id="sec-why-sus">
                     <img src="<?= base_url(relativePath: 'images/sustainable_activities.png'); ?>"
                         alt="Collage of sustainable activities">
                 </div>
@@ -1236,7 +1263,7 @@
             </div>
         </section>
 
-        <section id="section-initiatives">
+        <section class="scroll-mt-20" id="section-initiatives" >
             <h2 class="section-title">What We're <span class="gradient-sustain2">Doing?</span></h2>
             <div class="initiatives-grid">
 
@@ -1445,11 +1472,13 @@
                     Towards <span class="gradient-sustain2">Net Zero</span> by 2030
                 </h2>
 
-                <div class="timeline-wrapper">
-                    <div class="timeline-container">
-                        <img src="<?= base_url(relativePath: 'images/Milestone.gif'); ?>" alt="Milestone"
+                <div class="timeline-wrapper" >
+                    <div class="timeline-container" >
+                          <img src="<?= base_url(relativePath: 'images/Milestone.gif'); ?>" alt="Milestone"
                             class="timeline-animation" />
+                       
                     </div>
+                 
                 </div>
             </div>
         </section>
@@ -1584,7 +1613,7 @@
                 <p>Join us in creating a greener tomorrow. Whether you're a client, partner, or supporter — your
                     role matters.</p>
                 <div class="hero-buttons">
-                    <a href="contact.html" class="hero-button">Get in Touch</a>
+                    <a href="<?= base_url('contact-us') ?>" class="hero-button">Get in Touch</a>
                 </div>
             </div>
         </section>
@@ -1598,8 +1627,8 @@
                     </h2>
                     <p class="pb-8">Discover how you can be part of our sustainability journey..</p>
 
-                    <form class="subscribe-form">
-                        <input type="email" placeholder="Enter your email" class="subscribe-input" />
+                    <form class="subscribe-form"  id="mailSubscriptionForm">
+                        <input type="email" name="email" id="subscriptionEmail" placeholder="Enter your email" class="subscribe-input" />
                         <button type="submit" class="subscribe-button-s">Submit</button>
                     </form>
                 </div>

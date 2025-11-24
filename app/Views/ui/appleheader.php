@@ -43,9 +43,20 @@
                 <a href="<?= base_url('home') ?>"
                     class="logo flex items-center relative logo-glow transition-transform duration-300 hover:scale-105">
                     <img src="<?= base_url('images/ithpllogo.png') ?>" alt="ITHPL Logo"
-                        class="h-12 w-auto object-contain transition-all duration-300"
+                        class="h-16 w-30 object-contain transition-all duration-300"
                         style="filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.1))" />
                 </a>
+                 <a
+            href="#"
+            class="logo flex items-center relative logo-glow transition-transform duration-300 hover:scale-105"
+          >
+            <img
+              src="<?= base_url('images/Apple-logo.png') ?>""
+              alt="Apple Logo"
+              class="h-16 w-30 object-contain transition-all duration-300"
+              style="filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.1))"
+            />
+          </a>
 
                 <!-- Mobile Menu Toggle -->
                 <button
@@ -196,38 +207,41 @@
         </div>
 
         <!-- Mobile Navigation -->
-       <nav class="main-nav-mobile md:hidden" id="mobileNav">
-    <div class="flex flex-col space-y-1">
-        <a href="<?= base_url('home') ?>">Home</a>
-        <a href="<?= base_url('about-us') ?>">About Us</a>
-        <a href="https://store.ithpl.com/" target="_self">Products</a>
-        <a href="<?= base_url('services') ?>">Services</a>
-        <a href="<?= base_url('solutions') ?>">Solutions</a>
-        
-        <!-- Apple with submenu - FIXED STRUCTURE -->
-        <div class="w-full flex flex-col items-center text-gray-600 p-4">
-            <div class="flex items-center gap-2 w-full justify-center">
-                <!-- Apple Link -->
-                <a href="<?= base_url('apple') ?>" class="mobile-link">Apple</a>
-                
-                <!-- Arrow Toggle Button -->
-                <button type="button" class="arrow-btn">
-                    <span class="arrow">▾</span>
-                </button>
-            </div>
+         <nav class="main-nav-mobile md:hidden" id="mobileNav">
+            <div class="flex flex-col space-y-1">
+                <a href="<?= base_url('home') ?>">Home</a>
+                <a href="<?= base_url('about-us') ?>">About Us</a>
+                <a href="https://store.ithpl.com/" target="_self">Products</a>
+                <a href="<?= base_url('services') ?>">Services</a>
+                <a href="<?= base_url('solutions') ?>">Solutions</a>
+                  <!-- Apple with submenu -->
+   <div class="w-full flex flex-col items-center text-gray-600 p-4">
 
-            <div id="appleSubmenu" class="apple-submenu hidden flex flex-col items-center space-y-2 mt-2 text-sm w-full">
-                <a class="mobile-sublink" href="<?= base_url('apple-enterprises') ?>">Apple for Enterprises</a>
-                <a href="<?= base_url('apple-smart-epp') ?>" class="mobile-sublink">Apple Smart EPP</a>
-                <a href="<?= base_url('apple-tco-calc') ?>" class="mobile-sublink">Apple TCO Calculator</a>
-            </div>
-        </div>
+  <div class="flex items-center gap-2">
+    <!-- Apple Link -->
+    <a href="<?= base_url('apple') ?>" class="mobile-link">Apple</a>
 
-        <a href="<?= base_url('sustainability') ?>">Sustainability</a>
-        <a href="<?= base_url('blogs') ?>">Blogs</a>
-        <a href="<?= base_url('contact-us') ?>">Contact Us</a>
-    </div>
-</nav>
+    <!-- Arrow Toggle Button -->
+    <button type="button" class="arrow-btn">
+      <span class="arrow">▾</span>
+    </button>
+  </div>
+
+  <div id="appleSubmenu"
+       class=" flex flex-col items-center space-y-2 mt-2 text-sm">
+    <a class="mobile-sublink" href="<?= base_url('apple-enterprises') ?>">Apple for Enterprises</a>
+    <a href="<?= base_url('apple-smart-epp') ?>" class="mobile-sublink">Apple Smart EPP</a>
+    <a href="<?= base_url('apple-tco-calc') ?>" class="mobile-sublink">Apple TCO Calculator</a>
+  </div>
+
+</div>
+
+                <!-- <a href="<?= base_url('hpforbusiness') ?>">HP</a> -->
+                <a href="<?= base_url('sustainability') ?>">Sustainability</a>
+                <a href="<?= base_url('blogs') ?>">Blogs</a>
+                <a href="<?= base_url('contact-us') ?>"></a>
+            </div>
+        </nav>
         <!-- <style id="sections-styles">
             h3 {
                 font-weight: 700;
@@ -235,4 +249,4 @@
             }
         </style> -->
     </header>
-    <main>
+    <main></main>

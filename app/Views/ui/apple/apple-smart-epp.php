@@ -1,167 +1,385 @@
-<section id="hero-about" class="fade-in-sections">
+ <main>
+      <!-- Hero Section -->
+      <section id="hero-about" class="fade-in-sections">
   <div class="hero-background-a"></div>
   <div class="container hero-content-a ">
-
-    <h1 class=" hero-title-a"> Unlock the power for your organization with<br> <span class="gradient-services">Apple
-        Smart EPP.</span>
-
-    </h1>
-
+  
+    <h1 class=" hero-title-a">         Apple  <br> <span class="gradient-services">Employee Purchase Program.</span>
+         
+          </h1>
+    
     <p class="hero-description-a">
-      <strong>ITHPL</strong> offers expert guidance to simplify Apple device management and keep your business
-      running smoothly.
-
+    Save more, upgrade faster, and boost employee satisfaction—all with one smart program.  
     </p>
-    <div class="hero-image-container-a">
-      <img src="<?= base_url(relativePath: 'images/appleallproducts.svg'); ?>"
-        alt="A collection of Apple devices including a MacBook, iPad, iPhone, and Apple Watch." class="hero-image-s" />
+    <div class="hero-image-container-a ">
+        <img src="<?= base_url(relativePath: 'images/apple-smart-epp-hero.png'); ?>" alt="A collection of Apple product including a MacBook, iPad, iPhone, and Apple Watch." class="hero-image-s" />
+        
+    </div>
+    </div>
+    </section>
 
-    </div>
-  </div>
-</section>
-<!-- Integration Section -->
-<section id="section-integration" class="py-20 bg-white/80">
-  <div class="container mx-auto px-4">
-    <h2 class="section-title text-3xl md:text-4xl font-bold text-center mb-12 animate-fade-in-up">Seamless
-      Integration and Support</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-12 animate-fade-in-up delay-100">
-      <!-- Integration Cards -->
-      <div class="bg-white/80 rounded-2xl  p-8 flex flex-col items-center text-center  animate-fade-in-up">
-        <img src="<?= base_url(relativePath: 'images/device-management.png'); ?>"
-          alt="Simplified Device Management Icon" class="h-16 mb-4" />
-        <h3 class="font-semibold text-lg mb-2">Simplified Device<br />Management</h3>
-        <p class="text-base text-[#050000]">Easily deploy, manage, and secure Apple devices across your
-          organization.</p>
-      </div>
-      <div class="bg-white/80 rounded-2xl  p-8 flex flex-col items-center text-center  animate-fade-in-up delay-50">
-        <img src="<?= base_url(relativePath: 'images/cost-saving-icon.png'); ?>" alt="Cost Savings Icon"
-          class="h-16 mb-4" />
-        <h3 class="font-semibold text-lg mb-2">Cost Savings</h3>
-        <p class="text-base text-[#050000]">Enjoy discounts on bulk purchases of Apple devices.</p>
-      </div>
-      <div class="bg-white/80 rounded-2xl   p-8 flex flex-col items-center text-center  animate-fade-in-up delay-100">
-        <img src="<?= base_url(relativePath: 'images/procurrent-icon.png'); ?>" alt="Streamlined Procurement Icon"
-          class="h-16 mb-4" />
-        <h3 class="font-semibold text-lg mb-2">Streamlined Procurement</h3>
-        <p class="text-base text-[#050000]">Automate your procurement process with Apple's streamlined platform.</p>
-      </div>
-      <div class="bg-white/80 rounded-2xl   p-8 flex flex-col items-center text-center  animate-fade-in-up delay-150">
-        <img src="<?= base_url(relativePath: 'images/flexible-deployement.png'); ?>"
-          alt="Flexible Deployment Options Icon" class="h-16 mb-4" />
-        <h3 class="font-semibold text-lg mb-2">Flexible Deployment<br />Options</h3>
-        <p class="text-base text-[#050000]">Choose from various deployment options to get devices up and running
-          quickly.</p>
-      </div>
-      <div class="bg-white/80 rounded-2xl   p-8 flex flex-col items-center text-center  animate-fade-in-up delay-200">
-        <img src="<?= base_url(relativePath: 'images/enhanced-security.png'); ?>" alt="Enhanced Security Icon"
-          class="h-16 mb-4" />
-        <h3 class="font-semibold text-lg mb-2">Enhanced Security</h3>
-        <p class="text-base text-[#050000]">Protect your organization's sensitive data with Apple's robust security
-          features.</p>
-      </div>
-      <div class="bg-white/80 rounded-2xl   p-8 flex flex-col items-center text-center  animate-fade-in-up delay-250">
-        <img src="<?= base_url(relativePath: 'images/improved-productivity.png'); ?>" alt="Improved Productivity Icon"
-          class="h-16 mb-4" />
-        <h3 class="font-semibold text-lg mb-2">Improved Productivity</h3>
-        <p class="text-base text-[#050000]">Empower employees with Apple devices designed to work seamlessly
-          together.</p>
-      </div>
+      <section class="py-20 ">
+        <div class="container mx-auto px-4">
+          <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-8">What is SMART EPP?</h2>
+            <p class="text-xl md:text-2xl text-black-600 leading-relaxed">
+              <strong >SMART EPP</strong> is a corporate employee purchase program that enables employees to own the latest devices at reduced costs with flexible finance options and upgrade assurance.
+            </p>
+          </div>
+        </div>
+      </section>
 
-      <!-- App Dev Glass Card -->
-      <div class="bg-white/40  rounded-2xl  p-8 flex flex-col items-center text-center  animate-fade-in-up delay-350">
-        <img src="<?= base_url(relativePath: 'images/custom-solutions.png'); ?>" alt="Custom Solutions Icon"
-          class="h-16 mb-4" />
-        <h3 class="font-semibold text-lg mb-2">Custom Solutions</h3>
-        <p class="text-base text-[#050000]">Create custom solutions that meet your organization's specific needs.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- Why Choose Section -->
-<section id="section-why-choose" class="py-20 bg-gradient-to-b from-white/80 via-fuchsia-100/60 to-purple-100/40">
-  <div class="container mx-auto px-4">
-    <h2 class="section-title text-3xl md:text-4xl font-bold text-center mb-12 animate-fade-in-up">Why Choose Apple
-      Smart EPP?</h2>
-    <div class="flex flex-wrap justify-center gap-8 animate-fade-in-up delay-100">
-      <div
-        class="why-choose-card bg-white/80 rounded-2xl shadow-lg p-8 flex flex-col items-center text-center w-80 transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in-up">
-        <img src="<?= base_url(relativePath: 'images/satisfaction-icon.png'); ?>" alt="Satisfaction Icon"
-          class="why-choose-icon w-32 h-32 mb-4" />
-        <h3 class="why-choose-title font-bold text-xl mb-2">Increased Employee Satisfaction</h3>
-        <p class="why-choose-desc text-base text-[#050000]">Show employees you value their hard work with Apple
-          devices.</p>
-      </div>
-      <div
-        class="why-choose-card bg-white/80 rounded-2xl shadow-lg p-8 flex flex-col items-center text-center w-80 transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in-up delay-50">
-        <img src="<?= base_url(relativePath: 'images/retention-icon.png'); ?>" alt="Retention Icon"
-          class="why-choose-icon w-32 h-32 mb-4" />
-        <h3 class="why-choose-title font-bold text-xl mb-2">Improved Retention</h3>
-        <p class="why-choose-desc text-base text-[#050000]">Offer employees the tools they need to succeed.</p>
-      </div>
-      <div
-        class="why-choose-card bg-white/80 rounded-2xl shadow-lg p-8 flex flex-col items-center text-center w-80 transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in-up delay-100">
-        <img src="<?= base_url(relativePath: 'images/competitive-advantage-icon.png'); ?>"
-          alt="Competitive Advantage Icon" class="why-choose-icon w-32 h-32 mb-4" />
-        <h3 class="why-choose-title font-bold text-xl mb-2">Competitive Advantage</h3>
-        <p class="why-choose-desc text-base text-[#050000]">Attract and retain top talent with Apple devices.</p>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- Deployment Section -->
-<section id="section-deployment" class="py-20 bg-white/80">
-  <div class="container mx-auto px-4">
-    <div class="space-y-20">
-      <div class="deployment-block text-center animate-fade-in-up">
-        <h2 class="section-title text-3xl md:text-4xl font-bold mb-8">Deploying Apple Devices Securely</h2>
-        <div class="deployment-image-container flex justify-center mb-8">
-          <img src="<?= base_url(relativePath: 'images/desktop-setup.png'); ?>" alt="Desktop setup with monstera leaves"
-            class="deployment-image w-full max-w-3xl rounded-xl shadow-xl" />
-        </div>
-        <p class="deployment-text text-lg md:text-2xl text-[#050000] max-w-4xl mx-auto">To get started, choose Apple
-          devices that suit your organization’s needs. You'll receive a security guide with step-by-step
-          instructions to protect your hardware, platforms, and networks. Our training program equips your IT team
-          with the knowledge to deploy and manage Apple devices effectively.</p>
-      </div>
-      <div class="deployment-block text-center animate-fade-in-up delay-100">
-        <h2 class="section-title text-3xl md:text-4xl font-bold mb-8">Device Deployment and Management</h2>
-        <div class="deployment-image-container flex justify-center mb-8">
-          <img src="<?= base_url(relativePath: 'images/cloud-computing-device-management.png'); ?>"
-            alt="Cloud computing and device management illustration"
-            class="deployment-image w-full max-w-3xl rounded-xl shadow-xl" />
-        </div>
-        <p class="deployment-text text-lg md:text-2xl text-[#050000] max-w-4xl mx-auto">In this phase, your Apple
-          devices will be configured to align with your organization's IT policies. You'll then leverage Mobile
-          Device Management (MDM) tools in conjunction with Apple Business Manager to streamline deployment and
-          management of iPhone, iPad, and Mac devices across your organization.</p>
-      </div>
-      <div class="deployment-block text-center animate-fade-in-up delay-200">
-        <h2 class="section-title text-3xl md:text-4xl font-bold mb-8">Beyond Device Deployment: A Seamless
-          Onboarding Experience</h2>
-        <div class="deployment-image-container flex justify-center mb-8">
-          <img src="<?= base_url(relativePath: 'images/desktop-setup-white.png'); ?>"
-            alt="Desktop computer on a white desk" class="deployment-image w-full max-w-3xl rounded-xl shadow-xl" />
-        </div>
-        <p class="deployment-text text-lg md:text-2xl text-[#050000] max-w-4xl mx-auto">A great experience goes
-          beyond the device. Keep employees informed during the rollout to ensure a smooth transition. Starter kits
-          help them get started quickly and confidently, creating a seamless onboarding experience that boosts
-          productivity and sets them up for success from day one.</p>
-      </div>
-    </div>
-  </div>
-</section>
-<section id="subscribe" class="">
+      <section id="ownership" class="main-section">
   <div class="container">
-    <div class="subscribe-box">
-      <h2 class="subscribe-title">
-        Get Started with Apple Smart EPP Today
-      </h2>
-      <p class="cta-subtitle pb-6">Discover how our products and services can help you achieve your goals.</p>
-      <form class="subscribe-form">
-        <input type="email" placeholder="Enter your email" class="subscribe-input" />
-        <button type="submit" class="subscribe-button">Submit</button>
-      </form>
+    <div  class="mb-4 ">
+  <h2 class="text-[50px] font-bold text-center   " style="color: #000000;">Smarter Ownership. Bigger Savings.</h2>
+    <p class="ownership-subtitle ">Own the latest iPhone at just <span class="highlight">64%</span> of MRP with tax benefits, flexible EMIs, and protection options.</p>
+  </div>
+   <div class="ownership-content">
+       
+      <div class="ownership-image-wrapper">
+        <!-- <img src="<?= base_url(relativePath: 'images/iphone-16.png'); ?>" alt="iPhone 16" class="ownership-iphone">
+       -->
+        <img src="<?= base_url(relativePath: 'images/iPhone_Air_Light_Gold.png'); ?>" alt="iPhone 16" class="ownership-iphone">
+      </div>
+ 
+      <div class="ownership-table-wrapper">
+       
+        <div class="ownership-table">
+          <div class="table-header">
+            <div></div>
+            <div class="header-cell">Value</div>
+            <div class="header-cell">Calculation</div>
+          </div>
+          <div class="table-row">
+            <div class="row-label"> iPhone Air 256</div>
+            <div class="row-value">82,900</div>
+            <div class="row-calc">MRP</div>
+          </div>
+          <div class="table-row">
+            <div class="row-label">Cost (including GST)</div>
+            <div class="row-value">77,926</div>
+            <div class="row-calc">6% upfront discount</div>
+          </div>
+          <div class="table-row">
+            <div class="row-label">Cost (without GST)</div>
+            <div class="row-value">66,039</div>
+            <div class="row-calc">18% GST</div>
+          </div>
+          <div class="table-row">
+            <div class="row-label">Interest for 1 year</div>
+            <div class="row-value">5,284</div>
+            <div class="row-calc">8% interest on invoice</div>
+          </div>
+          <div class="table-row">
+            <div class="row-label">ITHPL’s Plan Price</div>
+            <div class="row-value">6,686</div>
+            <div class="row-calc">1-year ADLD + Theft cover</div>
+          </div>
+          <div class="table-row">
+            <div class="row-label">Tax saving</div>
+            <div class="row-value">(-) 23,402 </div>
+            <div class="row-calc">Upto 30% tax discount</div>
+          </div>
+          <div class="table-row ">
+            <div class="row-label">Effective price</div>
+            <div class="row-value">54,606</div>
+            <div class="row-calc">64% of MRP</div>
+          </div>
+          <div class="table-row">
+            <div class="row-label">Employee payment/month</div>
+            <div class="row-value">6,501</div>
+            <div class="row-calc"></div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="flex justify-center items-center  py-8">
+    <a href="contact-us#contact" class="hero-button" >
+        Get This Offer
+      </a>
+      </div>
+  </div>
+</section>
+      <section class="smartepp-benefits  ">
+        <div class="container mx-auto px-4 py-10">
+            <h2 class="smartepp-title text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800">
+                Core Benefits
+            </h2>
+            
+            <div class="smartepp-benefits__container flex flex-col lg:flex-row items-center  overflow-hidden">
+                <!-- Image Section -->
+                <div class="smartepp-benefits__image relative w-full lg:w-1/3">
+                    <div class="blur-background"></div>
+                    
+                    <img src="<?= base_url(relativePath: 'images/woman-working-on-mac.png'); ?>"
+                         alt="Woman working on a MacBook"
+                         class="relative z-10  w-[400px] h-auto rounded-3xl   transform transition-all duration-700 ">
+                </div>
+                
+                <!-- Benefits List -->
+<div class="w-full lg:w-3/4 space-y-12">
+                    <!-- Benefit 1 -->
+                    <div class="smartepp-benefit-item group flex items-center gap-8">
+                        <div class="smartepp-benefit-item__circle">
+                            <div class="gradient-circle">
+                                <span>1</span>
+                            </div>
+                        </div>
+                        <p class="smartepp-benefit-item__text text-xl text-gray-700">
+                            <strong class="text-black-600">Up to 40% Savings* –</strong> 
+                            Keep your costs low without compromising quality.
+                        </p>
+                    </div>
+                    
+                    <!-- Benefit 2 -->
+                    <div class="smartepp-benefit-item group flex items-center gap-8 sm:pl-16 pl-0">
+                        <div class="smartepp-benefit-item__circle">
+                            <div class="gradient-circle">
+                                <span>2</span>
+                            </div>
+                        </div>
+                        <p class="smartepp-benefit-item__text text-xl text-gray-700  ">
+                            <strong class="text-black-600">Access the Latest Devices –</strong> 
+                            Always stay ahead with new tech.
+                        </p>
+                    </div>
+                    
+                    <!-- Benefit 3 -->
+                    <div class="smartepp-benefit-item group flex items-center gap-8">
+                        <div class="smartepp-benefit-item__circle">
+                            <div class="gradient-circle">
+                                <span>3</span>
+                            </div>
+                        </div>
+                        <p class="smartepp-benefit-item__text text-xl text-gray-700">
+                            <strong class="text-black-600">Benefits for All –</strong> 
+                            Designed for employees & organizations alike.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     
+      <!-- Why Choose Section -->
+      <section id="section-why-choose" class="py-20 ">
+        <div class="container mx-8 px-4">
+          <div class="text-center max-w-4xl mx-auto mb-16">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6  bg-clip-text  animate-fade-in-up">Why Choose Apple Smart EPP?</h2>
+            <p class="text-lg text-gray-600 animate-fade-in-up delay-100">Transform your workplace with Apple devices that inspire creativity, boost productivity, and keep your data secure.</p>
+          </div>
+          
+          <div class="mx-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-fade-in-up delay-200">
+            <div class="group bg-white/80 rounded-2xl shadow-lg p-4 flex flex-col items-center text-center transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:bg-gradient-to-b hover:from-purple-50 hover:to-white">
+              <div class="relative w-32 h-32 mb-6">
+                <img src="<?= base_url(relativePath: 'images/satisfaction-icon.png'); ?>" alt="Satisfaction Icon" class=" w-32 h-32 " />
+              </div>
+              <h3 class="text-2xl font-bold mb-4 text-gray-800">Increased Employee Satisfaction</h3>
+              <p class="text-gray-600 leading-relaxed mb-6">Show employees you value their hard work with Apple devices.</p>
+             
+            </div>
+
+            <div class="group bg-white/80 rounded-2xl shadow-lg p-4 flex flex-col items-center text-center transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:bg-gradient-to-b hover:from-purple-50 hover:to-white">
+              <div class="relative w-32 h-32 mb-6">
+                <img src="<?= base_url(relativePath: 'images/retention-icon.png'); ?>" alt="Retention Icon" class=" w-32 h-32 " />
+              </div>
+              <h3 class="text-2xl font-bold mb-4 text-gray-800">Improved Retention</h3>
+              <p class="text-gray-600 leading-relaxed mb-6">Offer employees the tools they need to succeed.</p>
+              
+            </div>
+
+            <div class="group bg-white/80 rounded-2xl shadow-lg p-4 flex flex-col items-center text-center transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:bg-gradient-to-b hover:from-purple-50 hover:to-white">
+              <div class="relative w-32 h-32 mb-6">
+                <img src="<?= base_url(relativePath: 'images/competitive-advantage-icon.png'); ?>" alt="Competitive Advantage Icon" class="  w-32 h-32" />
+              </div>
+              <h3 class="text-2xl font-bold mb-4 text-gray-800">Competitive Advantage</h3>
+              <p class="text-gray-600 leading-relaxed mb-6">Attract and retain top talent with Apple devices.</p>
+             
+            </div>
+          </div>
+          
+         
+        </div>
+      </section>
+     <section id="features" class="features-section">
+  <div class="container pb-8">
+    <h2 class="section-title py-8">Built for Organizations. Loved by Employees.</h2>
+    <div class="features-grid sm:mx-0 md:mx-[120px] justify-center">
+      <div class="feature-card2">
+        <div class="feature-card-bg">
+          <!-- <img src="<?= base_url(relativePath: 'images/rectangle-card-bg.png'); ?>" alt="background gradient"> -->
+        </div>
+        <div class="feature-card-content">
+          <img src="<?= base_url(relativePath: 'images/organization-logo.png'); ?>" alt="Organization Icon" class="feature-main-icon">
+          <h3 class="feature-card-title">For Organizations:</h3>
+          <ul class="feature-list">
+            <li><img src="<?= base_url(relativePath: 'images/think-do.png'); ?>" alt="think do">Boost Productivity</li>
+            <li><img src="<?= base_url(relativePath: 'images/management-icon.png'); ?>" alt="management">Retain & attract top talent</li>
+            <li><img src="<?= base_url(relativePath: 'images/trust.png'); ?>" alt="trust">Enhance employee wellbeing</li>
+            <li><img src="<?= base_url(relativePath: 'images/social-media-marketing.png'); ?>" alt="social-media-marketing">Strengthen employer brand</li>
+          </ul>
+        </div>
+      </div>
+      <div class="feature-card2">
+        <div class="feature-card-bg">
+          <!-- <img src="<?= base_url(relativePath: 'images/rectangle-card-bg.png'); ?>" alt="background gradient"> -->
+        </div>
+        <div class="feature-card-content">
+          <img src="<?= base_url(relativePath: 'images/management-icon1.png'); ?>" alt="Management Icon" class="feature-main-icon">
+          <h3 class="feature-card-title">For Employees:</h3>
+          <ul class="feature-list">
+            <li><img src="<?= base_url(relativePath: 'images/emi-payment.png'); ?>" alt=" emi payment">Easy EMI options</li>
+            <li><img src="<?= base_url(relativePath: 'images/device-shop.png'); ?>" alt="device shop">Device ownership flexibility</li>
+            <li><img src="<?= base_url(relativePath: 'images/12.png'); ?>" alt="12">Upgrade in 12 months</li>
+            <li><img src="<?= base_url(relativePath: 'images/heart-health.png'); ?>" alt="heart health">Lifestyle enhancement</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </section>
+<section id="hassle-free" class="hassle-free-section  main-section pt-20">
+  <div class="container">
+    <h2 class="text-4xl font-semibold  text-center ">0% hassle. 100% flexibility for your organization</h2>
+    <div class="hassle-free-grid">
+      <div class="hassle-free-item">
+        <img src="<?= base_url(relativePath: 'images/money-bag.png'); ?>" alt="Money Bag Icon">
+        <p>Zero Financial Liability</p>
+      </div>
+      <div class="hassle-free-item">
+        <img src="<?= base_url(relativePath: 'images/check-file.png'); ?>" alt="Check File Icon">
+        <p>Minimal administrative burden</p>
+      </div>
+      <div class="hassle-free-item">
+        <img src="<?= base_url(relativePath: 'images/interface-icon.png'); ?>" alt="Interface Icon">
+        <p>Simple implementation</p>
+      </div>
+      <div class="hassle-free-item">
+        <img src="<?= base_url(relativePath: 'images/bill-icon.png'); ?>" alt="Bill Icon">
+        <p>Upfront GST set off benefit</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="protection " class="protection-section">
+  <div class="container ">
+    <h2 class="section-title">Benefits of Protection plan</h2>
+    <div class="protection-grid py-8">
+      <div class="protection-card">
+        <img src="<?= base_url(relativePath: 'images/broken-computer-icon.png'); ?>" alt="Broken Computer Icon">
+        <h3>Accidental Protection</h3>
+      </div>
+      <div class="protection-card">
+        <img src="<?= base_url(relativePath: 'images/water-damage-icon.png'); ?>" alt="Water Damage Icon">
+        <h3>Liquid Damage protection</h3>
+      </div>
+      <div class="protection-card">
+        <img src="<?= base_url(relativePath: 'images/theft-icon.png'); ?>" alt="Theft Icon">
+        <h3>Theft protection</h3>
+      </div>
+      <div class="protection-card">
+        <!--merged image-->
+        <img src="<?= base_url(relativePath: 'images/Assuredbuyback.png'); ?>" alt="A Icon">
+        <h3>Assured Buyback</h3>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="how-it-works" class="how-it-works-section">
+  <div class="container">
+    <h2 class="section-title">How does it work?</h2>
+
+    <div class="how-it-works-layout">
+      <!-- Center Image -->
+      <div class="how-it-works-center-img ">
+        <img src="<?= base_url(relativePath: 'images/iPhone-16-pro.png'); ?>" alt="Phone" class="phone-1" />
+      </div>
+
+      <!-- Step 1 -->
+      <div class="step-item step-1">
+        <div class="step-card">
+          <img src="<?= base_url(relativePath: 'images/handshake-icon.png'); ?>" alt="Handshake Icon" />
+          <p>Agreement between reseller, lessor &amp; ITHPL</p>
+        </div>
+        <div class="step-number-circle"><span>1</span></div>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="step-item step-2">
+        <div class="step-card">
+          <img src="<?= base_url(relativePath: 'images/hr-icon.png'); ?>" alt="HR Icon" />
+          <p>HR rollout to employees</p>
+        </div>
+        <div class="step-number-circle"><span>2</span></div>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="step-item step-3">
+        <div class="step-card">
+          <img src="<?= base_url(relativePath: 'images/shopping-icon.png'); ?>" alt="Shopping Icon" />
+          <p>Employees order via portal</p>
+        </div>
+        <div class="step-number-circle"><span>3</span></div>
+      </div>
+
+      <!-- Step 4 -->
+      <div class="step-item step-4">
+        <div class="step-card">
+          <img src="<?= base_url(relativePath: 'images/payslip-icon.png'); ?>" alt="Payslip Icon" />
+          <p>Lease auto-deducted from payslip</p>
+        </div>
+        <div class="step-number-circle"><span>4</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section id="subscribe" class="">
+      <div class="container">
+        <div class="subscribe-box">
+          <h2 class="subscribe-title">
+           Get Started with Apple Smart EPP Today 
+          </h2>
+          <p class="cta-subtitle pb-6">Discover how our products and services can help you achieve your goals.</p>
+          <form class="subscribe-form">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              class="subscribe-input"
+            />
+            <button type="submit" class="subscribe-button">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+    </main>
+     <script>
+      // Intersection Observer for fade-in animations
+        const observerOptions = {
+            threshold: 0.2,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry, index) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => {
+                        entry.target.classList.add('animate');
+                    }, index * 200); // Stagger the animations
+                }
+            });
+        }, observerOptions);
+
+        // Observe all benefit items
+        document.addEventListener('DOMContentLoaded', () => {
+            const benefitItems = document.querySelectorAll('.smartepp-benefit-item');
+            benefitItems.forEach(item => {
+                observer.observe(item);
+            });
+        });
+  </script>
