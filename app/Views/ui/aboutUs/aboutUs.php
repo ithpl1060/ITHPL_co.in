@@ -15,7 +15,7 @@
     </div>
 </section>
 
-<section id="about-a" class="scroll-mt-15 main-section fade-in-section">
+<section id="about-a" class="scroll-mt-20 main-section fade-in-section">
     <div class="container about-container-a">
         <h2 class="about-title-a">
             Who <span class="gradient-we">We</span> Are?
@@ -457,7 +457,7 @@
     </div>
 </section>
 
-<section class="py-16 px-4 sm:px-6 lg:px-8 fade-in-section" id="core-team">
+<section class="py-16 px-4 sm:px-6 lg:px-8 fade-in-section sc" id="core-team">
     <div class="relative">
         <div class="container">
             <h2 class="team-title">Meet The <span class="gradient-services">Brains</span></h2>
@@ -1057,14 +1057,16 @@
             <h2 class="subscribe-title">
                 Stay Updated with IT Trends & Exclusive Offers!
             </h2>
-            <form class="subscribe-form">
-                <input type="email" placeholder="Enter your email" class="subscribe-input" />
+            <form class="subscribe-form" id="mailSubscriptionForm">
+                <input type="email" name="email" id="subscriptionEmail" placeholder="Enter your email" class="subscribe-input" />
                 <button type="submit" class="subscribe-button">Submit</button>
             </form>
         </div>
     </div>
 </section>
-
+<!-- Mail Subscription -->
+<script src="<?= base_url('js/mail_subscription.js'); ?>"></script>
+<!-- <script src="<?= base_url('js/about.js'); ?>"></script> -->
 <script src="<?= base_url('js/gsap.min.js'); ?>" defer></script>
 <script src="<?= base_url('js/ScrollTrigger.min.js'); ?>" defer></script>
 <script src="<?= base_url('js/ScrollToPlugin.min.js'); ?>" defer></script>

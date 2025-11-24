@@ -130,19 +130,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             counters.forEach(counter => observer.observe(counter));
         });
 
-        
-document.addEventListener('DOMContentLoaded', () => {
-    gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
-    
-    
-    Promise.all([
-        document.fonts.ready,
-        ...Array.from(document.images).map(img => {
-            if (img.complete) return Promise.resolve();
-            return new Promise(resolve => img.addEventListener('load', resolve));
-        })
-    ]).then(initializeTimeline);
-});
+
+
 
 function initializeTimeline() {
     const timeline = document.querySelector('.horizontal-scroll-content');
@@ -482,72 +471,7 @@ document.addEventListener("DOMContentLoaded", () => {
           fadeInObserver.observe(section);
         });
 
-     const cards = Array.from(document.querySelectorAll('.testimonial-card'));
-const dots = Array.from(document.querySelectorAll('.indicator-dot'));
-
-let currentIndex = 0;
-let previousIndex;
-
-function updateSlider() {
-    cards.forEach(card => {
-        card.classList.remove(
-            'testimonial-card--current',
-            'testimonial-card--next',
-            'testimonial-card--out'
-        );
-    });
-
-    // Current card
-    cards[currentIndex].classList.add('testimonial-card--current');
-
-    // Next card
-    const nextIndex = (currentIndex + 1) % cards.length;
-    cards[nextIndex].classList.add('testimonial-card--next');
-
-    // Previous card goes out
-    if (previousIndex !== undefined) {
-        cards[previousIndex].classList.add('testimonial-card--out');
-    }
-
-    // Update dots
-    dots.forEach((dot, index) => {
-        dot.classList.toggle('active', index === currentIndex);
-    });
-
-    previousIndex = currentIndex;
-}
-
-function autoSlide() {
-    currentIndex = (currentIndex + 1) % cards.length;
-    updateSlider();
-}
-
-// Start automatic loop
-let autoSlideInterval = setInterval(autoSlide, 5000);
-
-// Pause on hover
-const sliderContainer = document.querySelector('.testimonial-slider-container');
-sliderContainer.addEventListener('mouseenter', () => {
-    clearInterval(autoSlideInterval);
-});
-sliderContainer.addEventListener('mouseleave', () => {
-    autoSlideInterval = setInterval(autoSlide, 5000);
-});
-
-// Dot navigation (still works)
-dots.forEach(dot => {
-    dot.addEventListener('click', () => {
-        const targetIndex = parseInt(dot.getAttribute('data-index'));
-        if (targetIndex !== currentIndex) {
-            currentIndex = targetIndex;
-            updateSlider();
-        }
-    });
-});
-
-// Initialize
-updateSlider();
-
+  
       });
 
 
@@ -567,4 +491,93 @@ updateSlider();
     }
 }
 
-  
+document.addEventListener("DOMContentLoaded", function() {
+   
+    // Function to close all submenus
+    function closeAllSubmenus() {
+        const submenus = document.querySelectorAll('.apple-submenu');
+        
+        submenus.forEach(menu => {
+            menu.classList.add('hidden');
+            // Force display none to ensure it's hidden
+            menu.style.display = 'none';
+        });
+        
+        document.querySelectorAll('.arrow').forEach(arrow => {
+            arrow.classList.remove('rotate-180');
+        });
+    }
+
+    // Function to open a specific submenu
+    function openSubmenu(submenu, arrow) {
+        submenu.classList.remove('hidden');
+        // Force display block
+        submenu.style.display = 'block';
+        if (arrow) {
+            arrow.classList.add('rotate-180');
+        }
+    }
+
+    // Initialize - Close ALL submenus when page loads
+    setTimeout(() => {
+        closeAllSubmenus();
+     
+    }, 100);
+
+    // Single event listener for all toggle buttons
+    document.body.addEventListener('click', function(e) {
+        const toggleBtn = e.target.closest('.arrow-btn');
+        
+        if (toggleBtn) {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            // Find the parent container and then the submenu
+            const menuContainer = toggleBtn.closest('.w-full.text-gray-600');
+            const submenu = menuContainer ? document.getElementById('appleSubmenu') : null;
+            const arrow = toggleBtn.querySelector('.arrow');
+            
+            
+            if (submenu) {
+                // Check if submenu is currently visible by checking computed style
+                const isCurrentlyHidden = window.getComputedStyle(submenu).display === 'none';
+              
+                // Close all submenus first
+                closeAllSubmenus();
+                
+                // If the clicked menu was hidden, open it
+                if (isCurrentlyHidden) {
+                
+                    openSubmenu(submenu, arrow);
+                } else {
+                    
+                }
+            }
+        } else {
+            // Close menus when clicking outside
+            if (!e.target.closest('.apple-submenu') && !e.target.closest('.arrow-btn')) {
+                closeAllSubmenus();
+            }
+        }
+    });
+});
+
+ 
+
+document.addEventListener("DOMContentLoaded", () => {
+  const track = document.getElementById("scrollTrack");
+  const grid = document.querySelector(".certifications-grid");
+
+  if (!track || !grid) return;
+
+  // Keep desktop auto scroll
+  if (window.innerWidth > 768) {
+    const clone = grid.cloneNode(true);
+    track.appendChild(clone);
+
+    const gridWidth = grid.scrollWidth;
+    const speed = 0.009;
+    track.style.width = gridWidth * 2 + "px";
+    track.style.animationDuration = gridWidth * speed + "s";
+  }
+});

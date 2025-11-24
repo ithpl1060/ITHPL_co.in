@@ -72,4 +72,17 @@ class AdminController extends BaseController
             . view('seo/updateSeo_js', $data)
             . view('htmlend');
     }
+
+    public function mail()
+    {
+        $data['meta']['meta_title'] = 'ITHPL | Mail';
+
+        return view('header', $data)
+            . view('sidebar/side_bar')
+            . view('mail/mail')
+            . view('footer')
+            . view('mail/mail_js')
+            . view('htmlend');
+    }
+
 }

@@ -2,13 +2,11 @@
   <div class="hero-background-a"></div>
   <div class="container hero-content-a ">
 
-    <h1 class=" hero-title-a    ">Explore the latest <br> <span class="gradient-services">IT insights, tips, and
-        updates.</span></h1>
-
-    <p class=" hero-description-b">
-      Our blogs are written from very research and well known writers writers so that we can provide you the best blogs
-      and articles articles for you to read them all along
-    </p>
+       <h1 class=" hero-title-a">Powered by  <span class="gradient-services"> experts. </span>Crafted for <span class="gradient-services">thinkers</span>   <br> Written for <span class="gradient-services">  you.</span></h1>
+    
+    <!-- <p class=" hero-description-b">
+    Our blogs are written from very research and well known writers writers so that  we can provide you the best blogs and articles articles for you to read them all along
+    </p> -->
     <div class="hero-image-container-a">
       <img src="<?= base_url(relativePath: 'images/Blog.png'); ?>" alt="Business technology illustration"
         class="hero-image-a" />
@@ -186,10 +184,11 @@
   <div class="container">
     <div class="subscribe-box">
       <h2 class="subscribe-title">
-        Get our Blogs delivered From us to your inbox weekly.
+       Unlock weekly wisdom—receive our latest blogs straight to your inbox.
+       
       </h2>
-      <form class="subscribe-form">
-        <input type="email" placeholder="Enter your email" class="subscribe-input" />
+      <form class="subscribe-form" id="mailSubscriptionForm">
+        <input type="email" name="email" id="subscriptionEmail" placeholder="Enter your email" class="subscribe-input" />
         <button type="submit" class="subscribe-button">Submit</button>
       </form>
     </div>
@@ -198,3 +197,5 @@
 
 
 <script src="<?= base_url('js/global.js'); ?>" defer></script>
+<!-- Mail Subscription -->
+<script src="<?= base_url('js/mail_subscription.js'); ?>"></script>

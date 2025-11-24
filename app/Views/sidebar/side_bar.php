@@ -20,6 +20,13 @@
                 </a>
             </li>
 
+            <!-- mail subscription -->
+             <li>
+                <a href="<?php echo base_url('mail'); ?>">
+                    <i class="fa fa-envelope"></i> <span>Mail</span>
+                </a>
+            </li>
+
             <!-- New Blogs Dropdown -->
            <li class="treeview">
           <a href="#">
