@@ -72,6 +72,11 @@ $routes->get('get_seo', [SeoController::class, 'getSeo']);
 $routes->get('get_seo/(:num)', [SeoController::class, 'getSeo']);
 $routes->delete('seo/(:num)', [SeoController::class, 'delete']);
 
+// Mail (Admin UI)
+$routes->get('mail', [WebAdminController::class, 'mail']);
+$routes->post('fetchMail', [\App\Controllers\Api\MailController::class, 'fetchMail']);
+$routes->post('subscribeMail', [\App\Controllers\Api\MailController::class, 'subscribe']);
+
 //category
 $routes->post('category', [APIBlogController::class, 'createCategory']);
 $routes->post('get-category', [APIBlogController::class, 'getCategory']);
@@ -107,6 +112,8 @@ $routes->get('contact-us', [UiController::class, 'contact']);
 $routes->get('ewaste-management', [UiController::class, 'ewasteManagement']);
 $routes->get('apple-enterprises', [UiController::class, 'appleEnterprises']);
 $routes->get('apple-smart-epp', [UiController::class, 'appleSmartEpp']);
+$routes->get('apple', [UiController::class, 'apple']);
+$routes->get('apple-tco-calc', [UiController::class, 'appleTcoCalculator']);
 
 $routes->get('shipping-policy', [UiController::class, 'shippingPolicy']);
 $routes->get('terms-and-conditions', [UiController::class, 'termsAndConditions']);

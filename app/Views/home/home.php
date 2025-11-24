@@ -10,8 +10,8 @@
                 Support.
             </p>
             <div class="hero-buttons">
-                <a href="#products" class="hero-button mt-16">Explore Solutions</a>
-                <a href="#contact" class="hero-button mt-16">Contact Us</a>
+                <a href="<?= base_url('solutions') ?>" class="hero-button mt-16">Explore Solutions</a>
+                <a href="<?= base_url('solutions') ?>" class="hero-button mt-16">Contact Us</a>
             </div>
         </div>
         <div class="hero-image-container">
@@ -199,7 +199,7 @@
                 <div class="product-content">
                     <h3 class="product-title">Endpoint IT Solutions</h3>
                     <p class="product-description">Laptops, desktops, and beyond.</p>
-                    <a href="#" class="product-button">Learn More</a>
+                    <a href="https://store.ithpl.com/" class="product-button">Learn More</a>
                 </div>
             </div>
             <div class="product-card">

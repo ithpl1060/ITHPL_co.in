@@ -1361,6 +1361,33 @@ section {
       }
 
       /* CSS for section section:certifications */
+      /* Desktop layout (your normal view) */
+#certGrid {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 30px;
+}
+
+/* Mobile: Convert into a single horizontal scroll row */
+@media (max-width: 768px) {
+  #certGrid {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none; /* Hide scrollbar - Firefox */
+  }
+
+  #certGrid::-webkit-scrollbar {
+    display: none; /* Hide scrollbar - Chrome/Safari */
+  }
+
+  #certGrid .cert-card {
+    flex: 0 0 auto;  /* Do not shrink */
+    min-width: 180px; /* Adjust card width */
+  }
+}
+
+
       .certifications-grid {
         display: flex;
         justify-content: center;
@@ -1547,6 +1574,7 @@ section {
           gap: 20px;
           padding: 10px;
         }
+       
 
         .certification-item {
           width: 160px;
@@ -1566,6 +1594,8 @@ section {
           font-size: 18px;
         }
       }
+
+    
 
       @media (max-width: 480px) {
         .section-title {

@@ -140,8 +140,8 @@
             <h2 class="subscribe-title">
                 Stay Updated with IT Trends & Exclusive Offers!
             </h2>
-            <form class="subscribe-form">
-                <input type="email" placeholder="Enter your email" class="subscribe-input" />
+            <form class="subscribe-form" id="mailSubscriptionForm">
+                <input name="email" id="subscriptionEmail" type="email" placeholder="Enter your email" class="subscribe-input" />
                 <button type="submit" class="subscribe-button">Submit</button>
             </form>
         </div>

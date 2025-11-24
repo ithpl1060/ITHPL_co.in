@@ -130,19 +130,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             counters.forEach(counter => observer.observe(counter));
         });
 
-        
-document.addEventListener('DOMContentLoaded', () => {
-    gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
-    
-    
-    Promise.all([
-        document.fonts.ready,
-        ...Array.from(document.images).map(img => {
-            if (img.complete) return Promise.resolve();
-            return new Promise(resolve => img.addEventListener('load', resolve));
-        })
-    ]).then(initializeTimeline);
-});
+
+
 
 function initializeTimeline() {
     const timeline = document.querySelector('.horizontal-scroll-content');
@@ -482,72 +471,7 @@ document.addEventListener("DOMContentLoaded", () => {
           fadeInObserver.observe(section);
         });
 
-     const cards = Array.from(document.querySelectorAll('.testimonial-card'));
-const dots = Array.from(document.querySelectorAll('.indicator-dot'));
-
-let currentIndex = 0;
-let previousIndex;
-
-function updateSlider() {
-    cards.forEach(card => {
-        card.classList.remove(
-            'testimonial-card--current',
-            'testimonial-card--next',
-            'testimonial-card--out'
-        );
-    });
-
-    // Current card
-    cards[currentIndex].classList.add('testimonial-card--current');
-
-    // Next card
-    const nextIndex = (currentIndex + 1) % cards.length;
-    cards[nextIndex].classList.add('testimonial-card--next');
-
-    // Previous card goes out
-    if (previousIndex !== undefined) {
-        cards[previousIndex].classList.add('testimonial-card--out');
-    }
-
-    // Update dots
-    dots.forEach((dot, index) => {
-        dot.classList.toggle('active', index === currentIndex);
-    });
-
-    previousIndex = currentIndex;
-}
-
-function autoSlide() {
-    currentIndex = (currentIndex + 1) % cards.length;
-    updateSlider();
-}
-
-// Start automatic loop
-let autoSlideInterval = setInterval(autoSlide, 5000);
-
-// Pause on hover
-const sliderContainer = document.querySelector('.testimonial-slider-container');
-sliderContainer.addEventListener('mouseenter', () => {
-    clearInterval(autoSlideInterval);
-});
-sliderContainer.addEventListener('mouseleave', () => {
-    autoSlideInterval = setInterval(autoSlide, 5000);
-});
-
-// Dot navigation (still works)
-dots.forEach(dot => {
-    dot.addEventListener('click', () => {
-        const targetIndex = parseInt(dot.getAttribute('data-index'));
-        if (targetIndex !== currentIndex) {
-            currentIndex = targetIndex;
-            updateSlider();
-        }
-    });
-});
-
-// Initialize
-updateSlider();
-
+  
       });
 
 
@@ -567,4 +491,57 @@ updateSlider();
     }
 }
 
-  
+document.addEventListener('DOMContentLoaded', function() {
+    const appleToggle = document.querySelector('.tj8p3q_apple_toggle_btn');
+    
+    if (appleToggle) {
+        appleToggle.addEventListener('click', function() {
+            const submenu = this.nextElementSibling;
+            const isActive = this.classList.contains('ql6h4k_active');
+            
+            if (isActive) {
+                this.classList.remove('ql6h4k_active');
+                submenu.classList.remove('zm9n2p_show');
+            } else {
+                this.classList.add('ql6h4k_active');
+                submenu.classList.add('zm9n2p_show');
+            }
+        });
+    }
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  const toggleBtn = document.querySelector(".arrow-btn");
+  const submenu = document.getElementById("appleSubmenu");
+  const arrow = document.querySelector(".arrow");
+
+  if (toggleBtn) {
+    toggleBtn.addEventListener("click", () => {
+      submenu.classList.toggle("hidden");
+      arrow.classList.toggle("rotate");
+    });
+  }
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  const track = document.getElementById("scrollTrack");
+  const grid = document.getElementById("certGrid");
+
+  // Stop execution if elements are missing (other pages)
+  if (!track || !grid) return;
+
+  // Clone grid for seamless scroll
+  const clone = grid.cloneNode(true);
+  track.appendChild(clone);
+
+  // Get grid width
+  const gridWidth = grid.offsetWidth;
+
+  // Speed multiplier
+  const speedPerPixel = 0.01;
+  const duration = gridWidth * speedPerPixel;
+
+  // Apply dynamic values
+  track.style.animationDuration = duration + "s";
+  track.style.width = gridWidth * 2 + "px";
+});
