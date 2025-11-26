@@ -90,7 +90,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="https://store.ithpl.com/" class="nav-hover" target="_self">Products</a>
+                        <a href="https://store.ithpl.com/" class="nav-hover" alt="ithpl product" target="_self">Products</a>
                     </li>
 
 

@@ -150,7 +150,7 @@
           
 
           <article class="solution-card">
-            <a href="appletcocalculator.html">
+            <a href="<?= base_url('apple-tco-calc') ?>">
             <div class="solution-image-container pt-4">
               <img src="<?= base_url(relativePath: 'images/tco-ownership.png'); ?>" alt="Total Cost of Ownership illustration" loading="lazy">
             </div>
@@ -164,7 +164,7 @@
 
           
           <article class="solution-card">
-            <a href="applesmartepp.html">
+             <a href="<?= base_url('apple-smart-epp') ?>">
             <div class="solution-image-container pt-3">
               <img src="<?= base_url(relativePath: 'images/apple-smart-epp-2.png'); ?>" alt="Apple Smart EPP illustration" loading="lazy">
             </div>
@@ -177,7 +177,7 @@
           
           
           <article class="solution-card">
-            <a href="appleForEnterPrises.html">
+             <a href="<?= base_url('apple-enterprises') ?>">
             <div class="solution-image-container pt-3">
               <img src="<?= base_url(relativePath: 'images/apple-for-enterprises.png'); ?>" alt="Apple For Enterprise illustration" loading="lazy">
             </div>
