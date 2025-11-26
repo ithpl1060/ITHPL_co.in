@@ -9,63 +9,19 @@ class AppController {
 
     init() {
         document.addEventListener('DOMContentLoaded', () => {
-            this.initMobileMenu();
+            
             this.initSmoothScroll();
             this.initStatCounters();
             this.initTimeline();
             this.initHorizontalScroll();
             this.initFadeAnimations();
             this.initFAQ();
-            this.initSubmenus();
+            
             this.initCertificationsMarquee();
         });
     }
 
-    /**
-     * Mobile Navigation Logic
-     * Handles opening/closing and hamburger animation.
-     */
-    initMobileMenu() {
-        const mobileNav = document.getElementById('mobileNav');
-        const toggleButton = document.querySelector('.mobile-menu-toggle');
-
-        if (!mobileNav || !toggleButton) return;
-
-        const spans = toggleButton.querySelectorAll('span');
-
-        const setMenuState = (isOpen) => {
-            if (isOpen) {
-                mobileNav.classList.add('active');
-                mobileNav.classList.remove('hidden'); // Ensure visibility if using hidden class
-                spans[0].style.transform = 'translateY(8px) rotate(45deg)';
-                spans[1].style.opacity = '0';
-                spans[2].style.transform = 'translateY(-8px) rotate(-45deg)';
-            } else {
-                mobileNav.classList.remove('active');
-                mobileNav.classList.add('hidden');
-                spans[0].style.transform = 'none';
-                spans[1].style.opacity = '1';
-                spans[2].style.transform = 'none';
-            }
-        };
-
-        // Toggle button click
-        toggleButton.addEventListener('click', (e) => {
-            e.stopPropagation();
-            const isActive = mobileNav.classList.contains('active');
-            setMenuState(!isActive);
-        });
-
-        // Close when clicking outside
-        document.addEventListener('click', (event) => {
-            if (!toggleButton.contains(event.target) && !mobileNav.contains(event.target)) {
-                setMenuState(false);
-            }
-        });
-
-        // Expose close method for other modules (like smooth scroll)
-        this.closeMobileMenu = () => setMenuState(false);
-    }
+   
 
     /**
      * Smooth Scrolling for Anchor Links
@@ -319,51 +275,8 @@ class AppController {
         }
     }
 
-    /**
-     * Submenu Logic (Apple Style)
-     */
-    initSubmenus() {
-        const closeAll = () => {
-            document.querySelectorAll('.apple-submenu').forEach(m => {
-                m.classList.add('hidden');
-                m.style.display = 'none';
-            });
-            document.querySelectorAll('.arrow').forEach(a => a.classList.remove('rotate-180'));
-        };
-
-        // Initial cleanup
-        setTimeout(closeAll, 100);
-
-        document.body.addEventListener('click', (e) => {
-            const toggleBtn = e.target.closest('.arrow-btn');
-            
-            if (toggleBtn) {
-                e.preventDefault();
-                e.stopPropagation();
-
-                const menuContainer = toggleBtn.closest('.w-full'); // Adjust selector as needed
-                const submenu = document.getElementById('appleSubmenu'); // ID seems hardcoded in original
-                const arrow = toggleBtn.querySelector('.arrow');
-
-                if (submenu) {
-                    const isHidden = window.getComputedStyle(submenu).display === 'none';
-                    closeAll(); // Close others first (accordion behavior)
-
-                    if (isHidden) {
-                        submenu.classList.remove('hidden');
-                        submenu.style.display = 'block';
-                        if (arrow) arrow.classList.add('rotate-180');
-                    }
-                }
-            } else {
-                // Close when clicking outside
-                if (!e.target.closest('.apple-submenu') && !e.target.closest('.arrow-btn')) {
-                    closeAll();
-                }
-            }
-        });
-    }
-
+    
+   
     /**
      * Infinite Marquee for Certifications
      */
@@ -396,3 +309,158 @@ if ('scrollRestoration' in history) {
     history.scrollRestoration = 'manual';
 }
 window.scrollTo(0, 0);
+
+
+ 
+ function toggleMobileMenu() {
+            const mobileNav = document.getElementById('mobileNav');
+            const toggleButton = document.querySelector('.mobile-menu-toggle');
+            
+            mobileNav.classList.toggle('active');
+            
+            
+            
+            const spans = toggleButton.querySelectorAll('span');
+            if (mobileNav.classList.contains('active')) {
+                spans[0].style.transform = 'translateY(8px) rotate(45deg)';
+                spans[1].style.opacity = '0';
+                spans[2].style.transform = 'translateY(-8px) rotate(-45deg)';
+            } else {
+                spans[0].style.transform = 'none';
+                spans[1].style.opacity = '1';
+                spans[2].style.transform = 'none';
+            }
+        }
+
+        
+        document.addEventListener('click', function(event) {
+            const mobileNav = document.getElementById('mobileNav');
+            const toggleButton = document.querySelector('.mobile-menu-toggle');
+            
+            if (!toggleButton.contains(event.target) && !mobileNav.contains(event.target)) {
+                mobileNav.classList.remove('active');
+                
+                
+                const spans = toggleButton.querySelectorAll('span');
+                spans[0].style.transform = 'none';
+                spans[1].style.opacity = '1';
+                spans[2].style.transform = 'none';
+            }
+        });
+
+        
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+                
+               
+                const mobileNav = document.getElementById('mobileNav');
+                mobileNav.classList.remove('active');
+                
+                
+                const spans = document.querySelector('.mobile-menu-toggle').querySelectorAll('span');
+                spans[0].style.transform = 'none';
+                spans[1].style.opacity = '1';
+                spans[2].style.transform = 'none';
+            });
+        });
+
+
+
+
+ 
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(anchor.getAttribute('href'));
+        if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        
+       
+        const nav = document.getElementById('mobileNav');
+        nav.classList.add('hidden');
+        const spans = document.querySelector('.mobile-menu-toggle').querySelectorAll('span');
+        spans.forEach(span => {
+            span.style.transform = 'rotate(0) translate(0, 0)';
+            span.style.opacity = '1';
+        });
+    });
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {
+   
+    // Function to close all submenus
+    function closeAllSubmenus() {
+        const submenus = document.querySelectorAll('.apple-submenu');
+        
+        submenus.forEach(menu => {
+            menu.classList.add('hidden');
+            // Force display none to ensure it's hidden
+            menu.style.display = 'none';
+        });
+        
+        document.querySelectorAll('.arrow').forEach(arrow => {
+            arrow.classList.remove('rotate-180');
+        });
+    }
+
+    // Function to open a specific submenu
+    function openSubmenu(submenu, arrow) {
+        submenu.classList.remove('hidden');
+        // Force display block
+        submenu.style.display = 'block';
+        if (arrow) {
+            arrow.classList.add('rotate-180');
+        }
+    }
+
+    // Initialize - Close ALL submenus when page loads
+    setTimeout(() => {
+        closeAllSubmenus();
+     
+    }, 100);
+
+    // Single event listener for all toggle buttons
+    document.body.addEventListener('click', function(e) {
+        const toggleBtn = e.target.closest('.arrow-btn');
+        
+        if (toggleBtn) {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            // Find the parent container and then the submenu
+            const menuContainer = toggleBtn.closest('.w-full.text-gray-600');
+            const submenu = menuContainer ? document.getElementById('appleSubmenu') : null;
+            const arrow = toggleBtn.querySelector('.arrow');
+            
+            
+            if (submenu) {
+                // Check if submenu is currently visible by checking computed style
+                const isCurrentlyHidden = window.getComputedStyle(submenu).display === 'none';
+              
+                // Close all submenus first
+                closeAllSubmenus();
+                
+                // If the clicked menu was hidden, open it
+                if (isCurrentlyHidden) {
+                
+                    openSubmenu(submenu, arrow);
+                } else {
+                    
+                }
+            }
+        } else {
+            // Close menus when clicking outside
+            if (!e.target.closest('.apple-submenu') && !e.target.closest('.arrow-btn')) {
+                closeAllSubmenus();
+            }
+        }
+    });
+});
