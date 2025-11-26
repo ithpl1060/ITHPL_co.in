@@ -296,7 +296,7 @@
     <div class="how-it-works-layout">
       <!-- Center Image -->
       <div class="how-it-works-center-img">
-    <img src="<?= base_url('images/iPhone-16-pro.png'); ?>" alt="Phone" class="phone-1" />
+    <img src="<?= base_url('images/iphone-16-pro.png'); ?>" alt="Phone" class="phone-1" />
 </div>
 
 
