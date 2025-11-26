@@ -1,4 +1,4 @@
- <main>
+
       <!-- Hero Section -->
       <section id="hero-about" class="fade-in-sections">
   <div class="hero-background-a"></div>
@@ -21,7 +21,7 @@
       <section class="py-20 ">
         <div class="container mx-auto px-4">
           <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-4xl md:text-5xl font-bold mb-8">What is SMART EPP?</h2>
+            <h2 class="text-3xl md:text-4xl font-bold mb-8">What is SMART EPP?</h2>
             <p class="text-xl md:text-2xl text-black-600 leading-relaxed">
               <strong >SMART EPP</strong> is a corporate employee purchase program that enables employees to own the latest devices at reduced costs with flexible finance options and upgrade assurance.
             </p>
@@ -32,7 +32,7 @@
       <section id="ownership" class="main-section">
   <div class="container">
     <div  class="mb-4 ">
-  <h2 class="text-[50px] font-bold text-center   " style="color: #000000;">Smarter Ownership. Bigger Savings.</h2>
+  <h2 class="text-[36px] font-bold text-center   " style="color: #000000;">Smarter Ownership. Bigger Savings.</h2>
     <p class="ownership-subtitle ">Own the latest iPhone at just <span class="highlight">64%</span> of MRP with tax benefits, flexible EMIs, and protection options.</p>
   </div>
    <div class="ownership-content">
@@ -104,7 +104,7 @@
 </section>
       <section class="smartepp-benefits  ">
         <div class="container mx-auto px-4 py-10">
-            <h2 class="smartepp-title text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800">
+            <h2 class="smartepp-title text-3xl md:text-4xl font-bold text-center mb-16 text-gray-800">
                 Core Benefits
             </h2>
             
@@ -168,7 +168,7 @@
       <section id="section-why-choose" class="py-20 ">
         <div class="container mx-8 px-4">
           <div class="text-center max-w-4xl mx-auto mb-16">
-            <h2 class="text-4xl md:text-5xl font-bold mb-6  bg-clip-text  animate-fade-in-up">Why Choose Apple Smart EPP?</h2>
+            <h2 class="text-3xl md:text-4xl font-bold mb-6  bg-clip-text  animate-fade-in-up">Why Choose Apple Smart EPP?</h2>
             <p class="text-lg text-gray-600 animate-fade-in-up delay-100">Transform your workplace with Apple devices that inspire creativity, boost productivity, and keep your data secure.</p>
           </div>
           
@@ -295,9 +295,10 @@
 
     <div class="how-it-works-layout">
       <!-- Center Image -->
-      <div class="how-it-works-center-img ">
-        <img src="<?= base_url(relativePath: 'images/iPhone-16-pro.png'); ?>" alt="Phone" class="phone-1" />
-      </div>
+      <div class="how-it-works-center-img">
+    <img src="<?= base_url('images/iPhone-16-pro.png'); ?>" alt="Phone" class="phone-1" />
+</div>
+
 
       <!-- Step 1 -->
       <div class="step-item step-1">
@@ -357,29 +358,4 @@
       </div>
     </section>
     
-    </main>
-     <script>
-      // Intersection Observer for fade-in animations
-        const observerOptions = {
-            threshold: 0.2,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach((entry, index) => {
-                if (entry.isIntersecting) {
-                    setTimeout(() => {
-                        entry.target.classList.add('animate');
-                    }, index * 200); // Stagger the animations
-                }
-            });
-        }, observerOptions);
-
-        // Observe all benefit items
-        document.addEventListener('DOMContentLoaded', () => {
-            const benefitItems = document.querySelectorAll('.smartepp-benefit-item');
-            benefitItems.forEach(item => {
-                observer.observe(item);
-            });
-        });
-  </script>
+    
