@@ -1,51 +1,44 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const fadeInSections = document.querySelectorAll(".fade-in-section");
-  const observerOptions = {
-    threshold: 0.15,
-    rootMargin: "0px",
-  };
+/**
+ * Services Page JavaScript
+ * Horizontal carousel for service cards
+ * @requires global.js for shared utilities
+ * @requires GSAP, ScrollTrigger
+ * @author Professional Development Team
+ */
 
-  const sectionObserver = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("is-visible");
-        sectionObserver.unobserve(entry.target);
-      }
-    });
-  }, observerOptions);
+// ============================================
+// SERVICES HORIZONTAL CAROUSEL
+// ============================================
 
-  fadeInSections.forEach((section) => {
-    sectionObserver.observe(section);
-  });
-
-  document.fonts.ready.then(() => {
-    initializeCarousel();
-  });
-});
-
+/**
+ * Initialize horizontal scrolling carousel for services
+ */
 function initializeCarousel() {
+  // Register GSAP plugin
   gsap.registerPlugin(ScrollTrigger);
 
   const servicesContainer = document.getElementById("servicesContainer");
   const servicesSection = document.getElementById("services-section");
   const scrollHint = document.querySelector(".scroll-hint");
   const serviceCards = document.querySelectorAll(".service-card-s");
-  const totalCards = serviceCards.length;
+  
+  if (!servicesContainer || !servicesSection || serviceCards.length === 0) return;
 
+  // Calculate dimensions
+  const totalCards = serviceCards.length;
   const cardWidth = serviceCards[0].getBoundingClientRect().width;
   const gap = 44;
   const containerPadding = 20;
-  const totalWidth =
-    (cardWidth + gap) * totalCards - gap + containerPadding * 2;
-  const maxScroll = Math.max(
-    0,
-    totalWidth - window.innerWidth + window.innerWidth * 0.1
-  );
+  const totalWidth = (cardWidth + gap) * totalCards - gap + containerPadding * 2;
+  const maxScroll = Math.max(0, totalWidth - window.innerWidth + 40);
 
   let hintHidden = false;
   let resizeTimeout;
   let horizontalTween;
 
+  /**
+   * Setup GSAP animations for horizontal scroll
+   */
   function setupAnimations() {
     horizontalTween = gsap.to(servicesContainer, {
       x: () => -maxScroll,
@@ -58,23 +51,26 @@ function initializeCarousel() {
         scrub: 1,
         invalidateOnResize: true,
         onUpdate: (self) => {
-          if (self.progress > 0.05 && !hintHidden) {
-            hintHidden = true;
-            gsap.to(scrollHint, { opacity: 0, duration: 0.3 });
-          } else if (self.progress <= 0.05 && hintHidden) {
-            hintHidden = false;
-            gsap.to(scrollHint, { opacity: 1, duration: 0.3 });
+          if (scrollHint) {
+            if (self.progress > 0.05 && !hintHidden) {
+              hintHidden = true;
+              gsap.to(scrollHint, { opacity: 0, duration: 0.3 });
+            } else if (self.progress <= 0.05 && hintHidden) {
+              hintHidden = false;
+              gsap.to(scrollHint, { opacity: 1, duration: 0.3 });
+            }
           }
         },
         onEnter: () => {
-          gsap.to(scrollHint, { opacity: 1, duration: 0.3 });
+          if (scrollHint) gsap.to(scrollHint, { opacity: 1, duration: 0.3 });
         },
         onLeaveBack: () => {
-          gsap.to(scrollHint, { opacity: 0, duration: 0.3 });
+          if (scrollHint) gsap.to(scrollHint, { opacity: 0, duration: 0.3 });
         },
       },
     });
 
+    // Animate individual cards
     serviceCards.forEach((card, index) => {
       gsap.from(card, {
         opacity: 0,
@@ -91,24 +87,26 @@ function initializeCarousel() {
       });
     });
 
+    // Setup interactions
     document.addEventListener("keydown", handleKeyNavigation);
-
     setupTouchEvents();
   }
 
+  /**
+   * Handle keyboard navigation (Arrow keys)
+   * @param {KeyboardEvent} e - Keyboard event
+   */
   function handleKeyNavigation(e) {
     if (e.key === "ArrowLeft" || e.key === "ArrowRight") {
       const currentProgress = horizontalTween.progress();
       const step = 1 / (totalCards - 1);
-      let newProgress;
-
-      if (e.key === "ArrowLeft") {
-        newProgress = Math.max(0, currentProgress - step);
-      } else {
-        newProgress = Math.min(1, currentProgress + step);
-      }
+      
+      const newProgress = e.key === "ArrowLeft"
+        ? Math.max(0, currentProgress - step)
+        : Math.min(1, currentProgress + step);
 
       const targetScroll = servicesSection.offsetTop + maxScroll * newProgress;
+      
       gsap.to(window, {
         scrollTo: targetScroll,
         duration: 0.8,
@@ -117,6 +115,9 @@ function initializeCarousel() {
     }
   }
 
+  /**
+   * Setup touch events for mobile swipe
+   */
   function setupTouchEvents() {
     let startX = 0;
     let startY = 0;
@@ -142,6 +143,7 @@ function initializeCarousel() {
         const deltaX = startX - currentX;
         const deltaY = startY - currentY;
 
+        // Only handle horizontal swipes
         if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 10) {
           e.preventDefault();
 
@@ -173,6 +175,9 @@ function initializeCarousel() {
     );
   }
 
+  /**
+   * Handle window resize with debounce
+   */
   function handleResize() {
     clearTimeout(resizeTimeout);
     resizeTimeout = setTimeout(() => {
@@ -180,14 +185,28 @@ function initializeCarousel() {
     }, 200);
   }
 
+  /**
+   * Cleanup function
+   */
   function cleanup() {
     ScrollTrigger.getAll().forEach((st) => st.kill());
     document.removeEventListener("keydown", handleKeyNavigation);
     window.removeEventListener("resize", handleResize);
   }
 
+  // Event listeners
   window.addEventListener("resize", handleResize);
   window.addEventListener("beforeunload", cleanup);
 
+  // Initialize
   setupAnimations();
 }
+
+// ============================================
+// INITIALIZATION
+// ============================================
+
+document.addEventListener("DOMContentLoaded", () => {
+  // Wait for fonts to load before initializing carousel
+  document.fonts.ready.then(initializeCarousel);
+});

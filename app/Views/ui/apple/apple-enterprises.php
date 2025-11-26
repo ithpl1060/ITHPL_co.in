@@ -1,4 +1,4 @@
-  <main>
+
   <section id="hero" class="hero-section">
 
             <div class="container ">
@@ -135,7 +135,7 @@
 
 <!-- Security Section -->
 <section id="security-compliance" class="py-12 px-4">
-    <div class="security-title text-2xl md:text-3xl font-semibold text-gray-800 mb-4">
+    <div class="security-title text-3xl md:text-4xl font-semibold text-gray-800 mb-4">
         Security and Compliance
     </div>
     <div class="security-description text-base md:text-lg text-gray-600 mb-6">
@@ -364,5 +364,5 @@
                 </div>
             </div>
         </section>
-  </main>
+  
        

@@ -1,54 +1,35 @@
-// Mobile Menu Toggle
-function toggleMobileMenu() {
-  const mobileNav = document.getElementById('mobileNav');
-  const toggleButton = document.querySelector('.mobile-menu-toggle');
+/**
+ * About Us Page JavaScript
+ * Page-specific features: GSAP Timeline and Testimonial Slider
+ * @requires global.js for shared utilities
+ * @requires GSAP, ScrollTrigger, ScrollToPlugin
+ * @author Professional Development Team
+ */
 
-  mobileNav.classList.toggle('active');
+// ============================================
+// GSAP HORIZONTAL TIMELINE (Milestone Cards)
+// ============================================
 
-  const spans = toggleButton.querySelectorAll('span');
-  if (mobileNav.classList.contains('active')) {
-    spans[0].style.transform = 'translateY(8px) rotate(45deg)';
-    spans[1].style.opacity = '0';
-    spans[2].style.transform = 'translateY(-8px) rotate(-45deg)';
-  } else {
-    spans[0].style.transform = 'none';
-    spans[1].style.opacity = '1';
-    spans[2].style.transform = 'none';
-  }
-}
-
-// FAQ Toggle
-function toggleFaq(num) {
-  const answer = document.getElementById(`answer-${num}`);
-  const icon = document.getElementById(`icon-${num}`);
-
-  if (answer.classList.contains('max-h-0')) {
-    answer.classList.remove('max-h-0');
-    answer.classList.add('max-h-96');
-    icon.style.transform = 'rotate(180deg)';
-  } else {
-    answer.classList.remove('max-h-96');
-    answer.classList.add('max-h-0');
-    icon.style.transform = 'rotate(0deg)';
-  }
-}
-
-// GSAP Horizontal Timeline Initialization
+/**
+ * Initialize GSAP horizontal timeline for milestone cards
+ * @returns {Function} Cleanup function
+ */
 function initializeTimeline() {
   const timeline = document.querySelector('.horizontal-scroll-content');
   const section = document.querySelector('.horizontal-scroll-section');
   const cards = gsap.utils.toArray('.milestone-card');
 
-  if (!cards.length) {
-    console.warn("GSAP Timeline: No '.milestone-card' elements found.");
+  if (!timeline || !section || cards.length === 0) {
     return () => {};
   }
 
-  const firstCardOffset = cards[0].offsetLeft;
-  const lastCardOffset = cards[cards.length - 1].offsetLeft;
-  const totalScrollDistance = lastCardOffset - firstCardOffset;
+  // Calculate scroll distance
+  const timelineWidth = timeline.scrollWidth;
+  const viewportWidth = window.innerWidth;
+  const totalScrollDistance = timelineWidth - viewportWidth + 40;
 
-  let scrollTween = gsap.to(timeline, {
+  // Create scroll animation
+  const scrollTween = gsap.to(timeline, {
     x: () => -totalScrollDistance,
     ease: "none",
     scrollTrigger: {
@@ -67,58 +48,52 @@ function initializeTimeline() {
     }
   });
 
-  // --- Fixed Touch Interaction ---
-  let isDragging = false;
-  let startX;
-  let startScrollProgress;
-  let scrollTriggerInstance = scrollTween.scrollTrigger;
+  const scrollTriggerInstance = scrollTween.scrollTrigger;
 
-  timeline.addEventListener('touchstart', (e) => {
+  // Touch interaction
+  let isDragging = false;
+  let startX, startScrollProgress;
+
+  const handleTouchStart = (e) => {
     isDragging = true;
     startX = e.touches[0].pageX;
     startScrollProgress = scrollTriggerInstance.progress;
     timeline.style.cursor = 'grabbing';
-  });
+  };
 
-  timeline.addEventListener('touchmove', (e) => {
+  const handleTouchMove = (e) => {
     if (!isDragging) return;
     
     const currentX = e.touches[0].pageX;
     const deltaX = startX - currentX;
-    
-    // Calculate new progress based on drag distance
     const dragPercentage = deltaX / window.innerWidth;
     let newProgress = startScrollProgress + dragPercentage;
     
-    // Clamp between 0 and 1
     newProgress = Math.max(0, Math.min(1, newProgress));
     
-    // Update ScrollTrigger progress directly
     scrollTriggerInstance.scroll(
       scrollTriggerInstance.start + (newProgress * (scrollTriggerInstance.end - scrollTriggerInstance.start))
     );
-  });
+  };
 
-  timeline.addEventListener('touchend', () => {
+  const handleTouchEnd = () => {
     isDragging = false;
     timeline.style.cursor = 'grab';
-  });
+  };
 
-  // --- Keyboard Navigation ---
-  const keydownHandler = (e) => {
-    if (e.key === 'ArrowRight') {
+  timeline.addEventListener('touchstart', handleTouchStart, { passive: true });
+  timeline.addEventListener('touchmove', handleTouchMove, { passive: false });
+  timeline.addEventListener('touchend', handleTouchEnd, { passive: true });
+
+  // Keyboard navigation
+  const handleKeydown = (e) => {
+    if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
       const currentProgress = scrollTriggerInstance.progress;
       const step = 1 / (cards.length - 1);
-      const newProgress = Math.min(1, currentProgress + step);
-      gsap.to(window, {
-        scrollTo: scrollTriggerInstance.start + (newProgress * (scrollTriggerInstance.end - scrollTriggerInstance.start)),
-        duration: 0.5,
-        ease: "power2.inOut"
-      });
-    } else if (e.key === 'ArrowLeft') {
-      const currentProgress = scrollTriggerInstance.progress;
-      const step = 1 / (cards.length - 1);
-      const newProgress = Math.max(0, currentProgress - step);
+      const newProgress = e.key === 'ArrowRight' 
+        ? Math.min(1, currentProgress + step)
+        : Math.max(0, currentProgress - step);
+
       gsap.to(window, {
         scrollTo: scrollTriggerInstance.start + (newProgress * (scrollTriggerInstance.end - scrollTriggerInstance.start)),
         duration: 0.5,
@@ -126,174 +101,121 @@ function initializeTimeline() {
       });
     }
   };
-  document.addEventListener('keydown', keydownHandler);
 
-  const resizeHandler = () => {
-    ScrollTrigger.refresh();
-  };
-  window.addEventListener('resize', resizeHandler);
+  document.addEventListener('keydown', handleKeydown);
 
-  // Return cleanup function
+  // Resize handler
+  const handleResize = () => ScrollTrigger.refresh();
+  window.addEventListener('resize', handleResize);
+
+  // Cleanup function
   return () => {
     ScrollTrigger.getAll().forEach(st => st.kill());
-    timeline.removeEventListener('touchstart', null);
-    timeline.removeEventListener('touchmove', null);
-    timeline.removeEventListener('touchend', null);
-    document.removeEventListener('keydown', keydownHandler);
-    window.removeEventListener('resize', resizeHandler);
+    timeline.removeEventListener('touchstart', handleTouchStart);
+    timeline.removeEventListener('touchmove', handleTouchMove);
+    timeline.removeEventListener('touchend', handleTouchEnd);
+    document.removeEventListener('keydown', handleKeydown);
+    window.removeEventListener('resize', handleResize);
   };
 }
 
-// --- Main DOMContentLoaded Event Listener ---
-document.addEventListener('DOMContentLoaded', () => {
-  // Register GSAP Plugins
-  gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
+// ============================================
+// TESTIMONIAL SLIDER
+// ============================================
 
-  // Restore scroll position
-  if ('scrollRestoration' in history) {
-    history.scrollRestoration = 'manual';
-  }
-  window.scrollTo(0, 0);
-
-  // --- Smooth Scroll for Anchor Links ---
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-      e.preventDefault();
-      const target = document.querySelector(this.getAttribute('href'));
-      if (target) {
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-
-      // Close mobile nav on click
-      const mobileNav = document.getElementById('mobileNav');
-      if (mobileNav && mobileNav.classList.contains('active')) {
-        toggleMobileMenu();
-      }
-    });
-  });
-
-  // --- Close Mobile Nav on Outside Click ---
-  document.addEventListener('click', function (event) {
-    const mobileNav = document.getElementById('mobileNav');
-    const toggleButton = document.querySelector('.mobile-menu-toggle');
-    
-    if (mobileNav && mobileNav.classList.contains('active') && 
-        !toggleButton.contains(event.target) && !mobileNav.contains(event.target)) {
-      toggleMobileMenu();
-    }
-  });
-
-  // --- Animated Number Counters ---
-  const counters = document.querySelectorAll(".stat-number:not(.support-stat .stat-number)");
-  const easeOutQuart = (t) => 1 - Math.pow(1 - t, 4);
-
-  const animateCount = (counter) => {
-    const target = +counter.getAttribute("data-target");
-    const suffix = counter.textContent.includes('+') ? '+' : '';
-    const duration = 2500;
-    const startTime = performance.now();
-
-    const updateCount = (currentTime) => {
-      const elapsed = currentTime - startTime;
-      const progress = Math.min(elapsed / duration, 1);
-      const easedProgress = easeOutQuart(progress);
-      const currentValue = Math.floor(easedProgress * target);
-      counter.innerText = currentValue + suffix;
-
-      if (progress < 1) {
-        requestAnimationFrame(updateCount);
-      } else {
-        counter.innerText = target + suffix;
-      }
-    };
-    requestAnimationFrame(updateCount);
-  };
-
-  const counterObserver = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        setTimeout(() => {
-          animateCount(entry.target);
-        }, 200);
-        counterObserver.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.3, rootMargin: '0px 0px -50px 0px' });
-  
-  counters.forEach(counter => counterObserver.observe(counter));
-
-  // --- Fade-in Sections ---
-  const sections = document.querySelectorAll(".fade-in-section");
-  const fadeInObserver = new IntersectionObserver((entries, obs) => {
-    entries.forEach((entry, idx) => {
-      if (entry.isIntersecting) {
-        setTimeout(() => {
-          entry.target.classList.add("visible");
-        }, idx * 120);
-        obs.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.18 });
-  
-  sections.forEach(section => fadeInObserver.observe(section));
-
-  // --- Testimonial Slider ---
+/**
+ * Initialize testimonial slider with auto-rotation
+ */
+function initTestimonialSlider() {
   const cards = Array.from(document.querySelectorAll('.testimonial-card'));
   const dots = Array.from(document.querySelectorAll('.indicator-dot'));
   
-  if (cards.length > 0 && dots.length > 0) {
-    let currentIndex = 0;
-    let previousIndex;
+  if (cards.length === 0 || dots.length === 0) return;
 
-    function updateSlider() {
-      cards.forEach(card => {
-        card.classList.remove(
-          'testimonial-card--current',
-          'testimonial-card--next',
-          'testimonial-card--out'
-        );
-      });
-      cards[currentIndex].classList.add('testimonial-card--current');
-      const nextIndex = (currentIndex + 1) % cards.length;
-      cards[nextIndex].classList.add('testimonial-card--next');
-      if (previousIndex !== undefined) {
-        cards[previousIndex].classList.add('testimonial-card--out');
-      }
-      dots.forEach((dot, index) => {
-        dot.classList.toggle('active', index === currentIndex);
-      });
-      previousIndex = currentIndex;
+  let currentIndex = 0;
+  let previousIndex;
+  let autoSlideInterval;
+
+  /**
+   * Update slider to show current card
+   */
+  function updateSlider() {
+    cards.forEach(card => {
+      card.classList.remove(
+        'testimonial-card--current',
+        'testimonial-card--next',
+        'testimonial-card--out'
+      );
+    });
+
+    cards[currentIndex].classList.add('testimonial-card--current');
+    
+    const nextIndex = (currentIndex + 1) % cards.length;
+    cards[nextIndex].classList.add('testimonial-card--next');
+    
+    if (previousIndex !== undefined) {
+      cards[previousIndex].classList.add('testimonial-card--out');
     }
 
-    function autoSlide() {
-      currentIndex = (currentIndex + 1) % cards.length;
-      updateSlider();
-    }
-
-    let autoSlideInterval = setInterval(autoSlide, 5000);
-
-    const sliderContainer = document.querySelector('.testimonial-slider-container');
-    sliderContainer.addEventListener('mouseenter', () => {
-      clearInterval(autoSlideInterval);
-    });
-    sliderContainer.addEventListener('mouseleave', () => {
-      autoSlideInterval = setInterval(autoSlide, 5000);
+    dots.forEach((dot, index) => {
+      dot.classList.toggle('active', index === currentIndex);
     });
 
-    dots.forEach(dot => {
-      dot.addEventListener('click', () => {
-        const targetIndex = parseInt(dot.getAttribute('data-index'));
-        if (targetIndex !== currentIndex) {
-          currentIndex = targetIndex;
-          updateSlider();
-        }
-      });
-    });
+    previousIndex = currentIndex;
+  }
 
+  /**
+   * Auto-advance to next slide
+   */
+  function autoSlide() {
+    currentIndex = (currentIndex + 1) % cards.length;
     updateSlider();
   }
 
-  // --- Initialize GSAP Timeline ---
+  // Start auto-rotation
+  autoSlideInterval = setInterval(autoSlide, 5000);
+
+  // Pause on hover
+  const sliderContainer = document.querySelector('.testimonial-slider-container');
+  if (sliderContainer) {
+    sliderContainer.addEventListener('mouseenter', () => {
+      clearInterval(autoSlideInterval);
+    });
+    
+    sliderContainer.addEventListener('mouseleave', () => {
+      autoSlideInterval = setInterval(autoSlide, 5000);
+    });
+  }
+
+  // Manual navigation via dots
+  dots.forEach(dot => {
+    dot.addEventListener('click', () => {
+      const targetIndex = parseInt(dot.getAttribute('data-index'));
+      if (targetIndex !== currentIndex) {
+        currentIndex = targetIndex;
+        updateSlider();
+      }
+    });
+  });
+
+  // Initialize
+  updateSlider();
+}
+
+// ============================================
+// INITIALIZATION
+// ============================================
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Register GSAP plugins
+  if (typeof gsap !== 'undefined') {
+    gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
+  }
+
+  // Initialize testimonial slider immediately
+  initTestimonialSlider();
+
+  // Initialize GSAP timeline after fonts and images load
   Promise.all([
     document.fonts.ready,
     ...Array.from(document.images).map(img => {
