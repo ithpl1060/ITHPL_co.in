@@ -5083,6 +5083,14 @@ section {
   transform: translateY(22px);
 }
 
+.hero-image-smart {
+  max-width: 100%;
+  width: 600px;
+  height: 450px;
+  position: relative;
+  transform: translateY(22px);
+}
+
 /* Services Section */
 
 /* Horizontal Scroll Container */
