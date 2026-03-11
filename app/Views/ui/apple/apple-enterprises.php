@@ -14,8 +14,9 @@
 
                 </div>
                 <div class="hero-image-container max-w-6xl mx-auto pt-11 ">
-                    <img src="<?= base_url(relativePath: 'images/Multi-Product_Mac_Family_Screen__INEN 1.png'); ?>" class=" px-0 sm:px-40"
-                        alt="A collection of Apple devices including iMac, MacBook, iPad, iPhone, and Apple Watch.">
+                    <img src="<?= base_url(relativePath: 'images/Multiproduct-mac-family.png'); ?>" class=" px-0 sm:px-40"
+
+                alt="A collection of Apple devices including iMac, MacBook, iPad, iPhone, and Apple Watch.">
 
                 </div>
             </div>

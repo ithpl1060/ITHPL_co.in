@@ -10,7 +10,7 @@
     </p>
     <div class="hero-image-container-a">
       <img
-        src="<?= base_url(relativePath: 'images/apq1.png'); ?>"
+        src="<?= base_url(relativePath: 'images/apq2.png'); ?>"
         alt="A collection of Apple devices including MacBook, iPhone, Apple Watch, and AirPods."
         class="max-w-4xl relative translate-y-[12px]"
       loading="eager"/>
@@ -89,7 +89,7 @@
   <section id="products-2" class="py-12">
       <div class="container">
         <h2 class="section-title py-12">
-         Discover Our Range of  <span>Apple Devices</span>
+         Discover  Range of  <span>Apple Devices</span>
         </h2>
         <div class="products-grid">
           <div class="product-card">
@@ -101,7 +101,7 @@
             />
             <div class="product-overlay"></div>
             <div class="product-content">
-              <img src="<?= base_url(relativePath: 'images/mac-m3.png'); ?>"  class="h-37 w-auto  fade-in" alt="macbook ">
+              <img src="<?= base_url(relativePath: 'images/macAir-13.png'); ?>"  class="h-40 w-80  fade-in" alt="macbook ">
               <h3 class="product-title">MacBook</h3>
               <p class="product-description">Powerful laptops for demanding tasks and creativity.</p>
               <a href="https://store.ithpl.com/?s=apple&post_type=product" class="product-button2">Learn More</a>
@@ -115,7 +115,7 @@
             />
             <div class="product-overlay"></div>
             <div class="product-content">
-              <img src="<?= base_url(relativePath: 'images/ipad-iphone.png'); ?>" class="h-35" alt="">
+              <img src="<?= base_url(relativePath: 'images/apple-iphone-ipad.png'); ?>" class="h-35 w-60 " alt="">
               <h3 class="product-title">iPad & iPhone</h3>
               <p class="product-description">
              Versatile devices for mobility, productivity, and communication.
@@ -132,7 +132,7 @@
             <div class="product-overlay"></div>
             <div class="product-content">
                    <img src="<?= base_url(relativePath: 'images/laptop-and-watch.png'); ?>" class="h-35" alt="">
-              <h3 class="product-title">Display & Accessories</h3>
+              <h3 class="product-title">Accessories</h3>
               <p class="product-description">
                Essential accessories to complement your Apple devices.
               </p>
@@ -152,7 +152,7 @@
           <article class="solution-card">
             <a href="<?= base_url('apple-tco-calc') ?>">
             <div class="solution-image-container pt-4">
-              <img src="<?= base_url(relativePath: 'images/tco-ownership.png'); ?>" alt="Total Cost of Ownership illustration" loading="lazy">
+              <img src="<?= base_url(relativePath: 'images/mac-m5.png'); ?>" alt="Total Cost of Ownership illustration" loading="lazy">
             </div>
             <div class="solution-content">
               <h3 class="solution-title">Total Cost of Ownership</h3>
@@ -166,7 +166,7 @@
           <article class="solution-card">
              <a href="<?= base_url('apple-smart-epp') ?>">
             <div class="solution-image-container pt-3">
-              <img src="<?= base_url(relativePath: 'images/apple-smart-epp-2.png'); ?>" alt="Apple Smart EPP illustration" loading="lazy">
+              <img src="<?= base_url(relativePath: 'images/apple-family-img.png'); ?>" alt="Apple Smart EPP illustration" loading="lazy">
             </div>
             <div class="solution-content">
               <h3 class="solution-title">Apple Smart EPP</h3>
@@ -179,7 +179,7 @@
           <article class="solution-card">
              <a href="<?= base_url('apple-enterprises') ?>">
             <div class="solution-image-container pt-3">
-              <img src="<?= base_url(relativePath: 'images/apple-for-enterprises.png'); ?>" alt="Apple For Enterprise illustration" loading="lazy">
+              <img src="<?= base_url(relativePath: 'images/macbook-blue-screen.png'); ?>" alt="Apple For Enterprise illustration" loading="lazy">
             </div>
             <div class="solution-content">
               <h3 class="solution-title">Apple For Enterprise</h3>
@@ -197,7 +197,7 @@
         <h2 class="text-5xl font-semibold text-center py-16 ">Expert Support for Your Apple Devices</h2>
         <div class="support-grid">
           <article class="support-card">
-            <img src="<?= base_url(relativePath: 'images/integration-icon.png'); ?>" alt="" class="support-icon" loading="lazy">
+            <img src="<?= base_url(relativePath: 'images/puzzle-icon.png'); ?>" alt="" class="support-icon" loading="lazy">
             <h3 class="support-title">Implementation & Integration</h3>
             <p class="support-description">Seamless setup for all Apple devices.</p>
           </article>

@@ -3,17 +3,16 @@
       <section id="hero-about" class="fade-in-sections">
   <div class="hero-background-a"></div>
   <div class="container hero-content-a ">
-  
-    <h1 class=" hero-title-a">         Apple  <br> <span class="gradient-services">Employee Purchase Program.</span>
-         
+
+    <h1 class=" hero-title-a">         Apple  <br> <span class="gradient-services">Employee Purchase Program</span>
+           
           </h1>
     
     <p class="hero-description-a">
     Save more, upgrade faster, and boost employee satisfaction—all with one smart program.  
     </p>
     <div class="hero-image-container-a ">
-        <img src="<?= base_url(relativePath: 'images/apple-smart-epp-hero.png'); ?>" alt="A collection of Apple product including a MacBook, iPad, iPhone, and Apple Watch." class="hero-image-s" />
-        
+         <img src="<?= base_url(relativePath: 'images/AppleDevices-ipad-iphone.png'); ?>" alt="A collection of Apple product including a MacBook, iPad, iPhone, and Apple Watch." class="hero-image-smart" />  
     </div>
     </div>
     </section>
@@ -169,7 +168,7 @@
         <div class="container mx-8 px-4">
           <div class="text-center max-w-4xl mx-auto mb-16">
             <h2 class="text-3xl md:text-4xl font-bold mb-6  bg-clip-text  animate-fade-in-up">Why Choose Apple Smart EPP?</h2>
-            <p class="text-lg text-gray-600 animate-fade-in-up delay-100">Transform your workplace with Apple devices that inspire creativity, boost productivity, and keep your data secure.</p>
+            <!-- <p class="text-lg text-gray-600 animate-fade-in-up delay-100">Transform your workplace with Apple devices that inspire creativity, boost productivity, and keep your data secure.</p> -->
           </div>
           
           <div class="mx-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-fade-in-up delay-200">

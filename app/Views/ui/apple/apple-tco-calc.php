@@ -19,7 +19,7 @@
   <!--merged image-->
   <div class="z-relative">
     <img
-      src="<?= base_url(relativePath: 'images/mac-book-flip.png'); ?>"
+    src="<?= base_url(relativePath: 'images/MacBook_Air_15-in_Sky_Blue.png'); ?>"
       alt="Macbook Air"
       class="relative transform perspective-1000 rotate-y-[-8deg] rotate-x-[5deg] filter drop-shadow-xl"
     />
