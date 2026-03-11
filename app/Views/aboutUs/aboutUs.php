@@ -675,7 +675,7 @@
                 <ul style="list-style-type: disc">
                     <li class="partners-description">
                         We work with 65+ OEM and AV partners to offer a wide range of
-                        cutting-edge IT and AV solutions...
+                        cutting-edge IT and AV solutions.
                     </li>
                     <li class="partners-description">
                         Our partnerships include top-tier brands in hardware, software,
@@ -689,7 +689,7 @@
 
                 <p class="partners-description">
                     We work with 65+ OEM and AV partners to offer a wide range of
-                    cutting-edge IT and AV solutions...
+                    cutting-edge IT and AV solutions.
                 </p>
             </div>
             <div class="partners-logos">

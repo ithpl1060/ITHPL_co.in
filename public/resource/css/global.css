@@ -1674,22 +1674,24 @@ section {
 
       .partners-logos {
         flex: 1;
-        border-left: 1px solid #7c7474;
-        padding-left: 40px;
+  border-left: 1px solid #7c7474;
+  padding-left: 40px;
+  overflow: hidden; /* move overflow here instead */
+  min-width: 0; 
       }
 
       /* Logo scrolling wrapper */
       .logo-scroll-wrapper {
         position: relative;
-        overflow: hidden;
-        border-radius: 15px;
-        background: rgba(255, 255, 255, 0.1);
-        padding: 20px 0;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px 0;
+  overflow: visible; /* remove hidden here */
       }
 
       .logo-scroll-track {
         white-space: nowrap;
-        overflow: hidden;
+        overflow: visible;
         position: relative;
       }
 
@@ -1719,8 +1721,8 @@ section {
       /* Row 2: 3 logos - Right to Left */
       .partners-row-2 {
         animation-name: scroll-right;
-        gap: 80px;
-        justify-content: center;
+        gap: 60px;
+        
       }
 
       /* Row 3: 4 logos - Left to Right */
