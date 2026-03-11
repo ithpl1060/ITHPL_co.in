@@ -1625,7 +1625,7 @@
                     <h2 class="subscribe-title">
                         Join the Movement for a Greener Tomorrow
                     </h2>
-                    <p class="pb-8">Discover how you can be part of our sustainability journey..</p>
+                    <p class="pb-8">Discover how you can be part of our sustainability journey.</p>
 
                     <form class="subscribe-form"  id="mailSubscriptionForm">
                         <input type="email" name="email" id="subscriptionEmail" placeholder="Enter your email" class="subscribe-input" />
