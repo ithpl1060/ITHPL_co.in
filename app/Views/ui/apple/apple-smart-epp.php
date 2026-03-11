@@ -12,7 +12,7 @@
     Save more, upgrade faster, and boost employee satisfaction—all with one smart program.  
     </p>
     <div class="hero-image-container-a ">
-        <img src="<?= base_url(relativePath: 'images/AppleDevices-ipad-iphone.png'); ?>" alt="A collection of Apple product including a MacBook, iPad, iPhone, and Apple Watch." class="hero-image-s" />
+        <img src="<?= base_url(relativePath: 'images/AppleDevices-ipad-iphone.png'); ?>" alt="A collection of Apple product including a MacBook, iPad, iPhone, and Apple Watch." class="hero-image-smart" />
         
     </div>
     </div>
