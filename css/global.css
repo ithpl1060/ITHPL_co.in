@@ -2157,12 +2157,14 @@ section {
   flex: 1;
   border-left: 1px solid #7c7474;
   padding-left: 40px;
+  overflow: hidden; /* move overflow here instead */
+  min-width: 0; 
 }
 
 /* Logo scrolling wrapper */
 .logo-scroll-wrapper {
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   border-radius: 15px;
   background: rgba(255, 255, 255, 0.1);
   padding: 20px 0;
@@ -2170,8 +2172,9 @@ section {
 
 .logo-scroll-track {
   white-space: nowrap;
-  overflow: hidden;
+  overflow: visible;
   position: relative;
+
 }
 
 .logo-scroll-track-2 {
@@ -5079,6 +5082,13 @@ section {
   max-width: 100%;
   width: 600px;
   height: 300px;
+  position: relative;
+  transform: translateY(22px);
+}
+.hero-image-smart {
+  max-width: 100%;
+  width: 600px;
+  height: 450px;
   position: relative;
   transform: translateY(22px);
 }
