@@ -51,7 +51,7 @@
             class="logo flex items-center relative logo-glow transition-transform duration-300 hover:scale-105"
           >
             <img
-              src="<?= base_url('images/Apple-logo.png') ?>""
+              src="<?= base_url('images/apple_business_partner_logo.svg') ?>"
               alt="Apple Logo"
               class="h-16 w-30 object-contain transition-all duration-300"
               style="filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.1))"
