@@ -172,4 +172,36 @@ class UiController extends BaseController
             . view('ui/htmlend');
     }
 
+    public function sitemap()
+    {
+        $this->url_path = $this->uri->getSegment(1) ?: 'sitemap';
+        $data['meta'] = $this->seo->where('url_path', $this->url_path)->first();
+        
+        // Fallback meta if not found in DB
+        if (!$data['meta']) {
+            $data['meta'] = [
+                'meta_title' => 'Sitemap | Innovative Tech Hub Pvt. Ltd.',
+                'meta_description' => 'Complete sitemap of Innovative Tech Hub Pvt. Ltd. (ITHPL) website.',
+                'meta_keywords' => 'sitemap, ithpl sitemap, website navigation'
+            ];
+        }
+
+        $postModel = new \App\Models\PostModel();
+        $data['blogs'] = $postModel->fetchAllPosts();
+
+        return view('ui/header', $data)
+            . view('ui/sitemap', $data)
+            . view('ui/footer', $data)
+            . view('ui/htmlend');
+    }
+
+    public function sitemapXml()
+    {
+        $postModel = new \App\Models\PostModel();
+        $data['blogs'] = $postModel->fetchAllPosts();
+        
+        $this->response->setContentType('text/xml');
+        return view('ui/sitemap_xml', $data);
+    }
+
 }

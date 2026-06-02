@@ -1664,8 +1664,10 @@ section {
       }
 
       .logo-scroll-track-2 {
-  width: 100%;
-}
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+      }
 
       .logo-row {
         display: flex;
@@ -1787,9 +1789,8 @@ section {
       }
 
       .clients-logos {
-        overflow: visible;
-  width: 100%;
-  max-width: 100%;
+        overflow: hidden;
+        min-width: 0;
       }
 
       .clients-text {

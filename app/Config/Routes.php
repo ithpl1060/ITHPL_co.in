@@ -127,6 +127,8 @@ $routes->get('sustainability', [UiController::class, 'sustainability']);
 $routes->get('hpforbusiness', [UiController::class, 'hpforbusiness']);
 $routes->get('blogs', [UiController::class, 'blogs']);
 $routes->get('blog/(:any)', [UiController::class, 'blog']);
+$routes->get('sitemap', [UiController::class, 'sitemap']);
+$routes->get('sitemap.xml', [UiController::class, 'sitemapXml']);
 
 
 
