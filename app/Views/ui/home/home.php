@@ -17,9 +17,9 @@
         <div class="hero-image-container">
             <!--merged image-->
             <div class="macbook-image-wrapper">
-                <img src="<?= base_url(relativePath: 'images/mac-book.png'); ?>" alt="Macbook Air"
+                <img fetchpriority="high" src="<?= base_url(relativePath: 'images/mac-book.png'); ?>" alt="Macbook Air"
                     class="macbook-img-1" />
-                <!-- <img src="<?= base_url(relativePath: 'images/d5f88f1599a72c6ce8de6836d3911db28345a3e4.png'); ?>" alt="Macbook Air" class="macbook-img-2">
+                <!-- <img loading="lazy" src="<?= base_url(relativePath: 'images/d5f88f1599a72c6ce8de6836d3911db28345a3e4.png'); ?>" alt="Macbook Air" class="macbook-img-2">
     -->
             </div>
         </div>
@@ -50,11 +50,11 @@
         </h2>
         <div class="why-choose-us-content">
             <div class="why-choose-us-image">
-                <img src="<?= base_url(relativePath: 'images/whychooseusimg.png'); ?>" alt="Team meeting" />
+                <img loading="lazy" src="<?= base_url(relativePath: 'images/whychooseusimg.png'); ?>" alt="Team meeting" />
             </div>
             <div class="why-choose-us-grid">
                 <div class="feature-card">
-                    <img src="<?= base_url(relativePath: 'images/feature-card1.png'); ?>" alt="Icon"
+                    <img loading="lazy" src="<?= base_url(relativePath: 'images/feature-card1.png'); ?>" alt="Icon"
                         class="feature-icon" />
                     <h3 class="feature-title">Tailored & Scalable Solutions</h3>
                     <p class="feature-description">
@@ -62,7 +62,7 @@
                     </p>
                 </div>
                 <div class="feature-card">
-                    <img src="<?= base_url(relativePath: 'images/feature-card2.png'); ?>" alt="Icon"
+                    <img loading="lazy" src="<?= base_url(relativePath: 'images/feature-card2.png'); ?>" alt="Icon"
                         class="feature-icon" />
                     <h3 class="feature-title">Customer-Centric Commitment</h3>
                     <p class="feature-description">
@@ -70,7 +70,7 @@
                     </p>
                 </div>
                 <div class="feature-card">
-                    <img src="<?= base_url(relativePath: 'images/feature-card3.png'); ?>" alt="Icon"
+                    <img loading="lazy" src="<?= base_url(relativePath: 'images/feature-card3.png'); ?>" alt="Icon"
                         class="feature-icon" />
                     <h3 class="feature-title">Certified Quality & Security</h3>
                     <p class="feature-description">
@@ -78,7 +78,7 @@
                     </p>
                 </div>
                 <div class="feature-card">
-                    <img src="<?= base_url(relativePath: 'images/feature-card4.png'); ?>" alt="Icon"
+                    <img loading="lazy" src="<?= base_url(relativePath: 'images/feature-card4.png'); ?>" alt="Icon"
                         class="feature-icon" />
                     <h3 class="feature-title">Trusted Expertise & Partnerships</h3>
                     <p class="feature-description">
@@ -108,7 +108,7 @@
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 px-4">
             <div class="text-left rounded-2xl p-6 animate-fade-in-up">
-                <img src="<?= base_url(relativePath: 'images/e0b5f97019837cd094d3647e15a34f22313bf172.png'); ?>"
+                <img loading="lazy" src="<?= base_url(relativePath: 'images/e0b5f97019837cd094d3647e15a34f22313bf172.png'); ?>"
                     alt="Team Icon" class="w-[123px] h-[123px] mb-5" />
                 <h4 class="font-poppins text-[32px] leading-[1.5] mb-4">
                     Trusted and experienced team
@@ -119,7 +119,7 @@
                 </p>
             </div>
             <div class="text-left rounded-2xl p-6 animate-fade-in-up animate-delay-100">
-                <img src="<?= base_url(relativePath: 'images/03256fc0034c383fd8f9a28d84b6a04f3eb99cbd.png'); ?>"
+                <img loading="lazy" src="<?= base_url(relativePath: 'images/03256fc0034c383fd8f9a28d84b6a04f3eb99cbd.png'); ?>"
                     alt="Solutions Icon" class="w-[123px] h-[123px] mb-5" />
                 <h4 class="font-poppins text-[30px] leading-[1.5] mb-4">
                     Future-Ready & Innovative Solutions
@@ -130,7 +130,7 @@
                 </p>
             </div>
             <div class="text-left rounded-2xl p-6 animate-fade-in-up animate-delay-200">
-                <img src="<?= base_url(relativePath: 'images/3d5f6ca28d9eb4d17226b6c9c605d780f6ab9f5b.png'); ?>"
+                <img loading="lazy" src="<?= base_url(relativePath: 'images/3d5f6ca28d9eb4d17226b6c9c605d780f6ab9f5b.png'); ?>"
                     alt="Approach Icon" class="w-[123px] h-[123px] mb-5" />
                 <h4 class="font-poppins text-[32px] leading-[1.5] mb-4">
                     Customized Approach
@@ -141,7 +141,7 @@
                 </p>
             </div>
             <div class="text-left rounded-2xl p-6 animate-fade-in-up animate-delay-300">
-                <img src="<?= base_url(relativePath: 'images/e81d0cbe1fd325d48d31e347c3d708c3b9432ae7.png'); ?>"
+                <img loading="lazy" src="<?= base_url(relativePath: 'images/e81d0cbe1fd325d48d31e347c3d708c3b9432ae7.png'); ?>"
                     alt="Support Icon" class="w-[123px] h-[123px] mb-5" />
                 <h4 class="font-poppins text-[32px] leading-[1.5] mb-4">
                     Customer-Centric Support
@@ -162,7 +162,7 @@
         </h2>
         <div class="services-grid">
             <div class="service-card">
-                <img src="<?= base_url(relativePath: 'images/it-support-icon.png'); ?>" alt="IT Support Icon"
+                <img loading="lazy" src="<?= base_url(relativePath: 'images/it-support-icon.png'); ?>" alt="IT Support Icon"
                     class="service-icon" />
                 <h3 class="service-title">IT Support & Consulting</h3>
                 <p class="service-description">
@@ -170,7 +170,7 @@
                 </p>
             </div>
             <div class="service-card">
-                <img src="<?= base_url(relativePath: 'images/hardware-icon.png'); ?>" alt="Hardware Icon"
+                <img loading="lazy" src="<?= base_url(relativePath: 'images/hardware-icon.png'); ?>" alt="Hardware Icon"
                     class="service-icon" />
                 <h3 class="service-title">Enterprise Hardware Solutions</h3>
                 <p class="service-description">
@@ -178,7 +178,7 @@
                 </p>
             </div>
             <div class="service-card">
-                <img src="<?= base_url(relativePath: 'images/cloud-icon.png'); ?>" alt="Cloud Icon"
+                <img loading="lazy" src="<?= base_url(relativePath: 'images/cloud-icon.png'); ?>" alt="Cloud Icon"
                     class="service-icon" />
                 <h3 class="service-title">Software & Cloud Services</h3>
                 <p class="service-description">
@@ -186,7 +186,7 @@
                 </p>
             </div>
             <div class="service-card">
-                <img src="<?= base_url(relativePath: 'images/networking-icon.png'); ?>" alt="Networking Icon"
+                <img loading="lazy" src="<?= base_url(relativePath: 'images/networking-icon.png'); ?>" alt="Networking Icon"
                     class="service-icon" />
                 <h3 class="service-title">Video Conferencing & Networking</h3>
                 <p class="service-description">
@@ -203,7 +203,7 @@
         </h2>
         <div class="products-grid">
             <div class="product-card">
-                <img src="<?= base_url(relativePath: 'images/endpoint-it-solutions.png'); ?>"
+                <img loading="lazy" src="<?= base_url(relativePath: 'images/endpoint-it-solutions.png'); ?>"
                     alt="Endpoint IT Solutions" class="product-bg" />
                 <div class="product-overlay"></div>
                 <div class="product-content">
@@ -213,7 +213,7 @@
                 </div>
             </div>
             <div class="product-card">
-                <img src="<?= base_url(relativePath: 'images/audio-video-solutions.png'); ?>"
+                <img loading="lazy" src="<?= base_url(relativePath: 'images/audio-video-solutions.png'); ?>"
                     alt="Audio Video Solutions" class="product-bg" />
                 <div class="product-overlay"></div>
                 <div class="product-content">
@@ -225,7 +225,7 @@
                 </div>
             </div>
             <div class="product-card">
-                <img src="<?= base_url(relativePath: 'images/it-manpower-solutions.png'); ?>"
+                <img loading="lazy" src="<?= base_url(relativePath: 'images/it-manpower-solutions.png'); ?>"
                     alt="IT Manpower Solutions" class="product-bg" />
                 <div class="product-overlay"></div>
                 <div class="product-content">
@@ -253,32 +253,32 @@
         </p>
         <div class="sustainability-grid">
             <div class="sustainability-item">
-                <img src="<?= base_url(relativePath: 'images/packaging-icon.png'); ?>" alt="Packaging Icon"
+                <img loading="lazy" src="<?= base_url(relativePath: 'images/packaging-icon.png'); ?>" alt="Packaging Icon"
                     class="sustainability-icon" />
                 <p>Plastic-free, eco-friendly packaging</p>
             </div>
             <div class="sustainability-item">
-                <img src="<?= base_url(relativePath: 'images/solar-icon.png'); ?>" alt="Solar Icon"
+                <img loading="lazy" src="<?= base_url(relativePath: 'images/solar-icon.png'); ?>" alt="Solar Icon"
                     class="sustainability-icon" />
                 <p>10% solar-powered operations</p>
             </div>
             <div class="sustainability-item">
-                <img src="<?= base_url(relativePath: 'images/lightning-icon.png'); ?>" alt="Lighting Icon"
+                <img loading="lazy" src="<?= base_url(relativePath: 'images/lightning-icon.png'); ?>" alt="Lighting Icon"
                     class="sustainability-icon" />
                 <p>Paperless workflows & LED lighting</p>
             </div>
             <div class="sustainability-item">
-                <img src="<?= base_url(relativePath: 'images/recycling-icon.png'); ?>" alt="Recycling Icon"
+                <img loading="lazy" src="<?= base_url(relativePath: 'images/recycling-icon.png'); ?>" alt="Recycling Icon"
                     class="sustainability-icon" />
                 <p>Internal & client-side recycling programs</p>
             </div>
             <div class="sustainability-item">
-                <img src="<?= base_url(relativePath: 'images/container-icon.png'); ?>" alt="Containers Icon"
+                <img loading="lazy" src="<?= base_url(relativePath: 'images/container-icon.png'); ?>" alt="Containers Icon"
                     class="sustainability-icon" />
                 <p>Glass containers instead of plastic</p>
             </div>
             <div class="sustainability-item">
-                <img src="<?= base_url(relativePath: 'images/tissue-icon.png'); ?>" alt="Tissue Icon"
+                <img loading="lazy" src="<?= base_url(relativePath: 'images/tissue-icon.png'); ?>" alt="Tissue Icon"
                     class="sustainability-icon" />
                 <p>Zero tissue use across all offices</p>
             </div>
@@ -303,43 +303,43 @@
             <div class="scroll-track" id="scrollTrack">
                 <div class="certifications-grid" id="certGrid">
                     <div class="certification-item">
-                        <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="iso Logo"
+                        <img loading="lazy" src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="iso Logo"
                             class="certification-logo  large  " />
                         <p>ISO/IEC 29136:2012</p>
                     </div>
                     <div class="certification-item">
-                        <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="ISO Logo"
+                        <img loading="lazy" src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="ISO Logo"
                             class="certification-logo large " />
                         <p>ISO:27001:2013</p>
                     </div>
                     <div class="certification-item">
-                        <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="ISO Logo"
+                        <img loading="lazy" src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="ISO Logo"
                             class="certification-logo large" />
                         <p>ISO:9001:2015</p>
                     </div>
                     <div class="certification-item">
-                        <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="ISO Logo"
+                        <img loading="lazy" src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="ISO Logo"
                             class="certification-logo large" />
                         <p>ISO 20000-1:2018</p>
                     </div>
 
                     <div class="certification-item">
-                        <img src="<?= base_url(relativePath: 'images/cmmi-logo.png'); ?>" alt="CMMI Logo"
+                        <img loading="lazy" src="<?= base_url(relativePath: 'images/cmmi-logo.png'); ?>" alt="CMMI Logo"
                             class="certification-logo large" />
                         <p>CMMI</p>
                     </div>
                     <div class="certification-item">
-                        <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="iso Logo"
+                        <img loading="lazy" src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="iso Logo"
                             class="certification-logo  large  " />
                         <p>ISO 14001:2015</p>
                     </div>
                     <div class="certification-item">
-                        <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="iso Logo"
+                        <img loading="lazy" src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="iso Logo"
                             class="certification-logo  large  " />
                         <p>ISO/IEC 29102:2023(en)</p>
                     </div>
                     <div class="certification-item">
-                        <img src="<?= base_url(relativePath: 'images/duns-logo.png'); ?>" alt="DUNS Logo"
+                        <img loading="lazy" src="<?= base_url(relativePath: 'images/duns-logo.png'); ?>" alt="DUNS Logo"
                             class="certification-logo  large  " />
                         <p>DUNS</p>
                     </div>
@@ -387,114 +387,114 @@
                     <div class="logo-scroll-track">
                         <div class="logo-row partners-row-1">
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/Apple.svg'); ?>" alt="Apple logo" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/Apple.svg'); ?>" alt="Apple logo" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/lenovo.svg'); ?>" alt="Lenovo logo" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/lenovo.svg'); ?>" alt="Lenovo logo" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/logitech-logo.svg'); ?>"
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/logitech-logo.svg'); ?>"
                                     alt="Logitech logo" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/hp.svg'); ?>" alt="HP logo" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/hp.svg'); ?>" alt="HP logo" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/poly.svg'); ?>" alt="Poly logo" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/poly.svg'); ?>" alt="Poly logo" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/dell.svg'); ?>" alt="Dell logo" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/dell.svg'); ?>" alt="Dell logo" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/jabra.svg'); ?>" alt="Jabra logo" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/jabra.svg'); ?>" alt="Jabra logo" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/cadyce.svg'); ?>" alt="cadyce logo" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/cadyce.svg'); ?>" alt="cadyce logo" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/cisco.svg'); ?>" alt="Cisco logo" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/cisco.svg'); ?>" alt="Cisco logo" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/aruba.svg'); ?>" alt="Aruba logo" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/aruba.svg'); ?>" alt="Aruba logo" />
                             </div>
                         </div>
 
                     </div>
                     <div class="logo-row partners-row-2">
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/samsung.svg'); ?>" alt="Samsung logo" />
+                            <img loading="lazy" src="<?= base_url(relativePath: 'images/samsung.svg'); ?>" alt="Samsung logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/lg.svg'); ?>" alt="LG logo" />
+                            <img loading="lazy" src="<?= base_url(relativePath: 'images/lg.svg'); ?>" alt="LG logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/msazure.svg'); ?>"
+                            <img loading="lazy" src="<?= base_url(relativePath: 'images/msazure.svg'); ?>"
                                 alt="microsoft azure logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/onsitego.svg'); ?>" alt="onsitego logo" />
+                            <img loading="lazy" src="<?= base_url(relativePath: 'images/onsitego.svg'); ?>" alt="onsitego logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/paloalto.svg'); ?>" alt="paloalto logo" />
+                            <img loading="lazy" src="<?= base_url(relativePath: 'images/paloalto.svg'); ?>" alt="paloalto logo" />
                         </div>
 
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/scalefusion.svg'); ?>"
+                            <img loading="lazy" src="<?= base_url(relativePath: 'images/scalefusion.svg'); ?>"
                                 alt="scalefusion logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/sentinelone.svg'); ?>"
+                            <img loading="lazy" src="<?= base_url(relativePath: 'images/sentinelone.svg'); ?>"
                                 alt="sentinelone logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/sonicwall.svg'); ?>" alt="sonicwall logo" />
+                            <img loading="lazy" src="<?= base_url(relativePath: 'images/sonicwall.svg'); ?>" alt="sonicwall logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/digisol.svg'); ?>" alt="digisol logo" />
+                            <img loading="lazy" src="<?= base_url(relativePath: 'images/digisol.svg'); ?>" alt="digisol logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/fortinet.svg'); ?>" alt="fortinet logo" />
+                            <img loading="lazy" src="<?= base_url(relativePath: 'images/fortinet.svg'); ?>" alt="fortinet logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/hikvision.svg'); ?>" alt="hikvision logo" />
+                            <img loading="lazy" src="<?= base_url(relativePath: 'images/hikvision.svg'); ?>" alt="hikvision logo" />
                         </div>
                     </div>
                     <!-- 12 -->
                     <div class="logo-row partners-row-3">
 
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/jamf.svg'); ?>" alt="jamf logo" />
+                            <img loading="lazy" src="<?= base_url(relativePath: 'images/jamf.svg'); ?>" alt="jamf logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/sophos.svg'); ?>" alt="sophos logo" />
+                            <img loading="lazy" src="<?= base_url(relativePath: 'images/sophos.svg'); ?>" alt="sophos logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/symantec.svg'); ?>" alt="symantec logo" />
+                            <img loading="lazy" src="<?= base_url(relativePath: 'images/symantec.svg'); ?>" alt="symantec logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/veeam.svg'); ?>" alt="veeam logo" />
+                            <img loading="lazy" src="<?= base_url(relativePath: 'images/veeam.svg'); ?>" alt="veeam logo" />
                         </div>
 
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/crestron-logo.svg'); ?>" alt="Crestron logo" />
+                            <img loading="lazy" src="<?= base_url(relativePath: 'images/crestron-logo.svg'); ?>" alt="Crestron logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/yotta.svg'); ?>" alt="yotta logo" />
+                            <img loading="lazy" src="<?= base_url(relativePath: 'images/yotta.svg'); ?>" alt="yotta logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/zoho.svg'); ?>" alt="zoho logo" />
+                            <img loading="lazy" src="<?= base_url(relativePath: 'images/zoho.svg'); ?>" alt="zoho logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/zoom.svg'); ?>" alt="zoom logo" />
+                            <img loading="lazy" src="<?= base_url(relativePath: 'images/zoom.svg'); ?>" alt="zoom logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/alogic.svg'); ?>" alt="Alogic logo" />
+                            <img loading="lazy" src="<?= base_url(relativePath: 'images/alogic.svg'); ?>" alt="Alogic logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/amazon.svg'); ?>" alt="Amazon logo" />
+                            <img loading="lazy" src="<?= base_url(relativePath: 'images/amazon.svg'); ?>" alt="Amazon logo" />
                         </div>
                         <div class="logo-item">
-                            <img src="<?= base_url(relativePath: 'images/asus.svg'); ?>" alt="Asus logo" />
+                            <img loading="lazy" src="<?= base_url(relativePath: 'images/asus.svg'); ?>" alt="Asus logo" />
                         </div>
                         <!-- 10 -->
                     </div>
@@ -520,134 +520,134 @@
                     <div class="logo-scroll-track-2">
                         <div class="logo-row clients-row-1">
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/blackrock.svg'); ?>" alt="blackrock" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/blackrock.svg'); ?>" alt="blackrock" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/bajaj.svg'); ?>" alt="Allianz" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/bajaj.svg'); ?>" alt="Allianz" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/bajaj-finserv.svg'); ?>"
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/bajaj-finserv.svg'); ?>"
                                     alt="bajaj-finserv" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/capgemini.svg'); ?>" alt="capgemini" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/capgemini.svg'); ?>" alt="capgemini" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/amdocs.svg'); ?>" alt="amdocs" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/amdocs.svg'); ?>" alt="amdocs" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/abbott.svg'); ?>" alt="abbott" />
-                            </div>
-
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/atos.svg'); ?>" alt="atos" />
-                            </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/zs.svg'); ?>" alt="zs" />
-                            </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/indianoil.svg'); ?>" alt="indianoil" />
-                            </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/poonawalla.svg'); ?>" alt="poonawalla" />
-                            </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/bny.svg'); ?>" alt="BNY Mellon" />
-                            </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/bosch.svg'); ?>" alt="bosch" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/abbott.svg'); ?>" alt="abbott" />
                             </div>
 
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/castrol.svg'); ?>" alt="castrol" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/atos.svg'); ?>" alt="atos" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/collabera.svg'); ?>" alt="collabera" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/zs.svg'); ?>" alt="zs" />
+                            </div>
+                            <div class="logo-item">
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/indianoil.svg'); ?>" alt="indianoil" />
+                            </div>
+                            <div class="logo-item">
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/poonawalla.svg'); ?>" alt="poonawalla" />
+                            </div>
+                            <div class="logo-item">
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/bny.svg'); ?>" alt="BNY Mellon" />
+                            </div>
+                            <div class="logo-item">
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/bosch.svg'); ?>" alt="bosch" />
+                            </div>
+
+                            <div class="logo-item">
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/castrol.svg'); ?>" alt="castrol" />
+                            </div>
+                            <div class="logo-item">
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/collabera.svg'); ?>" alt="collabera" />
                             </div>
                         </div>
                         <div class="logo-row clients-row-2">
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/bp.svg'); ?>" alt="bp" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/bp.svg'); ?>" alt="bp" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/fujitsu.svg'); ?>" alt="fujitsu" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/fujitsu.svg'); ?>" alt="fujitsu" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/roche.svg'); ?>" alt="roche" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/roche.svg'); ?>" alt="roche" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/dow.svg'); ?>" alt="dow" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/dow.svg'); ?>" alt="dow" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/emcure.svg'); ?>" alt="emcure" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/emcure.svg'); ?>" alt="emcure" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/emerson.svg'); ?>" alt="emerson" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/emerson.svg'); ?>" alt="emerson" />
                             </div>
 
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/tata94.svg'); ?>" alt="Tata" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/tata94.svg'); ?>" alt="Tata" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/harman.svg'); ?>" alt="Amdocs" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/harman.svg'); ?>" alt="Amdocs" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/wns.svg'); ?>" alt="wns" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/wns.svg'); ?>" alt="wns" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/zf.svg'); ?>" alt="zf" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/zf.svg'); ?>" alt="zf" />
                             </div>
 
                         </div>
                         <div class="logo-row clients-row-3">
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/hsbc.svg'); ?>" alt="hsbc" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/hsbc.svg'); ?>" alt="hsbc" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/idfc.svg'); ?>" alt="idfc" />
-                            </div>
-
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/indoco.svg'); ?>" alt="indoco" />
-                            </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/jindal.svg'); ?>" alt="jindal" />
-                            </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/jacob.svg'); ?>" alt="Jacobs" />
-                            </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/kotak.svg'); ?>" alt="kotak" />
-                            </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/neeyamo.svg'); ?>" alt="neeyamo" />
-                            </div>
-                            <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/persistent.svg'); ?>" alt="Persistent" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/idfc.svg'); ?>" alt="idfc" />
                             </div>
 
+                            <div class="logo-item">
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/indoco.svg'); ?>" alt="indoco" />
+                            </div>
+                            <div class="logo-item">
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/jindal.svg'); ?>" alt="jindal" />
+                            </div>
+                            <div class="logo-item">
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/jacob.svg'); ?>" alt="Jacobs" />
+                            </div>
+                            <div class="logo-item">
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/kotak.svg'); ?>" alt="kotak" />
+                            </div>
+                            <div class="logo-item">
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/neeyamo.svg'); ?>" alt="neeyamo" />
+                            </div>
+                            <div class="logo-item">
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/persistent.svg'); ?>" alt="Persistent" />
+                            </div>
+
 
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/sas.svg'); ?>" alt="sas" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/sas.svg'); ?>" alt="sas" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/suzlon.svg'); ?>" alt="suzlon" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/suzlon.svg'); ?>" alt="suzlon" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/sas.svg'); ?>" alt="sas" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/sas.svg'); ?>" alt="sas" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/synechron.svg'); ?>" alt="synechron" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/synechron.svg'); ?>" alt="synechron" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/tatatechnologies.svg'); ?>"
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/tatatechnologies.svg'); ?>"
                                     alt="tatatechnologies" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/vois.svg'); ?>" alt="vois" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/vois.svg'); ?>" alt="vois" />
                             </div>
                             <div class="logo-item">
-                                <img src="<?= base_url(relativePath: 'images/volkswagen.svg'); ?>" alt="volkswagen" />
+                                <img loading="lazy" src="<?= base_url(relativePath: 'images/volkswagen.svg'); ?>" alt="volkswagen" />
                             </div>
                         </div>
                     </div>
@@ -696,4 +696,4 @@
 <script src="<?= base_url('js/global.js'); ?>" defer></script>
 
 <!-- Mail Subscription -->
-<script src="<?= base_url('js/mail_subscription.js'); ?>"></script>
+<script src="<?= base_url('js/mail_subscription.js'); ?>" defer></script>
