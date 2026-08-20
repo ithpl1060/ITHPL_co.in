@@ -84,5 +84,20 @@ class AdminController extends BaseController
             . view('mail/mail_js')
             . view('htmlend');
     }
+     public function leads()
+    {
+        $data['meta']['meta_title'] = 'ITHPL | HP AI PCs Leads';
+
+        return view('header', $data)
+            . view('sidebar/side_bar')
+            . view('leads/leads')
+            . view('leads/modal/view_lead')
+            . view('footer')
+            . view('leads/leads_js')
+            . view('htmlend');
+    }
 
 }
+
+
+
