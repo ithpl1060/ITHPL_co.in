@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * HP AI PCs - Powered by Intel Core Ultra Processors and Intel vPro
  * Landing Page for Innovative Techhub Pvt. Ltd.
@@ -1002,8 +1002,9 @@ document.addEventListener('DOMContentLoaded', function () {
             }
 
             var formData = new FormData(form);
+            var submitUrl = window.location.origin + '/hpaipcs/submit';
 
-            fetch(form.action, {
+            fetch(submitUrl, {
                 method: 'POST',
                 body: formData,
                 headers: {
