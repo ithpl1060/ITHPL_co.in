@@ -26,6 +26,12 @@
                 </a>
             </li>
 
+            <li>
+                <a href="<?php echo base_url('leads'); ?>">
+                    <i class="fa fa-laptop"></i> <span>HP AI Leads</span>
+                </a>
+            </li>
+
             <!-- New Blogs Dropdown -->
            <li class="treeview">
           <a href="#">

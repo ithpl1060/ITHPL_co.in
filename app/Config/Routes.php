@@ -77,6 +77,16 @@ $routes->get('mail', [WebAdminController::class, 'mail']);
 $routes->post('fetchMail', [\App\Controllers\Api\MailController::class, 'fetchMail']);
 $routes->post('subscribeMail', [\App\Controllers\Api\MailController::class, 'subscribe']);
 
+// HP AI PCs Leads (Admin UI & API)
+$routes->get('leads', [WebAdminController::class, 'leads']);
+$routes->get('hpaipcs-leads', [WebAdminController::class, 'leads']);
+$routes->post('hpaipcs/submit', [\App\Controllers\Api\HpLeadController::class, 'submit']);
+$routes->post('fetchLeads', [\App\Controllers\Api\HpLeadController::class, 'fetchLeads']);
+$routes->get('exportLeads', [\App\Controllers\Api\HpLeadController::class, 'exportLeads']);
+$routes->get('getLeadStats', [\App\Controllers\Api\HpLeadController::class, 'getStats']);
+$routes->get('lead/(:num)', [\App\Controllers\Api\HpLeadController::class, 'getLead/$1']);
+$routes->delete('lead/(:num)', [\App\Controllers\Api\HpLeadController::class, 'deleteLead/$1']);
+
 //category
 $routes->post('category', [APIBlogController::class, 'createCategory']);
 $routes->post('get-category', [APIBlogController::class, 'getCategory']);
@@ -128,6 +138,7 @@ $routes->get('blogs', [UiController::class, 'blogs']);
 $routes->get('blog/(:any)', [UiController::class, 'blog']);
 $routes->get('sitemap', [UiController::class, 'sitemap']);
 $routes->get('sitemap.xml', [UiController::class, 'sitemapXml']);
+$routes->get('hpaipcs', [UiController::class, 'hpaipcs']);
 
 
 
