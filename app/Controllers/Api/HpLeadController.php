@@ -69,6 +69,20 @@ class HpLeadController extends BaseController
             ]);
         }
 
+        if (empty($designation)) {
+            return $this->response->setStatusCode(400)->setJSON([
+                'status'  => 400,
+                'message' => 'Designation is required.'
+            ]);
+        }
+
+        if (empty($city)) {
+            return $this->response->setStatusCode(400)->setJSON([
+                'status'  => 400,
+                'message' => 'City is required.'
+            ]);
+        }
+
         // Gather client metadata
         $ipAddress = $this->request->getIPAddress();
         $userAgent = (string)$this->request->getUserAgent();

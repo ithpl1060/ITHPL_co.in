@@ -802,8 +802,8 @@
                         <input type="tel"   name="mobile_number"  id="mobile_number"  placeholder="Mobile Number"  class="hp-form-input" required autocomplete="tel" />
                         <input type="email" name="business_email" id="business_email" placeholder="Business Email" class="hp-form-input" required autocomplete="email" />
                         <input type="text"  name="company_name"   id="company_name"   placeholder="Company Name"   class="hp-form-input" required autocomplete="organization" />
-                        <input type="text"  name="designation"    id="designation"    placeholder="Designation"    class="hp-form-input" autocomplete="organization-title" />
-                        <input type="text"  name="city"           id="city"           placeholder="City"           class="hp-form-input" autocomplete="address-level2" />
+                        <input type="text"  name="designation"    id="designation"    placeholder="Designation"    class="hp-form-input" required autocomplete="organization-title" />
+                        <input type="text"  name="city"           id="city"           placeholder="City"           class="hp-form-input" required autocomplete="address-level2" />
                     </div>
 
                     <div class="hp-privacy-box">
@@ -943,7 +943,7 @@ document.addEventListener('DOMContentLoaded', function () {
         form.addEventListener('submit', function (e) {
             e.preventDefault();
 
-            var requiredIds = ['full_name', 'mobile_number', 'business_email', 'company_name'];
+            var requiredIds = ['full_name', 'mobile_number', 'business_email', 'company_name', 'designation', 'city'];
             var isValid = true;
             var firstInvalid = null;
 
@@ -1053,6 +1053,18 @@ document.addEventListener('DOMContentLoaded', function () {
                     submitBtn.innerHTML = 'Get Instant Access';
                 }
             });
+        });
+
+        // Remove input error highlight on type
+        ['full_name', 'mobile_number', 'business_email', 'company_name', 'designation', 'city'].forEach(function (id) {
+            var el = document.getElementById(id);
+            if (el) {
+                el.addEventListener('input', function () {
+                    if (this.value.trim()) {
+                        this.style.borderColor = '';
+                    }
+                });
+            }
         });
 
         // Remove checkbox error highlight on change
