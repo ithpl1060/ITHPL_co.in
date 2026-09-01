@@ -5879,6 +5879,109 @@ section {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
+/* ===== Products Grid - 4 Column (2x2) Layout ===== */
+.products-grid.products-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .products-grid.products-grid-4 {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
+
+/* ===== NEW Badge for Product Cards ===== */
+.product-card-new {
+  position: relative;
+}
+
+.product-new-badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 10;
+  background: linear-gradient(135deg, #a855f7, #7c3aed);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 5px 14px;
+  border-radius: 20px;
+  box-shadow: 0 4px 14px rgba(168, 85, 247, 0.45);
+  animation: badge-pulse 2s ease-in-out infinite;
+}
+
+@keyframes badge-pulse {
+  0%, 100% {
+    box-shadow: 0 4px 14px rgba(168, 85, 247, 0.45);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 6px 20px rgba(168, 85, 247, 0.65);
+    transform: scale(1.05);
+  }
+}
+
+/* ===== Pre-Order Now Button ===== */
+.product-button-preorder {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(135deg, #a855f7, #7c3aed);
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  transition: all 0.35s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  box-shadow: 0 4px 16px rgba(168, 85, 247, 0.35);
+  cursor: pointer;
+}
+
+.product-button-preorder::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.25),
+    transparent
+  );
+  transition: left 0.5s ease;
+}
+
+.product-button-preorder:hover::before {
+  left: 100%;
+}
+
+.product-button-preorder:hover {
+  background: linear-gradient(135deg, #9333ea, #6d28d9);
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 8px 24px rgba(168, 85, 247, 0.5);
+}
+
+/* Subtle glow effect on new cards hover */
+.product-card-new:hover .product-new-badge {
+  background: linear-gradient(135deg, #c084fc, #a855f7);
+  box-shadow: 0 6px 20px rgba(168, 85, 247, 0.7);
+}
+
+
 .feature-card2.full-width {
   grid-column: 1 / -1;
   max-width: 697px;
