@@ -134,7 +134,7 @@
             />
             <div class="product-overlay"></div>
             <div class="product-content">
-              <img src="<?= base_url(relativePath: 'images/Mac-mini-product.jpg'); ?>" class="h-35 w-60 fade-in" alt="Mac Mini">
+              <img src="<?= base_url(relativePath: 'images/Mac-mini-product.png'); ?>" class="h-35 w-60 fade-in" alt="Mac Mini">
               <h3 class="product-title">Mac Mini</h3>
               <p class="product-description">Compact desktop power with Apple silicon for every workspace.</p>
               <a href="https://store.ithpl.com/?s=apple&post_type=product" class="product-button-preorder">Pre-Order Now</a>
@@ -150,7 +150,7 @@
             />
             <div class="product-overlay"></div>
             <div class="product-content">
-              <img src="<?= base_url(relativePath: 'images/mac-studio-product.jpg'); ?>" class="h-35 w-60 fade-in" alt="Mac Studio">
+              <img src="<?= base_url(relativePath: 'images/mac-studio-product.png'); ?>" class="h-35 w-60 fade-in" alt="Mac Studio">
               <h3 class="product-title">Mac Studio</h3>
               <p class="product-description">Pro-level desktop performance for creative professionals and studios.</p>
               <a href="https://store.ithpl.com/?s=apple&post_type=product" class="product-button-preorder">Pre-Order Now</a>
