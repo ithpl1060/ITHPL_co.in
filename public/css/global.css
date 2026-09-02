@@ -2157,12 +2157,14 @@ section {
   flex: 1;
   border-left: 1px solid #7c7474;
   padding-left: 40px;
+  overflow: hidden; /* move overflow here instead */
+  min-width: 0; 
 }
 
 /* Logo scrolling wrapper */
 .logo-scroll-wrapper {
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   border-radius: 15px;
   background: rgba(255, 255, 255, 0.1);
   padding: 20px 0;
@@ -2170,12 +2172,15 @@ section {
 
 .logo-scroll-track {
   white-space: nowrap;
-  overflow: hidden;
+  overflow: visible;
   position: relative;
+
 }
 
 .logo-scroll-track-2 {
   width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
 .logo-row {
@@ -2290,9 +2295,8 @@ section {
 }
 
 .clients-logos {
-  overflow: visible;
-  width: 100%;
-  max-width: 100%;
+  overflow: hidden;
+  min-width: 0;
 }
 
 .clients-text {
@@ -5082,7 +5086,6 @@ section {
   position: relative;
   transform: translateY(22px);
 }
-
 .hero-image-smart {
   max-width: 100%;
   width: 600px;
@@ -5875,6 +5878,170 @@ section {
   transform: translateY(0) scale(1);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
+
+/* ===== Products Section #products-2 — Scoped Styles ===== */
+
+/* 4-column grid layout for #products-2 — always single row on desktop */
+#products-2 .products-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(240px, 1fr));
+  gap: 1.25rem;
+  overflow-x: auto;
+  /* Smooth scrollbar styling */
+  scrollbar-width: thin;
+  scrollbar-color: rgba(168, 85, 247, 0.5) rgba(255, 255, 255, 0.08);
+  padding-bottom: 8px; /* room for scrollbar */
+}
+
+/* Webkit scrollbar */
+#products-2 .products-grid-4::-webkit-scrollbar {
+  height: 6px;
+}
+#products-2 .products-grid-4::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+}
+#products-2 .products-grid-4::-webkit-scrollbar-thumb {
+  background: rgba(168, 85, 247, 0.55);
+  border-radius: 10px;
+}
+#products-2 .products-grid-4::-webkit-scrollbar-thumb:hover {
+  background: rgba(168, 85, 247, 0.8);
+}
+
+/* Card height on desktop */
+#products-2 .products-grid-4 .product-card {
+  height: 310px;
+  min-width: 240px;
+}
+
+#products-2 .products-grid-4 .product-title {
+  font-size: 22px;
+}
+
+#products-2 .products-grid-4 .product-description {
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+/* Stagger animation for 4th card */
+#products-2 .product-card:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+/* Responsive: horizontal scroll on tablet — grid stays 4 cols */
+@media (max-width: 1200px) {
+  #products-2 .products-grid-4 {
+    grid-template-columns: repeat(4, minmax(220px, 1fr));
+    gap: 1rem;
+  }
+  #products-2 .products-grid-4 .product-card {
+    height: 310px;
+  }
+}
+
+/* Responsive: stack vertically only on mobile */
+@media (max-width: 640px) {
+  #products-2 .products-grid-4 {
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    gap: 1rem;
+    overflow-x: auto;
+  }
+  #products-2 .products-grid-4 .product-card {
+    height: 300px;
+  }
+}
+
+/* ===== NEW Badge — scoped to #products-2 ===== */
+#products-2 .product-card-new {
+  position: relative;
+}
+
+#products-2 .product-new-badge {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 10;
+  background: linear-gradient(135deg, #a855f7, #7c3aed);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 20px;
+  box-shadow: 0 4px 14px rgba(168, 85, 247, 0.45);
+  animation: badge-pulse 2s ease-in-out infinite;
+}
+
+@keyframes badge-pulse {
+  0%, 100% {
+    box-shadow: 0 4px 14px rgba(168, 85, 247, 0.45);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 6px 20px rgba(168, 85, 247, 0.65);
+    transform: scale(1.05);
+  }
+}
+
+#products-2 .product-card-new:hover .product-new-badge {
+  background: linear-gradient(135deg, #c084fc, #a855f7);
+  box-shadow: 0 6px 20px rgba(168, 85, 247, 0.7);
+}
+
+/* ===== Pre-Order Now Button — identical to product-button2 (white bg, full-width) ===== */
+#products-2 .product-button-preorder {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 16px;
+  background: #ffffff;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #111111;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  transition: background 0.3s ease, transform 0.25s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
+#products-2 .product-button-preorder::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  transition: left 0.5s ease;
+}
+
+#products-2 .product-button-preorder:hover::before {
+  left: 100%;
+}
+
+#products-2 .product-button-preorder:hover {
+  background: #f0f0f0;
+  transform: translateY(-2px) scale(1.01);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+  color: #000;
+}
+
 
 .feature-card2.full-width {
   grid-column: 1 / -1;
@@ -7217,5 +7384,4 @@ padding-top: 90px;
     margin-top: 20px;
   }
 }
-
 
