@@ -28,7 +28,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <!-- Global Styles -->
-    <link rel="stylesheet" href="<?= base_url('css/global.css') ?>" />
+    <link rel="stylesheet" href="<?= base_url('css/global.css') ?>?v=1.0.1" />
 
     <!-- Optional: Section for Per-Page Styles -->
     <?= $this->renderSection('headAssets') ?>
