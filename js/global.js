@@ -215,12 +215,13 @@ function initCertificationsScroll() {
   
   if (!track || !grid) return;
   
-  const clone = grid.cloneNode(true);
-  track.appendChild(clone);
-  
+  // Read layout dimensions before DOM mutation to eliminate forced reflow
   const gridWidth = grid.offsetWidth;
   const speedPerPixel = 0.01;
   const duration = gridWidth * speedPerPixel;
+  
+  const clone = grid.cloneNode(true);
+  track.appendChild(clone);
   
   track.style.animationDuration = duration + "s";
   track.style.width = gridWidth * 2 + "px";

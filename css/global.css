@@ -397,6 +397,15 @@ section {
   content: "";
 }
 
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 /* Navigation Hover Effects */
 .nav-hover {
   color: #000000;
@@ -817,7 +826,7 @@ section {
   content: "";
   position: absolute;
   top: 0;
-  left: -100%;
+  left: 0;
   width: 100%;
   height: 100%;
   background: linear-gradient(
@@ -826,19 +835,20 @@ section {
     rgba(255, 255, 255, 0.4),
     transparent
   );
+  transform: translateX(-100%);
   animation: ascend 2s ease-in-out infinite;
 }
 
 @keyframes ascend {
   0% {
-    left: -100%;
+    transform: translateX(-100%);
     opacity: 0;
   }
   50% {
     opacity: 1;
   }
   100% {
-    left: 100%;
+    transform: translateX(100%);
     opacity: 0;
   }
 }
@@ -1097,8 +1107,11 @@ section {
 }
 
 .why-choose-us-image img {
-  width: 590px;
+  width: 100%;
+  max-width: 590px;
   height: 520px;
+  object-fit: cover;
+  border-radius: 1rem;
   flex-shrink: 1;
 }
 
@@ -2671,16 +2684,20 @@ section {
   font-size: 16px;
   line-height: 1.5;
   max-width: 231px;
+  color: #1e293b;
 }
 .footer-links {
   flex: 1;
   min-width: 150px;
 }
 
-.footer-links h4 {
+.footer-links h3,
+.footer-links h4,
+.footer-links .footer-heading {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 20px;
+  color: #0f172a;
 }
 
 .footer-links ul {
@@ -2693,14 +2710,22 @@ section {
 }
 .footer-links a {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.69);
+  color: #1e293b;
   font-size: 16px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+.footer-links a:hover {
+  color: #7c3aed;
 }
 
-.footer-social h4 {
+.footer-social h3,
+.footer-social h4,
+.footer-social .footer-heading {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 20px;
+  color: #0f172a;
 }
 .social-icons {
   display: flex;
@@ -2711,11 +2736,17 @@ section {
   height: 20px;
 }
 .footer-bottom {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
   padding: 20px 0;
   text-align: center;
   font-size: 16px;
-  color: rgba(0, 0, 0, 0.5);
+  color: #334155;
+  font-weight: 500;
+}
+.footer-bottom p {
+  color: #334155;
+  margin: 0;
+  font-weight: 500;
 }
 @media (max-width: 992px) {
   .footer-container {
@@ -5940,15 +5971,18 @@ section {
   }
 }
 
-/* Responsive: stack vertically only on mobile */
-@media (max-width: 640px) {
+/* Responsive: 1 card per row on mobile */
+@media (max-width: 768px) {
   #products-2 .products-grid-4 {
-    grid-template-columns: repeat(2, minmax(200px, 1fr));
-    gap: 1rem;
-    overflow-x: auto;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    overflow-x: visible;
+    padding-bottom: 0;
   }
   #products-2 .products-grid-4 .product-card {
-    height: 300px;
+    min-width: 0;
+    width: 100%;
+    height: 320px;
   }
 }
 
@@ -7383,5 +7417,51 @@ padding-top: 90px;
     justify-content: center;
     margin-top: 20px;
   }
+}
+
+/* Mobile spacing and logo fixes for partners and clients */
+@media (max-width: 992px) {
+    .partners-flex, .clients-flex {
+        flex-direction: column !important;
+        gap: 32px !important;
+    }
+    .clients-flex {
+        flex-direction: column-reverse !important;
+    }
+    .partners-logos, .clients-logos, .partners-text, .clients-text {
+        width: 100% !important;
+        flex: none !important;
+        height: auto !important;
+        min-height: auto !important;
+    }
+    #partners, #clients {
+        margin: 35px 12px !important;
+        padding: 30px 0 25px 0 !important;
+    }
+    .partners-container, .clients-container {
+        padding: 10px 18px 20px 18px !important;
+    }
+    .partners-text ul, .clients-text ul {
+        padding-left: 20px !important;
+        margin: 0 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 12px !important;
+    }
+    .partners-description, .clients-description {
+        text-align: left !important;
+        font-size: 15px !important;
+        line-height: 1.6 !important;
+    }
+    .logo-item img {
+        max-height: 100% !important;
+        max-width: 100% !important;
+        width: auto !important;
+        height: auto !important;
+        object-fit: contain !important;
+    }
+    .logo-scroll-wrapper {
+        padding: 18px 0 !important;
+    }
 }
 
