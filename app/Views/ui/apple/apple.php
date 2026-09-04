@@ -92,6 +92,38 @@
          Discover  Range of  <span>Apple Devices</span>
         </h2>
         <div class="products-grid products-grid-4">
+           <!-- Mac Mini Card - NEW -->
+          <div class="product-card product-card-new">
+            <span class="product-new-badge">NEW</span>
+            <img
+              src="<?= base_url(relativePath: 'images/Mac-Mini-text.jpg'); ?>"
+              alt="Mac Mini"
+              class="product-bg"
+            />
+            <div class="product-overlay"></div>
+            <div class="product-content">
+              <img src="<?= base_url(relativePath: 'images/Mac-mini-product.png'); ?>" class="h-35 w-60 fade-in" alt="Mac Mini">
+              <h3 class="product-title">Mac Mini</h3>
+              <p class="product-description">Compact desktop power with Apple silicon for every workspace.</p>
+              <a href="https://store.ithpl.com/product/mac-mini-m5-pro-chip/" class="product-button-preorder">Pre-Order Now</a>
+            </div>
+          </div>
+          <!-- Mac Studio Card - NEW -->
+          <div class="product-card product-card-new">
+            <span class="product-new-badge">NEW</span>
+            <img
+              src="<?= base_url(relativePath: 'images/Mac-Studio-text.jpg'); ?>"
+              alt="Mac Studio"
+              class="product-bg"
+            />
+            <div class="product-overlay"></div>
+            <div class="product-content">
+              <img src="<?= base_url(relativePath: 'images/mac-studio-product.png'); ?>" class="h-35 w-60 fade-in" alt="Mac Studio">
+              <h3 class="product-title">Mac Studio</h3>
+              <p class="product-description">Pro-level desktop performance for creative professionals and studios.</p>
+              <a href="https://store.ithpl.com/product/mac-studio-m5-ultra/" class="product-button-preorder">Pre-Order Now</a>
+            </div>
+          </div>
           <!-- MacBook Card -->
           <div class="product-card">
             <img
@@ -104,7 +136,7 @@
               <img src="<?= base_url(relativePath: 'images/macAir-13.png'); ?>"  class="h-40 w-80  fade-in" alt="macbook ">
               <h3 class="product-title">MacBook</h3>
               <p class="product-description">Powerful laptops for demanding tasks and creativity.</p>
-              <a href="https://store.ithpl.com/?s=apple&post_type=product" class="product-button-preorder">Pre-Order Now</a>
+              <a href="https://store.ithpl.com/?s=apple&post_type=product" class="product-button-preorder" aria-label="Learn more about Apple MacBook at ITHPL Store">Learn More</a>
             </div>
           </div>
           <!-- iPad & iPhone Card -->
@@ -121,41 +153,10 @@
               <p class="product-description">
              Versatile devices for mobility, productivity, and communication.
               </p>
-              <a href="https://store.ithpl.com/?s=apple&post_type=product" class="product-button-preorder">Pre-Order Now</a>
+              <a href="https://store.ithpl.com/?s=apple&post_type=product" class="product-button-preorder" aria-label="Learn more about Apple iPad & iPhone at ITHPL Store">Learn More</a>
             </div>
           </div>
-          <!-- Mac Mini Card - NEW -->
-          <div class="product-card product-card-new">
-            <span class="product-new-badge">NEW</span>
-            <img
-              src="<?= base_url(relativePath: 'images/Mac-Mini-text.jpg'); ?>"
-              alt="Mac Mini"
-              class="product-bg"
-            />
-            <div class="product-overlay"></div>
-            <div class="product-content">
-              <img src="<?= base_url(relativePath: 'images/Mac-mini-product.png'); ?>" class="h-35 w-60 fade-in" alt="Mac Mini">
-              <h3 class="product-title">Mac Mini</h3>
-              <p class="product-description">Compact desktop power with Apple silicon for every workspace.</p>
-              <a href="https://store.ithpl.com/?s=apple&post_type=product" class="product-button-preorder">Pre-Order Now</a>
-            </div>
-          </div>
-          <!-- Mac Studio Card - NEW -->
-          <div class="product-card product-card-new">
-            <span class="product-new-badge">NEW</span>
-            <img
-              src="<?= base_url(relativePath: 'images/Mac-Studio-text.jpg'); ?>"
-              alt="Mac Studio"
-              class="product-bg"
-            />
-            <div class="product-overlay"></div>
-            <div class="product-content">
-              <img src="<?= base_url(relativePath: 'images/mac-studio-product.png'); ?>" class="h-35 w-60 fade-in" alt="Mac Studio">
-              <h3 class="product-title">Mac Studio</h3>
-              <p class="product-description">Pro-level desktop performance for creative professionals and studios.</p>
-              <a href="https://store.ithpl.com/?s=apple&post_type=product" class="product-button-preorder">Pre-Order Now</a>
-            </div>
-          </div>
+         
           <!-- Accessories Card - Commented Out -->
           <?php /* 
           <div class="product-card">

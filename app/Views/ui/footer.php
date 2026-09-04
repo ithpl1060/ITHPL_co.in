@@ -6,6 +6,7 @@
             <a href="<?= base_url('home'); ?>"
                 class="footer-logo inline-flex items-center space-x-2 transition-opacity duration-300 hover:opacity-80">
                 <img src="<?= base_url('images/ithpllogo.png'); ?>" alt="ITHPL Logo" class="footer-logo"
+                    width="193" height="48"
                     loading="lazy" />
             </a>
             <p>
@@ -15,7 +16,7 @@
 
         <!-- Quick Links -->
         <div class="footer-links">
-            <h4>Quick Links</h4>
+            <h3 class="footer-heading">Quick Links</h3>
             <ul>
                 <li><a href="<?= base_url('about-us'); ?>">About Us</a></li>
                 <li><a href="<?= base_url('services'); ?>">Services</a></li>
@@ -48,7 +49,7 @@
 
         <!-- Policies -->
         <div class="footer-links">
-            <h4>Policies</h4>
+            <h3 class="footer-heading">Policies</h3>
             <ul>
                 <li><a href="<?= base_url('shipping-policy'); ?>">Shipping</a></li>
                 <li><a href="<?= base_url('terms-and-conditions'); ?>">Terms & Conditions</a></li>
@@ -59,7 +60,7 @@
 
         <!-- Social Links -->
         <div class="footer-social">
-            <h4>Connect With Us</h4>
+            <h3 class="footer-heading">Connect With Us</h3>
             <div class="social-icons">
                 <a href="https://www.linkedin.com/company/innovative-techhub-pvt-ltd/?viewAsMember=true" target="_blank"
                     rel="noopener noreferrer" aria-label="LinkedIn">
@@ -89,7 +90,7 @@
 </body>
 
 <!-- Mail Subscription -->
-<script src="<?= base_url('js/mail_subscription.js'); ?>"></script>
+<script src="<?= base_url('js/mail_subscription.js'); ?>" defer></script>
 <!-- JS Files -->
 <script>
     // Optional: Scroll to top, footer animations, etc.
@@ -99,10 +100,10 @@
 </script>
 
     <!-- jQuery 3 -->
-    <script src="<?php echo base_url() . 'resource/assets/vendor_components/jquery-3.3.1/jquery-3.3.1.js'; ?>"></script>
-<script src="<?php echo base_url() . 'resource/js/ajax-jquery.js'; ?>"></script>
-<script src="<?php echo base_url() . 'resource/js/sweetalert.js' ?>"></script>
-<script src="<?php echo base_url() . 'resource/js/global.js' ?>"></script>
+    <script src="<?php echo base_url() . 'resource/assets/vendor_components/jquery-3.3.1/jquery-3.3.1.js'; ?>" defer></script>
+<script src="<?php echo base_url() . 'resource/js/ajax-jquery.js'; ?>" defer></script>
+<script src="<?php echo base_url() . 'resource/js/sweetalert.js' ?>" defer></script>
+<script src="<?php echo base_url() . 'resource/js/global.js' ?>" defer></script>
 <script>
 // Simple fade-in animation on scroll
 document.addEventListener('DOMContentLoaded', function () {

@@ -18,6 +18,7 @@
             <!--merged image-->
             <div class="macbook-image-wrapper">
                 <img src="<?= base_url(relativePath: 'images/mac-book.png'); ?>" alt="Macbook Air"
+                    width="583" height="567" fetchpriority="high"
                     class="macbook-img-1" />
                 <!-- <img src="<?= base_url(relativePath: 'images/d5f88f1599a72c6ce8de6836d3911db28345a3e4.png'); ?>" alt="Macbook Air" class="macbook-img-2">
     -->
@@ -50,11 +51,13 @@
         </h2>
         <div class="why-choose-us-content">
             <div class="why-choose-us-image">
-                <img src="<?= base_url(relativePath: 'images/whychooseusimg.png'); ?>" alt="Team meeting" />
+                <img src="<?= base_url(relativePath: 'images/whychooseusimg.png'); ?>" alt="Team meeting"
+                    width="577" height="520" loading="lazy" />
             </div>
             <div class="why-choose-us-grid">
                 <div class="feature-card">
                     <img src="<?= base_url(relativePath: 'images/feature-card1.png'); ?>" alt="Icon"
+                        width="48" height="48" loading="lazy"
                         class="feature-icon" />
                     <h3 class="feature-title">Tailored & Scalable Solutions</h3>
                     <p class="feature-description">
@@ -63,6 +66,7 @@
                 </div>
                 <div class="feature-card">
                     <img src="<?= base_url(relativePath: 'images/feature-card2.png'); ?>" alt="Icon"
+                        width="48" height="48" loading="lazy"
                         class="feature-icon" />
                     <h3 class="feature-title">Customer-Centric Commitment</h3>
                     <p class="feature-description">
@@ -71,6 +75,7 @@
                 </div>
                 <div class="feature-card">
                     <img src="<?= base_url(relativePath: 'images/feature-card3.png'); ?>" alt="Icon"
+                        width="48" height="48" loading="lazy"
                         class="feature-icon" />
                     <h3 class="feature-title">Certified Quality & Security</h3>
                     <p class="feature-description">
@@ -79,6 +84,7 @@
                 </div>
                 <div class="feature-card">
                     <img src="<?= base_url(relativePath: 'images/feature-card4.png'); ?>" alt="Icon"
+                        width="48" height="48" loading="lazy"
                         class="feature-icon" />
                     <h3 class="feature-title">Trusted Expertise & Partnerships</h3>
                     <p class="feature-description">
@@ -204,36 +210,36 @@
         <div class="products-grid">
             <div class="product-card">
                 <img src="<?= base_url(relativePath: 'images/endpoint-it-solutions.png'); ?>"
-                    alt="Endpoint IT Solutions" class="product-bg" />
+                    alt="Endpoint IT Solutions" width="373" height="559" loading="lazy" class="product-bg" />
                 <div class="product-overlay"></div>
                 <div class="product-content">
                     <h3 class="product-title">Endpoint IT Solutions</h3>
                     <p class="product-description">Laptops, desktops, and beyond.</p>
-                    <a href="https://store.ithpl.com/" class="product-button">Learn More</a>
+                    <a href="https://store.ithpl.com/" class="product-button" aria-label="Learn more about Endpoint IT Solutions at ITHPL Store">Learn More</a>
                 </div>
             </div>
             <div class="product-card">
                 <img src="<?= base_url(relativePath: 'images/audio-video-solutions.png'); ?>"
-                    alt="Audio Video Solutions" class="product-bg" />
+                    alt="Audio Video Solutions" width="373" height="559" loading="lazy" class="product-bg" />
                 <div class="product-overlay"></div>
                 <div class="product-content">
                     <h3 class="product-title">Audio Video Solutions</h3>
                     <p class="product-description">
                         Displays, conferencing, and more.
                     </p>
-                    <a href="https://store.ithpl.com/" class="product-button">Learn More</a>
+                    <a href="https://store.ithpl.com/" class="product-button" aria-label="Learn more about Audio Video Solutions at ITHPL Store">Learn More</a>
                 </div>
             </div>
             <div class="product-card">
                 <img src="<?= base_url(relativePath: 'images/it-manpower-solutions.png'); ?>"
-                    alt="IT Manpower Solutions" class="product-bg" />
+                    alt="IT Manpower Solutions" width="373" height="559" loading="lazy" class="product-bg" />
                 <div class="product-overlay"></div>
                 <div class="product-content">
                     <h3 class="product-title">IT Manpower Solutions</h3>
                     <p class="product-description">
                         Engineers, IT support, and more.
                     </p>
-                    <a href="https://store.ithpl.com/" class="product-button">Learn More</a>
+                    <a href="https://store.ithpl.com/" class="product-button" aria-label="Learn more about IT Manpower Solutions at ITHPL Store">Learn More</a>
                 </div>
             </div>
         </div>
@@ -304,43 +310,51 @@
                 <div class="certifications-grid" id="certGrid">
                     <div class="certification-item">
                         <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="iso Logo"
-                            class="certification-logo  large  " />
+                            width="120" height="70" loading="lazy"
+                            class="certification-logo large" />
                         <p>ISO/IEC 29136:2012</p>
                     </div>
                     <div class="certification-item">
                         <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="ISO Logo"
-                            class="certification-logo large " />
+                            width="120" height="70" loading="lazy"
+                            class="certification-logo large" />
                         <p>ISO:27001:2013</p>
                     </div>
                     <div class="certification-item">
                         <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="ISO Logo"
+                            width="120" height="70" loading="lazy"
                             class="certification-logo large" />
                         <p>ISO:9001:2015</p>
                     </div>
                     <div class="certification-item">
                         <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="ISO Logo"
+                            width="120" height="70" loading="lazy"
                             class="certification-logo large" />
                         <p>ISO 20000-1:2018</p>
                     </div>
 
                     <div class="certification-item">
                         <img src="<?= base_url(relativePath: 'images/cmmi-logo.png'); ?>" alt="CMMI Logo"
+                            width="120" height="70" loading="lazy"
                             class="certification-logo large" />
                         <p>CMMI</p>
                     </div>
                     <div class="certification-item">
                         <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="iso Logo"
-                            class="certification-logo  large  " />
+                            width="120" height="70" loading="lazy"
+                            class="certification-logo large" />
                         <p>ISO 14001:2015</p>
                     </div>
                     <div class="certification-item">
                         <img src="<?= base_url(relativePath: 'images/iso-logo.png'); ?>" alt="iso Logo"
-                            class="certification-logo  large  " />
+                            width="120" height="70" loading="lazy"
+                            class="certification-logo large" />
                         <p>ISO/IEC 29102:2023(en)</p>
                     </div>
                     <div class="certification-item">
                         <img src="<?= base_url(relativePath: 'images/duns-logo.png'); ?>" alt="DUNS Logo"
-                            class="certification-logo  large  " />
+                            width="120" height="70" loading="lazy"
+                            class="certification-logo large" />
                         <p>DUNS</p>
                     </div>
                 </div>
