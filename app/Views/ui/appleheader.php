@@ -16,6 +16,7 @@
         content="<?= esc($meta['meta_description'] ?? 'Innovative Tech Hub Pvt. Ltd. offers cutting-edge solutions for enterprises.') ?>" />
     <meta name="keywords"
         content="<?= esc($meta['meta_keywords'] ?? 'technology, enterprise solutions, IT services') ?>" />
+    <meta name="google-site-verification" content="google1bf129f1a22898b7" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,7 +26,7 @@
         rel="stylesheet" />
 
     <!-- Tailwind (Browser Plugin - Dev Only) -->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" defer></script>
 
     <!-- Global Styles -->
     <link rel="stylesheet" href="<?= base_url('css/global.css') ?>" />
@@ -43,6 +44,7 @@
                 <a href="<?= base_url('home') ?>"
                     class="logo flex items-center relative logo-glow transition-transform duration-300 hover:scale-105">
                     <img src="<?= base_url('images/ithpllogo.png') ?>" alt="ITHPL Logo"
+                        width="193" height="48"
                         class="h-16 w-30 object-contain transition-all duration-300"
                         style="filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.1))" />
                 </a>
@@ -53,6 +55,7 @@
             <img
               src="<?= base_url('images/apple_business_partner_logo.svg') ?>"
               alt="Apple Logo"
+              width="120" height="64"
               class="h-16 w-30 object-contain transition-all duration-300"
               style="filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.1))"
             />
@@ -61,14 +64,17 @@
                 <!-- Mobile Menu Toggle -->
                 <button
                     class="mobile-menu-toggle md:hidden flex flex-col cursor-pointer p-2 rounded-lg transition-colors duration-300 hover:bg-brand-purple hover:bg-opacity-10"
-                    onclick="toggleMobileMenu()">
+                    onclick="toggleMobileMenu()"
+                    type="button"
+                    aria-label="Toggle navigation menu">
                     <span class="w-6 h-0.5 bg-slate-600 mb-1 transition-all duration-300 rounded-full"></span>
                     <span class="w-6 h-0.5 bg-slate-600 mb-1 transition-all duration-300 rounded-full"></span>
                     <span class="w-6 h-0.5 bg-slate-600 transition-all duration-300 rounded-full"></span>
                 </button>
 
                 <!-- Desktop Navigation -->
-                <nav class="main-nav hidden md:flex items-center gap-2 mx-auto">
+                <nav class="main-nav hidden md:flex items-center gap-2 mx-auto" aria-label="Main Navigation">
+                    <ul class="main-nav-list flex items-center gap-2 m-0 p-0 list-none">
                     <li class="nav-item">
                         <a href="<?= base_url('home') ?>" class="nav-hover">Home</a>
                         <div class="dropdown-menu single-column">
@@ -133,6 +139,7 @@
                             </div>
                         </div> -->
                             </div>
+                        </div>
                     </li>
 
                     <li class="nav-item">
@@ -189,6 +196,7 @@
                    </li> -->
 
 
+                    </ul>
                 </nav>
 
                 <!-- Contact Button -->

@@ -288,12 +288,12 @@ class AppController {
 
         // Only enable on desktop/larger screens
         if (window.innerWidth > 768) {
+            // Read layout dimensions before DOM mutation to eliminate forced reflow
+            const gridWidth = grid.scrollWidth;
+            const speed = 0.009; 
+
             const clone = grid.cloneNode(true);
             track.appendChild(clone);
-
-            const gridWidth = grid.scrollWidth;
-            // Adjust speed calculation as needed
-            const speed = 0.009; 
             
             track.style.width = `${gridWidth * 2}px`;
             track.style.animationDuration = `${gridWidth * speed}s`;
