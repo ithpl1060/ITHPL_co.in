@@ -180,6 +180,53 @@ class UiController extends BaseController
             . view('ui/htmlend');
     }
 
+    public function iphone18Pro()
+    {
+        $data['meta'] = $this->seo->where('url_path', $this->url_path)->first();
+        return view('ui/appleProducts/iphone_18_pro', $data);
+    }
+
+    public function iphoneDuo()
+    {
+        $data['meta'] = $this->seo->where('url_path', $this->url_path)->first();
+        return view('ui/appleProducts/iphone_duo', $data);
+    }
+
+    public function appleWatchSeries12()
+    {
+        $data['meta'] = $this->seo->where('url_path', $this->url_path)->first();
+        return view('ui/appleProducts/apple_watch_series_12', $data);
+    }
+
+    public function appleWatchUltra()
+    {
+        $data['meta'] = $this->seo->where('url_path', $this->url_path)->first();
+        return
+         
+            view('ui/appleProducts/apple_watch_ultra', $data);
+    }
+
+    public function macMini()
+    {
+        $data['meta'] = $this->seo->where('url_path', $this->url_path)->first();
+        return
+        view('ui/appleheader', $data)
+            . view('ui/appleProducts/macMini', $data)
+            . view('ui/footer', $data)
+            . view('ui/htmlend');
+    }
+
+    public function macStudio()
+    {
+        $data['meta'] = $this->seo->where('url_path', $this->url_path)->first();
+        return 
+         view('ui/appleheader', $data)
+            . view('ui/appleProducts/macStudio', $data)
+            . view('ui/footer', $data)
+            . view('ui/htmlend');
+      
+    }
+
     public function sitemap()
     {
         $this->url_path = $this->uri->getSegment(1) ?: 'sitemap';

@@ -87,6 +87,15 @@ $routes->get('getLeadStats', [\App\Controllers\Api\HpLeadController::class, 'get
 $routes->get('lead/(:num)', [\App\Controllers\Api\HpLeadController::class, 'getLead/$1']);
 $routes->delete('lead/(:num)', [\App\Controllers\Api\HpLeadController::class, 'deleteLead/$1']);
 
+// Apple Product Leads (Admin UI & API)
+$routes->get('apple-leads', [WebAdminController::class, 'appleLeads']);
+$routes->post('apple-leads/submit', [\App\Controllers\Api\AppleLeadController::class, 'submit']);
+$routes->post('fetchAppleLeads', [\App\Controllers\Api\AppleLeadController::class, 'fetchLeads']);
+$routes->get('exportAppleLeads', [\App\Controllers\Api\AppleLeadController::class, 'exportLeads']);
+$routes->get('getAppleLeadStats', [\App\Controllers\Api\AppleLeadController::class, 'getStats']);
+$routes->get('apple-lead/(:num)', [\App\Controllers\Api\AppleLeadController::class, 'getLead/$1']);
+$routes->delete('apple-lead/(:num)', [\App\Controllers\Api\AppleLeadController::class, 'deleteLead/$1']);
+
 //category
 $routes->post('category', [APIBlogController::class, 'createCategory']);
 $routes->post('get-category', [APIBlogController::class, 'getCategory']);
@@ -140,6 +149,10 @@ $routes->get('sitemap', [UiController::class, 'sitemap']);
 $routes->get('sitemap.xml', [UiController::class, 'sitemapXml']);
 $routes->get('hpaipcs', [UiController::class, 'hpaipcs']);
 
-
-
+$routes->get('iphone-18-pro', [UiController::class, 'iphone18Pro']);
+// $routes->get('iphone-duo', [UiController::class, 'iphoneDuo']);
+$routes->get('apple-watch-series-12', [UiController::class, 'appleWatchSeries12']);
+$routes->get('apple-watch-ultra', [UiController::class, 'appleWatchUltra']);
+$routes->get('mac-mini', [UiController::class, 'macMini']);
+$routes->get('mac-studio', [UiController::class, 'macStudio']);
 

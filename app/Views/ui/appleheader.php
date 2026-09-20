@@ -172,6 +172,11 @@
                             <a href="<?= base_url('apple-enterprises') ?>">Apple for Enterprises</a>
                             <a href="<?= base_url('apple-smart-epp') ?>">Apple Smart EPP</a>
                             <a href="<?= base_url('apple-tco-calc') ?>">Apple TCO Calculator</a>
+                            <a href="<?= base_url('mac-studio') ?>">Mac Studio</a>
+                            <a href="<?= base_url('mac-mini') ?>">Mac mini</a>
+                            <a href="<?= base_url('iphone-18-pro') ?>">iPhone 18 Pro</a>
+                            <a href="<?= base_url('apple-watch-ultra') ?>">Apple Watch Ultra</a>
+                            <a href="<?= base_url('apple-watch-series-12') ?>">Apple Watch Series 12</a>
                         </div>
                     </li>
 <!-- 
@@ -240,6 +245,11 @@
     <a class="mobile-sublink" href="<?= base_url('apple-enterprises') ?>">Apple for Enterprises</a>
     <a href="<?= base_url('apple-smart-epp') ?>" class="mobile-sublink">Apple Smart EPP</a>
     <a href="<?= base_url('apple-tco-calc') ?>" class="mobile-sublink">Apple TCO Calculator</a>
+    <a href="<?= base_url('mac-studio') ?>" class="mobile-sublink">Mac Studio</a>
+    <a href="<?= base_url('mac-mini') ?>" class="mobile-sublink">Mac mini</a>
+    <a href="<?= base_url('iphone-18-pro') ?>" class="mobile-sublink">iPhone 18 Pro</a>
+    <a href="<?= base_url('apple-watch-ultra') ?>" class="mobile-sublink">Apple Watch Ultra</a>
+    <a href="<?= base_url('apple-watch-series-12') ?>" class="mobile-sublink">Apple Watch Series 12</a>
   </div>
 
 </div>
