@@ -92,8 +92,8 @@
          Discover  Range of  <span>Apple Devices</span>
         </h2>
         <div class="products-grid products-grid-4">
-           <!-- Mac Mini Card - NEW -->
-          <div class="product-card product-card-new">
+          <!-- Mac Mini Card - NEW -->
+          <div class="product-card product-card-new" onclick="window.location.href='<?= base_url('mac-mini') ?>'">
             <span class="product-new-badge">NEW</span>
             <img
               src="<?= base_url(relativePath: 'images/Mac-Mini-text.jpg'); ?>"
@@ -102,14 +102,17 @@
             />
             <div class="product-overlay"></div>
             <div class="product-content">
-              <img src="<?= base_url(relativePath: 'images/Mac-mini-product.png'); ?>" class="h-35 w-60 fade-in" alt="Mac Mini">
+              <div class="product-img-wrap">
+                <img src="<?= base_url(relativePath: 'images/Mac-mini-product.png'); ?>" class="fade-in" alt="Mac Mini">
+              </div>
               <h3 class="product-title">Mac Mini</h3>
               <p class="product-description">Compact desktop power with Apple silicon for every workspace.</p>
-              <a href="https://store.ithpl.com/product/mac-mini-m5-pro-chip/" class="product-button-preorder">Pre-Order Now</a>
+              <a href="<?= base_url('mac-mini') ?>" class="product-button-preorder">Buy Now</a>
             </div>
           </div>
+
           <!-- Mac Studio Card - NEW -->
-          <div class="product-card product-card-new">
+          <div class="product-card product-card-new" onclick="window.location.href='<?= base_url('mac-studio') ?>'">
             <span class="product-new-badge">NEW</span>
             <img
               src="<?= base_url(relativePath: 'images/Mac-Studio-text.jpg'); ?>"
@@ -118,14 +121,75 @@
             />
             <div class="product-overlay"></div>
             <div class="product-content">
-              <img src="<?= base_url(relativePath: 'images/mac-studio-product.png'); ?>" class="h-35 w-60 fade-in" alt="Mac Studio">
+              <div class="product-img-wrap">
+                <img src="<?= base_url(relativePath: 'images/mac-studio-product.png'); ?>" class="fade-in" alt="Mac Studio">
+              </div>
               <h3 class="product-title">Mac Studio</h3>
               <p class="product-description">Pro-level desktop performance for creative professionals and studios.</p>
-              <a href="https://store.ithpl.com/product/mac-studio-m5-ultra/" class="product-button-preorder">Pre-Order Now</a>
+              <a href="<?= base_url('mac-studio') ?>" class="product-button-preorder">Buy Now</a>
             </div>
           </div>
+
+          <!-- iPhone 18 Pro Card - NEW -->
+          <div class="product-card product-card-new" onclick="window.location.href='<?= base_url('iphone-18-pro') ?>'">
+            <span class="product-new-badge">NEW</span>
+            <img
+              src="<?= base_url(relativePath: 'images/iPhone-18-Pro-text.jpg'); ?>"
+              alt="iPhone 18 Pro"
+              class="product-bg"
+            />
+            <div class="product-overlay"></div>
+            <div class="product-content">
+              <div class="product-img-wrap">
+                <img src="<?= base_url(relativePath: 'appleProducts/iphone_18_pro/images/compare_iphone_18_pro_max_burgundy_large.png'); ?>" class="fade-in" alt="iPhone 18 Pro">
+              </div>
+              <h3 class="product-title">iPhone 18 Pro</h3>
+              <p class="product-description">Pro Fusion camera with variable aperture and groundbreaking A20 Pro chip.</p>
+              <a href="<?= base_url('iphone-18-pro') ?>" class="product-button-preorder">Buy Now</a>
+            </div>
+          </div>
+
+
+          <!-- Apple Watch Ultra Card - NEW -->
+          <div class="product-card product-card-new" onclick="window.location.href='<?= base_url('apple-watch-ultra') ?>'">
+            <span class="product-new-badge">NEW</span>
+            <img
+              src="<?= base_url(relativePath: 'images/Apple-Watch-Ultra-text.jpg'); ?>"
+              alt="Apple Watch Ultra"
+              class="product-bg"
+            />
+            <div class="product-overlay"></div>
+            <div class="product-content">
+              <div class="product-img-wrap">
+                <img src="<?= base_url(relativePath: 'appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_4_large.png'); ?>" class="fade-in" alt="Apple Watch Ultra">
+              </div>
+              <h3 class="product-title">Apple Watch Ultra</h3>
+              <p class="product-description">Rugged titanium design with multi-day battery and dual-frequency GPS.</p>
+              <a href="<?= base_url('apple-watch-ultra') ?>" class="product-button-preorder">Buy Now</a>
+            </div>
+          </div>
+
+          <!-- Apple Watch Series 12 Card - NEW -->
+          <div class="product-card product-card-new" onclick="window.location.href='<?= base_url('apple-watch-series-12') ?>'">
+            <span class="product-new-badge">NEW</span>
+            <img
+              src="<?= base_url(relativePath: 'images/Apple-Watch-Series-12-text.jpg'); ?>"
+              alt="Apple Watch Series 12"
+              class="product-bg"
+            />
+            <div class="product-overlay"></div>
+            <div class="product-content">
+              <div class="product-img-wrap">
+                <img src="<?= base_url(relativePath: 'appleProducts/apple_watch_series_12/images/compare_apple_watch_series_12_large.png'); ?>" class="fade-in" alt="Apple Watch Series 12">
+              </div>
+              <h3 class="product-title">Apple Watch Series 12</h3>
+              <p class="product-description">Advanced health insights, brilliant wide-angle display, and all-day battery.</p>
+              <a href="<?= base_url('apple-watch-series-12') ?>" class="product-button-preorder">Buy Now</a>
+            </div>
+          </div>
+
           <!-- MacBook Card -->
-          <div class="product-card">
+          <div class="product-card" onclick="window.open('https://store.ithpl.com/?s=apple&post_type=product', '_blank')">
             <img
               src="<?= base_url(relativePath: 'images/Macbook-text.png'); ?>"
               alt="MacBook"
@@ -133,49 +197,32 @@
             />
             <div class="product-overlay"></div>
             <div class="product-content">
-              <img src="<?= base_url(relativePath: 'images/macAir-13.png'); ?>"  class="h-40 w-80  fade-in" alt="macbook ">
+              <div class="product-img-wrap">
+                <img src="<?= base_url(relativePath: 'images/macAir-13.png'); ?>" class="fade-in" alt="MacBook">
+              </div>
               <h3 class="product-title">MacBook</h3>
-              <p class="product-description">Powerful laptops for demanding tasks and creativity.</p>
-              <a href="https://store.ithpl.com/?s=apple&post_type=product" class="product-button-preorder" aria-label="Learn more about Apple MacBook at ITHPL Store">Learn More</a>
+              <p class="product-description">Powerful laptops for demanding tasks, performance, and creativity.</p>
+              <a href="https://store.ithpl.com/?s=apple&post_type=product" target="_blank" rel="noopener" class="product-button-preorder" aria-label="Learn more about Apple MacBook at ITHPL Store">Buy Now</a>
             </div>
           </div>
+
           <!-- iPad & iPhone Card -->
-          <div class="product-card">
+          <div class="product-card" onclick="window.open('https://store.ithpl.com/?s=apple&post_type=product', '_blank')">
             <img
               src="<?= base_url(relativePath: 'images/iPad & Iphone.png'); ?>"
               alt="iPad and iPhone"
-              class="product-bg h-35 w-full  "
-            />
-            <div class="product-overlay"></div>
-            <div class="product-content">
-              <img src="<?= base_url(relativePath: 'images/apple-iphone-ipad.png'); ?>" class="h-35 w-60 " alt="">
-              <h3 class="product-title">iPad & iPhone</h3>
-              <p class="product-description">
-             Versatile devices for mobility, productivity, and communication.
-              </p>
-              <a href="https://store.ithpl.com/?s=apple&post_type=product" class="product-button-preorder" aria-label="Learn more about Apple iPad & iPhone at ITHPL Store">Learn More</a>
-            </div>
-          </div>
-         
-          <!-- Accessories Card - Commented Out -->
-          <?php /* 
-          <div class="product-card">
-            <img
-              src="<?= base_url(relativePath: 'images/Accessories.png'); ?>"
-              alt="Apple Accessories"
               class="product-bg"
             />
             <div class="product-overlay"></div>
             <div class="product-content">
-                   <img src="<?= base_url(relativePath: 'images/laptop-and-watch.png'); ?>" class="h-35" alt="">
-              <h3 class="product-title">Accessories</h3>
-              <p class="product-description">
-               Essential accessories to complement your Apple devices.
-              </p>
-              <a href="https://store.ithpl.com/?s=apple&post_type=product" class="product-button2">Learn More</a>
+              <div class="product-img-wrap">
+                <img src="<?= base_url(relativePath: 'images/apple-iphone-ipad.png'); ?>" class="fade-in" alt="iPad and iPhone">
+              </div>
+              <h3 class="product-title">iPad & iPhone</h3>
+              <p class="product-description">Versatile devices for mobility, productivity, and communication.</p>
+              <a href="https://store.ithpl.com/?s=apple&post_type=product" target="_blank" rel="noopener" class="product-button-preorder" aria-label="Learn more about Apple iPad & iPhone at ITHPL Store">Buy Now</a>
             </div>
           </div>
-          */ ?>
         </div>
       </div>
     </section>

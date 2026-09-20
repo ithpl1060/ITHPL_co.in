@@ -33,6 +33,12 @@
                 </a>
             </li>
             
+             <li>
+                <a href="<?php echo base_url('apple-leads'); ?>">
+                    <i class="fa fa-apple"></i> <span>Apple Leads</span>
+                </a>
+            </li>
+            
             <!-- New Blogs Dropdown -->
            <li class="treeview">
           <a href="#">
