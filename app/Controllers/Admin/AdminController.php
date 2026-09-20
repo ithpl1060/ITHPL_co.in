@@ -96,6 +96,19 @@ class AdminController extends BaseController
             . view('leads/leads_js')
             . view('htmlend');
     }
+     public function appleLeads()
+    {
+        $data['meta']['meta_title'] = 'ITHPL | Apple Product Leads';
+
+        return view('header', $data)
+            . view('sidebar/side_bar')
+            . view('apple_leads/apple_leads')
+            . view('apple_leads/modal/view_apple_lead')
+            . view('footer')
+            . view('apple_leads/apple_leads_js')
+            . view('htmlend');
+    }
+
 
 }
 
