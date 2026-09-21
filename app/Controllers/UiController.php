@@ -186,6 +186,17 @@ class UiController extends BaseController
         return view('ui/appleProducts/iphone_18_pro', $data);
     }
 
+    public function appleAirpods()
+    {
+        try {
+            $data['meta'] = $this->seo->where('url_path', $this->url_path)->first();
+        } catch (\Throwable $e) {
+            $data['meta'] = null;
+        }
+        return 
+        view('ui/appleProducts/apple_airpods', $data);
+    }
+
     public function iphoneDuo()
     {
         $data['meta'] = $this->seo->where('url_path', $this->url_path)->first();

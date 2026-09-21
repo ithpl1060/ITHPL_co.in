@@ -1,14 +1,14 @@
 <?php
 /**
  * Universal Apple Product Buy Now Modal
- * Shared across: Mac Studio, Mac Mini, iPhone 18 Pro, Apple Watch Ultra, Apple Watch Series 12
+ * Shared across: Mac Studio, Mac Mini, iPhone 18 Pro, Apple Watch Ultra, Apple Watch Series 12, Apple AirPods
  *
  * Usage on each product page:
  *   <?php include_once APPPATH . 'Views/ui/appleProducts/partials/apple_buy_modal.php'; ?>
  *
  * Trigger button attributes:
  *   class="trigger-buy-modal"
- *   data-product-key="mac_studio"   <- mac_studio | mac_mini | iphone_18_pro | apple_watch_ultra | apple_watch_series_12
+ *   data-product-key="mac_studio"   <- mac_studio | mac_mini | iphone_18_pro | apple_watch_ultra | apple_watch_series_12 | apple_airpods
  *   data-preset-chip="m2ultra"      <- (optional) pre-select a chip
  */
 ?>
@@ -537,6 +537,24 @@
       memory: { _all:[{v:'32gb',l:'32GB',s:'Internal'}] },
       storage:[{v:'32gb',l:'32GB',s:'Standard'}],
       storeKey:'ithpl_watch_s12_preorders', refPfx:'ITH-WS'
+    },
+    apple_airpods: {
+      title: 'Buy Apple AirPods',
+      chipSeries: 'Apple H2 Headphone Chip',
+      memBW: 'H2 · Adaptive Audio · ANC',
+      chips: [
+        { v:'ap5',       l:'AirPods 5',                 badge:'Standard', bc:'text-gray-700 bg-gray-100',
+          desc:'Active Noise Cancellation · Siri AI · USB-C Case', sub:'Up to 30h total listening time' },
+        { v:'ap5_case',  l:'AirPods 5 (Wireless Case)', badge:'Wireless', bc:'text-blue-700 bg-blue-50',
+          desc:'ANC · Wireless Charging Case · Speaker for Find My', sub:'Up to 30h total listening time' },
+        { v:'appro3',    l:'AirPods Pro 3',             badge:'Pro Tier', bc:'text-purple-700 bg-purple-50',
+          desc:'Up to 2x more ANC · Heart rate sensing · Hearing test', sub:'MagSafe Case (USB-C) · Precision Finding' },
+        { v:'apmax',     l:'AirPods Max',               badge:'Over-Ear', bc:'text-orange-700 bg-orange-50',
+          desc:'Pro-level ANC · High-fidelity audio · Digital Crown', sub:'USB-C charging · Smart Case' }
+      ],
+      memory: { _all:[{v:'h2',l:'Apple H2',s:'Audio Chip'}] },
+      storage:[{v:'standard_case',l:'Standard Case',s:'USB-C'},{v:'wireless_case',l:'Wireless Case',s:'Qi / MagSafe'}],
+      storeKey:'ithpl_airpods_orders', refPfx:'ITH-AP'
     }
   };
 
@@ -767,6 +785,8 @@
         key = 'mac_studio';
       } else if (aria.includes('mini') || href.includes('mini') || path.includes('mini')) {
         key = 'mac_mini';
+      } else if (aria.includes('airpods') || id.includes('airpods') || href.includes('airpods') || path.includes('airpods')) {
+        key = 'apple_airpods';
       } else {
         key = 'mac_studio';
       }
