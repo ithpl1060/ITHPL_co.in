@@ -57,12 +57,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_series_12_large.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_series_12_large.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_series_12_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_series_12_large.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_series_12_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_series_12_small.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_series_12_small.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_series_12_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_series_12_small.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_series_12_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -158,7 +158,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -178,7 +178,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -210,7 +210,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -258,7 +258,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -286,7 +286,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -307,7 +307,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -347,7 +347,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -375,7 +375,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -408,7 +408,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -440,7 +440,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -468,7 +468,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s11_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s11_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_chip_s11_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s11_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s11_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -504,7 +504,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -537,12 +537,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_4_large.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_4_large.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_4_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_4_large.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_4_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_4_small.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_4_small.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_4_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_4_small.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_4_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -617,7 +617,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -637,7 +637,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -669,7 +669,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -717,7 +717,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -745,7 +745,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -766,7 +766,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -806,7 +806,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -834,7 +834,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -866,7 +866,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -898,7 +898,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -926,7 +926,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s11_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s11_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_chip_s11_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s11_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s11_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -962,7 +962,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -995,12 +995,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_SE_3_large.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_SE_3_large.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_SE_3_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_SE_3_large.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_SE_3_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_SE_3_small.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_SE_3_small.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_SE_3_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_SE_3_small.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_SE_3_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -1068,7 +1068,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1088,7 +1088,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1120,7 +1120,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1172,7 +1172,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1200,7 +1200,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1221,7 +1221,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1261,7 +1261,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1290,7 +1290,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1323,7 +1323,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1357,7 +1357,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1385,7 +1385,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s10_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s10_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_chip_s10_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s10_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s10_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1421,7 +1421,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1454,12 +1454,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s11_46mm_rose_gold_aluminum_case_light_blush_sport_band_large.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s11_46mm_rose_gold_aluminum_case_light_blush_sport_band_large.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_s11_46mm_rose_gold_aluminum_case_light_blush_sport_band_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s11_46mm_rose_gold_aluminum_case_light_blush_sport_band_large.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s11_46mm_rose_gold_aluminum_case_light_blush_sport_band_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s11_46mm_rose_gold_aluminum_case_light_blush_sport_band_small.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s11_46mm_rose_gold_aluminum_case_light_blush_sport_band_small.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_s11_46mm_rose_gold_aluminum_case_light_blush_sport_band_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s11_46mm_rose_gold_aluminum_case_light_blush_sport_band_small.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s11_46mm_rose_gold_aluminum_case_light_blush_sport_band_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -1549,7 +1549,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1569,7 +1569,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1601,7 +1601,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1649,7 +1649,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1677,7 +1677,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1698,7 +1698,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1738,7 +1738,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1767,7 +1767,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1800,7 +1800,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1832,7 +1832,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1860,7 +1860,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s10_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s10_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_chip_s10_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s10_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s10_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1896,7 +1896,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1929,12 +1929,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_3_large.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_3_large.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_3_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_3_large.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_3_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_3_small.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_3_small.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_3_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_3_small.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_3_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -2009,7 +2009,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2029,7 +2029,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2061,7 +2061,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2109,7 +2109,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2137,7 +2137,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2158,7 +2158,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2198,7 +2198,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2227,7 +2227,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2259,7 +2259,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2291,7 +2291,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2319,7 +2319,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s10_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s10_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_chip_s10_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s10_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s10_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2355,7 +2355,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2388,12 +2388,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_se_2nd_gen_44mm_starlight_aluminum_case_starlight_sport_band_large.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_se_2nd_gen_44mm_starlight_aluminum_case_starlight_sport_band_large.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_se_2nd_gen_44mm_starlight_aluminum_case_starlight_sport_band_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_se_2nd_gen_44mm_starlight_aluminum_case_starlight_sport_band_large.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_se_2nd_gen_44mm_starlight_aluminum_case_starlight_sport_band_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_se_2nd_gen_44mm_starlight_aluminum_case_starlight_sport_band_small.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_se_2nd_gen_44mm_starlight_aluminum_case_starlight_sport_band_small.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_se_2nd_gen_44mm_starlight_aluminum_case_starlight_sport_band_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_se_2nd_gen_44mm_starlight_aluminum_case_starlight_sport_band_small.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_se_2nd_gen_44mm_starlight_aluminum_case_starlight_sport_band_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -2465,7 +2465,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2485,7 +2485,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2517,7 +2517,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2569,7 +2569,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2599,7 +2599,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2620,7 +2620,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2665,7 +2665,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2696,7 +2696,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2729,7 +2729,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2763,7 +2763,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2792,7 +2792,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s8_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s8_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_chip_s8_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s8_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s8_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2830,7 +2830,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2864,12 +2864,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s10_gen_46mm_rose_gold_aluminum_case_light_blush_sport_band_large.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s10_gen_46mm_rose_gold_aluminum_case_light_blush_sport_band_large.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_s10_gen_46mm_rose_gold_aluminum_case_light_blush_sport_band_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s10_gen_46mm_rose_gold_aluminum_case_light_blush_sport_band_large.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s10_gen_46mm_rose_gold_aluminum_case_light_blush_sport_band_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s10_gen_46mm_rose_gold_aluminum_case_light_blush_sport_band_small.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s10_gen_46mm_rose_gold_aluminum_case_light_blush_sport_band_small.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_s10_gen_46mm_rose_gold_aluminum_case_light_blush_sport_band_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s10_gen_46mm_rose_gold_aluminum_case_light_blush_sport_band_small.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s10_gen_46mm_rose_gold_aluminum_case_light_blush_sport_band_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -2955,7 +2955,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2975,7 +2975,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -3007,7 +3007,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -3056,7 +3056,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -3084,7 +3084,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -3104,7 +3104,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -3144,7 +3144,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -3173,7 +3173,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -3206,7 +3206,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -3240,7 +3240,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -3269,7 +3269,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s10_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s10_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_chip_s10_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s10_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s10_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -3305,7 +3305,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -3338,12 +3338,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_2_49mm_titanium_milanese_band_large.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_2_49mm_titanium_milanese_band_large.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_2_49mm_titanium_milanese_band_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_2_49mm_titanium_milanese_band_large.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_2_49mm_titanium_milanese_band_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_2_49mm_titanium_milanese_band_small.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_2_49mm_titanium_milanese_band_small.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_2_49mm_titanium_milanese_band_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_2_49mm_titanium_milanese_band_small.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_2_49mm_titanium_milanese_band_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -3418,7 +3418,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -3438,7 +3438,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -3470,7 +3470,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -3519,7 +3519,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -3547,7 +3547,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -3567,7 +3567,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -3607,7 +3607,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -3636,7 +3636,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -3668,7 +3668,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -3700,7 +3700,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -3729,7 +3729,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s9_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s9_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_chip_s9_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s9_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s9_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -3765,7 +3765,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -3798,12 +3798,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s9_45mm_stardust_aluminum_case_stardust_sport_band_large.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s9_45mm_stardust_aluminum_case_stardust_sport_band_large.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_s9_45mm_stardust_aluminum_case_stardust_sport_band_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s9_45mm_stardust_aluminum_case_stardust_sport_band_large.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s9_45mm_stardust_aluminum_case_stardust_sport_band_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s9_45mm_stardust_aluminum_case_stardust_sport_band_small.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s9_45mm_stardust_aluminum_case_stardust_sport_band_small.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_s9_45mm_stardust_aluminum_case_stardust_sport_band_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s9_45mm_stardust_aluminum_case_stardust_sport_band_small.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s9_45mm_stardust_aluminum_case_stardust_sport_band_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -3897,7 +3897,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -3917,7 +3917,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -3949,7 +3949,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -3998,7 +3998,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -4026,7 +4026,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -4046,7 +4046,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -4086,7 +4086,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -4115,7 +4115,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -4148,7 +4148,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -4182,7 +4182,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -4211,7 +4211,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s9_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s9_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_chip_s9_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s9_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s9_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -4247,7 +4247,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -4280,12 +4280,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_49mm_titanium_white_ocean_band_large.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_49mm_titanium_white_ocean_band_large.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_49mm_titanium_white_ocean_band_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_49mm_titanium_white_ocean_band_large.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_49mm_titanium_white_ocean_band_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_49mm_titanium_white_ocean_band_small.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_49mm_titanium_white_ocean_band_small.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_49mm_titanium_white_ocean_band_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_49mm_titanium_white_ocean_band_small.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_49mm_titanium_white_ocean_band_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -4355,7 +4355,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -4375,7 +4375,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -4407,7 +4407,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -4457,7 +4457,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -4486,7 +4486,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -4506,7 +4506,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -4546,7 +4546,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -4576,7 +4576,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -4608,7 +4608,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -4640,7 +4640,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -4669,7 +4669,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s8_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s8_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_chip_s8_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s8_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s8_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -4707,7 +4707,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -4740,12 +4740,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s8_45mm_silver_aluminum_case_white_sport_band_large.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s8_45mm_silver_aluminum_case_white_sport_band_large.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_s8_45mm_silver_aluminum_case_white_sport_band_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s8_45mm_silver_aluminum_case_white_sport_band_large.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s8_45mm_silver_aluminum_case_white_sport_band_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s8_45mm_silver_aluminum_case_white_sport_band_small.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s8_45mm_silver_aluminum_case_white_sport_band_small.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_s8_45mm_silver_aluminum_case_white_sport_band_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s8_45mm_silver_aluminum_case_white_sport_band_small.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s8_45mm_silver_aluminum_case_white_sport_band_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -4835,7 +4835,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -4855,7 +4855,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -4887,7 +4887,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -4937,7 +4937,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -4966,7 +4966,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -4986,7 +4986,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -5027,7 +5027,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -5057,7 +5057,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -5090,7 +5090,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -5124,7 +5124,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -5153,7 +5153,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s8_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s8_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_chip_s8_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s8_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s8_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -5191,7 +5191,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -5224,12 +5224,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s7_45mm_starlight_aluminum_case_starlight_sport_band_large.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s7_45mm_starlight_aluminum_case_starlight_sport_band_large.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_s7_45mm_starlight_aluminum_case_starlight_sport_band_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s7_45mm_starlight_aluminum_case_starlight_sport_band_large.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s7_45mm_starlight_aluminum_case_starlight_sport_band_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s7_45mm_starlight_aluminum_case_starlight_sport_band_small.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s7_45mm_starlight_aluminum_case_starlight_sport_band_small.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_s7_45mm_starlight_aluminum_case_starlight_sport_band_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s7_45mm_starlight_aluminum_case_starlight_sport_band_small.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s7_45mm_starlight_aluminum_case_starlight_sport_band_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -5323,7 +5323,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -5343,7 +5343,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -5375,7 +5375,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -5425,7 +5425,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -5454,7 +5454,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -5474,7 +5474,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -5520,7 +5520,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -5550,7 +5550,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -5583,7 +5583,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -5617,7 +5617,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -5646,7 +5646,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s7_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s7_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_chip_s7_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s7_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s7_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -5684,7 +5684,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_bolt_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -5717,12 +5717,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s6_44mm_silver_aluminum_case_white_sport_band_large.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s6_44mm_silver_aluminum_case_white_sport_band_large.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_s6_44mm_silver_aluminum_case_white_sport_band_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s6_44mm_silver_aluminum_case_white_sport_band_large.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s6_44mm_silver_aluminum_case_white_sport_band_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s6_44mm_silver_aluminum_case_white_sport_band_small.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s6_44mm_silver_aluminum_case_white_sport_band_small.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_s6_44mm_silver_aluminum_case_white_sport_band_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s6_44mm_silver_aluminum_case_white_sport_band_small.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s6_44mm_silver_aluminum_case_white_sport_band_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -5816,7 +5816,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -5836,7 +5836,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -5868,7 +5868,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -5918,7 +5918,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -5947,7 +5947,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_apple_vitals_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -5967,7 +5967,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -6013,7 +6013,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_apple_intelligence_gradient_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -6043,7 +6043,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -6076,7 +6076,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -6110,7 +6110,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -6139,7 +6139,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s6_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s6_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_chip_s6_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s6_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s6_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -6177,7 +6177,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -6211,12 +6211,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_se_44mm_silver_aluminum_case_starlight_sport_band_large.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_se_44mm_silver_aluminum_case_starlight_sport_band_large.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_se_44mm_silver_aluminum_case_starlight_sport_band_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_se_44mm_silver_aluminum_case_starlight_sport_band_large.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_se_44mm_silver_aluminum_case_starlight_sport_band_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_se_44mm_silver_aluminum_case_starlight_sport_band_small.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_se_44mm_silver_aluminum_case_starlight_sport_band_small.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_se_44mm_silver_aluminum_case_starlight_sport_band_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_se_44mm_silver_aluminum_case_starlight_sport_band_small.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_se_44mm_silver_aluminum_case_starlight_sport_band_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -6288,7 +6288,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -6308,7 +6308,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -6340,7 +6340,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -6391,7 +6391,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -6425,7 +6425,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -6475,7 +6475,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -6508,7 +6508,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -6542,7 +6542,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -6571,7 +6571,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s5_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s5_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_chip_s5_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s5_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s5_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -6609,7 +6609,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -6643,12 +6643,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s5_44mm_silver_aluminum_case_white_sport_band_large.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s5_44mm_silver_aluminum_case_white_sport_band_large.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_s5_44mm_silver_aluminum_case_white_sport_band_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s5_44mm_silver_aluminum_case_white_sport_band_large.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s5_44mm_silver_aluminum_case_white_sport_band_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s5_44mm_silver_aluminum_case_white_sport_band_small.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s5_44mm_silver_aluminum_case_white_sport_band_small.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_s5_44mm_silver_aluminum_case_white_sport_band_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s5_44mm_silver_aluminum_case_white_sport_band_small.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s5_44mm_silver_aluminum_case_white_sport_band_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -6740,7 +6740,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -6760,7 +6760,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_inset_filled_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -6792,7 +6792,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -6842,7 +6842,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -6876,7 +6876,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -6926,7 +6926,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -6959,7 +6959,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -6993,7 +6993,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -7022,7 +7022,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s5_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s5_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_chip_s5_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s5_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s5_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -7060,7 +7060,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -7094,12 +7094,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s4_44mm_silver_aluminum_case_white_sport_band_large.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s4_44mm_silver_aluminum_case_white_sport_band_large.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_s4_44mm_silver_aluminum_case_white_sport_band_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s4_44mm_silver_aluminum_case_white_sport_band_large.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s4_44mm_silver_aluminum_case_white_sport_band_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s4_44mm_silver_aluminum_case_white_sport_band_small.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s4_44mm_silver_aluminum_case_white_sport_band_small.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_s4_44mm_silver_aluminum_case_white_sport_band_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s4_44mm_silver_aluminum_case_white_sport_band_small.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s4_44mm_silver_aluminum_case_white_sport_band_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -7185,7 +7185,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -7205,7 +7205,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -7237,7 +7237,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -7287,7 +7287,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -7321,7 +7321,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -7371,7 +7371,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -7406,7 +7406,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -7440,7 +7440,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -7469,7 +7469,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s4_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s4_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_chip_s4_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s4_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s4_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -7507,7 +7507,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -7541,12 +7541,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s3_42mm_silver_aluminum_case_white_sport_band_large.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s3_42mm_silver_aluminum_case_white_sport_band_large.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_s3_42mm_silver_aluminum_case_white_sport_band_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s3_42mm_silver_aluminum_case_white_sport_band_large.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s3_42mm_silver_aluminum_case_white_sport_band_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s3_42mm_silver_aluminum_case_white_sport_band_small.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s3_42mm_silver_aluminum_case_white_sport_band_small.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_s3_42mm_silver_aluminum_case_white_sport_band_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s3_42mm_silver_aluminum_case_white_sport_band_small.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s3_42mm_silver_aluminum_case_white_sport_band_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -7624,7 +7624,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -7644,7 +7644,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -7677,7 +7677,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -7728,7 +7728,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_bed_double_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -7762,7 +7762,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -7812,7 +7812,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_sos_circle_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -7848,7 +7848,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -7882,7 +7882,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -7911,7 +7911,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s3_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s3_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_chip_s3_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s3_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s3_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -7949,7 +7949,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -7984,12 +7984,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s2_42mm_silver_aluminum_case_white_sport_band_large.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s2_42mm_silver_aluminum_case_white_sport_band_large.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_s2_42mm_silver_aluminum_case_white_sport_band_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s2_42mm_silver_aluminum_case_white_sport_band_large.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s2_42mm_silver_aluminum_case_white_sport_band_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s2_42mm_silver_aluminum_case_white_sport_band_small.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s2_42mm_silver_aluminum_case_white_sport_band_small.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_s2_42mm_silver_aluminum_case_white_sport_band_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s2_42mm_silver_aluminum_case_white_sport_band_small.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s2_42mm_silver_aluminum_case_white_sport_band_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -8081,7 +8081,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -8101,7 +8101,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -8134,7 +8134,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -8194,7 +8194,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -8248,7 +8248,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -8282,7 +8282,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_antenna_radiowaves_left_and_right_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -8312,7 +8312,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s2_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s2_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_chip_s2_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s2_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s2_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -8350,7 +8350,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -8385,12 +8385,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s1_42mm_silver_aluminum_case_white_sport_band_large.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s1_42mm_silver_aluminum_case_white_sport_band_large.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_s1_42mm_silver_aluminum_case_white_sport_band_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s1_42mm_silver_aluminum_case_white_sport_band_large.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s1_42mm_silver_aluminum_case_white_sport_band_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s1_42mm_silver_aluminum_case_white_sport_band_small.png",
-                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s1_42mm_silver_aluminum_case_white_sport_band_small.png 1x, /appleProducts/apple_watch_ultra/images/compare_apple_watch_s1_42mm_silver_aluminum_case_white_sport_band_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s1_42mm_silver_aluminum_case_white_sport_band_small.png 1x, /images/appleProducts/apple_watch_ultra/images/compare_apple_watch_s1_42mm_silver_aluminum_case_white_sport_band_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -8479,7 +8479,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_applewatch_case_sizes_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -8499,7 +8499,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchface_applewatch_case_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -8532,7 +8532,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_watchhealth_heart_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -8592,7 +8592,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_cycletracking_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -8646,7 +8646,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -8685,7 +8685,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s1_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s1_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_chip_s1_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s1_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_chip_s1_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -8723,7 +8723,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large.png 1x, /appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large.png 1x, /images/appleProducts/apple_watch_ultra/images/icon_compare_battery_100percent_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
