@@ -162,3 +162,4 @@ $routes->get('apple-watch-series-12', [UiController::class, 'appleWatchSeries12'
 $routes->get('apple-watch-ultra', [UiController::class, 'appleWatchUltra']);
 $routes->get('mac-mini', [UiController::class, 'macMini']);
 $routes->get('mac-studio', [UiController::class, 'macStudio']);
+$routes->get('apple-airpods', [UiController::class, 'appleAirpods']);

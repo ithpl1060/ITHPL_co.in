@@ -1,0 +1,2999 @@
+{
+  "initialColumnState": {
+    "large": [
+      0,
+      1,
+      4
+    ],
+    "medium": [
+      0,
+      1,
+      4
+    ],
+    "small": [
+      0,
+      4
+    ]
+  },
+  "optionGroups": [
+    {
+      "value": "__i18n_0__",
+      "options": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "value": "__i18n_1__",
+      "options": [
+        9,
+        10
+      ]
+    }
+  ],
+  "products": {
+    "AirPods 5": {
+      "productName": "__i18n_2__",
+      "productIndex": 0,
+      "categories": {
+        "images": [
+          {
+            "template": "preview-item-embeded-image",
+            "shortid": "ILFYIAnv",
+            "images": [
+              {
+                "src": "/appleProducts/apple_airpods/images/compare_airpods_5_h2_large.png",
+                "srcSet": "/appleProducts/apple_airpods/images/compare_airpods_5_h2_large.png 1x, /appleProducts/apple_airpods/images/compare_airpods_5_h2_large_2x.png 2x",
+                "viewport": "large"
+              },
+              {
+                "src": "/appleProducts/apple_airpods/images/compare_airpods_5_h2_small.png",
+                "srcSet": "/appleProducts/apple_airpods/images/compare_airpods_5_h2_small.png 1x, /appleProducts/apple_airpods/images/compare_airpods_5_h2_small_2x.png 2x",
+                "viewport": "small"
+              }
+            ]
+          }
+        ],
+        "finish": [
+          {
+            "template": "preview-item-color-nav",
+            "aria": "__i18n_3__",
+            "children": [
+              {
+                "value": "__i18n_4__",
+                "backgroundColor": "background-color: #F0F1F5;"
+              }
+            ]
+          }
+        ],
+        "buy": [
+          {
+            "template": "preview-item-button",
+            "aria": "__i18n_5__",
+            "value": "__i18n_6__",
+            "featureTitleOverride": "__i18n_7__"
+          }
+        ],
+        "quick-look": [
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_8__",
+            "children": [
+              {
+                "shortid": "uaIQoDsx",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "WqUgACqL",
+                "value": "__i18n_9__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_10__",
+            "children": [
+              {
+                "shortid": "MZPiRrok",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png 1x, /appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "aUHQJRvu",
+                "value": "__i18n_11__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_12__",
+            "children": [
+              {
+                "shortid": "vUzdiumr",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png 1x, /appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "qiXsnjAP",
+                "value": "__i18n_13__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_14__",
+            "children": [
+              {
+                "shortid": "vAIYfRvv",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "UcSSkHse",
+                "value": "__i18n_15__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_17__",
+            "children": [
+              {
+                "shortid": "NJIVnWAo",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_translate_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_translate_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_translate_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "YsRasYot",
+                "value": "__i18n_18__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_19__",
+            "children": [
+              {
+                "shortid": "vebJcfmQ",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_drop_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_drop_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_drop_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "iUGqRlrv",
+                "value": "__i18n_20__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_21__",
+            "children": [
+              {
+                "shortid": "YRjTdJtQ",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "jGfHOWys",
+                "value": "__i18n_22__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "children": [
+              {
+                "shortid": "QCCEmsua",
+                "value": "__i18n_23__",
+                "elevated": "elevated"
+              },
+              {
+                "shortid": "JLHVdqwK",
+                "value": "__i18n_24__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_25__",
+            "children": [
+              {
+                "shortid": "SGzPDUso",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "ATcVxZog",
+                "value": "__i18n_26__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_27__",
+            "children": [
+              {
+                "shortid": "ymYVevxW",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_hand_tap_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "rJwMPfBC",
+                "value": "__i18n_28__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_29__",
+            "children": [
+              {
+                "shortid": "pRLaLdBU",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_chip_h2_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "HCNkEatL",
+                "value": "__i18n_30__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_31__",
+            "children": [
+              {
+                "shortid": "zKRrrOAG",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "xcetiwnd",
+                "value": "__i18n_32__"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "AirPods 5 with Wireless Charging Case": {
+      "productName": "__i18n_33__",
+      "productIndex": 1,
+      "categories": {
+        "images": [
+          {
+            "template": "preview-item-embeded-image",
+            "shortid": "ziUuhExz",
+            "images": [
+              {
+                "src": "/appleProducts/apple_airpods/images/compare_airpods_5_h2_anc_large.png",
+                "srcSet": "/appleProducts/apple_airpods/images/compare_airpods_5_h2_anc_large.png 1x, /appleProducts/apple_airpods/images/compare_airpods_5_h2_anc_large_2x.png 2x",
+                "viewport": "large"
+              },
+              {
+                "src": "/appleProducts/apple_airpods/images/compare_airpods_5_h2_anc_small.png",
+                "srcSet": "/appleProducts/apple_airpods/images/compare_airpods_5_h2_anc_small.png 1x, /appleProducts/apple_airpods/images/compare_airpods_5_h2_anc_small_2x.png 2x",
+                "viewport": "small"
+              }
+            ]
+          }
+        ],
+        "finish": [
+          {
+            "template": "preview-item-color-nav",
+            "aria": "__i18n_34__",
+            "children": [
+              {
+                "value": "__i18n_4__",
+                "backgroundColor": "background-color: #F0F1F5;"
+              }
+            ]
+          }
+        ],
+        "buy": [
+          {
+            "template": "preview-item-button",
+            "aria": "__i18n_35__",
+            "value": "__i18n_6__",
+            "featureTitleOverride": "__i18n_7__"
+          }
+        ],
+        "quick-look": [
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_8__",
+            "children": [
+              {
+                "shortid": "bmHQuOrO",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "PPuRUfAf",
+                "value": "__i18n_9__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_10__",
+            "children": [
+              {
+                "shortid": "tXnoYDwz",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png 1x, /appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "SybanYqC",
+                "value": "__i18n_11__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_12__",
+            "children": [
+              {
+                "shortid": "CFbIUwwi",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png 1x, /appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "vijXtbnv",
+                "value": "__i18n_13__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_14__",
+            "children": [
+              {
+                "shortid": "jjjIanzO",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "HHttgUtD",
+                "value": "__i18n_15__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_17__",
+            "children": [
+              {
+                "shortid": "rSzesMtD",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_translate_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_translate_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_translate_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "TPYqQABD",
+                "value": "__i18n_18__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_19__",
+            "children": [
+              {
+                "shortid": "oLSHmtyp",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_drop_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_drop_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_drop_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "jsJrLknJ",
+                "value": "__i18n_20__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_21__",
+            "children": [
+              {
+                "shortid": "uyMwfRzG",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "SpkvMLyA",
+                "value": "__i18n_36__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "children": [
+              {
+                "shortid": "JIRxSbrE",
+                "value": "__i18n_37__",
+                "elevated": "elevated"
+              },
+              {
+                "shortid": "gGWqQBBz",
+                "value": "__i18n_38__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_25__",
+            "children": [
+              {
+                "shortid": "iufHpMvL",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "VspBQxmA",
+                "value": "__i18n_39__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_27__",
+            "children": [
+              {
+                "shortid": "PJxDqQtC",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_hand_draw_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_hand_draw_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_hand_draw_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "sZokFgod",
+                "value": "__i18n_40__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_29__",
+            "children": [
+              {
+                "shortid": "hwTlFstJ",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_chip_h2_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "UGOWNqxA",
+                "value": "__i18n_30__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_31__",
+            "children": [
+              {
+                "shortid": "RMUdcBwz",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "nuTpcZzN",
+                "value": "__i18n_32__"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "AirPods 4": {
+      "productName": "__i18n_41__",
+      "productIndex": 2,
+      "categories": {
+        "images": [
+          {
+            "template": "preview-item-embeded-image",
+            "shortid": "vDF743F",
+            "images": [
+              {
+                "src": "/appleProducts/apple_airpods/images/compare_airpods_4_h2_large.png",
+                "srcSet": "/appleProducts/apple_airpods/images/compare_airpods_4_h2_large.png 1x, /appleProducts/apple_airpods/images/compare_airpods_4_h2_large_2x.png 2x",
+                "viewport": "large"
+              },
+              {
+                "src": "/appleProducts/apple_airpods/images/compare_airpods_4_h2_small.png",
+                "srcSet": "/appleProducts/apple_airpods/images/compare_airpods_4_h2_small.png 1x, /appleProducts/apple_airpods/images/compare_airpods_4_h2_small_2x.png 2x",
+                "viewport": "small"
+              }
+            ]
+          }
+        ],
+        "finish": [
+          {
+            "template": "preview-item-color-nav",
+            "aria": "__i18n_42__",
+            "children": [
+              {
+                "value": "__i18n_4__",
+                "backgroundColor": "background-color: #F0F1F5;"
+              }
+            ]
+          }
+        ],
+        "buy": [
+          {
+            "template": "preview-item-button",
+            "aria": "__i18n_43__",
+            "value": "__i18n_6__",
+            "featureTitleOverride": "__i18n_7__"
+          }
+        ],
+        "quick-look": [
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_14__",
+            "children": [
+              {
+                "shortid": "mB226BF",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "sC84373",
+                "value": "__i18n_15__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_19__",
+            "children": [
+              {
+                "shortid": "rBE3AD2",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_drop_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_drop_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_drop_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "p86AC77",
+                "value": "__i18n_44__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_21__",
+            "children": [
+              {
+                "shortid": "g607675",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "k8069AB",
+                "value": "__i18n_22__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "children": [
+              {
+                "shortid": "j201873",
+                "value": "__i18n_37__",
+                "elevated": "elevated"
+              },
+              {
+                "shortid": "x9A3A77",
+                "value": "__i18n_45__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_25__",
+            "children": [
+              {
+                "shortid": "d06AA4D",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "y145BAE",
+                "value": "__i18n_46__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_27__",
+            "children": [
+              {
+                "shortid": "n255B45",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_hand_tap_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "n9DE547",
+                "value": "__i18n_47__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_29__",
+            "children": [
+              {
+                "shortid": "l9045B7",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_chip_h2_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "q6DBB9B",
+                "value": "__i18n_30__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_31__",
+            "children": [
+              {
+                "shortid": "u281CB2",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "xE154DD",
+                "value": "__i18n_32__"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "AirPods 4 with Active Noise Cancellation": {
+      "productName": "__i18n_48__",
+      "productIndex": 3,
+      "categories": {
+        "images": [
+          {
+            "template": "preview-item-embeded-image",
+            "shortid": "vFBB0BC",
+            "images": [
+              {
+                "src": "/appleProducts/apple_airpods/images/compare_airpods_4_active_noise_cancellation_h2_large.png",
+                "srcSet": "/appleProducts/apple_airpods/images/compare_airpods_4_active_noise_cancellation_h2_large.png 1x, /appleProducts/apple_airpods/images/compare_airpods_4_active_noise_cancellation_h2_large_2x.png 2x",
+                "viewport": "large"
+              },
+              {
+                "src": "/appleProducts/apple_airpods/images/compare_airpods_4_active_noise_cancellation_h2_small.png",
+                "srcSet": "/appleProducts/apple_airpods/images/compare_airpods_4_active_noise_cancellation_h2_small.png 1x, /appleProducts/apple_airpods/images/compare_airpods_4_active_noise_cancellation_h2_small_2x.png 2x",
+                "viewport": "small"
+              }
+            ]
+          }
+        ],
+        "finish": [
+          {
+            "template": "preview-item-color-nav",
+            "aria": "__i18n_49__",
+            "children": [
+              {
+                "value": "__i18n_4__",
+                "backgroundColor": "background-color: #F0F1F5;"
+              }
+            ]
+          }
+        ],
+        "buy": [
+          {
+            "template": "preview-item-button",
+            "aria": "__i18n_50__",
+            "value": "__i18n_6__",
+            "featureTitleOverride": "__i18n_7__"
+          }
+        ],
+        "quick-look": [
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_8__",
+            "children": [
+              {
+                "shortid": "d018B6A",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "p2B402B",
+                "value": "__i18n_51__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_10__",
+            "children": [
+              {
+                "shortid": "q2A7114",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png 1x, /appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "d7273F5",
+                "value": "__i18n_11__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_12__",
+            "children": [
+              {
+                "shortid": "t4C98BE",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png 1x, /appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "f6E4AA3",
+                "value": "__i18n_13__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_14__",
+            "children": [
+              {
+                "shortid": "eEB342D",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "n6FA768",
+                "value": "__i18n_15__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_17__",
+            "children": [
+              {
+                "shortid": "w3EFE1E",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_translate_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_translate_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_translate_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "l25423B",
+                "value": "__i18n_52__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_19__",
+            "children": [
+              {
+                "shortid": "e6846B6",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_drop_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_drop_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_drop_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "m303B12",
+                "value": "__i18n_44__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_21__",
+            "children": [
+              {
+                "shortid": "hDF0209",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "t6317A4",
+                "value": "__i18n_36__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "children": [
+              {
+                "shortid": "vE3B1DF",
+                "value": "__i18n_37__",
+                "elevated": "elevated"
+              },
+              {
+                "shortid": "j67EAD0",
+                "value": "__i18n_53__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_25__",
+            "children": [
+              {
+                "shortid": "o108690",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "y333498",
+                "value": "__i18n_54__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_27__",
+            "children": [
+              {
+                "shortid": "m14AE71",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_hand_tap_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "q06DD44",
+                "value": "__i18n_47__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_29__",
+            "children": [
+              {
+                "shortid": "vAFEF31",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_chip_h2_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "aC3D343",
+                "value": "__i18n_30__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_31__",
+            "children": [
+              {
+                "shortid": "i26DBCA",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "z604E1F",
+                "value": "__i18n_32__"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "AirPods Pro 3": {
+      "productName": "__i18n_55__",
+      "productIndex": 4,
+      "categories": {
+        "images": [
+          {
+            "template": "preview-item-embeded-image",
+            "shortid": "y8AAC35",
+            "images": [
+              {
+                "src": "/appleProducts/apple_airpods/images/compare_airpods_pro_3_h2_large.png",
+                "srcSet": "/appleProducts/apple_airpods/images/compare_airpods_pro_3_h2_large.png 1x, /appleProducts/apple_airpods/images/compare_airpods_pro_3_h2_large_2x.png 2x",
+                "viewport": "large"
+              },
+              {
+                "src": "/appleProducts/apple_airpods/images/compare_airpods_pro_3_h2_small.png",
+                "srcSet": "/appleProducts/apple_airpods/images/compare_airpods_pro_3_h2_small.png 1x, /appleProducts/apple_airpods/images/compare_airpods_pro_3_h2_small_2x.png 2x",
+                "viewport": "small"
+              }
+            ]
+          }
+        ],
+        "finish": [
+          {
+            "template": "preview-item-color-nav",
+            "aria": "__i18n_56__",
+            "children": [
+              {
+                "value": "__i18n_4__",
+                "backgroundColor": "background-color: #F0F1F5;"
+              }
+            ]
+          }
+        ],
+        "buy": [
+          {
+            "template": "preview-item-button",
+            "aria": "__i18n_57__",
+            "value": "__i18n_6__",
+            "featureTitleOverride": "__i18n_7__"
+          }
+        ],
+        "quick-look": [
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_8__",
+            "children": [
+              {
+                "shortid": "e2D1A52",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "sCF7515",
+                "value": "__i18n_58__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_10__",
+            "children": [
+              {
+                "shortid": "aF47714",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png 1x, /appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "u76C1C1",
+                "value": "__i18n_11__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_12__",
+            "children": [
+              {
+                "shortid": "vE3C26F",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png 1x, /appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "bBE3055",
+                "value": "__i18n_13__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_14__",
+            "children": [
+              {
+                "shortid": "a865D8C",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "lF89452",
+                "value": "__i18n_15__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_59__",
+            "children": [
+              {
+                "shortid": "h53F64C",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_features_watchhealth_heart_linear_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_features_watchhealth_heart_linear_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_features_watchhealth_heart_linear_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "i172982",
+                "value": "__i18n_60__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_61__",
+            "children": [
+              {
+                "shortid": "tFF1ABB",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_ear_badge_waveform_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_ear_badge_waveform_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_ear_badge_waveform_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "cC9F729",
+                "value": "__i18n_62__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_17__",
+            "children": [
+              {
+                "shortid": "bC0BA8B",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_translate_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_translate_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_translate_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "gE683AD",
+                "value": "__i18n_18__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_19__",
+            "children": [
+              {
+                "shortid": "v7E1CA0",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_drop_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_drop_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_drop_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "nE56174",
+                "value": "__i18n_20__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_21__",
+            "children": [
+              {
+                "shortid": "iBE8163",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_airpodspro_chargingcase_wireless_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_airpodspro_chargingcase_wireless_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_airpodspro_chargingcase_wireless_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "tDE9351",
+                "value": "__i18n_63__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "children": [
+              {
+                "shortid": "mBB3F57",
+                "value": "__i18n_64__",
+                "elevated": "elevated"
+              },
+              {
+                "shortid": "m932E59",
+                "value": "__i18n_65__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_25__",
+            "children": [
+              {
+                "shortid": "s36BD30",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "sE4563F",
+                "value": "__i18n_66__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_27__",
+            "children": [
+              {
+                "shortid": "q4D620B",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_hand_draw_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_hand_draw_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_hand_draw_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "x0DAC9E",
+                "value": "__i18n_40__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_29__",
+            "children": [
+              {
+                "shortid": "a957C8B",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_chip_h2_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "vF63467",
+                "value": "__i18n_30__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_31__",
+            "children": [
+              {
+                "shortid": "t07663B",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "rC545DA",
+                "value": "__i18n_32__"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "AirPods Pro 2": {
+      "productName": "__i18n_67__",
+      "productIndex": 5,
+      "categories": {
+        "images": [
+          {
+            "template": "preview-item-embeded-image",
+            "shortid": "x2581AE",
+            "images": [
+              {
+                "src": "/appleProducts/apple_airpods/images/compare_airpods_pro_2_h2_large.png",
+                "srcSet": "/appleProducts/apple_airpods/images/compare_airpods_pro_2_h2_large.png 1x, /appleProducts/apple_airpods/images/compare_airpods_pro_2_h2_large_2x.png 2x",
+                "viewport": "large"
+              },
+              {
+                "src": "/appleProducts/apple_airpods/images/compare_airpods_pro_2_h2_small.png",
+                "srcSet": "/appleProducts/apple_airpods/images/compare_airpods_pro_2_h2_small.png 1x, /appleProducts/apple_airpods/images/compare_airpods_pro_2_h2_small_2x.png 2x",
+                "viewport": "small"
+              }
+            ]
+          }
+        ],
+        "finish": [
+          {
+            "template": "preview-item-color-nav",
+            "aria": "__i18n_68__",
+            "children": [
+              {
+                "value": "__i18n_4__",
+                "backgroundColor": "background-color: #F0F1F5;"
+              }
+            ]
+          }
+        ],
+        "buy": [
+          {
+            "template": "preview-item-button",
+            "aria": "__i18n_69__",
+            "value": "__i18n_6__",
+            "featureTitleOverride": "__i18n_7__"
+          }
+        ],
+        "quick-look": [
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_8__",
+            "children": [
+              {
+                "shortid": "z3A576C",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "p8F2CB8",
+                "value": "__i18n_70__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_10__",
+            "children": [
+              {
+                "shortid": "a033830",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png 1x, /appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "pF9A83A",
+                "value": "__i18n_11__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_12__",
+            "children": [
+              {
+                "shortid": "b520F0B",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png 1x, /appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "o5EBD8D",
+                "value": "__i18n_13__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_14__",
+            "children": [
+              {
+                "shortid": "a9B98AF",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "xC78D3F",
+                "value": "__i18n_15__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_61__",
+            "children": [
+              {
+                "shortid": "cFCEEF7",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_ear_badge_waveform_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_ear_badge_waveform_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_ear_badge_waveform_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "b773A4F",
+                "value": "__i18n_62__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_17__",
+            "children": [
+              {
+                "shortid": "g889F13",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_translate_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_translate_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_translate_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "j976E06",
+                "value": "__i18n_52__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_19__",
+            "children": [
+              {
+                "shortid": "q6F0E1E",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_drop_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_drop_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_drop_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "m47064E",
+                "value": "__i18n_44__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_21__",
+            "children": [
+              {
+                "shortid": "eC54720",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_airpodspro_chargingcase_wireless_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_airpodspro_chargingcase_wireless_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_airpodspro_chargingcase_wireless_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "h4A21DB",
+                "value": "__i18n_63__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "children": [
+              {
+                "shortid": "t223726",
+                "value": "__i18n_71__",
+                "elevated": "elevated"
+              },
+              {
+                "shortid": "u77FA73",
+                "value": "__i18n_72__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_25__",
+            "children": [
+              {
+                "shortid": "l0EECAB",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "c29C82A",
+                "value": "__i18n_46__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_27__",
+            "children": [
+              {
+                "shortid": "o9BFBAD",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_hand_draw_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_hand_draw_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_hand_draw_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "fC0D5B1",
+                "value": "__i18n_73__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_29__",
+            "children": [
+              {
+                "shortid": "pDB465D",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_chip_h2_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "v86B34D",
+                "value": "__i18n_30__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_31__",
+            "children": [
+              {
+                "shortid": "c9B9A4A",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "d9E1976",
+                "value": "__i18n_32__"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "AirPods (2nd generation)": {
+      "productName": "__i18n_74__",
+      "productIndex": 6,
+      "categories": {
+        "images": [
+          {
+            "template": "preview-item-embeded-image",
+            "shortid": "pC1D3A2",
+            "images": [
+              {
+                "src": "/appleProducts/apple_airpods/images/compare_airpods_2_h1_large.png",
+                "srcSet": "/appleProducts/apple_airpods/images/compare_airpods_2_h1_large.png 1x, /appleProducts/apple_airpods/images/compare_airpods_2_h1_large_2x.png 2x",
+                "viewport": "large"
+              },
+              {
+                "src": "/appleProducts/apple_airpods/images/compare_airpods_2_h1_small.png",
+                "srcSet": "/appleProducts/apple_airpods/images/compare_airpods_2_h1_small.png 1x, /appleProducts/apple_airpods/images/compare_airpods_2_h1_small_2x.png 2x",
+                "viewport": "small"
+              }
+            ]
+          }
+        ],
+        "finish": [
+          {
+            "template": "preview-item-color-nav",
+            "aria": "__i18n_75__",
+            "children": [
+              {
+                "value": "__i18n_4__",
+                "backgroundColor": "background-color: #F0F1F5;"
+              }
+            ]
+          }
+        ],
+        "buy": [
+          {
+            "template": "preview-item-button",
+            "aria": "__i18n_76__",
+            "value": "__i18n_6__",
+            "featureTitleOverride": "__i18n_7__"
+          }
+        ],
+        "quick-look": [
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_21__",
+            "children": [
+              {
+                "shortid": "d78492A",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_airpods_chargingcase_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_airpods_chargingcase_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_airpods_chargingcase_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "lEE6751",
+                "value": "__i18n_77__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "children": [
+              {
+                "shortid": "fE64381",
+                "value": "__i18n_37__",
+                "elevated": "elevated"
+              },
+              {
+                "shortid": "g315504",
+                "value": "__i18n_45__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_25__",
+            "children": [
+              {
+                "shortid": "vF9F15F",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "v83D79F",
+                "value": "__i18n_78__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_27__",
+            "children": [
+              {
+                "shortid": "m404666",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_hand_point_up_left_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_hand_point_up_left_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_hand_point_up_left_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "l38B291",
+                "value": "__i18n_79__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_29__",
+            "children": [
+              {
+                "shortid": "i772EF8",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_chip_h1_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_chip_h1_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_chip_h1_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "i18BEAF",
+                "value": "__i18n_80__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_31__",
+            "children": [
+              {
+                "shortid": "oB4731C",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "n5D38B1",
+                "value": "__i18n_32__"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "AirPods (3rd generation) with Lightning Charging Case": {
+      "productName": "__i18n_81__",
+      "productIndex": 7,
+      "categories": {
+        "images": [
+          {
+            "template": "preview-item-embeded-image",
+            "shortid": "gD1DB68",
+            "images": [
+              {
+                "src": "/appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_large.png",
+                "srcSet": "/appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_large.png 1x, /appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_large_2x.png 2x",
+                "viewport": "large"
+              },
+              {
+                "src": "/appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_small.png",
+                "srcSet": "/appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_small.png 1x, /appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_small_2x.png 2x",
+                "viewport": "small"
+              }
+            ]
+          }
+        ],
+        "finish": [
+          {
+            "template": "preview-item-color-nav",
+            "aria": "__i18n_82__",
+            "children": [
+              {
+                "value": "__i18n_4__",
+                "backgroundColor": "background-color: #F0F1F5;"
+              }
+            ]
+          }
+        ],
+        "buy": [
+          {
+            "template": "preview-item-button",
+            "aria": "__i18n_83__",
+            "value": "__i18n_6__",
+            "featureTitleOverride": "__i18n_7__"
+          }
+        ],
+        "quick-look": [
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_14__",
+            "children": [
+              {
+                "shortid": "v476CEB",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "jDFAEA3",
+                "value": "__i18n_15__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_19__",
+            "children": [
+              {
+                "shortid": "qBBF040",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_drop_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_drop_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_drop_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "d6EF2A9",
+                "value": "__i18n_84__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_21__",
+            "children": [
+              {
+                "shortid": "x26318A",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "u2E9668",
+                "value": "__i18n_77__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "children": [
+              {
+                "shortid": "kAD70DF",
+                "value": "__i18n_71__",
+                "elevated": "elevated"
+              },
+              {
+                "shortid": "z0FF9B7",
+                "value": "__i18n_72__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_25__",
+            "children": [
+              {
+                "shortid": "e9ABCB1",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "fA1052B",
+                "value": "__i18n_46__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_27__",
+            "children": [
+              {
+                "shortid": "w230238",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_hand_tap_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "o014763",
+                "value": "__i18n_47__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_29__",
+            "children": [
+              {
+                "shortid": "m5AB321",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_chip_h1_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_chip_h1_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_chip_h1_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "vEF9A9D",
+                "value": "__i18n_80__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_31__",
+            "children": [
+              {
+                "shortid": "u543A7E",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "i093EC2",
+                "value": "__i18n_32__"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "AirPods (3rd generation) with MagSafe Charging Case": {
+      "productName": "__i18n_85__",
+      "productIndex": 8,
+      "categories": {
+        "images": [
+          {
+            "template": "preview-item-embeded-image",
+            "shortid": "w25FD26",
+            "images": [
+              {
+                "src": "/appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_large.png",
+                "srcSet": "/appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_large.png 1x, /appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_large_2x.png 2x",
+                "viewport": "large"
+              },
+              {
+                "src": "/appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_small.png",
+                "srcSet": "/appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_small.png 1x, /appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_small_2x.png 2x",
+                "viewport": "small"
+              }
+            ]
+          }
+        ],
+        "finish": [
+          {
+            "template": "preview-item-color-nav",
+            "aria": "__i18n_86__",
+            "children": [
+              {
+                "value": "__i18n_4__",
+                "backgroundColor": "background-color: #F0F1F5;"
+              }
+            ]
+          }
+        ],
+        "buy": [
+          {
+            "template": "preview-item-button",
+            "aria": "__i18n_87__",
+            "value": "__i18n_6__",
+            "featureTitleOverride": "__i18n_7__"
+          }
+        ],
+        "quick-look": [
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_14__",
+            "children": [
+              {
+                "shortid": "yF1C882",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "mD9392D",
+                "value": "__i18n_15__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_19__",
+            "children": [
+              {
+                "shortid": "qBCCC48",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_drop_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_drop_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_drop_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "i69436B",
+                "value": "__i18n_84__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_21__",
+            "children": [
+              {
+                "shortid": "g8A2100",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "bAF00B7",
+                "value": "__i18n_88__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "children": [
+              {
+                "shortid": "s03049B",
+                "value": "__i18n_71__",
+                "elevated": "elevated"
+              },
+              {
+                "shortid": "c6FA788",
+                "value": "__i18n_72__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_25__",
+            "children": [
+              {
+                "shortid": "w624625",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "hE77A89",
+                "value": "__i18n_46__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_27__",
+            "children": [
+              {
+                "shortid": "s769AD2",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_hand_tap_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "vBF0AAC",
+                "value": "__i18n_47__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_29__",
+            "children": [
+              {
+                "shortid": "c1DC834",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_chip_h1_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_chip_h1_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_chip_h1_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "gF43391",
+                "value": "__i18n_80__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_31__",
+            "children": [
+              {
+                "shortid": "qCF40CF",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "u699BC1",
+                "value": "__i18n_32__"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "AirPods Max 2": {
+      "productName": "__i18n_89__",
+      "productIndex": 9,
+      "categories": {
+        "images": [
+          {
+            "template": "preview-item-embeded-image",
+            "shortid": "m0AAB80",
+            "images": [
+              {
+                "src": "/appleProducts/apple_airpods/images/compare_airpods_max_h2_large.png",
+                "srcSet": "/appleProducts/apple_airpods/images/compare_airpods_max_h2_large.png 1x, /appleProducts/apple_airpods/images/compare_airpods_max_h2_large_2x.png 2x",
+                "viewport": "large"
+              },
+              {
+                "src": "/appleProducts/apple_airpods/images/compare_airpods_max_h2_small.png",
+                "srcSet": "/appleProducts/apple_airpods/images/compare_airpods_max_h2_small.png 1x, /appleProducts/apple_airpods/images/compare_airpods_max_h2_small_2x.png 2x",
+                "viewport": "small"
+              }
+            ]
+          }
+        ],
+        "finish": [
+          {
+            "template": "preview-item-color-nav",
+            "aria": "__i18n_90__",
+            "children": [
+              {
+                "value": "__i18n_91__",
+                "backgroundColor": "background-color: #2a3138;"
+              },
+              {
+                "value": "__i18n_92__",
+                "backgroundColor": "background-color: #ccbfb2;"
+              },
+              {
+                "value": "__i18n_93__",
+                "backgroundColor": "background-color: #91a9b5;"
+              },
+              {
+                "value": "__i18n_94__",
+                "backgroundColor": "background-color: #afa6bc;"
+              },
+              {
+                "value": "__i18n_95__",
+                "backgroundColor": "background-color: #e3a48d;"
+              }
+            ]
+          }
+        ],
+        "buy": [
+          {
+            "template": "preview-item-button",
+            "aria": "__i18n_96__",
+            "value": "__i18n_6__",
+            "featureTitleOverride": "__i18n_7__"
+          }
+        ],
+        "quick-look": [
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_8__",
+            "children": [
+              {
+                "shortid": "o6A1813",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "hAA1A1B",
+                "value": "__i18n_97__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_10__",
+            "children": [
+              {
+                "shortid": "s05C528",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png 1x, /appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "z948F98",
+                "value": "__i18n_11__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_12__",
+            "children": [
+              {
+                "shortid": "r884F41",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png 1x, /appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "iB3A97F",
+                "value": "__i18n_13__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_14__",
+            "children": [
+              {
+                "shortid": "zE180BB",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "pAD220F",
+                "value": "__i18n_15__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_98__",
+            "children": [
+              {
+                "shortid": "z88D8A9",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_apple_music_lossless_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_apple_music_lossless_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_apple_music_lossless_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "z624DEB",
+                "value": "__i18n_99__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__",
+            "children": [
+              {
+                "shortid": "zC1A12C",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_ear_badge_waveform_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_ear_badge_waveform_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_ear_badge_waveform_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "m47E134",
+                "value": "__i18n_100__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_17__",
+            "children": [
+              {
+                "shortid": "g5DC0CF",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_translate_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_translate_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_translate_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "u659BD7",
+                "value": "__i18n_18__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_21__",
+            "children": [
+              {
+                "shortid": "i64D946",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_airpods_max_smartcase_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_airpods_max_smartcase_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_airpods_max_smartcase_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "oE2D14A",
+                "value": "__i18n_101__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "children": [
+              {
+                "shortid": "qB48C2F",
+                "value": "__i18n_102__",
+                "elevated": "elevated"
+              },
+              {
+                "shortid": "l3FF499",
+                "value": "__i18n_103__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_27__",
+            "children": [
+              {
+                "shortid": "z59873F",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_digitalcrown_horizontal_arrow_clockwise_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_digitalcrown_horizontal_arrow_clockwise_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_digitalcrown_horizontal_arrow_clockwise_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "q20DF3B",
+                "value": "__i18n_104__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_29__",
+            "children": [
+              {
+                "shortid": "i2B9531",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_chip_h2_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "w3D562B",
+                "value": "__i18n_30__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_31__",
+            "children": [
+              {
+                "shortid": "iC97FEE",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "rEA2E0D",
+                "value": "__i18n_32__"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "AirPods Max": {
+      "productName": "__i18n_105__",
+      "productIndex": 10,
+      "categories": {
+        "images": [
+          {
+            "template": "preview-item-embeded-image",
+            "shortid": "nE41C94",
+            "images": [
+              {
+                "src": "/appleProducts/apple_airpods/images/compare_airpods_max_h2_large.png",
+                "srcSet": "/appleProducts/apple_airpods/images/compare_airpods_max_h2_large.png 1x, /appleProducts/apple_airpods/images/compare_airpods_max_h2_large_2x.png 2x",
+                "viewport": "large"
+              },
+              {
+                "src": "/appleProducts/apple_airpods/images/compare_airpods_max_h2_small.png",
+                "srcSet": "/appleProducts/apple_airpods/images/compare_airpods_max_h2_small.png 1x, /appleProducts/apple_airpods/images/compare_airpods_max_h2_small_2x.png 2x",
+                "viewport": "small"
+              }
+            ]
+          }
+        ],
+        "finish": [
+          {
+            "template": "preview-item-color-nav",
+            "aria": "__i18n_106__",
+            "children": [
+              {
+                "value": "__i18n_91__",
+                "backgroundColor": "background-color: #2a3138;"
+              },
+              {
+                "value": "__i18n_92__",
+                "backgroundColor": "background-color: #ccbfb2;"
+              },
+              {
+                "value": "__i18n_93__",
+                "backgroundColor": "background-color: #91a9b5;"
+              },
+              {
+                "value": "__i18n_94__",
+                "backgroundColor": "background-color: #afa6bc;"
+              },
+              {
+                "value": "__i18n_95__",
+                "backgroundColor": "background-color: #e3a48d;"
+              }
+            ]
+          }
+        ],
+        "buy": [
+          {
+            "template": "preview-item-button",
+            "aria": "__i18n_107__",
+            "value": "__i18n_6__",
+            "featureTitleOverride": "__i18n_7__"
+          }
+        ],
+        "quick-look": [
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_8__",
+            "children": [
+              {
+                "shortid": "u915F25",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "nC3F0DE",
+                "value": "__i18n_108__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_10__",
+            "children": [
+              {
+                "shortid": "wD58C5F",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_person_open_fill_base_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_person_open_fill_base_large.png 1x, /appleProducts/apple_airpods/images/icon_person_open_fill_base_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "z42FAD1",
+                "value": "__i18n_109__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_14__",
+            "children": [
+              {
+                "shortid": "wF06788",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "kBF6036",
+                "value": "__i18n_15__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_98__",
+            "children": [
+              {
+                "shortid": "pF0359F",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_apple_music_lossless_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_apple_music_lossless_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_apple_music_lossless_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "p194F6C",
+                "value": "__i18n_110__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_21__",
+            "children": [
+              {
+                "shortid": "q203AF5",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_airpods_max_smartcase_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_airpods_max_smartcase_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_airpods_max_smartcase_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "f171D8C",
+                "value": "__i18n_101__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "children": [
+              {
+                "shortid": "e217D1B",
+                "value": "__i18n_102__",
+                "elevated": "elevated"
+              },
+              {
+                "shortid": "o0B6C1B",
+                "value": "__i18n_111__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_16__"
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_27__",
+            "children": [
+              {
+                "shortid": "g137114",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_digitalcrown_horizontal_arrow_clockwise_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_digitalcrown_horizontal_arrow_clockwise_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_digitalcrown_horizontal_arrow_clockwise_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "s4BF4CF",
+                "value": "__i18n_104__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_29__",
+            "children": [
+              {
+                "shortid": "qD962BD",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_chip_h1_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_chip_h1_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_chip_h1_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "f4ADED8",
+                "value": "__i18n_80__"
+              }
+            ]
+          },
+          {
+            "template": "preview-item-badge",
+            "aria": "__i18n_31__",
+            "children": [
+              {
+                "shortid": "n9AF35B",
+                "images": [
+                  {
+                    "src": "/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png",
+                    "srcSet": "/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
+                    "viewport": "large"
+                  }
+                ]
+              },
+              {
+                "shortid": "o5EDE32",
+                "value": "__i18n_32__"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
