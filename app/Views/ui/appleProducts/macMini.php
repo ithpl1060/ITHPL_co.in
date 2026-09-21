@@ -225,7 +225,7 @@
       <div class="max-w-[1920px] mx-auto relative group">
         <picture>
           
-          <img src="<?= base_url('appleProducts/mac_mini/') ?>hero_banner.jpg"
+          <img src="<?= base_url('images/appleProducts/mac_mini/') ?>hero_banner.jpg"
             alt="Mac mini - Built for Apple Intelligence. Ultra-compact, fiercer, and more versatile than ever."
             class="w-full h-auto object-cover block" loading="eager" width="3000" height="1879">
         </picture>
@@ -258,7 +258,7 @@
       <section id="sec-size" class="apple-card relative overflow-hidden group">
         <picture>
           
-          <img src="<?= base_url('appleProducts/mac_mini/') ?>size_card.jpg" alt="12.7 cm - Sized to fit. Built to conquer."
+          <img src="<?= base_url('images/appleProducts/mac_mini/') ?>size_card.jpg" alt="12.7 cm - Sized to fit. Built to conquer."
             class="apple-card-img transition-transform duration-500 group-hover:scale-[1.01]" loading="lazy"
             width="2044" height="878">
         </picture>
@@ -268,7 +268,7 @@
       <section id="sec-ports" class="apple-card relative overflow-hidden group">
         <picture>
           
-          <img src="<?= base_url('appleProducts/mac_mini/') ?>ports_card.jpg"
+          <img src="<?= base_url('images/appleProducts/mac_mini/') ?>ports_card.jpg"
             alt="Front and back ports on Mac mini - USB-C, 3.5mm headphone jack, Thunderbolt, HDMI, Gigabit Ethernet"
             class="apple-card-img" loading="lazy" width="2044" height="878">
         </picture>
@@ -317,7 +317,7 @@
         <article class="apple-card group">
           <picture>
             
-            <img src="<?= base_url('appleProducts/mac_mini/') ?>thermal_card.jpg"
+            <img src="<?= base_url('images/appleProducts/mac_mini/') ?>thermal_card.jpg"
               alt="Innovative thermal system - stays cool and quiet under heavy workloads"
               class="apple-card-img transition-transform duration-500 group-hover:scale-[1.01]" loading="lazy"
               width="1003" height="878">
@@ -328,7 +328,7 @@
         <article id="sec-chips" class="apple-card group">
           <picture>
             
-            <img src="<?= base_url('appleProducts/mac_mini/') ?>chips_card.jpg" alt="Supercharged by Apple M4 and M4 Pro chips"
+            <img src="<?= base_url('images/appleProducts/mac_mini/') ?>chips_card.jpg" alt="Supercharged by Apple M4 and M4 Pro chips"
               class="apple-card-img transition-transform duration-500 group-hover:scale-[1.01]" loading="lazy"
               width="1003" height="878">
           </picture>
@@ -339,7 +339,7 @@
       <section id="sec-intelligence" class="apple-card siri-glow relative overflow-hidden group">
         <picture>
           
-          <img src="<?= base_url('appleProducts/mac_mini/') ?>intelligence_card.jpg" alt="Designed for Apple Intelligence. Personal, private, powerful."
+          <img src="<?= base_url('images/appleProducts/mac_mini/') ?>intelligence_card.jpg" alt="Designed for Apple Intelligence. Personal, private, powerful."
             class="apple-card-img transition-transform duration-500 group-hover:scale-[1.01]" loading="lazy"
             width="2044" height="1003">
         </picture>
@@ -351,7 +351,7 @@
         <article class="lg:col-span-4 apple-card group">
           <picture>
             
-            <img src="<?= base_url('appleProducts/mac_mini/') ?>siri_ai_card.jpg" alt="Siri AI coming in English later this year"
+            <img src="<?= base_url('images/appleProducts/mac_mini/') ?>siri_ai_card.jpg" alt="Siri AI coming in English later this year"
               class="apple-card-img transition-transform duration-500 group-hover:scale-[1.01]" loading="lazy"
               width="655" height="878">
           </picture>
@@ -361,7 +361,7 @@
         <article class="lg:col-span-8 apple-card group">
           <picture>
             
-            <img src="<?= base_url('appleProducts/mac_mini/') ?>storage_card.jpg"
+            <img src="<?= base_url('images/appleProducts/mac_mini/') ?>storage_card.jpg"
               alt="Up to 2x faster SSD storage. Open files, launch apps, and transfer media in a flash."
               class="apple-card-img transition-transform duration-500 group-hover:scale-[1.01]" loading="lazy"
               width="1351" height="878">
@@ -373,7 +373,7 @@
       <section id="sec-apps" class="apple-card relative overflow-hidden group">
         <picture>
           
-          <img src="<?= base_url('appleProducts/mac_mini/') ?>apps_card.jpg"
+          <img src="<?= base_url('images/appleProducts/mac_mini/') ?>apps_card.jpg"
             alt="Apps fly on Mac mini - Microsoft 365, Adobe Creative Cloud, Logic Pro, Xcode, Final Cut Pro, and more"
             class="apple-card-img transition-transform duration-500 group-hover:scale-[1.01]" loading="lazy"
             width="2044" height="878">
@@ -386,7 +386,7 @@
         <article class="apple-card group">
           <picture>
             
-            <img src="<?= base_url('appleProducts/mac_mini/') ?>iphone_card.jpg"
+            <img src="<?= base_url('images/appleProducts/mac_mini/') ?>iphone_card.jpg"
               alt="Mac + iPhone. iPhone Mirroring lets you view and use your iPhone directly from your Mac."
               class="apple-card-img transition-transform duration-500 group-hover:scale-[1.01]" loading="lazy"
               width="1003" height="878">
@@ -397,7 +397,7 @@
         <article id="sec-accessories" class="apple-card group">
           <picture>
             
-            <img src="<?= base_url('appleProducts/mac_mini/') ?>accessories_card.jpg"
+            <img src="<?= base_url('images/appleProducts/mac_mini/') ?>accessories_card.jpg"
               alt="Magic accessories - Magic Keyboard with Touch ID, Magic Mouse, and Magic Trackpad with USB-C"
               class="apple-card-img transition-transform duration-500 group-hover:scale-[1.01]" loading="lazy"
               width="1003" height="878">
@@ -472,7 +472,7 @@
               <div class="relative overflow-hidden rounded-2xl bg-[#f5f5f7]">
                 <picture>
                   
-                  <img src="<?= base_url('appleProducts/mac_mini/') ?>chip_compare_m4.jpg"
+                  <img src="<?= base_url('images/appleProducts/mac_mini/') ?>chip_compare_m4.jpg"
                     alt="Mac mini M4 compared to Mac mini M1 features and performance"
                     class="w-full h-auto block rounded-2xl transition-transform duration-500 hover:scale-[1.01]"
                     loading="lazy" width="910" height="795">
@@ -515,7 +515,7 @@
               <div class="relative overflow-hidden rounded-2xl bg-[#f5f5f7]">
                 <picture>
                   
-                  <img src="<?= base_url('appleProducts/mac_mini/') ?>chip_compare_m4pro.jpg"
+                  <img src="<?= base_url('images/appleProducts/mac_mini/') ?>chip_compare_m4pro.jpg"
                     alt="Mac mini M4 Pro compared to Mac mini M2 Pro features and performance"
                     class="w-full h-auto block rounded-2xl transition-transform duration-500 hover:scale-[1.01]"
                     loading="lazy" width="910" height="795">
@@ -559,7 +559,7 @@
           <article class="apple-card group">
             <picture>
               
-              <img src="<?= base_url('appleProducts/mac_mini/') ?>why_mac_easy.jpg" alt="Mac is designed to be easy to learn and use"
+              <img src="<?= base_url('images/appleProducts/mac_mini/') ?>why_mac_easy.jpg" alt="Mac is designed to be easy to learn and use"
                 class="apple-card-img transition-transform duration-500 group-hover:scale-[1.02]" loading="lazy"
                 width="655" height="653">
             </picture>
@@ -569,7 +569,7 @@
           <article class="apple-card group">
             <picture>
               
-              <img src="<?= base_url('appleProducts/mac_mini/') ?>why_mac_power.jpg"
+              <img src="<?= base_url('images/appleProducts/mac_mini/') ?>why_mac_power.jpg"
                 alt="The combination of Apple silicon and macOS means Mac delivers incredible power and speed"
                 class="apple-card-img transition-transform duration-500 group-hover:scale-[1.02]" loading="lazy"
                 width="658" height="653">
@@ -580,7 +580,7 @@
           <article class="apple-card group">
             <picture>
               
-              <img src="<?= base_url('appleProducts/mac_mini/') ?>why_mac_durable.jpg"
+              <img src="<?= base_url('images/appleProducts/mac_mini/') ?>why_mac_durable.jpg"
                 alt="With a durable aluminium enclosure and free software updates, Mac is in it for the long haul"
                 class="apple-card-img transition-transform duration-500 group-hover:scale-[1.02]" loading="lazy"
                 width="655" height="653">
@@ -602,7 +602,7 @@
         <div class="relative overflow-hidden rounded-xl sm:rounded-2xl border border-gray-100">
           <picture>
             
-            <img src="<?= base_url('appleProducts/mac_mini/') ?>tech_specs_matrix.jpg"
+            <img src="<?= base_url('images/appleProducts/mac_mini/') ?>tech_specs_matrix.jpg"
               alt="Mac mini technical specifications comparison table - M4 vs M4 Pro vs previous models"
               class="apple-card-img" loading="lazy" width="2044" height="2426">
           </picture>
@@ -630,7 +630,7 @@
       <section id="sec-applecare" class="apple-card group">
         <picture>
           
-          <img src="<?= base_url('appleProducts/mac_mini/') ?>applecare_card.jpg"
+          <img src="<?= base_url('images/appleProducts/mac_mini/') ?>applecare_card.jpg"
             alt="AppleCare+ for Mac - Enjoy easy, fast repairs for accidents like drops and spills, and priority care."
             class="apple-card-img transition-transform duration-500 group-hover:scale-[1.01]" loading="lazy"
             width="2044" height="868">
@@ -708,7 +708,7 @@
   
 
   <!-- ==================== UNIVERSAL B2B MODAL ==================== -->
-  <?php include_once APPPATH . 'Views/ui/appleProducts/partials/apple_buy_modal.php'; ?>
+  <?php include_once APPPATH . 'Views/ui/images/appleProducts/partials/apple_buy_modal.php'; ?>
 
   <!-- ==================== PAGE JS (hotspot, chip switch, scroll) ==================== -->
   <script>

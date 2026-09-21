@@ -212,7 +212,7 @@
     <section id="sec-hero" class="w-full bg-[#f5f5f7] relative border-b border-gray-200/50 pt-2 sm:pt-4 pb-8 sm:pb-12">
       <div class="max-w-[1440px] mx-auto relative group px-4 sm:px-6">
         <picture>
-          <img src="<?= base_url('appleProducts/mac_studio/') ?>Section_1.png"
+          <img src="<?= base_url('images/appleProducts/mac_studio/') ?>Section_1.png"
             alt="Mac Studio - Brawn of a new age. Supercharged by M2 Max and M2 Ultra."
             class="w-full h-auto max-w-[1100px] mx-auto block object-contain" loading="eager">
         </picture>
@@ -243,7 +243,7 @@
       <!-- ==================== SECTION 2: APPLE SILICON HERO CARD ==================== -->
       <section id="sec-chips" class="apple-card-dark relative overflow-hidden group">
         <picture>
-          <img src="<?= base_url('appleProducts/mac_studio/') ?>Section_2.png"
+          <img src="<?= base_url('images/appleProducts/mac_studio/') ?>Section_2.png"
             alt="Mac Studio supercharged by Apple M2 Max and M2 Ultra chips"
             class="apple-card-img transition-transform duration-700 group-hover:scale-[1.01]" loading="lazy">
         </picture>
@@ -252,7 +252,7 @@
       <!-- ==================== SECTION 3: COMPACT POWERHOUSE & THERMAL ARCHITECTURE ==================== -->
       <section id="sec-design" class="apple-card relative overflow-hidden group">
         <picture>
-          <img src="<?= base_url('appleProducts/mac_studio/') ?>Section_3.png"
+          <img src="<?= base_url('images/appleProducts/mac_studio/') ?>Section_3.png"
             alt="Mac Studio compact enclosure and revolutionary thermal architecture"
             class="apple-card-img transition-transform duration-500 group-hover:scale-[1.01]" loading="lazy">
         </picture>
@@ -285,7 +285,7 @@
       <!-- ==================== SECTION 4: OUTRAGEOUS PRO PERFORMANCE ==================== -->
       <section id="sec-performance" class="apple-card-dark relative overflow-hidden group">
         <picture>
-          <img src="<?= base_url('appleProducts/mac_studio/') ?>Section_4.png"
+          <img src="<?= base_url('images/appleProducts/mac_studio/') ?>Section_4.png"
             alt="Outrageous performance: M2 Max vs M2 Ultra CPU, GPU, and ProRes media engine benchmarks"
             class="apple-card-img transition-transform duration-700 group-hover:scale-[1.01]" loading="lazy">
         </picture>
@@ -294,7 +294,7 @@
       <!-- ==================== SECTION 5: PRO CONNECTIVITY & PORTS ==================== -->
       <section id="sec-ports" class="apple-card relative overflow-hidden group">
         <picture>
-          <img src="<?= base_url('appleProducts/mac_studio/') ?>Section_5.png"
+          <img src="<?= base_url('images/appleProducts/mac_studio/') ?>Section_5.png"
             alt="Mac Studio front and rear pro ports connectivity"
             class="apple-card-img" loading="lazy">
         </picture>
@@ -345,7 +345,7 @@
         <!-- Multi-Display Support -->
         <article class="apple-card group">
           <picture>
-            <img src="<?= base_url('appleProducts/mac_studio/') ?>Section_6.png"
+            <img src="<?= base_url('images/appleProducts/mac_studio/') ?>Section_6.png"
               alt="Mac Studio supports up to 8 displays simultaneously on M2 Ultra"
               class="apple-card-img transition-transform duration-500 group-hover:scale-[1.01]" loading="lazy">
           </picture>
@@ -354,7 +354,7 @@
         <!-- Studio Display Pairing -->
         <article class="apple-card group">
           <picture>
-            <img src="<?= base_url('appleProducts/mac_studio/') ?>Section_7.png"
+            <img src="<?= base_url('images/appleProducts/mac_studio/') ?>Section_7.png"
               alt="Studio Display - 27-inch 5K Retina display, 12MP camera, and six-speaker sound system"
               class="apple-card-img transition-transform duration-500 group-hover:scale-[1.01]" loading="lazy">
           </picture>
@@ -366,7 +366,7 @@
         <!-- Magic Accessories -->
         <article class="apple-card group">
           <picture>
-            <img src="<?= base_url('appleProducts/mac_studio/') ?>Section_8.png"
+            <img src="<?= base_url('images/appleProducts/mac_studio/') ?>Section_8.png"
               alt="Magic Keyboard with Numeric Keypad and Touch ID, Magic Mouse, and Magic Trackpad"
               class="apple-card-img transition-transform duration-500 group-hover:scale-[1.01]" loading="lazy">
           </picture>
@@ -375,7 +375,7 @@
         <!-- macOS Sonoma & Pro Apps -->
         <article class="apple-card group">
           <picture>
-            <img src="<?= base_url('appleProducts/mac_studio/') ?>Section_9.png"
+            <img src="<?= base_url('images/appleProducts/mac_studio/') ?>Section_9.png"
               alt="macOS Sonoma optimized for Apple Silicon - Logic Pro, Final Cut Pro, DaVinci Resolve, Xcode"
               class="apple-card-img transition-transform duration-500 group-hover:scale-[1.01]" loading="lazy">
           </picture>
@@ -547,7 +547,7 @@
         <!-- AppleCare+ for Mac Studio -->
         <article class="apple-card group relative overflow-hidden">
           <picture>
-            <img src="<?= base_url('appleProducts/mac_studio/') ?>Section_10.png"
+            <img src="<?= base_url('images/appleProducts/mac_studio/') ?>Section_10.png"
               alt="AppleCare+ for Mac Studio - Easy, fast repairs for accidents"
               class="apple-card-img transition-transform duration-500 group-hover:scale-[1.01]" loading="lazy">
           </picture>
@@ -566,7 +566,7 @@
         <!-- 100% Recycled Aluminum & Carbon Impact -->
         <article class="apple-card group">
           <picture>
-            <img src="<?= base_url('appleProducts/mac_studio/') ?>Section_13.png"
+            <img src="<?= base_url('images/appleProducts/mac_studio/') ?>Section_13.png"
               alt="Mac Studio environmental footprint - 100% recycled aluminum and low carbon footprint"
               class="apple-card-img transition-transform duration-500 group-hover:scale-[1.01]" loading="lazy">
           </picture>
@@ -583,12 +583,12 @@
 
         <div class="relative overflow-hidden rounded-xl sm:rounded-2xl border border-gray-100 bg-[#fbfbfd]">
           <picture>
-            <img src="<?= base_url('appleProducts/mac_studio/') ?>Section_11.png"
+            <img src="<?= base_url('images/appleProducts/mac_studio/') ?>Section_11.png"
               alt="Mac Studio Model Comparison Overview"
               class="apple-card-img border-b border-gray-100" loading="lazy">
           </picture>
           <picture>
-            <img src="<?= base_url('appleProducts/mac_studio/') ?>Section_12.png"
+            <img src="<?= base_url('images/appleProducts/mac_studio/') ?>Section_12.png"
               alt="Mac Studio Full Tech Specifications Matrix"
               class="apple-card-img max-w-5xl mx-auto py-6 sm:py-10" loading="lazy">
           </picture>
@@ -614,7 +614,7 @@
       <!-- ==================== SECTION 13: IN THE BOX ==================== -->
       <section id="sec-box" class="apple-card group">
         <picture>
-          <img src="<?= base_url('appleProducts/mac_studio/') ?>Section_14.png"
+          <img src="<?= base_url('images/appleProducts/mac_studio/') ?>Section_14.png"
             alt="What's In the Box - Mac Studio and Power Cord"
             class="apple-card-img transition-transform duration-500 group-hover:scale-[1.01]" loading="lazy">
         </picture>
@@ -623,7 +623,7 @@
       <!-- ==================== SECTION 14: LEGAL DISCLAIMERS & FOOTNOTES ==================== -->
       <section id="sec-legal" class="pt-8 sm:pt-12 border-t border-gray-200 text-[#86868b] text-[11px] leading-relaxed">
         <picture>
-          <img src="<?= base_url('appleProducts/mac_studio/') ?>Section_15.png"
+          <img src="<?= base_url('images/appleProducts/mac_studio/') ?>Section_15.png"
             alt="Mac Studio footnotes and legal disclaimers"
             class="w-full h-auto block mb-6 opacity-90" loading="lazy">
         </picture>
@@ -640,7 +640,7 @@
 
 
   <!-- ==================== UNIVERSAL B2B MODAL ==================== -->
-  <?php include_once APPPATH . 'Views/ui/appleProducts/partials/apple_buy_modal.php'; ?>
+  <?php include_once APPPATH . 'Views/ui/images/appleProducts/partials/apple_buy_modal.php'; ?>
 
   <!-- ==================== HOTSPOT + SCROLL JS ==================== -->
   <script>
