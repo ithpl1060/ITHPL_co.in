@@ -188,6 +188,27 @@
             </div>
           </div>
 
+          
+          <!-- Apple AirPods Card - NEW -->
+          <div class="product-card product-card-new" onclick="window.location.href='<?= base_url('apple-airpods') ?>'">
+            <span class="product-new-badge">NEW</span>
+            <img
+              src="<?= base_url(relativePath: 'images/AirPods-text.jpg'); ?>"
+              alt="Apple AirPods"
+              class="product-bg"
+            />
+            <div class="product-overlay"></div>
+            <div class="product-content">
+              <div class="product-img-wrap">
+                <img src="<?= base_url(relativePath: 'appleProducts/apple_airpods/images/hero_airpods_5_large.png'); ?>" class="fade-in" alt="Apple AirPods">
+              </div>
+              <h3 class="product-title">AirPods</h3>
+              <p class="product-description">Active Noise Cancellation, Adaptive Audio, and exceptional acoustic architecture.</p>
+              <a href="<?= base_url('apple-airpods') ?>" class="product-button-preorder">Buy Now</a>
+            </div>
+          </div>
+
+
           <!-- MacBook Card -->
           <div class="product-card" onclick="window.open('https://store.ithpl.com/?s=apple&post_type=product', '_blank')">
             <img

@@ -5333,12 +5333,59 @@
     });
   </script>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" defer></script>
+<style>
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 130px;
+    }
+    .apple-subnav-blur {
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+    }
+    #apple-subnav {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+  </style>
 </head>
 <body>
   <?= view('ui/apple_header_nav') ?>
+  
+  <!-- ==================== STICKY PRODUCT SUBNAV ==================== -->
+  <div id="apple-subnav"
+    class="sticky top-[58px] sm:top-[72px] z-40 w-full apple-subnav-blur border-b border-black/[0.06] transition-all duration-300 shadow-sm">
+    <div class="max-w-[1024px] mx-auto px-4 sm:px-6 h-11 sm:h-13 flex items-center justify-between py-1.5 sm:py-2.5">
+      <div class="flex items-baseline space-x-2 sm:space-x-3">
+        <a href="#sec-hero"
+          class="text-base sm:text-lg font-bold tracking-tight text-[#1d1d1f] hover:text-[#0071e3] transition-colors">Apple Watch Series 12</a>
+      </div>
+
+      <div class="flex items-center space-x-3 sm:space-x-6 text-xs">
+        <nav class="hidden md:flex items-center space-x-5 text-gray-600">
+          <a href="#sec-hero" class="hover:text-black font-medium text-black transition-colors">Overview</a>
+          <a href="#sec-features" class="hover:text-black transition-colors">Features</a>
+          <a href="#sec-upgrade" class="hover:text-black transition-colors">Why Upgrade</a>
+          <a href="#sec-compare" class="hover:text-[#0071e3] font-medium text-[#0071e3] transition-colors">Compare</a>
+          <a href="#sec-bands" class="hover:text-black transition-colors">Straps</a>
+          <a href="#sec-applecare" class="hover:text-black transition-colors">AppleCare+</a>
+          <a href="#sec-legal" class="hover:text-black text-gray-400 transition-colors">Legal</a>
+        </nav>
+
+        <button type="button"
+          class="trigger-buy-modal bg-[#0071e3] hover:bg-[#0077ed] text-white px-3.5 sm:px-4 py-1.5 rounded-full text-xs font-medium transition duration-200 transform hover:scale-[1.03] shadow-sm flex items-center gap-1.5 cursor-pointer"
+          data-product-key="apple_watch_series_12">
+          <span>Buy Now</span>
+          <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
   <div class="channel-html g3C2B89">
     <!--BEGIN > FIXED | HERO (DARK)-->
-    <div class="section n671022 theme-dark">
+    <div class="section n671022 theme-dark" id="sec-hero">
       <div class="section-content">
         <div class="row m70C9F5">
           <span class="column r61E3E1 large-12"><div class="row v668095 large-display-bleed medium-display-bleed small-display-bleed">
@@ -5348,7 +5395,7 @@
                   </figure></h2></span>
             </div>
             <p class="copy l5F3CDD channel-custom-font-custom-80-headline-super" style="--focus-color: rgba(0, 125, 250, 0.6)">A work of heart.</p>
-            <!-- <p class="copy g848465 channel-custom-font-custom-17-partner-message" style="--focus-color: rgba(0, 125, 250, 0.6)">[Your Message]</p> -->
+            <p class="copy g848465 channel-custom-font-custom-17-partner-message" style="--focus-color: rgba(0, 125, 250, 0.6)">The ultimate way to watch your health.</p>
             <div class="row uZaKDsut large-display-bleed medium-display-bleed small-display-bleed">
               <div class="column HiMODCoi large-12"><a href="#" aria-label="Buy, Apple Watch Series 12" class="button button-custom button-base fBFC480 trigger-buy-modal" data-product-key="apple_watch_series_12" style="--focus-color: rgba(0, 113, 227, 100%)">Buy</a></div>
             </div>
@@ -5358,7 +5405,7 @@
       </div>
     </div>
     <!--END > FIXED | HERO (DARK)--><!--BEGIN > FIXED | BENTO (DARK)-->
-    <div class="section g5E5B12 theme-dark">
+    <div class="section g5E5B12 theme-dark" id="sec-features">
       <div class="section-content">
         <div class="row u2224C7">
           <div class="column kA6064A large-12">
@@ -5494,7 +5541,7 @@
       </div>
     </div>
     <!--END > FIXED | BENTO (DARK)--><!--BEGIN > FLEX | UPGRADERS (DARK - LAYOUT 2)-->
-    <div class="section m4EAFD3 theme-light">
+    <div class="section m4EAFD3 theme-light"  id="sec-upgrade">
       <div class="section-content">
         <div class="row xA29AE7 large-display-bleed medium-display-bleed small-display-bleed">
           <div class="column i91A1C0 large-12">
@@ -6087,7 +6134,7 @@
       </div>
     </div>
     <!--END > FLEX | UPGRADERS (DARK - LAYOUT 2)--><!--BEGIN > FLEX | COMPARE-->
-    <div class="section fD84CBE">
+    <div class="section fD84CBE" id="sec-compare">
       <div class="section-content">
         <div class="row lB550D1 large-display-bleed medium-display-bleed small-display-bleed">
           <div class="column f0B96F0 large-12">
@@ -7151,7 +7198,7 @@
       </div>
     </div>
     <!--END > FLEX | COMPARE--><!--BEGIN > FLEX | BANDS-->
-    <div class="section iBkkSqsF theme-light">
+    <div class="section iBkkSqsF theme-light" id="sec-bands">
       <div class="section-content">
         <div class="row cEgHNEwa">
           <div class="column yitTPXtQ large-12">
@@ -7184,7 +7231,7 @@
       </div>
     </div>
     <!--END > FLEX | BANDS--><!--BEGIN > FLEX | AIRPODS-->
-    <div class="section RxIJDYrr theme-light">
+    <div class="section RxIJDYrr theme-light"  id="sec-applecare">
       <div class="section-content">
         <div class="row gUpYvEvK large-display-bleed medium-display-bleed small-display-bleed">
           <div class="column CInoWmnV large-12">
@@ -7237,7 +7284,7 @@
       </div>
     </div>
     <!--END > FLEX | FITNESS+--><!--BEGIN > FLEX | APPLECARE+-->
-    <div class="section HlGDKTpl theme-light">
+    <div class="section HlGDKTpl theme-light" id="sec-applecare">
       <div class="section-content">
         <div class="row blTWGTwG large-display-bleed medium-display-bleed small-display-bleed">
           <div class="column deJAGfqD large-12">
@@ -7300,7 +7347,7 @@
       </div>
     </div>
     <!--END > FLEX | APPLECARE+--><!--BEGIN > LEGAL-->
-    <div class="section wBC50AE">
+    <div class="section wBC50AE" id="sec-legal">
       <div class="section-content">
         <div class="row b3E689A large-display-bleed medium-display-bleed">
           <aside class="column b02D6FD large-12 medium-12" aria-labelledby="comp" role="complementary">
@@ -7490,4 +7537,30 @@
 
   <!-- ==================== UNIVERSAL B2B MODAL ==================== -->
   <?php include_once APPPATH . 'Views/ui/appleProducts/partials/apple_buy_modal.php'; ?>
+
+  <!-- ==================== PAGE JS (sticky subnav, smooth scroll) ==================== -->
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Sticky subnav shadow
+    var subnav = document.getElementById('apple-subnav');
+    if (subnav) {
+      window.addEventListener('scroll', function () {
+        subnav.classList.toggle('shadow-md', window.scrollY > 44);
+      });
+    }
+
+    // Smooth scroll for #sec- anchors
+    document.querySelectorAll('a[href^="#sec-"]').forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        var targetId = a.getAttribute('href');
+        var target = document.querySelector(targetId);
+        if (target) {
+          e.preventDefault();
+          var pos = target.getBoundingClientRect().top + window.pageYOffset - 120;
+          window.scrollTo({ top: pos, behavior: 'smooth' });
+        }
+      });
+    });
+  });
+  </script>
 </body></html>
