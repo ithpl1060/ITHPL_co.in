@@ -141,7 +141,7 @@
             <div class="product-overlay"></div>
             <div class="product-content">
               <div class="product-img-wrap">
-                <img src="<?= base_url(relativePath: 'appleProducts/iphone_18_pro/images/compare_iphone_18_pro_max_burgundy_large.png'); ?>" class="fade-in" alt="iPhone 18 Pro">
+                <img src="<?= base_url(relativePath: 'images/appleProducts/iphone_18_pro/images/compare_iphone_18_pro_max_burgundy_large.png'); ?>" class="fade-in" alt="iPhone 18 Pro">
               </div>
               <h3 class="product-title">iPhone 18 Pro</h3>
               <p class="product-description">Pro Fusion camera with variable aperture and groundbreaking A20 Pro chip.</p>
@@ -161,7 +161,7 @@
             <div class="product-overlay"></div>
             <div class="product-content">
               <div class="product-img-wrap">
-                <img src="<?= base_url(relativePath: 'appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_4_large.png'); ?>" class="fade-in" alt="Apple Watch Ultra">
+                <img src="<?= base_url(relativePath: 'images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_4_large.png'); ?>" class="fade-in" alt="Apple Watch Ultra">
               </div>
               <h3 class="product-title">Apple Watch Ultra</h3>
               <p class="product-description">Rugged titanium design with multi-day battery and dual-frequency GPS.</p>
@@ -180,7 +180,7 @@
             <div class="product-overlay"></div>
             <div class="product-content">
               <div class="product-img-wrap">
-                <img src="<?= base_url(relativePath: 'appleProducts/apple_watch_series_12/images/compare_apple_watch_series_12_large.png'); ?>" class="fade-in" alt="Apple Watch Series 12">
+                <img src="<?= base_url(relativePath: 'images/appleProducts/apple_watch_series_12/images/compare_apple_watch_series_12_large.png'); ?>" class="fade-in" alt="Apple Watch Series 12">
               </div>
               <h3 class="product-title">Apple Watch Series 12</h3>
               <p class="product-description">Advanced health insights, brilliant wide-angle display, and all-day battery.</p>

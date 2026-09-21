@@ -5401,5 +5401,5 @@
  
 
   <!-- ==================== UNIVERSAL B2B MODAL ==================== -->
-  <?php include_once APPPATH . 'Views/ui/images/appleProducts/partials/apple_buy_modal.php'; ?>
+  <?php include_once APPPATH . 'Views/ui/appleProducts/partials/apple_buy_modal.php'; ?>
 </body></html>
