@@ -107,7 +107,7 @@
               </div>
               <h3 class="product-title">Mac Mini</h3>
               <p class="product-description">Compact desktop power with Apple silicon for every workspace.</p>
-              <a href="<?= base_url('mac-mini') ?>" class="product-button-preorder">Buy Now</a>
+              <a href="<?= base_url('mac-mini') ?>" class="product-button-preorder">Preorder Now</a>
             </div>
           </div>
 
@@ -126,7 +126,7 @@
               </div>
               <h3 class="product-title">Mac Studio</h3>
               <p class="product-description">Pro-level desktop performance for creative professionals and studios.</p>
-              <a href="<?= base_url('mac-studio') ?>" class="product-button-preorder">Buy Now</a>
+              <a href="<?= base_url('mac-studio') ?>" class="product-button-preorder">Preorder Now</a>
             </div>
           </div>
 
@@ -200,7 +200,7 @@
             <div class="product-overlay"></div>
             <div class="product-content">
               <div class="product-img-wrap">
-                <img src="<?= base_url(relativePath: 'appleProducts/apple_airpods/images/hero_airpods_5_large.png'); ?>" class="fade-in" alt="Apple AirPods">
+                <img src="<?= base_url(relativePath: 'images/appleProducts/apple_airpods/images/hero_airpods_5_large.png'); ?>" class="fade-in" alt="Apple AirPods">
               </div>
               <h3 class="product-title">AirPods</h3>
               <p class="product-description">Active Noise Cancellation, Adaptive Audio, and exceptional acoustic architecture.</p>
