@@ -172,11 +172,11 @@
   }
 </style>
 
-<body class="bg-white text-[#1d1d1f] antialiased selection:bg-blue-100 selection:text-blue-900" data-product-key="mac_studio">
+<div class="bg-white text-[#1d1d1f] antialiased selection:bg-blue-100 selection:text-blue-900" data-product-key="mac_studio">
 
   <!-- ==================== STICKY PRODUCT SUBNAV ==================== -->
   <div id="apple-subnav"
-    class="sticky top-[58px] sm:top-[73px] z-40 w-full apple-subnav-blur border-b border-black/[0.06] transition-all duration-300 shadow-xs">
+    class="sticky top-[58px] sm:top-[72px] z-40 w-full apple-subnav-blur border-b border-black/[0.06] transition-all duration-300 shadow-xs">
     <div class="max-w-[1024px] mx-auto px-3 sm:px-4 h-11 sm:h-13 flex items-center justify-between py-1.5 sm:py-2.5">
       <div class="flex items-baseline space-x-2 sm:space-x-3">
         <a href="#sec-hero"
@@ -196,7 +196,7 @@
 
         <button
           class="trigger-buy-modal bg-[#0071e3] hover:bg-[#0077ed] text-white px-3.5 sm:px-4 py-1.5 rounded-full text-xs font-medium transition duration-200 transform hover:scale-[1.03] shadow-sm flex items-center gap-1.5 cursor-pointer">
-          <span>Buy Now</span>
+          <span>Preorder Now</span>
           <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
           </svg>
@@ -209,12 +209,12 @@
   <main class="w-full bg-white overflow-hidden pb-12 sm:pb-20">
 
     <!-- ==================== SECTION 1: HERO BANNER ==================== -->
-    <section id="sec-hero" class="w-full bg-[#f5f5f7] relative border-b border-gray-200/50 pt-2 sm:pt-4 pb-8 sm:pb-12">
+    <section id="sec-hero" class="w-full bg-[#f5f5f7] relative border-b border-gray-200/50 pt-10 sm:pt-14 md:pt-16 pb-8 sm:pb-12 scroll-mt-24 sm:scroll-mt-32">
       <div class="max-w-[1440px] mx-auto relative group px-4 sm:px-6">
-        <picture>
+        <picture class="block pt-2 sm:pt-4">
           <img src="<?= base_url('images/appleProducts/mac_studio/') ?>Section_1.png"
             alt="Mac Studio - Brawn of a new age. Supercharged by M2 Max and M2 Ultra."
-            class="w-full h-auto max-w-[1100px] mx-auto block object-contain" loading="eager">
+            class="w-full h-auto max-w-[840px] sm:max-w-[900px] lg:max-w-[940px] max-h-[440px] sm:max-h-[500px] mx-auto block object-contain" loading="eager">
         </picture>
 
         <!-- Polished typographic sub-headline & Buy CTA -->
@@ -227,7 +227,7 @@
           </p>
           <div class="flex items-center justify-center gap-3.5">
             <button class="trigger-buy-modal bg-[#0071e3] hover:bg-[#0077ed] text-white px-7 py-2.5 rounded-full text-xs sm:text-sm font-semibold shadow-md hover:shadow-lg transition-all transform hover:scale-[1.02] cursor-pointer" data-product-key="mac_studio">
-              Buy Now
+              Preorder Now
             </button>
             <a href="#sec-chips" class="text-xs sm:text-sm font-semibold text-[#0071e3] hover:underline px-4 py-2.5 inline-flex items-center gap-1">
               Explore M2 Chips &darr;
@@ -471,7 +471,7 @@
               <button
                 class="trigger-buy-modal group inline-flex items-center gap-1.5 text-xs font-semibold text-[#0071e3] hover:text-[#0077ed] transition-colors cursor-pointer"
                 data-preset-chip="m2max" aria-label="Buy Mac Studio with Apple M2 Max">
-                Configure &amp; Buy Now
+                Configure &amp; Preorder Now
                 <svg class="w-3.5 h-3.5 transition-transform duration-200 group-hover:translate-x-0.5" fill="none"
                   stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
@@ -525,7 +525,7 @@
               <button
                 class="trigger-buy-modal group inline-flex items-center gap-1.5 text-xs font-semibold text-[#0071e3] hover:text-[#0077ed] transition-colors cursor-pointer"
                 data-preset-chip="m2ultra" aria-label="Buy Mac Studio with Apple M2 Ultra">
-                Configure &amp; Buy Now
+                Configure &amp; Preorder Now
                 <svg class="w-3.5 h-3.5 transition-transform duration-200 group-hover:translate-x-0.5" fill="none"
                   stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
@@ -602,7 +602,7 @@
           </div>
           <button
             class="trigger-buy-modal group flex-shrink-0 inline-flex items-center gap-2 bg-[#1d1d1f] hover:bg-[#2d2d2f] text-white text-xs sm:text-sm font-semibold px-6 py-2.5 rounded-full shadow-sm transition-all duration-200 cursor-pointer">
-            <span>Configure &amp; Buy Now</span>
+            <span>Configure &amp; Preorder Now</span>
             <svg class="w-3.5 h-3.5 transition-transform duration-200 group-hover:translate-x-0.5" fill="none"
               stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
@@ -702,5 +702,5 @@
     console.log('Mac Studio page initialized.');
   });
   </script>
-</body>
+</div>
 
