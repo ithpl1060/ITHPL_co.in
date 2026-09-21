@@ -186,7 +186,7 @@
       <div class="flex items-center space-x-3 sm:space-x-6 text-xs">
         <nav class="hidden md:flex items-center space-x-5 text-gray-600">
           <a href="#sec-hero" class="hover:text-black font-medium text-black">Overview</a>
-          <a href="#sec-chips" class="hover:text-black">M2 Max &amp; M2 Ultra</a>
+          <a href="#sec-chips" class="hover:text-black">M5 Max &amp; M5 Ultra</a>
           <a href="#sec-design" class="hover:text-black">Architecture</a>
           <a href="#sec-ports" class="hover:text-black">Ports</a>
           <a href="#sec-chip-compare" class="hover:text-blue-600 font-medium text-blue-600">Compare Chips</a>
@@ -195,8 +195,9 @@
         </nav>
 
         <button
-          class="trigger-buy-modal bg-[#0071e3] hover:bg-[#0077ed] text-white px-3.5 sm:px-4 py-1.5 rounded-full text-xs font-medium transition duration-200 transform hover:scale-[1.03] shadow-sm flex items-center gap-1.5 cursor-pointer">
-          <span>Preorder Now</span>
+          class="trigger-buy-modal bg-[#0071e3] hover:bg-[#0077ed] text-white px-3.5 sm:px-4 py-1.5 rounded-full text-xs font-medium transition duration-200 transform hover:scale-[1.03] shadow-sm flex items-center gap-1.5 cursor-pointer"
+          data-product-key="mac_studio">
+          <span>Pre-Order Now</span>
           <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
           </svg>
@@ -213,24 +214,24 @@
       <div class="max-w-[1440px] mx-auto relative group px-4 sm:px-6">
         <picture class="block pt-2 sm:pt-4">
           <img src="<?= base_url('images/appleProducts/mac_studio/') ?>Section_1.png"
-            alt="Mac Studio - Brawn of a new age. Supercharged by M2 Max and M2 Ultra."
+            alt="Mac Studio - Brawn of a new age. Supercharged by M5 Max and M5 Ultra."
             class="w-full h-auto max-w-[840px] sm:max-w-[900px] lg:max-w-[940px] max-h-[440px] sm:max-h-[500px] mx-auto block object-contain" loading="eager">
         </picture>
 
         <!-- Polished typographic sub-headline & Buy CTA -->
         <div class="text-center max-w-2xl mx-auto px-4 pt-4 sm:pt-6">
           <p class="text-xs sm:text-sm font-semibold uppercase tracking-widest text-[#86868b] mb-1.5">
-            Apple M2 Max &amp; M2 Ultra
+            Apple M5 Max &amp; M5 Ultra
           </p>
           <p class="text-xs sm:text-sm md:text-base text-[#6e6e73] leading-relaxed max-w-xl mx-auto mb-6">
             Built for pushing the limits, from 3D rendering across multiple displays to training custom AI models right on your desk. It’s the ultimate pro desktop.
           </p>
           <div class="flex items-center justify-center gap-3.5">
             <button class="trigger-buy-modal bg-[#0071e3] hover:bg-[#0077ed] text-white px-7 py-2.5 rounded-full text-xs sm:text-sm font-semibold shadow-md hover:shadow-lg transition-all transform hover:scale-[1.02] cursor-pointer" data-product-key="mac_studio">
-              Preorder Now
+              Pre-Order Now
             </button>
-            <a href="#sec-chips" class="text-xs sm:text-sm font-semibold text-[#0071e3] hover:underline px-4 py-2.5 inline-flex items-center gap-1">
-              Explore M2 Chips &darr;
+            <a href="#sec-chip-compare" class="text-xs sm:text-sm font-semibold text-[#0071e3] hover:underline px-4 py-2.5 inline-flex items-center gap-1">
+              Explore M5 Chips &darr;
             </a>
           </div>
         </div>
@@ -244,7 +245,7 @@
       <section id="sec-chips" class="apple-card-dark relative overflow-hidden group">
         <picture>
           <img src="<?= base_url('images/appleProducts/mac_studio/') ?>Section_2.png"
-            alt="Mac Studio supercharged by Apple M2 Max and M2 Ultra chips"
+            alt="Mac Studio supercharged by Apple M5 Max and M5 Ultra chips"
             class="apple-card-img transition-transform duration-700 group-hover:scale-[1.01]" loading="lazy">
         </picture>
       </section>
@@ -277,7 +278,7 @@
         <div class="hotspot-pin" style="left: 77%; top: 68%;" title="Front Connectivity">
           +
           <div class="hotspot-tooltip">
-            <strong>Front-Facing Ports</strong><br>Convenient SDXC card slot and 2× USB-C or Thunderbolt 4
+            <strong>Front-Facing Ports</strong><br>Convenient SDXC card slot and 2× Thunderbolt / USB-C
           </div>
         </div>
       </section>
@@ -286,7 +287,7 @@
       <section id="sec-performance" class="apple-card-dark relative overflow-hidden group">
         <picture>
           <img src="<?= base_url('images/appleProducts/mac_studio/') ?>Section_4.png"
-            alt="Outrageous performance: M2 Max vs M2 Ultra CPU, GPU, and ProRes media engine benchmarks"
+            alt="Outrageous performance: M5 Max vs M5 Ultra CPU, GPU, and ProRes media engine benchmarks"
             class="apple-card-img transition-transform duration-700 group-hover:scale-[1.01]" loading="lazy">
         </picture>
       </section>
@@ -307,19 +308,19 @@
           </div>
         </div>
 
-        <!-- Front Right: 2x USB-C / Thunderbolt 4 -->
-        <div class="hotspot-pin" style="left: 29%; top: 44%;" title="Front USB-C / TB4">
+        <!-- Front Right: 2x USB-C / Thunderbolt 5 -->
+        <div class="hotspot-pin" style="left: 29%; top: 44%;" title="Front USB-C / TB">
           +
           <div class="hotspot-tooltip">
-            <strong>2× Front USB-C / Thunderbolt 4</strong><br>Up to 10Gb/s on M2 Max, up to 40Gb/s on M2 Ultra
+            <strong>2× Front Thunderbolt / USB-C</strong><br>Up to 40Gb/s on M5 Max, up to 120Gb/s on M5 Ultra (Thunderbolt 5)
           </div>
         </div>
 
-        <!-- Rear Left: 4x Thunderbolt 4 -->
-        <div class="hotspot-pin" style="left: 65%; top: 44%;" title="4x Thunderbolt 4">
+        <!-- Rear Left: 4x Thunderbolt 4/5 -->
+        <div class="hotspot-pin" style="left: 65%; top: 44%;" title="4x Thunderbolt">
           +
           <div class="hotspot-tooltip">
-            <strong>4× Thunderbolt 4 Ports</strong><br>Up to 40Gb/s, DisplayPort 1.4, external GPUs &amp; RAID
+            <strong>4× Thunderbolt Ports</strong><br>Up to 120Gb/s bandwidth, DisplayPort 2.1 &amp; high-speed RAID
           </div>
         </div>
 
@@ -346,7 +347,7 @@
         <article class="apple-card group">
           <picture>
             <img src="<?= base_url('images/appleProducts/mac_studio/') ?>Section_6.png"
-              alt="Mac Studio supports up to 8 displays simultaneously on M2 Ultra"
+              alt="Mac Studio supports up to 8 displays simultaneously on M5 Ultra"
               class="apple-card-img transition-transform duration-500 group-hover:scale-[1.01]" loading="lazy">
           </picture>
         </article>
@@ -388,11 +389,70 @@
     <section id="sec-chip-compare" class="w-full mt-8 sm:mt-14 bg-[#f5f5f7] py-8 sm:py-14 border-y border-gray-200/50">
       <div class="max-w-[1440px] xl:max-w-[1680px] 2xl:max-w-[2044px] mx-auto px-3 sm:px-6 lg:px-8">
 
+        <!-- ==================== CHOOSE YOUR SUPERPOWER SHOWCASE (MATCHING REFERENCE) ==================== -->
+        <div class="bg-black text-white rounded-3xl p-6 sm:p-12 mb-10 shadow-2xl border border-white/10 relative overflow-hidden">
+          <div class="text-center mb-8 sm:mb-12">
+            <h3 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight text-white">
+              Choose your superpower.
+            </h3>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-10 sm:gap-14 max-w-4xl mx-auto items-start">
+            <!-- M5 Max Column -->
+            <div class="flex flex-col items-center text-center">
+              <!-- M5 Max Chip Visual Square -->
+              <div class="w-32 h-32 sm:w-36 sm:h-36 rounded-2xl bg-gradient-to-br from-[#1a1238] via-[#24134b] to-[#0d091e] border border-purple-500/40 flex flex-col items-center justify-center p-3 shadow-[0_0_40px_rgba(168,85,247,0.35)] relative group transition-transform duration-300 hover:scale-105 mb-6">
+                <div class="text-white text-3xl font-extrabold tracking-tight flex items-center justify-center gap-1">
+                  <svg class="w-7 h-7 inline fill-current -mt-1" viewBox="0 0 384 512">
+                    <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/>
+                  </svg>
+                  <span>M5</span>
+                </div>
+                <span class="text-[11px] font-bold tracking-widest text-purple-200 uppercase mt-0.5">MAX</span>
+                <div class="absolute inset-0 rounded-2xl bg-gradient-to-t from-purple-500/25 via-transparent to-transparent pointer-events-none"></div>
+              </div>
+
+              <!-- Specs Bullets matching official reference -->
+              <div class="space-y-2 text-xs sm:text-sm font-medium text-[#d8b4fe]">
+                <p class="font-bold text-white">18-core CPU</p>
+                <p>Up to 40-core GPU</p>
+                <p>Up to 128GB unified memory</p>
+                <p>Up to 614GB/s memory bandwidth</p>
+                <p>16-core Neural Engine</p>
+              </div>
+            </div>
+
+            <!-- M5 Ultra Column -->
+            <div class="flex flex-col items-center text-center">
+              <!-- M5 Ultra Chip Visual Square -->
+              <div class="w-32 h-32 sm:w-36 sm:h-36 rounded-2xl bg-gradient-to-br from-[#0c2444] via-[#103a66] to-[#071526] border border-cyan-400/50 flex flex-col items-center justify-center p-3 shadow-[0_0_40px_rgba(6,182,212,0.35)] relative group transition-transform duration-300 hover:scale-105 mb-6">
+                <div class="text-white text-3xl font-extrabold tracking-tight flex items-center justify-center gap-1">
+                  <svg class="w-7 h-7 inline fill-current -mt-1" viewBox="0 0 384 512">
+                    <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/>
+                  </svg>
+                  <span>M5</span>
+                </div>
+                <span class="text-[11px] font-bold tracking-widest text-cyan-200 uppercase mt-0.5">ULTRA</span>
+                <div class="absolute inset-0 rounded-2xl bg-gradient-to-t from-cyan-400/25 via-transparent to-transparent pointer-events-none"></div>
+              </div>
+
+              <!-- Specs Bullets matching official reference -->
+              <div class="space-y-2 text-xs sm:text-sm font-medium text-[#a5f3fc]">
+                <p class="font-bold text-white">Up to 36-core CPU</p>
+                <p>Up to 80-core GPU</p>
+                <p>Up to 512GB unified memory</p>
+                <p>1.2TB/s memory bandwidth</p>
+                <p>32-core Neural Engine</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- Section Header & Polished Segmented Control -->
         <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5 mb-6 sm:mb-8 pb-4 border-b border-gray-300/60">
           <div>
             <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-[#1d1d1f]">Which Mac Studio is right for you?</h2>
-            <p class="text-gray-500 text-xs sm:text-sm mt-1">Choose between the high-flying M2 Max or the monumental M2 Ultra.</p>
+            <p class="text-gray-500 text-xs sm:text-sm mt-1">Choose between the powerhouse M5 Max or the monumental M5 Ultra.</p>
           </div>
 
           <!-- Apple macOS-style Segmented Control -->
@@ -405,54 +465,51 @@
             </button>
             <button
               class="chip-tab-btn relative z-10 px-4 sm:px-5 py-[7px] rounded-[9px] text-[11px] sm:text-xs font-semibold text-[#3c3c43]/70 hover:text-[#1d1d1f] transition-all duration-200 cursor-pointer"
-              data-chip="m2max" aria-pressed="false">
-              Apple M2 Max
+              data-chip="m5max" aria-pressed="false">
+              Apple M5 Max
             </button>
             <button
               class="chip-tab-btn relative z-10 px-4 sm:px-5 py-[7px] rounded-[9px] text-[11px] sm:text-xs font-semibold text-[#3c3c43]/70 hover:text-[#1d1d1f] transition-all duration-200 cursor-pointer"
-              data-chip="m2ultra" aria-pressed="false">
-              Apple M2 Ultra
+              data-chip="m5ultra" aria-pressed="false">
+              Apple M5 Ultra
             </button>
           </div>
-        </div>
-
-        <!-- Section Sub-headline -->
-        <div class="text-center my-6 sm:my-10 max-w-3xl mx-auto">
-          <h3 class="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-[#1d1d1f] leading-snug">
-            Phenomenal power for pro workflows.<br class="hidden sm:inline"> Take on tasks of nearly any scale.
-          </h3>
         </div>
 
         <!-- Visual Chip Comparison Cards Grid -->
         <div id="chip-cards-grid" class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-9 max-w-6xl mx-auto transition-all duration-300">
 
-          <!-- M2 Max Card -->
+          <!-- M5 Max Card -->
           <div class="chip-compare-card bg-white rounded-3xl p-6 sm:p-8 shadow-sm border border-black/[0.06] transition-all duration-300 flex flex-col justify-between"
-            data-chip="m2max">
+            data-chip="m5max">
             <div>
               <!-- Card Header -->
               <div class="text-center pb-5 mb-5 border-b border-gray-100">
                 <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-semibold mb-2">
                   <span class="w-1.5 h-1.5 rounded-full bg-blue-600"></span>
-                  Apple M2 Max
+                  Apple M5 Max
                 </span>
-                <h4 class="text-2xl sm:text-3xl font-bold text-[#1d1d1f]">Mac Studio (M2 Max)</h4>
-                <p class="text-xs sm:text-sm text-gray-500 mt-1">Exceptional speed for design, music, and multi-stream 4K editing</p>
+                <h4 class="text-2xl sm:text-3xl font-bold text-[#1d1d1f]">Mac Studio (M5 Max)</h4>
+                <p class="text-xs sm:text-sm text-gray-500 mt-1">Exceptional speed for design, 3D rendering, and multi-stream 8K ProRes editing</p>
               </div>
 
               <!-- Feature Tiles Spec List -->
               <div class="space-y-4 text-xs sm:text-sm text-[#1d1d1f]">
                 <div class="bg-[#f5f5f7] p-3.5 rounded-2xl flex items-center justify-between">
                   <span class="text-gray-500">Processing Power</span>
-                  <span class="font-bold">12-core CPU with 8 performance cores</span>
+                  <span class="font-bold">18-core CPU with next-gen performance cores</span>
                 </div>
                 <div class="bg-[#f5f5f7] p-3.5 rounded-2xl flex items-center justify-between">
                   <span class="text-gray-500">Graphics Architecture</span>
-                  <span class="font-bold">30-core GPU (configurable to 38-core)</span>
+                  <span class="font-bold">Up to 40-core GPU with hardware ray tracing</span>
                 </div>
                 <div class="bg-[#f5f5f7] p-3.5 rounded-2xl flex items-center justify-between">
                   <span class="text-gray-500">Unified Memory</span>
-                  <span class="font-bold">Up to 96GB · 400GB/s bandwidth</span>
+                  <span class="font-bold">Up to 128GB · 614GB/s bandwidth</span>
+                </div>
+                <div class="bg-[#f5f5f7] p-3.5 rounded-2xl flex items-center justify-between">
+                  <span class="text-gray-500">AI Compute Engine</span>
+                  <span class="font-bold text-blue-600">16-core Neural Engine</span>
                 </div>
                 <div class="bg-[#f5f5f7] p-3.5 rounded-2xl flex items-center justify-between">
                   <span class="text-gray-500">Display Support</span>
@@ -460,18 +517,18 @@
                 </div>
                 <div class="bg-[#f5f5f7] p-3.5 rounded-2xl flex items-center justify-between">
                   <span class="text-gray-500">Front Connectivity</span>
-                  <span class="font-bold">2× USB-C (10Gb/s) + 1× SDXC slot</span>
+                  <span class="font-bold">2× Thunderbolt 4 (40Gb/s) + 1× SDXC slot</span>
                 </div>
               </div>
             </div>
 
             <!-- Card Footer CTA -->
             <div class="pt-6 mt-6 border-t border-gray-100 flex items-center justify-between">
-              <span class="text-[11px] text-gray-400 font-medium">Apple M2 Max · Mac Studio</span>
+              <span class="text-[11px] text-gray-400 font-medium">Apple M5 Max · Mac Studio</span>
               <button
                 class="trigger-buy-modal group inline-flex items-center gap-1.5 text-xs font-semibold text-[#0071e3] hover:text-[#0077ed] transition-colors cursor-pointer"
-                data-preset-chip="m2max" aria-label="Buy Mac Studio with Apple M2 Max">
-                Configure &amp; Preorder Now
+                data-product-key="mac_studio" data-preset-chip="m5max" aria-label="Buy Mac Studio with Apple M5 Max">
+                Configure &amp; Pre-Order Now
                 <svg class="w-3.5 h-3.5 transition-transform duration-200 group-hover:translate-x-0.5" fill="none"
                   stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
@@ -480,33 +537,37 @@
             </div>
           </div>
 
-          <!-- M2 Ultra Card -->
+          <!-- M5 Ultra Card -->
           <div class="chip-compare-card bg-white rounded-3xl p-6 sm:p-8 shadow-sm border border-black/[0.06] transition-all duration-300 flex flex-col justify-between"
-            data-chip="m2ultra">
+            data-chip="m5ultra">
             <div>
               <!-- Card Header -->
               <div class="text-center pb-5 mb-5 border-b border-gray-100">
                 <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-purple-50 border border-purple-200 text-purple-700 text-xs font-semibold mb-2">
                   <span class="w-1.5 h-1.5 rounded-full bg-purple-600"></span>
-                  Apple M2 Ultra
+                  Apple M5 Ultra
                 </span>
-                <h4 class="text-2xl sm:text-3xl font-bold text-[#1d1d1f]">Mac Studio (M2 Ultra)</h4>
-                <p class="text-xs sm:text-sm text-gray-500 mt-1">Colossal horsepower for massive 3D environments, LLMs, and 8K ProRes</p>
+                <h4 class="text-2xl sm:text-3xl font-bold text-[#1d1d1f]">Mac Studio (M5 Ultra)</h4>
+                <p class="text-xs sm:text-sm text-gray-500 mt-1">Colossal horsepower for massive 3D environments, LLMs, and multi-stream 8K ProRes</p>
               </div>
 
               <!-- Feature Tiles Spec List -->
               <div class="space-y-4 text-xs sm:text-sm text-[#1d1d1f]">
                 <div class="bg-[#f5f5f7] p-3.5 rounded-2xl flex items-center justify-between">
                   <span class="text-gray-500">Processing Power</span>
-                  <span class="font-bold">24-core CPU with 16 performance cores</span>
+                  <span class="font-bold">Up to 36-core CPU with extreme scaling</span>
                 </div>
                 <div class="bg-[#f5f5f7] p-3.5 rounded-2xl flex items-center justify-between">
                   <span class="text-gray-500">Graphics Architecture</span>
-                  <span class="font-bold">60-core GPU (configurable to 76-core)</span>
+                  <span class="font-bold">Up to 80-core GPU with pro rendering engine</span>
                 </div>
                 <div class="bg-[#f5f5f7] p-3.5 rounded-2xl flex items-center justify-between">
                   <span class="text-gray-500">Unified Memory</span>
-                  <span class="font-bold">Up to 192GB · 800GB/s bandwidth</span>
+                  <span class="font-bold">Up to 512GB · 1.2TB/s memory bandwidth</span>
+                </div>
+                <div class="bg-[#f5f5f7] p-3.5 rounded-2xl flex items-center justify-between">
+                  <span class="text-gray-500">AI Compute Engine</span>
+                  <span class="font-bold text-purple-600">32-core Neural Engine</span>
                 </div>
                 <div class="bg-[#f5f5f7] p-3.5 rounded-2xl flex items-center justify-between">
                   <span class="text-gray-500">Display Support</span>
@@ -514,18 +575,18 @@
                 </div>
                 <div class="bg-[#f5f5f7] p-3.5 rounded-2xl flex items-center justify-between">
                   <span class="text-gray-500">Front Connectivity</span>
-                  <span class="font-bold">2× Thunderbolt 4 (40Gb/s) + 1× SDXC</span>
+                  <span class="font-bold">2× Thunderbolt 5 (120Gb/s) + 1× SDXC slot</span>
                 </div>
               </div>
             </div>
 
             <!-- Card Footer CTA -->
             <div class="pt-6 mt-6 border-t border-gray-100 flex items-center justify-between">
-              <span class="text-[11px] text-gray-400 font-medium">Apple M2 Ultra · Mac Studio</span>
+              <span class="text-[11px] text-gray-400 font-medium">Apple M5 Ultra · Mac Studio</span>
               <button
                 class="trigger-buy-modal group inline-flex items-center gap-1.5 text-xs font-semibold text-[#0071e3] hover:text-[#0077ed] transition-colors cursor-pointer"
-                data-preset-chip="m2ultra" aria-label="Buy Mac Studio with Apple M2 Ultra">
-                Configure &amp; Preorder Now
+                data-product-key="mac_studio" data-preset-chip="m5ultra" aria-label="Buy Mac Studio with Apple M5 Ultra">
+                Configure &amp; Pre-Order Now
                 <svg class="w-3.5 h-3.5 transition-transform duration-200 group-hover:translate-x-0.5" fill="none"
                   stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
@@ -601,8 +662,9 @@
             <p class="text-xs text-gray-500 mt-0.5">GST input tax invoice · Custom volume pricing · Dedicated Apple Account Specialist</p>
           </div>
           <button
-            class="trigger-buy-modal group flex-shrink-0 inline-flex items-center gap-2 bg-[#1d1d1f] hover:bg-[#2d2d2f] text-white text-xs sm:text-sm font-semibold px-6 py-2.5 rounded-full shadow-sm transition-all duration-200 cursor-pointer">
-            <span>Configure &amp; Preorder Now</span>
+            class="trigger-buy-modal group flex-shrink-0 inline-flex items-center gap-2 bg-[#1d1d1f] hover:bg-[#2d2d2f] text-white text-xs sm:text-sm font-semibold px-6 py-2.5 rounded-full shadow-sm transition-all duration-200 cursor-pointer"
+            data-product-key="mac_studio">
+            <span>Configure &amp; Pre-Order Now</span>
             <svg class="w-3.5 h-3.5 transition-transform duration-200 group-hover:translate-x-0.5" fill="none"
               stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
