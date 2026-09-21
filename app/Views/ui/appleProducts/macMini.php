@@ -155,9 +155,7 @@
   }
 </style>
 
-<body class="bg-white text-[#1d1d1f] antialiased selection:bg-blue-100 selection:text-blue-900" data-product-key="mac_mini">
-
-  
+<div class="bg-white text-[#1d1d1f] antialiased selection:bg-blue-100 selection:text-blue-900" data-product-key="mac_mini">
 
   <!-- ==================== STICKY PRODUCT SUBNAV ==================== -->
   <div id="apple-subnav"
@@ -174,14 +172,15 @@
           <a href="#sec-hero" class="hover:text-black font-medium text-black">Overview</a>
           <a href="#sec-b2b" class="hover:text-blue-600 font-medium text-blue-600">Enterprise</a>
           <a href="#sec-ports" class="hover:text-black">Ports</a>
-          <a href="#sec-chips" class="hover:text-black">M4 & M4 Pro</a>
+          <a href="#sec-chips" class="hover:text-black">M6 &amp; M5 Pro</a>
           <a href="#sec-specs" class="hover:text-black">Tech Specs</a>
           <a href="#sec-legal" class="hover:text-black text-gray-400">Legal</a>
         </nav>
 
         <button
-          class="trigger-buy-modal bg-[#0071e3] hover:bg-[#0077ed] text-white px-3.5 sm:px-4 py-1.5 rounded-full text-xs font-medium transition duration-200 transform hover:scale-[1.03] shadow-sm flex items-center gap-1.5 cursor-pointer">
-          <span>Preorder Now</span>
+          class="trigger-buy-modal bg-[#0071e3] hover:bg-[#0077ed] text-white px-3.5 sm:px-4 py-1.5 rounded-full text-xs font-medium transition duration-200 transform hover:scale-[1.03] shadow-sm flex items-center gap-1.5 cursor-pointer"
+          data-product-key="mac_mini">
+          <span>Pre-Order Now</span>
           <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
           </svg>
@@ -324,11 +323,10 @@
           </picture>
         </article>
 
-        <!-- Section 5: Supercharged by M4 & M4 Pro Chips -->
+        <!-- Section 5: Supercharged by M6 & M5 Pro Chips -->
         <article id="sec-chips" class="apple-card group">
           <picture>
-            
-            <img src="<?= base_url('images/appleProducts/mac_mini/') ?>chips_card.jpg" alt="Supercharged by Apple M4 and M4 Pro chips"
+            <img src="<?= base_url('images/appleProducts/mac_mini/') ?>chips_card.jpg" alt="Supercharged by Apple M6 and M5 Pro chips"
               class="apple-card-img transition-transform duration-500 group-hover:scale-[1.01]" loading="lazy"
               width="1003" height="878">
           </picture>
@@ -415,10 +413,10 @@
         <div
           class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5 mb-6 sm:mb-8 pb-4 border-b border-gray-300/60">
           <div>
-            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-[#1d1d1f]">Which chip is right for
-              you?</h2>
-            <p class="text-gray-500 text-xs sm:text-sm mt-1">Choose between the powerhouse Apple M4 or the pro-level
-              Apple M4 Pro.</p>
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-[#1d1d1f]">Pre-order Mac mini</h2>
+            <p class="text-gray-500 text-xs sm:text-sm mt-1 max-w-2xl">
+              M6 and M5 Pro make everything feel extra responsive. And for the first time on Mac mini, Neural Accelerators in the GPU speed up all kinds of AI tasks.
+            </p>
           </div>
 
           <!-- Apple macOS-style Segmented Control -->
@@ -431,49 +429,69 @@
             </button>
             <button
               class="chip-tab-btn relative z-10 px-4 sm:px-5 py-[7px] rounded-[9px] text-[11px] sm:text-xs font-semibold text-[#3c3c43]/70 hover:text-[#1d1d1f] transition-all duration-200 cursor-pointer"
-              data-chip="m4" aria-pressed="false">
-              Apple M4
+              data-chip="m6" aria-pressed="false">
+              Apple M6
             </button>
             <button
               class="chip-tab-btn relative z-10 px-4 sm:px-5 py-[7px] rounded-[9px] text-[11px] sm:text-xs font-semibold text-[#3c3c43]/70 hover:text-[#1d1d1f] transition-all duration-200 cursor-pointer"
-              data-chip="m4pro" aria-pressed="false">
-              Apple M4 Pro
+              data-chip="m5pro" aria-pressed="false">
+              Apple M5 Pro
             </button>
           </div>
         </div>
 
-        <!-- Section Sub-headline: The overarching comparison statement -->
+        <!-- Section Sub-headline -->
         <div class="text-center my-6 sm:my-10 max-w-3xl mx-auto">
+          <p class="text-xs font-bold uppercase tracking-widest text-blue-600 mb-1">Chip Architecture</p>
           <h3 class="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-[#1d1d1f] leading-snug">
-            Here's how the latest Mac mini<br class="hidden sm:inline"> compares to other models.
+            Choose from these powerful options.
           </h3>
         </div>
 
         <!-- Visual Chip Comparison Cards Grid -->
         <div id="chip-cards-grid"
           class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-9 max-w-6xl mx-auto transition-all duration-300">
-          <!-- M4 Card -->
+          <!-- M6 Card -->
           <div
             class="chip-compare-card bg-white rounded-3xl p-5 sm:p-7 shadow-sm border border-black/[0.06] transition-all duration-300 flex flex-col justify-between"
-            data-chip="m4">
+            data-chip="m6">
             <div>
               <!-- Card Header -->
               <div class="text-center pb-4 mb-4 border-b border-gray-100">
                 <span
                   class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-semibold mb-2">
                   <span class="w-1.5 h-1.5 rounded-full bg-blue-600"></span>
-                  Apple M4
+                  Apple M6 chip
                 </span>
-                <h4 class="text-xl sm:text-2xl font-bold text-[#1d1d1f]">Mac mini (M4)</h4>
-                <p class="text-xs sm:text-sm text-gray-500 mt-0.5">compared to Mac mini (M1)</p>
+                <h4 class="text-xl sm:text-2xl font-bold text-[#1d1d1f]">Mac mini (M6)</h4>
+                <p class="text-xs sm:text-sm text-gray-500 mt-1">Blazing fast, with next-level performance, for the personal, professional, and creative tasks you do every day.</p>
+              </div>
+
+              <!-- Spec highlights list -->
+              <div class="space-y-3 mb-5 text-xs">
+                <div class="bg-[#f5f5f7] p-3 rounded-xl flex items-center justify-between">
+                  <span class="text-gray-500">Processing Architecture</span>
+                  <span class="font-bold text-[#1d1d1f]">12-core CPU · 12-core GPU</span>
+                </div>
+                <div class="bg-[#f5f5f7] p-3 rounded-xl flex items-center justify-between">
+                  <span class="text-gray-500">AI Engine</span>
+                  <span class="font-bold text-blue-600">Dual 16-core Neural Engine</span>
+                </div>
+                <div class="bg-[#f5f5f7] p-3 rounded-xl flex items-center justify-between">
+                  <span class="text-gray-500">Hardware AI Acceleration</span>
+                  <span class="font-bold text-[#1d1d1f]">Neural Accelerators in GPU</span>
+                </div>
+                <div class="bg-[#f5f5f7] p-3 rounded-xl flex items-center justify-between">
+                  <span class="text-gray-500">Unified Memory</span>
+                  <span class="font-bold text-[#1d1d1f]">Up to 32GB unified memory</span>
+                </div>
               </div>
 
               <!-- Clean 4-Feature Tiles Graphic -->
               <div class="relative overflow-hidden rounded-2xl bg-[#f5f5f7]">
                 <picture>
-                  
                   <img src="<?= base_url('images/appleProducts/mac_mini/') ?>chip_compare_m4.jpg"
-                    alt="Mac mini M4 compared to Mac mini M1 features and performance"
+                    alt="Mac mini M6 features and performance"
                     class="w-full h-auto block rounded-2xl transition-transform duration-500 hover:scale-[1.01]"
                     loading="lazy" width="910" height="795">
                 </picture>
@@ -482,11 +500,11 @@
 
             <!-- Polished typographic CTA -->
             <div class="pt-5 mt-5 border-t border-gray-100 flex items-center justify-between">
-              <span class="text-[11px] text-gray-400 font-medium">Apple M4 · Mac mini</span>
+              <span class="text-[11px] text-gray-400 font-medium">Apple M6 · Mac mini</span>
               <button
                 class="trigger-buy-modal group inline-flex items-center gap-1.5 text-xs font-semibold text-[#0071e3] hover:text-[#0077ed] transition-colors cursor-pointer"
-                data-preset-chip="m4" aria-label="Buy Mac mini with Apple M4">
-                Preorder Now
+                data-product-key="mac_mini" data-preset-chip="m6" aria-label="Buy Mac mini with Apple M6">
+                Pre-Order Now
                 <svg class="w-3.5 h-3.5 transition-transform duration-200 group-hover:translate-x-0.5" fill="none"
                   stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
@@ -495,28 +513,47 @@
             </div>
           </div>
 
-          <!-- M4 Pro Card -->
+          <!-- M5 Pro Card -->
           <div
             class="chip-compare-card bg-white rounded-3xl p-5 sm:p-7 shadow-sm border border-black/[0.06] transition-all duration-300 flex flex-col justify-between"
-            data-chip="m4pro">
+            data-chip="m5pro">
             <div>
               <!-- Card Header -->
               <div class="text-center pb-4 mb-4 border-b border-gray-100">
                 <span
                   class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-purple-50 border border-purple-200 text-purple-700 text-xs font-semibold mb-2">
                   <span class="w-1.5 h-1.5 rounded-full bg-purple-600"></span>
-                  Apple M4 Pro
+                  Apple M5 Pro chip
                 </span>
-                <h4 class="text-xl sm:text-2xl font-bold text-[#1d1d1f]">Mac mini (M4 Pro)</h4>
-                <p class="text-xs sm:text-sm text-gray-500 mt-0.5">compared to Mac mini (M2 Pro)</p>
+                <h4 class="text-xl sm:text-2xl font-bold text-[#1d1d1f]">Mac mini (M5 Pro)</h4>
+                <p class="text-xs sm:text-sm text-gray-500 mt-1">Provides more performance and higher memory options for demanding workflows.</p>
+              </div>
+
+              <!-- Spec highlights list -->
+              <div class="space-y-3 mb-5 text-xs">
+                <div class="bg-[#f5f5f7] p-3 rounded-xl flex items-center justify-between">
+                  <span class="text-gray-500">Processing Architecture</span>
+                  <span class="font-bold text-[#1d1d1f]">18-core CPU · 20-core GPU</span>
+                </div>
+                <div class="bg-[#f5f5f7] p-3 rounded-xl flex items-center justify-between">
+                  <span class="text-gray-500">AI Engine</span>
+                  <span class="font-bold text-purple-600">16-core Neural Engine</span>
+                </div>
+                <div class="bg-[#f5f5f7] p-3 rounded-xl flex items-center justify-between">
+                  <span class="text-gray-500">Pro High-Speed I/O</span>
+                  <span class="font-bold text-[#1d1d1f]">Thunderbolt 5 up to 120Gb/s</span>
+                </div>
+                <div class="bg-[#f5f5f7] p-3 rounded-xl flex items-center justify-between">
+                  <span class="text-gray-500">Unified Memory</span>
+                  <span class="font-bold text-[#1d1d1f]">Up to 64GB unified memory</span>
+                </div>
               </div>
 
               <!-- Clean 4-Feature Tiles Graphic -->
               <div class="relative overflow-hidden rounded-2xl bg-[#f5f5f7]">
                 <picture>
-                  
                   <img src="<?= base_url('images/appleProducts/mac_mini/') ?>chip_compare_m4pro.jpg"
-                    alt="Mac mini M4 Pro compared to Mac mini M2 Pro features and performance"
+                    alt="Mac mini M5 Pro features and performance"
                     class="w-full h-auto block rounded-2xl transition-transform duration-500 hover:scale-[1.01]"
                     loading="lazy" width="910" height="795">
                 </picture>
@@ -525,11 +562,11 @@
 
             <!-- Polished typographic CTA -->
             <div class="pt-5 mt-5 border-t border-gray-100 flex items-center justify-between">
-              <span class="text-[11px] text-gray-400 font-medium">Apple M4 Pro · Mac mini</span>
+              <span class="text-[11px] text-gray-400 font-medium">Apple M5 Pro · Mac mini</span>
               <button
                 class="trigger-buy-modal group inline-flex items-center gap-1.5 text-xs font-semibold text-[#0071e3] hover:text-[#0077ed] transition-colors cursor-pointer"
-                data-preset-chip="m4pro" aria-label="Buy Mac mini with Apple M4 Pro">
-                Preorder Now
+                data-product-key="mac_mini" data-preset-chip="m5pro" aria-label="Buy Mac mini with Apple M5 Pro">
+                Pre-Order Now
                 <svg class="w-3.5 h-3.5 transition-transform duration-200 group-hover:translate-x-0.5" fill="none"
                   stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
@@ -616,8 +653,9 @@
             <p class="text-xs text-gray-500 mt-0.5">GST tax invoice · Volume pricing · Zero-touch MDM</p>
           </div>
           <button
-            class="trigger-buy-modal group flex-shrink-0 inline-flex items-center gap-2 bg-[#1d1d1f] hover:bg-[#2d2d2f] text-white text-xs sm:text-sm font-semibold px-6 py-2.5 rounded-full shadow-sm transition-all duration-200 cursor-pointer">
-            <span>Configure &amp; Preorder Now</span>
+            class="trigger-buy-modal group flex-shrink-0 inline-flex items-center gap-2 bg-[#1d1d1f] hover:bg-[#2d2d2f] text-white text-xs sm:text-sm font-semibold px-6 py-2.5 rounded-full shadow-sm transition-all duration-200 cursor-pointer"
+            data-product-key="mac_mini">
+            <span>Configure &amp; Pre-Order Now</span>
             <svg class="w-3.5 h-3.5 transition-transform duration-200 group-hover:translate-x-0.5" fill="none"
               stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
@@ -764,5 +802,5 @@
     console.log('Mac mini page initialized.');
   });
   </script>
-</body>
+</div>
 

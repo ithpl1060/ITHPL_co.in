@@ -448,38 +448,38 @@
   const PRODUCTS = {
     mac_studio: {
       title: 'Buy Mac Studio',
-      chipSeries: 'Apple Silicon M2',
-      memBW: '400–800 GB/s',
+      chipSeries: 'Apple Silicon M5 Max & M5 Ultra',
+      memBW: '614 GB/s – 1.2 TB/s',
       chips: [
-        { v:'m2max',   l:'Apple M2 Max',   badge:'Pro Studio',    bc:'text-blue-700 bg-blue-50',
-          desc:'12-core CPU · 30-core GPU · 400 GB/s', sub:'Front: 2× USB-C · Up to 5 displays' },
-        { v:'m2ultra', l:'Apple M2 Ultra',  badge:'Extreme Tier',  bc:'text-purple-700 bg-purple-50',
-          desc:'24-core CPU · 60-core GPU · 800 GB/s', sub:'Front: 2× TB4 · Up to 8 displays' }
+        { v:'m5max',   l:'Apple M5 Max',   badge:'Pro Studio',   bc:'text-blue-700 bg-blue-50',
+          desc:'18-core CPU · Up to 40-core GPU · 614 GB/s', sub:'Up to 128GB unified memory · 16-core Neural Engine' },
+        { v:'m5ultra', l:'Apple M5 Ultra', badge:'Extreme Tier', bc:'text-purple-700 bg-purple-50',
+          desc:'Up to 36-core CPU · Up to 80-core GPU · 1.2 TB/s', sub:'Up to 512GB unified memory · 32-core Neural Engine' }
       ],
       memory: {
-        m2max:  [{v:'32gb',l:'32GB',s:'Std Pro'},{v:'64gb',l:'64GB',s:'Heavy'},{v:'96gb',l:'96GB',s:'Extreme'}],
-        m2ultra:[{v:'64gb',l:'64GB',s:'Power'},{v:'128gb',l:'128GB',s:'Studio'},{v:'192gb',l:'192GB',s:'Ultra Max'}],
-        _all:   [{v:'32gb',l:'32GB',s:'Std'},{v:'64gb',l:'64GB',s:'Mid'},{v:'96gb',l:'96GB',s:'Max'}]
+        m5max:  [{v:'36gb',l:'36GB',s:'Base Pro'},{v:'64gb',l:'64GB',s:'Power'},{v:'96gb',l:'96GB',s:'Heavy'},{v:'128gb',l:'128GB',s:'Max Pro'}],
+        m5ultra:[{v:'128gb',l:'128GB',s:'Studio Power'},{v:'256gb',l:'256GB',s:'Heavy Compute'},{v:'512gb',l:'512GB',s:'Ultra Max'}],
+        _all:   [{v:'36gb',l:'36GB',s:'Std'},{v:'64gb',l:'64GB',s:'Mid'},{v:'128gb',l:'128GB',s:'Max'}]
       },
-      storage:[{v:'512gb',l:'512GB',s:'Base'},{v:'1tb',l:'1TB',s:'Popular'},{v:'2tb',l:'2TB',s:'Pro'},{v:'4tb',l:'4TB/8TB',s:'Max'}],
+      storage:[{v:'1tb',l:'1TB',s:'Base'},{v:'2tb',l:'2TB',s:'Popular'},{v:'4tb',l:'4TB',s:'Pro'},{v:'8tb',l:'8TB',s:'Extreme Max'}],
       storeKey:'ithpl_macstudio_preorders', refPfx:'ITH-MS'
     },
     mac_mini: {
       title: 'Buy Mac mini',
-      chipSeries: 'Apple Silicon M4',
-      memBW: 'Up to 273 GB/s',
+      chipSeries: 'Apple Silicon M6 & M5 Pro',
+      memBW: 'Up to 300 GB/s',
       chips: [
-        { v:'m4',    l:'Apple M4',     badge:'Base',     bc:'text-green-700 bg-green-50',
-          desc:'10-core CPU · 10-core GPU · 120 GB/s', sub:'Front: 3× USB-C · Up to 3 displays' },
-        { v:'m4pro', l:'Apple M4 Pro', badge:'Pro Tier', bc:'text-blue-700 bg-blue-50',
-          desc:'14-core CPU · 20-core GPU · 273 GB/s', sub:'Front: 3× TB5 · Up to 5 displays' }
+        { v:'m6',    l:'Apple M6',     badge:'Next-Gen', bc:'text-blue-700 bg-blue-50',
+          desc:'12-core CPU · 12-core GPU · Dual 16-core Neural Engine', sub:'Neural Accelerators in GPU · Front: 2× USB-C' },
+        { v:'m5pro', l:'Apple M5 Pro', badge:'Pro Tier',  bc:'text-purple-700 bg-purple-50',
+          desc:'18-core CPU · 20-core GPU · 16-core Neural Engine', sub:'Thunderbolt 5 up to 120Gb/s · Front: 2× USB-C' }
       ],
       memory: {
-        m4:   [{v:'16gb',l:'16GB',s:'Base'},{v:'24gb',l:'24GB',s:'Mid'},{v:'32gb',l:'32GB',s:'Max'}],
-        m4pro:[{v:'24gb',l:'24GB',s:'Base Pro'},{v:'48gb',l:'48GB',s:'Power'},{v:'64gb',l:'64GB',s:'Max Pro'}],
+        m6:   [{v:'16gb',l:'16GB',s:'Base'},{v:'24gb',l:'24GB',s:'Mid'},{v:'32gb',l:'32GB',s:'Max'}],
+        m5pro:[{v:'24gb',l:'24GB',s:'Base Pro'},{v:'48gb',l:'48GB',s:'Power'},{v:'64gb',l:'64GB',s:'Max Pro'}],
         _all: [{v:'16gb',l:'16GB',s:'Base'},{v:'24gb',l:'24GB',s:'Mid'},{v:'32gb',l:'32GB',s:'Max'}]
       },
-      storage:[{v:'256gb',l:'256GB',s:'Base'},{v:'512gb',l:'512GB',s:'Popular'},{v:'1tb',l:'1TB',s:'Pro'},{v:'2tb',l:'2TB',s:'Max'}],
+      storage:[{v:'256gb',l:'256GB',s:'Base'},{v:'512gb',l:'512GB',s:'Popular'},{v:'1tb',l:'1TB',s:'Pro'},{v:'2tb',l:'2TB',s:'Max'},{v:'4tb',l:'4TB',s:'Extreme'}],
       storeKey:'ithpl_macmini_preorders', refPfx:'ITH-MM'
     },
     iphone_18_pro: {
@@ -648,8 +648,14 @@
     chipSeriesEl && (chipSeriesEl.textContent = cfg.chipSeries);
     memBWEl && (memBWEl.textContent = cfg.memBW);
 
-    chipCont.innerHTML = cfg.chips.map((c, i) => chipHtml(c, i === 0)).join('');
-    cChip = cfg.chips[0].v;
+    // Determine initial selected chip
+    const activeChip = (presetChip && cfg.chips.some(c => c.v === presetChip))
+      ? presetChip
+      : cfg.chips[0].v;
+    cChip = activeChip;
+
+    // Render chips with activeChip checked
+    chipCont.innerHTML = cfg.chips.map(c => chipHtml(c, c.v === activeChip)).join('');
 
     // Mem
     const memList = cfg.memory[cChip] || cfg.memory._all || [];
@@ -660,7 +666,7 @@
     storCont.className = `grid grid-cols-${cols} gap-2`;
     storCont.innerHTML = cfg.storage.map((s, i) => storHtml(s, i === 0)).join('');
 
-    // Chip change → rebuild mem
+    // Chip change → rebuild mem & update cards
     chipCont.querySelectorAll('input[name="config-chip"]').forEach(r => {
       r.addEventListener('change', () => {
         syncCards(chipCont);
@@ -673,25 +679,15 @@
       });
     });
 
-    // Apply preset chip
-    if (presetChip) {
-      const target = chipCont.querySelector(`input[value="${presetChip}"]`);
-      if (target) {
-        target.checked = true;
-        cChip = presetChip;
-        const newMem = cfg.memory[cChip] || cfg.memory._all || [];
-        memCont.innerHTML = newMem.map((m, i) => memHtml(m, i === 0)).join('');
-      }
-    }
-
     wireCards(chipCont);
     wireCards(memCont);
     wireCards(storCont);
 
-    /* Ensure only the selected option is visually highlighted in each group */
+    /* Ensure selected state visual styles are applied */
     syncCards(chipCont);
     syncCards(memCont);
     syncCards(storCont);
+    updateSummary();
   }
 
   /* ── Summary ── */
@@ -734,15 +730,32 @@
     scroll?.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
+  /* ── Reset Stage 2 details without clearing configured radios ── */
+  function resetContactFields() {
+    ['b2b-full-name','b2b-work-email','b2b-phone','b2b-company','b2b-city','b2b-gstin'].forEach(id => {
+      const el = document.getElementById(id);
+      if (el) { el.value = ''; el.classList.remove('input-error-state'); }
+      const err = document.getElementById(`err-${id.replace('b2b-','')}`);
+      if (err) err.classList.add('hidden');
+    });
+    if (notesTA) notesTA.value = '';
+    form?.querySelectorAll('.pref-tag-btn').forEach(b => {
+      b.classList.remove('is-active');
+      const sp = b.querySelector('span');
+      if (sp) sp.textContent = '+';
+    });
+    const fleetSelect = document.getElementById('b2b-fleet-units');
+    if (fleetSelect) fleetSelect.selectedIndex = 0;
+  }
+
   /* ── Open / close ── */
   function openModal(key, preset) {
     cProd = key || 'mac_studio';
+    resetContactFields();
     buildOptions(cProd, preset);
     goStage(1);
-    updateSummary();
     formCont?.classList.remove('hidden');
     successCont?.classList.add('hidden');
-    form?.reset();
     modal?.classList.remove('hidden');
     document.body.style.overflow = 'hidden';
   }
@@ -765,6 +778,7 @@
 
     let key = btn.dataset.productKey
       || btn.closest('[data-product-key]')?.dataset.productKey
+      || document.querySelector('[data-product-key]')?.dataset.productKey
       || document.body.dataset.productKey;
 
     if (!key) {
@@ -781,10 +795,10 @@
         key = 'apple_watch_ultra';
       } else if (aria.includes('series 12') || id.includes('series-12') || href.includes('series-12') || path.includes('series-12')) {
         key = 'apple_watch_series_12';
-      } else if (aria.includes('studio') || href.includes('studio') || path.includes('studio')) {
-        key = 'mac_studio';
-      } else if (aria.includes('mini') || href.includes('mini') || path.includes('mini')) {
+      } else if (aria.includes('mini') || id.includes('mini') || href.includes('mini') || path.includes('mini')) {
         key = 'mac_mini';
+      } else if (aria.includes('studio') || id.includes('studio') || href.includes('studio') || path.includes('studio')) {
+        key = 'mac_studio';
       } else if (aria.includes('airpods') || id.includes('airpods') || href.includes('airpods') || path.includes('airpods')) {
         key = 'apple_airpods';
       } else {

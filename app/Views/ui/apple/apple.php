@@ -107,7 +107,7 @@
               </div>
               <h3 class="product-title">Mac Mini</h3>
               <p class="product-description">Compact desktop power with Apple silicon for every workspace.</p>
-              <a href="<?= base_url('mac-mini') ?>" class="product-button-preorder">Preorder Now</a>
+              <a href="<?= base_url('mac-mini') ?>" class="product-button-preorder">Pre-Order Now</a>
             </div>
           </div>
 
@@ -126,7 +126,7 @@
               </div>
               <h3 class="product-title">Mac Studio</h3>
               <p class="product-description">Pro-level desktop performance for creative professionals and studios.</p>
-              <a href="<?= base_url('mac-studio') ?>" class="product-button-preorder">Preorder Now</a>
+              <a href="<?= base_url('mac-studio') ?>" class="product-button-preorder">Pre-Order Now</a>
             </div>
           </div>
 
