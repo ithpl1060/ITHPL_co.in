@@ -163,7 +163,7 @@
               <div class="product-img-wrap">
                 <img src="<?= base_url(relativePath: 'images/appleProducts/apple_watch_ultra/images/compare_apple_watch_ultra_4_large.png'); ?>" class="fade-in" alt="Apple Watch Ultra">
               </div>
-              <h3 class="product-title">Apple Watch Ultra</h3>
+              <h3 class="product-title">Apple Watch Ultra 4</h3>
               <p class="product-description">Rugged titanium design with multi-day battery and dual-frequency GPS.</p>
               <a href="<?= base_url('apple-watch-ultra') ?>" class="product-button-preorder">Buy Now</a>
             </div>
