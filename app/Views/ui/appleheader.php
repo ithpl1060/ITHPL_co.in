@@ -49,7 +49,7 @@
                         style="filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.1))" />
                 </a>
                  <a
-            href="#"
+            href="<?= base_url('apple') ?>"
             class="logo flex items-center relative logo-glow transition-transform duration-300 hover:scale-105"
           >
             <img
