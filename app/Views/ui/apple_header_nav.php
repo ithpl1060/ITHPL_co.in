@@ -97,6 +97,7 @@
                             <a href="<?= base_url('iphone-18-pro') ?>">iPhone 18 Pro</a>
                             <a href="<?= base_url('apple-watch-ultra') ?>">Apple Watch Ultra</a>
                             <a href="<?= base_url('apple-watch-series-12') ?>">Apple Watch Series 12</a>
+                            <a href="<?= base_url('iphone-duo') ?>">iPhone Duo</a>
                             <a href="<?= base_url('apple-airpods') ?>">AirPods</a>
                         </div>
                     </li>
