@@ -427,6 +427,10 @@
   .pref-tag-btn.is-active { background: #0071e3 !important; color: #fff !important; border-color: #0071e3 !important; }
   /* Error messages */
   .field-error-msg { font-size: 10px; color: #e02424; margin-top: 3px; display: block; }
+  .field-error-msg.hidden,
+  #buy-configurator-modal .hidden {
+    display: none !important;
+  }
   /* Scrollbar */
   .touch-scroll { -webkit-overflow-scrolling: touch; scrollbar-width: thin; scrollbar-color: rgba(0,0,0,.12) transparent; }
   .touch-scroll::-webkit-scrollbar { width: 4px; }
@@ -734,20 +738,33 @@
     scroll?.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
+  /* ── Clear errors ── */
+  function clearErrors() {
+    document.querySelectorAll('#buy-configurator-modal .field-error-msg').forEach(el => {
+      el.classList.add('hidden');
+    });
+    document.querySelectorAll('#buy-configurator-modal .ithpl-input').forEach(el => {
+      el.classList.remove('input-error-state');
+    });
+  }
+
   /* ── Open / close ── */
   function openModal(key, preset) {
     cProd = key || 'mac_studio';
     buildOptions(cProd, preset);
+    clearErrors();
     goStage(1);
     updateSummary();
     formCont?.classList.remove('hidden');
     successCont?.classList.add('hidden');
     form?.reset();
+    clearErrors();
     modal?.classList.remove('hidden');
     document.body.style.overflow = 'hidden';
   }
 
   function closeModal() {
+    clearErrors();
     modal?.classList.add('hidden');
     document.body.style.overflow = 'auto';
   }
@@ -836,9 +853,12 @@
 
   /* ── Live error clearing ── */
   ['b2b-full-name','b2b-work-email','b2b-phone','b2b-company','b2b-city','b2b-gstin'].forEach(id => {
-    document.getElementById(id)?.addEventListener('input', () => {
-      document.getElementById(id)?.classList.remove('input-error-state');
-      document.getElementById(`err-${id.replace('b2b-','')}`)?.classList.add('hidden');
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.addEventListener('input', () => {
+      el.classList.remove('input-error-state');
+      const errEl = document.getElementById(`err-${id.replace('b2b-','')}`);
+      if (errEl) errEl.classList.add('hidden');
     });
   });
 
@@ -861,16 +881,17 @@
     const company  = document.getElementById('b2b-company')?.value.trim() || '';
     const city     = document.getElementById('b2b-city')?.value.trim() || '';
     const fleet    = document.getElementById('b2b-fleet-units')?.value || '1-5';
-    const gstin    = document.getElementById('b2b-gstin')?.value.trim().toUpperCase() || 'Not Provided';
+    const rawGstin = document.getElementById('b2b-gstin')?.value.trim().toUpperCase() || '';
+    const gstin    = rawGstin || 'Not Provided';
     const notes    = document.getElementById('b2b-notes')?.value.trim() || 'None';
 
-    if (!fullName || fullName.length < 2) setErr('b2b-full-name','err-full-name','Enter full name (min 2 chars)');
-    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) setErr('b2b-work-email','err-work-email','Enter valid work email');
-    if (!phone || phone.replace(/[\s\-\(\)\+]/g,'').length < 10) setErr('b2b-phone','err-phone','Enter valid phone (10+ digits)');
+    if (!fullName || fullName.length < 2) setErr('b2b-full-name','err-full-name','Please enter your full name');
+    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) setErr('b2b-work-email','err-work-email','Please enter a valid work email');
+    if (!phone || phone.replace(/[\s\-\(\)\+]/g,'').length < 10) setErr('b2b-phone','err-phone','Enter a valid phone');
     if (!company || company.length < 2) setErr('b2b-company','err-company','Enter company name');
     if (!city || city.length < 2) setErr('b2b-city','err-city','Enter city & state');
-    if (gstin && gstin !== 'Not Provided' && !/^[0-9]{2}[A-Z]{5}[0-9]{4}[A-Z][1-9A-Z]Z[0-9A-Z]$/.test(gstin)) {
-      setErr('b2b-gstin','err-gstin','Invalid GSTIN (e.g. 27AAAAA0000A1Z5)');
+    if (rawGstin.length > 0 && !/^[0-9]{2}[A-Z]{5}[0-9]{4}[A-Z][1-9A-Z]Z[0-9A-Z]$/.test(rawGstin)) {
+      setErr('b2b-gstin','err-gstin','Invalid GSTIN (15-char format: 27AAAAA0000A1Z5)');
     }
 
     if (hasErr) { firstEl?.focus(); firstEl?.scrollIntoView({ behavior:'smooth', block:'center' }); return; }

@@ -150,7 +150,7 @@ $routes->get('sitemap.xml', [UiController::class, 'sitemapXml']);
 $routes->get('hpaipcs', [UiController::class, 'hpaipcs']);
 
 $routes->get('iphone-18-pro', [UiController::class, 'iphone18Pro']);
-// $routes->get('iphone-duo', [UiController::class, 'iphoneDuo']);
+$routes->get('iphone-duo', [UiController::class, 'iphoneDuo']);
 $routes->get('apple-watch-series-12', [UiController::class, 'appleWatchSeries12']);
 $routes->get('apple-watch-ultra', [UiController::class, 'appleWatchUltra']);
 $routes->get('mac-mini', [UiController::class, 'macMini']);
