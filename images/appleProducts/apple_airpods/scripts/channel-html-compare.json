@@ -50,12 +50,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_airpods/images/compare_airpods_5_h2_large.png",
-                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_5_h2_large.png 1x, /appleProducts/apple_airpods/images/compare_airpods_5_h2_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_5_h2_large.png 1x, /images/appleProducts/apple_airpods/images/compare_airpods_5_h2_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_airpods/images/compare_airpods_5_h2_small.png",
-                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_5_h2_small.png 1x, /appleProducts/apple_airpods/images/compare_airpods_5_h2_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_5_h2_small.png 1x, /images/appleProducts/apple_airpods/images/compare_airpods_5_h2_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -91,7 +91,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -111,7 +111,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png 1x, /appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png 1x, /images/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -131,7 +131,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png 1x, /appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png 1x, /images/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -151,7 +151,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -183,7 +183,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_translate_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_translate_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_translate_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_translate_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_translate_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -203,7 +203,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_drop_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_drop_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -223,7 +223,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -257,7 +257,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -277,7 +277,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_hand_tap_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -297,7 +297,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_chip_h2_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -317,7 +317,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -342,12 +342,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_airpods/images/compare_airpods_5_h2_anc_large.png",
-                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_5_h2_anc_large.png 1x, /appleProducts/apple_airpods/images/compare_airpods_5_h2_anc_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_5_h2_anc_large.png 1x, /images/appleProducts/apple_airpods/images/compare_airpods_5_h2_anc_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_airpods/images/compare_airpods_5_h2_anc_small.png",
-                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_5_h2_anc_small.png 1x, /appleProducts/apple_airpods/images/compare_airpods_5_h2_anc_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_5_h2_anc_small.png 1x, /images/appleProducts/apple_airpods/images/compare_airpods_5_h2_anc_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -383,7 +383,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -403,7 +403,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png 1x, /appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png 1x, /images/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -423,7 +423,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png 1x, /appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png 1x, /images/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -443,7 +443,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -475,7 +475,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_translate_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_translate_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_translate_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_translate_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_translate_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -495,7 +495,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_drop_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_drop_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -515,7 +515,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -549,7 +549,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -569,7 +569,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_hand_draw_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_hand_draw_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_hand_draw_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_hand_draw_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_hand_draw_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -589,7 +589,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_chip_h2_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -609,7 +609,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -634,12 +634,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_airpods/images/compare_airpods_4_h2_large.png",
-                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_4_h2_large.png 1x, /appleProducts/apple_airpods/images/compare_airpods_4_h2_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_4_h2_large.png 1x, /images/appleProducts/apple_airpods/images/compare_airpods_4_h2_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_airpods/images/compare_airpods_4_h2_small.png",
-                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_4_h2_small.png 1x, /appleProducts/apple_airpods/images/compare_airpods_4_h2_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_4_h2_small.png 1x, /images/appleProducts/apple_airpods/images/compare_airpods_4_h2_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -687,7 +687,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -723,7 +723,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_drop_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_drop_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -743,7 +743,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -777,7 +777,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -797,7 +797,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_hand_tap_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -817,7 +817,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_chip_h2_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -837,7 +837,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -862,12 +862,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_airpods/images/compare_airpods_4_active_noise_cancellation_h2_large.png",
-                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_4_active_noise_cancellation_h2_large.png 1x, /appleProducts/apple_airpods/images/compare_airpods_4_active_noise_cancellation_h2_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_4_active_noise_cancellation_h2_large.png 1x, /images/appleProducts/apple_airpods/images/compare_airpods_4_active_noise_cancellation_h2_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_airpods/images/compare_airpods_4_active_noise_cancellation_h2_small.png",
-                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_4_active_noise_cancellation_h2_small.png 1x, /appleProducts/apple_airpods/images/compare_airpods_4_active_noise_cancellation_h2_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_4_active_noise_cancellation_h2_small.png 1x, /images/appleProducts/apple_airpods/images/compare_airpods_4_active_noise_cancellation_h2_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -903,7 +903,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -923,7 +923,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png 1x, /appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png 1x, /images/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -943,7 +943,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png 1x, /appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png 1x, /images/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -963,7 +963,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -995,7 +995,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_translate_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_translate_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_translate_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_translate_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_translate_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1015,7 +1015,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_drop_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_drop_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1035,7 +1035,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1069,7 +1069,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1089,7 +1089,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_hand_tap_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1109,7 +1109,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_chip_h2_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1129,7 +1129,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1154,12 +1154,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_airpods/images/compare_airpods_pro_3_h2_large.png",
-                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_pro_3_h2_large.png 1x, /appleProducts/apple_airpods/images/compare_airpods_pro_3_h2_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_pro_3_h2_large.png 1x, /images/appleProducts/apple_airpods/images/compare_airpods_pro_3_h2_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_airpods/images/compare_airpods_pro_3_h2_small.png",
-                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_pro_3_h2_small.png 1x, /appleProducts/apple_airpods/images/compare_airpods_pro_3_h2_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_pro_3_h2_small.png 1x, /images/appleProducts/apple_airpods/images/compare_airpods_pro_3_h2_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -1195,7 +1195,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1215,7 +1215,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png 1x, /appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png 1x, /images/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1235,7 +1235,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png 1x, /appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png 1x, /images/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1255,7 +1255,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1279,7 +1279,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_features_watchhealth_heart_linear_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_features_watchhealth_heart_linear_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_features_watchhealth_heart_linear_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_features_watchhealth_heart_linear_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_features_watchhealth_heart_linear_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1299,7 +1299,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_ear_badge_waveform_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_ear_badge_waveform_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_ear_badge_waveform_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_ear_badge_waveform_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_ear_badge_waveform_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1319,7 +1319,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_translate_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_translate_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_translate_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_translate_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_translate_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1339,7 +1339,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_drop_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_drop_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1359,7 +1359,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_airpodspro_chargingcase_wireless_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_airpodspro_chargingcase_wireless_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_airpodspro_chargingcase_wireless_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_airpodspro_chargingcase_wireless_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_airpodspro_chargingcase_wireless_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1393,7 +1393,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1413,7 +1413,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_hand_draw_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_hand_draw_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_hand_draw_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_hand_draw_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_hand_draw_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1433,7 +1433,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_chip_h2_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1453,7 +1453,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1478,12 +1478,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_airpods/images/compare_airpods_pro_2_h2_large.png",
-                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_pro_2_h2_large.png 1x, /appleProducts/apple_airpods/images/compare_airpods_pro_2_h2_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_pro_2_h2_large.png 1x, /images/appleProducts/apple_airpods/images/compare_airpods_pro_2_h2_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_airpods/images/compare_airpods_pro_2_h2_small.png",
-                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_pro_2_h2_small.png 1x, /appleProducts/apple_airpods/images/compare_airpods_pro_2_h2_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_pro_2_h2_small.png 1x, /images/appleProducts/apple_airpods/images/compare_airpods_pro_2_h2_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -1519,7 +1519,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1539,7 +1539,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png 1x, /appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png 1x, /images/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1559,7 +1559,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png 1x, /appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png 1x, /images/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1579,7 +1579,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1607,7 +1607,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_ear_badge_waveform_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_ear_badge_waveform_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_ear_badge_waveform_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_ear_badge_waveform_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_ear_badge_waveform_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1627,7 +1627,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_translate_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_translate_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_translate_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_translate_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_translate_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1647,7 +1647,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_drop_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_drop_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1667,7 +1667,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_airpodspro_chargingcase_wireless_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_airpodspro_chargingcase_wireless_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_airpodspro_chargingcase_wireless_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_airpodspro_chargingcase_wireless_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_airpodspro_chargingcase_wireless_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1701,7 +1701,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1721,7 +1721,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_hand_draw_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_hand_draw_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_hand_draw_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_hand_draw_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_hand_draw_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1741,7 +1741,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_chip_h2_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1761,7 +1761,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1786,12 +1786,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_airpods/images/compare_airpods_2_h1_large.png",
-                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_2_h1_large.png 1x, /appleProducts/apple_airpods/images/compare_airpods_2_h1_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_2_h1_large.png 1x, /images/appleProducts/apple_airpods/images/compare_airpods_2_h1_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_airpods/images/compare_airpods_2_h1_small.png",
-                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_2_h1_small.png 1x, /appleProducts/apple_airpods/images/compare_airpods_2_h1_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_2_h1_small.png 1x, /images/appleProducts/apple_airpods/images/compare_airpods_2_h1_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -1863,7 +1863,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_airpods_chargingcase_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1897,7 +1897,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1917,7 +1917,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_hand_point_up_left_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_hand_point_up_left_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_hand_point_up_left_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_hand_point_up_left_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_hand_point_up_left_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1937,7 +1937,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_chip_h1_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_chip_h1_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_chip_h1_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_chip_h1_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_chip_h1_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1957,7 +1957,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -1982,12 +1982,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_large.png",
-                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_large.png 1x, /appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_large.png 1x, /images/appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_small.png",
-                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_small.png 1x, /appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_small.png 1x, /images/appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -2035,7 +2035,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2071,7 +2071,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_drop_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_drop_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2091,7 +2091,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2125,7 +2125,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2145,7 +2145,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_hand_tap_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2165,7 +2165,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_chip_h1_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_chip_h1_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_chip_h1_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_chip_h1_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_chip_h1_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2185,7 +2185,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2210,12 +2210,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_large.png",
-                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_large.png 1x, /appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_large.png 1x, /images/appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_small.png",
-                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_small.png 1x, /appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_small.png 1x, /images/appleProducts/apple_airpods/images/compare_airpods_3_lightning_h1_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -2263,7 +2263,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2299,7 +2299,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_drop_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_drop_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_drop_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_drop_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_drop_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2319,7 +2319,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_airpods_chargingcase_wireless_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2353,7 +2353,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_battery_100percent_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2373,7 +2373,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_hand_tap_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_hand_tap_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2393,7 +2393,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_chip_h1_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_chip_h1_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_chip_h1_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_chip_h1_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_chip_h1_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2413,7 +2413,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2438,12 +2438,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_airpods/images/compare_airpods_max_h2_large.png",
-                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_max_h2_large.png 1x, /appleProducts/apple_airpods/images/compare_airpods_max_h2_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_max_h2_large.png 1x, /images/appleProducts/apple_airpods/images/compare_airpods_max_h2_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_airpods/images/compare_airpods_max_h2_small.png",
-                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_max_h2_small.png 1x, /appleProducts/apple_airpods/images/compare_airpods_max_h2_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_max_h2_small.png 1x, /images/appleProducts/apple_airpods/images/compare_airpods_max_h2_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -2495,7 +2495,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2515,7 +2515,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png 1x, /appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large.png 1x, /images/appleProducts/apple_airpods/images/icon_audio_adaptive_and_transparency_fill_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2535,7 +2535,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png 1x, /appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large.png 1x, /images/appleProducts/apple_airpods/images/icon_person_wave2_fill_base_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2555,7 +2555,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2575,7 +2575,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_apple_music_lossless_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_apple_music_lossless_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_apple_music_lossless_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_apple_music_lossless_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_apple_music_lossless_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2599,7 +2599,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_ear_badge_waveform_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_ear_badge_waveform_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_ear_badge_waveform_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_ear_badge_waveform_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_ear_badge_waveform_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2619,7 +2619,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_translate_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_translate_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_translate_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_translate_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_translate_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2643,7 +2643,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_airpods_max_smartcase_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_airpods_max_smartcase_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_airpods_max_smartcase_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_airpods_max_smartcase_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_airpods_max_smartcase_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2681,7 +2681,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_digitalcrown_horizontal_arrow_clockwise_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_digitalcrown_horizontal_arrow_clockwise_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_digitalcrown_horizontal_arrow_clockwise_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_digitalcrown_horizontal_arrow_clockwise_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_digitalcrown_horizontal_arrow_clockwise_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2701,7 +2701,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_chip_h2_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_chip_h2_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2721,7 +2721,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2746,12 +2746,12 @@
             "images": [
               {
                 "src": "/images/appleProducts/apple_airpods/images/compare_airpods_max_h2_large.png",
-                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_max_h2_large.png 1x, /appleProducts/apple_airpods/images/compare_airpods_max_h2_large_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_max_h2_large.png 1x, /images/appleProducts/apple_airpods/images/compare_airpods_max_h2_large_2x.png 2x",
                 "viewport": "large"
               },
               {
                 "src": "/images/appleProducts/apple_airpods/images/compare_airpods_max_h2_small.png",
-                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_max_h2_small.png 1x, /appleProducts/apple_airpods/images/compare_airpods_max_h2_small_2x.png 2x",
+                "srcSet": "/images/appleProducts/apple_airpods/images/compare_airpods_max_h2_small.png 1x, /images/appleProducts/apple_airpods/images/compare_airpods_max_h2_small_2x.png 2x",
                 "viewport": "small"
               }
             ]
@@ -2803,7 +2803,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_person_closed_fill_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2823,7 +2823,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_person_open_fill_base_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_open_fill_base_large.png 1x, /appleProducts/apple_airpods/images/icon_person_open_fill_base_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_open_fill_base_large.png 1x, /images/appleProducts/apple_airpods/images/icon_person_open_fill_base_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2847,7 +2847,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_person_spatialaudio_fill_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2867,7 +2867,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_apple_music_lossless_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_apple_music_lossless_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_apple_music_lossless_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_apple_music_lossless_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_apple_music_lossless_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2903,7 +2903,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_airpods_max_smartcase_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_airpods_max_smartcase_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_airpods_max_smartcase_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_airpods_max_smartcase_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_airpods_max_smartcase_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2941,7 +2941,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_digitalcrown_horizontal_arrow_clockwise_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_digitalcrown_horizontal_arrow_clockwise_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_digitalcrown_horizontal_arrow_clockwise_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_digitalcrown_horizontal_arrow_clockwise_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_digitalcrown_horizontal_arrow_clockwise_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2961,7 +2961,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_chip_h1_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_chip_h1_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_chip_h1_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_chip_h1_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_chip_h1_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
@@ -2981,7 +2981,7 @@
                 "images": [
                   {
                     "src": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png",
-                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
+                    "srcSet": "/images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large.png 1x, /images/appleProducts/apple_airpods/images/icon_macbook_and_iphone_elevated_large_2x.png 2x",
                     "viewport": "large"
                   }
                 ]
