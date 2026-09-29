@@ -148,6 +148,7 @@
                     <a href="<?= base_url('apple-watch-ultra') ?>" class="mobile-sublink">Apple Watch Ultra</a>
                     <a href="<?= base_url('apple-watch-series-12') ?>" class="mobile-sublink">Apple Watch Series 12</a>
                     <a href="<?= base_url('apple-airpods') ?>" class="mobile-sublink">AirPods</a>
+                    <a href="<?= base_url('iphone-duo') ?>" class="mobile-sublink">iPhone Duo</a>
                 </div>
             </div>
             <a href="<?= base_url('sustainability') ?>">Sustainability</a>
@@ -183,8 +184,8 @@
     max-width: 80rem !important; /* max-w-7xl */
     margin-left: auto !important;
     margin-right: auto !important;
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
 }
 
 .site-header .header-container {
