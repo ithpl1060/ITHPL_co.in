@@ -223,7 +223,7 @@
               </div>
               <h3 class="product-title">iPhone Duo</h3>
               <p class="product-description">Two screens. Infinite possibilities.</p>
-              <a href="<?= base_url('iphone-duo') ?>" class="product-button-preorder">Buy Now</a>
+              <a href="<?= base_url('iphone-duo') ?>" class="product-button-preorder">Coming Soon </a>
             </div>
           </div>
 
