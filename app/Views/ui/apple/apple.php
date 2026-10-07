@@ -208,6 +208,24 @@
             </div>
           </div>
 
+          <!-- iPhone Duo  Card - NEW -->
+          <div class="product-card product-card-new" onclick="window.location.href='<?= base_url('iphone-duo') ?>'">
+            <span class="product-new-badge">NEW</span>
+            <img
+              src="<?= base_url(relativePath: 'images/iPhone-Duo-text.jpg'); ?>"
+              alt="iPhone Duo"
+              class="product-bg"
+            />
+            <div class="product-overlay"></div>
+            <div class="product-content">
+              <div class="product-img-wrap">
+                <img src="<?= base_url(relativePath: 'images/appleProducts/iphone_duo/images/hero_iphone_duo_large.png'); ?>" class="fade-in" alt="iPhone Duo">
+              </div>
+              <h3 class="product-title">iPhone Duo</h3>
+              <p class="product-description">Two screens. Infinite possibilities.</p>
+              <a href="<?= base_url('iphone-duo') ?>" class="product-button-preorder">Buy Now</a>
+            </div>
+          </div>
 
           <!-- MacBook Card -->
           <div class="product-card" onclick="window.open('https://store.ithpl.com/?s=apple&post_type=product', '_blank')">
@@ -228,7 +246,7 @@
           </div>
 
           <!-- iPad & iPhone Card -->
-          <div class="product-card" onclick="window.open('https://store.ithpl.com/?s=apple&post_type=product', '_blank')">
+          <!-- <div class="product-card" onclick="window.open('https://store.ithpl.com/?s=apple&post_type=product', '_blank')">
             <img
               src="<?= base_url(relativePath: 'images/iPad & Iphone.png'); ?>"
               alt="iPad and iPhone"
@@ -243,7 +261,7 @@
               <p class="product-description">Versatile devices for mobility, productivity, and communication.</p>
               <a href="https://store.ithpl.com/?s=apple&post_type=product" target="_blank" rel="noopener" class="product-button-preorder" aria-label="Learn more about Apple iPad & iPhone at ITHPL Store">Buy Now</a>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>

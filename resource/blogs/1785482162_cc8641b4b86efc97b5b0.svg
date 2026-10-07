@@ -1,0 +1,81 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1526"/>
+      <stop offset="100%" stop-color="#14233D"/>
+    </linearGradient>
+    <radialGradient id="redglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF4F5E" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#FF4F5E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tealglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1FBFAE" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#1FBFAE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg2)"/>
+
+  <!-- Subtle dot grid -->
+  <g fill="#2A4266" opacity="0.3">
+    <g id="dr2">
+      <circle cx="40" cy="40" r="1.6"/><circle cx="80" cy="40" r="1.6"/><circle cx="120" cy="40" r="1.6"/>
+      <circle cx="160" cy="40" r="1.6"/><circle cx="200" cy="40" r="1.6"/><circle cx="240" cy="40" r="1.6"/>
+      <circle cx="280" cy="40" r="1.6"/><circle cx="320" cy="40" r="1.6"/><circle cx="360" cy="40" r="1.6"/>
+      <circle cx="400" cy="40" r="1.6"/><circle cx="440" cy="40" r="1.6"/><circle cx="480" cy="40" r="1.6"/>
+    </g>
+    <use href="#dr2" y="40"/><use href="#dr2" y="80"/><use href="#dr2" y="550"/><use href="#dr2" y="590"/>
+  </g>
+
+  <!-- Glows -->
+  <circle cx="880" cy="220" r="180" fill="url(#redglow)"/>
+  <circle cx="960" cy="400" r="200" fill="url(#tealglow)"/>
+
+  <!-- Eyebrow -->
+  <rect x="80" y="96" width="230" height="30" rx="15" fill="#3A1620"/>
+  <text x="94" y="116" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#FF6B78">CYBERSECURITY &#183; 2026</text>
+
+  <!-- Headline -->
+  <text x="80" y="205" font-family="Arial, Helvetica, sans-serif" font-size="47" font-weight="800" fill="#F3F6FA">Ransomware in India</text>
+  <text x="80" y="268" font-family="Arial, Helvetica, sans-serif" font-size="47" font-weight="800" fill="#FF6B78">is up 165%.</text>
+  <text x="80" y="331" font-family="Arial, Helvetica, sans-serif" font-size="47" font-weight="800" fill="#F3F6FA">Is your business next?</text>
+
+  <!-- Subheadline -->
+  <text x="80" y="382" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#9FB0C7">The threat landscape has changed. Your defenses need to</text>
+  <text x="80" y="410" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#9FB0C7">change with it &#8212; get a free security assessment from ITHPL.</text>
+
+  <!-- Bottom brand mark -->
+  <rect x="80" y="474" width="46" height="46" rx="10" fill="#1FBFAE"/>
+  <text x="103" y="503" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" fill="#08182B" text-anchor="middle">IT</text>
+  <text x="140" y="493" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#F3F6FA">Innovative TechHub Pvt. Ltd.</text>
+  <text x="140" y="513" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#7D91AC">ithpl.com</text>
+
+  <!-- Signature illustration: cracked padlock (danger) transforming into a shield checkmark (protected) -->
+  <g transform="translate(780,110)">
+
+    <!-- Danger side: cracked padlock -->
+    <g transform="translate(0,40)">
+      <rect x="20" y="70" width="110" height="90" rx="14" fill="#2A1420" stroke="#FF4F5E" stroke-width="2.5"/>
+      <path d="M40 70 L40 45 C40 20 55 5 75 5 C95 5 110 20 110 45 L110 70"
+            fill="none" stroke="#FF4F5E" stroke-width="8" stroke-linecap="round"/>
+      <!-- crack -->
+      <path d="M75 95 L62 118 L82 128 L68 155" fill="none" stroke="#FFD3D6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- warning triangle -->
+      <path d="M170 130 L200 185 L140 185 Z" fill="none" stroke="#FF9C46" stroke-width="5" stroke-linejoin="round"/>
+      <line x1="170" y1="150" x2="170" y2="167" stroke="#FF9C46" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="170" cy="176" r="2.6" fill="#FF9C46"/>
+    </g>
+
+    <!-- Arrow -->
+    <path d="M230 195 L280 195" stroke="#5C7191" stroke-width="4" stroke-linecap="round"/>
+    <path d="M270 185 L285 195 L270 205" fill="none" stroke="#5C7191" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Safe side: shield with checkmark -->
+    <g transform="translate(300,20)">
+      <path d="M75 0 L145 25 L145 90 C145 135 110 165 75 180 C40 165 5 135 5 90 L5 25 Z"
+            fill="#0F2036" stroke="#1FBFAE" stroke-width="2.5"/>
+      <path d="M42 92 L65 118 L112 60" fill="none" stroke="#1FBFAE" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>
