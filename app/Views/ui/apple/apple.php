@@ -219,7 +219,7 @@
             <div class="product-overlay"></div>
             <div class="product-content">
               <div class="product-img-wrap">
-                <img src="<?= base_url(relativePath: 'images/appleProducts/iphone_duo/images/flex_apple_care_large.png'); ?>" class="fade-in" alt="iPhone Duo">
+                <img src="<?= base_url(relativePath: 'images/iphone-Duo-Hero.png'); ?>" class="fade-in" alt="iPhone Duo">
               </div>
               <h3 class="product-title">iPhone Duo</h3>
               <p class="product-description">Two screens. Infinite possibilities.</p>
