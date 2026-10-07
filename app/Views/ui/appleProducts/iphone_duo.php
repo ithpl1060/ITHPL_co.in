@@ -4074,8 +4074,9 @@
         <nav class="hidden md:flex items-center space-x-5 text-gray-600">
           <a href="#sec-hero" class="hover:text-black font-medium text-black transition-colors">Overview</a>
           <a href="#sec-features" class="hover:text-black transition-colors">Features</a>
-          <a href="#sec-upgrade" class="hover:text-black transition-colors">Why Upgrade</a>
           <a href="#sec-compare" class="hover:text-[#0071e3] font-medium text-[#0071e3] transition-colors">Compare</a>
+            <a href="#sec-upgrade" class="hover:text-black transition-colors">Why Upgrade</a>
+
           <a href="#sec-experience" class="hover:text-black transition-colors">Apple TV+</a>
           <a href="#sec-legal" class="hover:text-black text-gray-400 transition-colors">Legal</a>
         </nav>

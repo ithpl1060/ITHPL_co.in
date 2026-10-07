@@ -7,10 +7,14 @@ use App\Controllers\Api\AdminController as ApiAdminController;
 use App\Controllers\Api\SeoController;
 use App\Controllers\Api\BlogController as APIBlogController;
 use App\Controllers\UiController;
+use App\Controllers\MediaController;
 
 /**
  * @var RouteCollection $routes
  */
+// Serve blog images from writable/uploads/blogs/ (survives Git deployments)
+$routes->get('media/blogs/(:any)', [MediaController::class, 'blog/$1']);
+
 //admin UI
 $routes->get('login', [WebAdminController::class, 'index']);
 

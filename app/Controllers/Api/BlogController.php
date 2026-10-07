@@ -376,10 +376,15 @@ class BlogController extends BaseController
         $img = $this->request->getFile($fieldName);
 
         if ($img && $img->isValid() && !$img->hasMoved()) {
+            $uploadPath = WRITEPATH . 'uploads/blogs';
+            if (!is_dir($uploadPath)) {
+                mkdir($uploadPath, 0755, true);
+            }
             $newName = $img->getRandomName();
-            $img->move('resource/blogs', $newName);
+            $img->move($uploadPath, $newName);
 
-            return 'resource/blogs/' . $newName;
+            // Store as a media route path so it works after any deployment
+            return 'media/blogs/' . $newName;
         }
 
         return null;
@@ -389,16 +394,23 @@ class BlogController extends BaseController
         $img = $this->request->getFile($fieldName);
 
         if ($img && $img->isValid() && !$img->hasMoved()) {
-            // Delete old file if exists
-            if ($oldFilePath && file_exists($oldFilePath)) {
-                @unlink($oldFilePath);
+            // Delete old file if it was stored in writable/uploads/blogs
+            if ($oldFilePath && str_starts_with($oldFilePath, 'media/blogs/')) {
+                $oldFile = WRITEPATH . 'uploads/blogs/' . basename($oldFilePath);
+                if (file_exists($oldFile)) {
+                    @unlink($oldFile);
+                }
             }
 
-            // Save new file with random name
-            $newName = $img->getRandomName();
-            $img->move('resource/blogs', $newName);
+            $uploadPath = WRITEPATH . 'uploads/blogs';
+            if (!is_dir($uploadPath)) {
+                mkdir($uploadPath, 0755, true);
+            }
 
-            return 'resource/blogs/' . $newName;
+            $newName = $img->getRandomName();
+            $img->move($uploadPath, $newName);
+
+            return 'media/blogs/' . $newName;
         }
 
         // No new file uploaded, return old path

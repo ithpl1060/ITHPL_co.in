@@ -1,0 +1,80 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1B33"/>
+      <stop offset="100%" stop-color="#0F2745"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1FBFAE" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#1FBFAE" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#173257"/>
+      <stop offset="100%" stop-color="#0F2036"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Subtle dot grid texture -->
+  <g fill="#2A4266" opacity="0.35">
+    <g id="dotrow">
+      <circle cx="40" cy="40" r="1.6"/><circle cx="80" cy="40" r="1.6"/><circle cx="120" cy="40" r="1.6"/>
+      <circle cx="160" cy="40" r="1.6"/><circle cx="200" cy="40" r="1.6"/><circle cx="240" cy="40" r="1.6"/>
+      <circle cx="280" cy="40" r="1.6"/><circle cx="320" cy="40" r="1.6"/><circle cx="360" cy="40" r="1.6"/>
+      <circle cx="400" cy="40" r="1.6"/><circle cx="440" cy="40" r="1.6"/><circle cx="480" cy="40" r="1.6"/>
+    </g>
+    <use href="#dotrow" y="40"/><use href="#dotrow" y="80"/><use href="#dotrow" y="120"/>
+    <use href="#dotrow" y="160"/><use href="#dotrow" y="480"/><use href="#dotrow" y="520"/>
+    <use href="#dotrow" y="560"/><use href="#dotrow" y="590"/>
+  </g>
+
+  <!-- Glow behind illustration -->
+  <circle cx="920" cy="315" r="260" fill="url(#glow)"/>
+
+  <!-- Eyebrow label -->
+  <rect x="80" y="96" width="168" height="30" rx="15" fill="#173854"/>
+  <text x="94" y="116" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#3FD8C4">IT AMC &#183; 2026</text>
+
+  <!-- Headline -->
+  <text x="80" y="205" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="800" fill="#F3F6FA">Prevent the</text>
+  <text x="80" y="268" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="800" fill="#F3F6FA">breakdown.</text>
+  <text x="80" y="331" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="800" fill="#3FD8C4">Not just the fix.</text>
+
+  <!-- Subheadline -->
+  <text x="80" y="382" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#9FB0C7">Why every business needs an IT Annual Maintenance</text>
+  <text x="80" y="410" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#9FB0C7">Contract &#8212; and how Innovative TechHub Pvt. Ltd. delivers it.</text>
+
+  <!-- Bottom brand mark -->
+  <rect x="80" y="474" width="46" height="46" rx="10" fill="#1FBFAE"/>
+  <text x="103" y="503" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" fill="#08182B" text-anchor="middle">IT</text>
+  <text x="140" y="493" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#F3F6FA">Innovative TechHub Pvt. Ltd.</text>
+  <text x="140" y="513" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#7D91AC">ithpl.com</text>
+
+  <!-- Signature illustration: shield + server rack + pulse line resolving to a checkmark -->
+  <g transform="translate(760,140)">
+    <!-- Shield -->
+    <path d="M160 0 L300 45 L300 170 C300 270 220 330 160 360 C100 330 20 270 20 170 L20 45 Z"
+          fill="url(#shieldGrad)" stroke="#2A4C74" stroke-width="2"/>
+
+    <!-- Server rack inside shield -->
+    <g transform="translate(85,70)">
+      <rect x="0" y="0" width="150" height="42" rx="6" fill="#0B1B30" stroke="#2E5378" stroke-width="1.5"/>
+      <circle cx="18" cy="21" r="4" fill="#3FD8C4"/>
+      <circle cx="34" cy="21" r="4" fill="#3FD8C4"/>
+      <rect x="0" y="52" width="150" height="42" rx="6" fill="#0B1B30" stroke="#2E5378" stroke-width="1.5"/>
+      <circle cx="18" cy="73" r="4" fill="#F5A623"/>
+      <circle cx="34" cy="73" r="4" fill="#3FD8C4"/>
+      <rect x="0" y="104" width="150" height="42" rx="6" fill="#0B1B30" stroke="#2E5378" stroke-width="1.5"/>
+      <circle cx="18" cy="125" r="4" fill="#3FD8C4"/>
+      <circle cx="34" cy="125" r="4" fill="#3FD8C4"/>
+    </g>
+
+    <!-- Pulse line flattening into a checkmark, crossing the shield -->
+    <path d="M-30 210 L60 210 L80 150 L100 260 L120 210 L200 210 L220 190 L245 190"
+          fill="none" stroke="#3FD8C4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="270" cy="190" r="22" fill="#1FBFAE"/>
+    <path d="M259 190 L268 200 L284 179" fill="none" stroke="#08182B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
