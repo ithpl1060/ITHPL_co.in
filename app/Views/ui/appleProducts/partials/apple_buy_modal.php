@@ -501,7 +501,7 @@
       storeKey:'ithpl_ip18pro_orders', refPfx:'ITH-IP'
     },
     iphone_duo: {
-      title: 'Buy iPhone Duo',
+      title: 'Pre-order iPhone Duo',
       chipSeries: 'Apple A20 Pro Bionic',
       memBW: 'A20 Pro · Foldable Super Retina XDR',
       chips: [
@@ -774,7 +774,7 @@
 
   /* ── Button delegation ── */
   document.addEventListener('click', e => {
-    const btn = e.target.closest('.trigger-buy-modal, a[aria-label*="Buy"], a.compare-button, a[href="#buy"]');
+    const btn = e.target.closest('.trigger-buy-modal, a[aria-label*="Buy"], a[aria-label*="Pre-order"], a[aria-label*="Preorder"], a.compare-button, a[href="#buy"], a[href="#preorder"], a[href="#pre-order"]');
     if (!btn) return;
     if (btn.id === 'close-buy-modal' || btn.closest('#buy-configurator-modal')) return;
 
