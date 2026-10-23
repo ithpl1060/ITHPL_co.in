@@ -501,7 +501,7 @@
       storeKey:'ithpl_ip18pro_orders', refPfx:'ITH-IP'
     },
     iphone_duo: {
-      title: 'Pre-order iPhone Duo',
+      title: 'Buy iPhone Duo',
       chipSeries: 'Apple A20 Pro Bionic',
       memBW: 'A20 Pro · Foldable Super Retina XDR',
       chips: [
