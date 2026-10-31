@@ -156,13 +156,26 @@
                     <!-- Apple -->
                        <li class="nav-item">
                         <a href="<?= base_url('apple') ?>" class="nav-hover">Apple</a>
-                        <div class="dropdown-menu single-column">
+                                                <div class="dropdown-menu wide">
                             <div class="dropdown-arrow"></div>
-                            <!-- <a href="<?= base_url('apple-work') ?>">Apple At Work</a> -->
-                            <!-- <a href="<?= base_url('apple-business') ?>">Apple for Business</a> -->
-                            <a href="<?= base_url('apple-enterprises') ?>">Apple for Enterprises</a>
-                            <a href="<?= base_url('apple-smart-epp') ?>">Apple Smart EPP</a>
-                            <a href="<?= base_url('apple-tco-calc') ?>">Apple TCO Calculator</a>
+                            <div class="dropdown-column">
+                                <a href="<?= base_url('apple-enterprises') ?>">Apple for Enterprises</a>
+                                <a href="<?= base_url('apple-smart-epp') ?>">Apple Smart EPP</a>
+                                <a href="<?= base_url('apple-tco-calc') ?>">Apple TCO Calculator</a>
+                                <a href="<?= base_url('mac-studio') ?>">Mac Studio</a>
+                                <a href="<?= base_url('mac-mini') ?>">Mac mini</a>
+                                <a href="<?= base_url('macbook-m5') ?>">MacBook Pro (M5)</a>
+                                <a href="<?= base_url('macbook-m6') ?>">MacBook Pro (M6)</a>
+                            </div>
+                            <div class="dropdown-column">
+                                <a href="<?= base_url('imac-m6') ?>">iMac (M6)</a>
+                                <a href="<?= base_url('ipad-mini') ?>">iPad mini</a>
+                                <a href="<?= base_url('iphone-18-pro') ?>">iPhone 18 Pro</a>
+                                <a href="<?= base_url('iphone-duo') ?>">iPhone Duo</a>
+                                <a href="<?= base_url('apple-watch-ultra') ?>">Apple Watch Ultra</a>
+                                <a href="<?= base_url('apple-watch-series-12') ?>">Apple Watch Series 12</a>
+                                <a href="<?= base_url('apple-airpods') ?>">AirPods</a>
+                            </div>
                         </div>
                     </li>
 

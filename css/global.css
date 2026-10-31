@@ -1360,6 +1360,7 @@ section {
   border-radius: 8px;
   overflow: hidden;
   height: 330px;
+  background: #000000;
 
   color: #ffffff;
   cursor: pointer;
