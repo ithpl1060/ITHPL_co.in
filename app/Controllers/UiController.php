@@ -238,6 +238,30 @@ class UiController extends BaseController
       
     }
 
+    public function imacM6()
+    {
+        $data['meta'] = $this->seo->where('url_path', $this->url_path)->first();
+        return view('ui/appleProducts/imac_m6', $data);
+    }
+
+    public function ipadMini()
+    {
+        $data['meta'] = $this->seo->where('url_path', $this->url_path)->first();
+        return view('ui/appleProducts/ipad_mini', $data);
+    }
+
+    public function macbookM5()
+    {
+        $data['meta'] = $this->seo->where('url_path', $this->url_path)->first();
+        return view('ui/appleProducts/macbook_m5', $data);
+    }
+
+    public function macbookM6()
+    {
+        $data['meta'] = $this->seo->where('url_path', $this->url_path)->first();
+        return view('ui/appleProducts/macBook_m6', $data);
+    }
+
     public function sitemap()
     {
         $this->url_path = $this->uri->getSegment(1) ?: 'sitemap';
