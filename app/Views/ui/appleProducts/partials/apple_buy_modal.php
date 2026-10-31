@@ -559,6 +559,75 @@
       memory: { _all:[{v:'h2',l:'Apple H2',s:'Audio Chip'}] },
       storage:[{v:'standard_case',l:'Standard Case',s:'USB-C'},{v:'wireless_case',l:'Wireless Case',s:'Qi / MagSafe'}],
       storeKey:'ithpl_airpods_orders', refPfx:'ITH-AP'
+    },
+    imac_m6: {
+      title: 'Pre-Order iMac (M6)',
+      chipSeries: 'Apple M6 Chip',
+      memBW: 'Unified Memory Architecture',
+      chips: [
+        { v:'m6_10c', l:'iMac 24″ (10-Core GPU)', badge:'2 Ports', bc:'text-blue-700 bg-blue-50',
+          desc:'10-core CPU · 10-core GPU · 24″ 4.5K Retina Display', sub:'Two Thunderbolt / USB 4 ports · Magic Keyboard' },
+        { v:'m6_12c', l:'iMac 24″ (12-Core GPU)', badge:'4 Ports', bc:'text-purple-700 bg-purple-50',
+          desc:'12-core CPU · 12-core GPU · 24″ 4.5K Retina Display', sub:'Four ports · Gigabit Ethernet · Touch ID' }
+      ],
+      memory: {
+        _all:[{v:'16gb',l:'16GB',s:'Base'},{v:'24gb',l:'24GB',s:'Mid'},{v:'32gb',l:'32GB',s:'Max'}]
+      },
+      storage:[{v:'256gb',l:'256GB',s:'Base'},{v:'512gb',l:'512GB',s:'Popular'},{v:'1tb',l:'1TB',s:'Pro'},{v:'2tb',l:'2TB',s:'Max'}],
+      storeKey:'ithpl_imac_m6_orders', refPfx:'ITH-IMC'
+    },
+    ipad_mini: {
+      title: 'Pre-Order iPad mini',
+      chipSeries: 'Apple A20 Pro Chip',
+      memBW: 'A20 Pro · Liquid Retina OLED',
+      chips: [
+        { v:'ipmini_wifi', l:'iPad mini (Wi-Fi)', badge:'Wi-Fi 7', bc:'text-blue-700 bg-blue-50',
+          desc:'8.3" Liquid Retina · A20 Pro chip · Apple Intelligence', sub:'Ultraportable · USB-C · Apple Pencil Pro support' },
+        { v:'ipmini_cell', l:'iPad mini (Wi-Fi + Cellular)', badge:'5G LTE', bc:'text-purple-700 bg-purple-50',
+          desc:'8.3" Liquid Retina · A20 Pro chip · 5G Cellular', sub:'Ultraportable · eSIM · Apple Pencil Pro support' }
+      ],
+      memory: { _all:[{v:'8gb',l:'8GB',s:'Unified RAM'}] },
+      storage:[{v:'128gb',l:'128GB',s:'Base'},{v:'256gb',l:'256GB',s:'Popular'},{v:'512gb',l:'512GB',s:'Max'}],
+      storeKey:'ithpl_ipadmini_orders', refPfx:'ITH-IPM'
+    },
+    macbook_m5: {
+      title: 'Pre-Order MacBook Pro (M5)',
+      chipSeries: 'Apple M5 Pro & M5 Max',
+      memBW: 'PROLED XDR Display · Up to 546 GB/s',
+      chips: [
+        { v:'mbp14_m5pro', l:'MacBook Pro 14″ (M5 Pro)', badge:'14" Pro', bc:'text-blue-700 bg-blue-50',
+          desc:'14.2″ PROLED XDR Display · M5 Pro chip · Touch capability', sub:'Up to 24h battery · HDMI · SDXC · 3× TB5' },
+        { v:'mbp16_m5max', l:'MacBook Pro 16″ (M5 Max)', badge:'16" Max', bc:'text-purple-700 bg-purple-50',
+          desc:'16.2″ PROLED XDR Display · M5 Max chip · Maximum compute', sub:'Up to 24h battery · Extreme performance · 3× TB5' }
+      ],
+      memory: {
+        mbp14_m5pro:[{v:'18gb',l:'18GB',s:'Base'},{v:'36gb',l:'36GB',s:'Pro'},{v:'48gb',l:'48GB',s:'Max'}],
+        mbp16_m5max:[{v:'36gb',l:'36GB',s:'Base'},{v:'48gb',l:'48GB',s:'Pro'},{v:'128gb',l:'128GB',s:'Extreme'}],
+        _all:[{v:'18gb',l:'18GB',s:'Base'},{v:'36gb',l:'36GB',s:'Pro'},{v:'48gb',l:'48GB',s:'Max'}]
+      },
+      storage:[{v:'512gb',l:'512GB',s:'Base'},{v:'1tb',l:'1TB',s:'Popular'},{v:'2tb',l:'2TB',s:'Pro'},{v:'4tb',l:'4TB',s:'Max'}],
+      storeKey:'ithpl_mbp_m5_orders', refPfx:'ITH-MB5'
+    },
+    macbook_m6: {
+      title: 'Pre-Order MacBook Pro (M6)',
+      chipSeries: 'Apple M6 Chip',
+      memBW: 'Liquid Retina XDR · Dual 16-core NPU',
+      chips: [
+        { v:'mbp14_m6',    l:'MacBook Pro 14″ (M6)',     badge:'14" M6',   bc:'text-green-700 bg-green-50',
+          desc:'14.2″ Liquid Retina XDR · M6 chip · Dual Neural Engine', sub:'Up to 24h battery · 2× TB4 · MagSafe 3' },
+        { v:'mbp14_m5pro', l:'MacBook Pro 14″ (M5 Pro)', badge:'14" Pro',  bc:'text-blue-700 bg-blue-50',
+          desc:'14.2″ Liquid Retina XDR · M5 Pro chip · High bandwidth', sub:'Up to 24h battery · 3× TB5 · HDMI · SDXC' },
+        { v:'mbp16_m5max', l:'MacBook Pro 16″ (M5 Max)', badge:'16" Max',  bc:'text-purple-700 bg-purple-50',
+          desc:'16.2″ Liquid Retina XDR · M5 Max chip · Heavy compute', sub:'Up to 24h battery · 3× TB5 · HDMI · SDXC' }
+      ],
+      memory: {
+        mbp14_m6:   [{v:'16gb',l:'16GB',s:'Base'},{v:'24gb',l:'24GB',s:'Mid'},{v:'32gb',l:'32GB',s:'Max'}],
+        mbp14_m5pro:[{v:'24gb',l:'24GB',s:'Base'},{v:'48gb',l:'48GB',s:'Pro'},{v:'64gb',l:'64GB',s:'Max'}],
+        mbp16_m5max:[{v:'36gb',l:'36GB',s:'Base'},{v:'64gb',l:'64GB',s:'Pro'},{v:'128gb',l:'128GB',s:'Extreme'}],
+        _all:       [{v:'16gb',l:'16GB',s:'Base'},{v:'24gb',l:'24GB',s:'Mid'},{v:'32gb',l:'32GB',s:'Max'}]
+      },
+      storage:[{v:'512gb',l:'512GB',s:'Base'},{v:'1tb',l:'1TB',s:'Popular'},{v:'2tb',l:'2TB',s:'Pro'},{v:'4tb',l:'4TB',s:'Max'}],
+      storeKey:'ithpl_mbp_m6_orders', refPfx:'ITH-MB6'
     }
   };
 
@@ -790,7 +859,15 @@
       const href = (btn.getAttribute('href') || '').toLowerCase();
       const path = (window.location.pathname || '').toLowerCase();
 
-      if (aria.includes('duo') || id.includes('duo') || href.includes('duo') || path.includes('duo')) {
+      if (aria.includes('ipad') || id.includes('ipad') || href.includes('ipad') || path.includes('ipad')) {
+        key = 'ipad_mini';
+      } else if (aria.includes('imac') || id.includes('imac') || href.includes('imac') || path.includes('imac')) {
+        key = 'imac_m6';
+      } else if (aria.includes('macbook-m6') || id.includes('macbook-m6') || href.includes('macbook-m6') || path.includes('macbook-m6') || id.includes('m6')) {
+        key = 'macbook_m6';
+      } else if (aria.includes('macbook') || id.includes('macbook') || href.includes('macbook') || path.includes('macbook')) {
+        key = 'macbook_m5';
+      } else if (aria.includes('duo') || id.includes('duo') || href.includes('duo') || path.includes('duo')) {
         key = 'iphone_duo';
       } else if (aria.includes('18 pro') || id.includes('18-pro') || href.includes('18-pro') || path.includes('18-pro')) {
         key = 'iphone_18_pro';
@@ -800,7 +877,7 @@
         key = 'apple_watch_series_12';
       } else if (aria.includes('studio') || href.includes('studio') || path.includes('studio')) {
         key = 'mac_studio';
-      } else if (aria.includes('mini') || href.includes('mini') || path.includes('mini')) {
+      } else if (aria.includes('mac mini') || id.includes('mac-mini') || href.includes('mac-mini') || path.includes('mac-mini')) {
         key = 'mac_mini';
       } else if (aria.includes('airpods') || id.includes('airpods') || href.includes('airpods') || path.includes('airpods')) {
         key = 'apple_airpods';

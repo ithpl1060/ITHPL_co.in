@@ -156,4 +156,8 @@ $routes->get('apple-watch-ultra', [UiController::class, 'appleWatchUltra']);
 $routes->get('mac-mini', [UiController::class, 'macMini']);
 $routes->get('mac-studio', [UiController::class, 'macStudio']);
 $routes->get('apple-airpods', [UiController::class, 'appleAirpods']);
+$routes->get('imac-m6', [UiController::class, 'imacM6']);
+$routes->get('ipad-mini', [UiController::class, 'ipadMini']);
+$routes->get('macbook-m5', [UiController::class, 'macbookM5']);
+$routes->get('macbook-m6', [UiController::class, 'macbookM6']);
 
