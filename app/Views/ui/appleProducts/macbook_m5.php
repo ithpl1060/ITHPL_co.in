@@ -6876,7 +6876,7 @@
                       </figure>
                     </h2>
                     <p class="copy iqDrkmAc channel-custom-font-custom-flex-headline" style="--focus-color: rgba(0, 125, 250, 0.6)">All the storage you need. Now with Apple&nbsp;TV and Apple&nbsp;Arcade included.<sup aria-hidden="true" style="vertical-align: superscript">◊</sup><span class="visuallyhidden" style="white-space: nowrap">Refer to legal disclaimers</span></p>
-                    <p class="copy LWgAnIwj channel-custom-font-custom-flex-body" style="--focus-color: rgba(0, 125, 250, 0.6)">Starting at ₹XXX.XX</p>
+                    <!-- <p class="copy LWgAnIwj channel-custom-font-custom-flex-body" style="--focus-color: rgba(0, 125, 250, 0.6)">Starting at ₹XXX.XX</p> -->
                   </div>
                   <div class="column LYAxquyD large-5 medium-6 small-12">
                     <div>

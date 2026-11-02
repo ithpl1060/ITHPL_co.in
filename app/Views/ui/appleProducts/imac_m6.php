@@ -416,7 +416,7 @@ sup.fn { font-size: .55em; line-height: 0; vertical-align: baseline; position: r
 <div class="a" style="left:732.5px;top:8868.0px"><img src="<?= base_url('appleProducts/imac_M6/') ?>Section_17__v3_8bit_Light_4k_Hero_Blue02_ALPHA.webp" alt="iCloud+ with Apple TV and Apple Arcade" width="463.5" height="320.5"></div>
 <div class="a" style="left:271.0px;top:8916.0px"><img src="<?= base_url('appleProducts/imac_M6/') ?>Section_17__Apple_iCloud_Plus_Logo_blk_032122.webp" alt="iCloud+" width="83.5" height="16.5"></div>
 <h2 class="a" style="left:270.0px;top:8953.5px"><img src="<?= base_url('appleProducts/imac_M6/') ?>Section_17__RX-S17_Head_1.webp" alt="All the storage you need. Now with Apple TV and Apple Arcade included.◊" width="429.5" height="123.5"></h2>
-<p class="a t" style="left:271.0px;top:9096.6px;width:152.5px;font-size:17.0px;line-height:25.0px;color:#1d1d1f;text-align:left">Starting at ₹XXX.XX</p>
+<!-- <p class="a t" style="left:271.0px;top:9096.6px;width:152.5px;font-size:17.0px;line-height:25.0px;color:#1d1d1f;text-align:left">Starting at ₹XXX.XX</p> -->
 </section>
 <section id="section_17_without-inrxxx" aria-label="Section 17 without-₹XXX" hidden>
 <div class="a card" style="left:230.0px;top:8800.0px;width:980.0px;height:433.0px;background:#f5f5f7;border-radius:18px"></div>
