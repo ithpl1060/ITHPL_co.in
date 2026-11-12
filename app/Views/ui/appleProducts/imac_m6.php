@@ -188,7 +188,7 @@ sup.fn { font-size: .55em; line-height: 0; vertical-align: baseline; position: r
         <button type="button"
           class="subnav-btn trigger-buy-modal bg-[#0071e3] hover:bg-[#0077ed] text-white px-3.5 sm:px-4 py-1.5 rounded-full text-xs font-medium transition duration-200 transform hover:scale-[1.03] shadow-sm flex items-center gap-1.5 cursor-pointer"
           data-product-key="imac_m6">
-          <span>Pre-Order Now</span>
+          <span>Buy Now</span>
           <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
           </svg>

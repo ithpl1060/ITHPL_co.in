@@ -111,7 +111,83 @@
 
         <div class="products-carousel-wrapper">
           <div class="products-grid products-carousel-track" id="productsCarouselTrack">
-            <!-- Mac Mini Card - NEW -->
+              <!-- iMac (M6) Card - NEW -->
+            <div class="product-card product-card-new" onclick="window.location.href='<?= base_url('imac-m6') ?>'">
+              <span class="product-new-badge">NEW</span>
+              <img
+                src="<?= base_url(relativePath: 'images/imac_m6_text.png'); ?>"
+                alt="iMac M6"
+                class="product-bg"
+              />
+              <div class="product-overlay"></div>
+              <div class="product-content">
+                <div class="product-img-wrap">
+                  <img src="<?= base_url('appleProducts/imac_M6/Section_1__RX-hero.webp'); ?>" class="fade-in" alt="iMac with M6">
+                </div>
+                <h3 class="product-title">iMac</h3>
+                <p class="product-description">Brilliant 4.5K Retina display powered by the superfast M6 chip.</p>
+                <a href="<?= base_url('imac-m6') ?>" class="product-button-preorder">Buy Now</a>
+              </div>
+            </div>
+
+            <!-- iPad mini Card - NEW -->
+            <div class="product-card product-card-new" onclick="window.location.href='<?= base_url('ipad-mini') ?>'">
+              <span class="product-new-badge">NEW</span>
+              <img
+                src="<?= base_url(relativePath: 'images/ipad_mini_text.png'); ?>"
+                alt="iPad mini"
+                class="product-bg"
+              />
+              <div class="product-overlay"></div>
+              <div class="product-content">
+                <div class="product-img-wrap">
+                  <img src="<?= base_url('appleProducts/ipad_mini/images/hero_large.png'); ?>" class="fade-in" alt="iPad mini">
+                </div>
+                <h3 class="product-title">iPad mini</h3>
+                <p class="product-description">Ultraportable power with the A20 Pro chip and Apple Intelligence.</p>
+                <a href="<?= base_url('ipad-mini') ?>" class="product-button-preorder">Buy Now</a>
+              </div>
+            </div>
+
+            <!-- MacBook Pro (M5) Card - NEW -->
+            <div class="product-card product-card-new" onclick="window.location.href='<?= base_url('macbook-m5') ?>'">
+              <span class="product-new-badge">NEW</span>
+              <img
+                src="<?= base_url(relativePath: 'images/Macbook-text.png'); ?>"
+                alt="MacBook Pro M5"
+                class="product-bg"
+              />
+              <div class="product-overlay"></div>
+              <div class="product-content">
+                <div class="product-img-wrap">
+                  <img src="<?= base_url('appleProducts/macbook_m5/images/hero_large.png'); ?>" class="fade-in" alt="MacBook Pro with PROLED XDR">
+                </div>
+                <h3 class="product-title">MacBook Pro (M5)</h3>
+                <p class="product-description">PROLED XDR Display with Touch capability and M5 Pro / Max chips.</p>
+                <a href="<?= base_url('macbook-m5') ?>" class="product-button-preorder">Buy Now</a>
+              </div>
+            </div>
+
+            <!-- MacBook Pro (M6) Card - NEW -->
+            <div class="product-card product-card-new" onclick="window.location.href='<?= base_url('macbook-m6') ?>'">
+              <span class="product-new-badge">NEW</span>
+              <img
+                src="<?= base_url(relativePath: 'images/Macbook-text.png'); ?>"
+                alt="MacBook Pro M6"
+                class="product-bg"
+              />
+              <div class="product-overlay"></div>
+              <div class="product-content">
+                <div class="product-img-wrap">
+                  <img src="<?= base_url('appleProducts/macbook_m6/images/hero_large.png'); ?>" class="fade-in" alt="MacBook Pro with M6">
+                </div>
+                <h3 class="product-title">MacBook Pro (M6)</h3>
+                <p class="product-description">Dual Neural Engine and M6 chip delivering breakthrough AI performance.</p>
+                <a href="<?= base_url('macbook-m6') ?>" class="product-button-preorder">Buy Now</a>
+              </div>
+            </div>
+
+           <!-- Mac Mini Card - NEW -->
             <div class="product-card product-card-new" onclick="window.location.href='<?= base_url('mac-mini') ?>'">
               <span class="product-new-badge">NEW</span>
               <img
@@ -244,82 +320,7 @@
               </div>
             </div>
 
-            <!-- iMac (M6) Card - NEW -->
-            <div class="product-card product-card-new" onclick="window.location.href='<?= base_url('imac-m6') ?>'">
-              <span class="product-new-badge">NEW</span>
-              <img
-                src="<?= base_url(relativePath: 'images/imac_m6_text.png'); ?>"
-                alt="iMac M6"
-                class="product-bg"
-              />
-              <div class="product-overlay"></div>
-              <div class="product-content">
-                <div class="product-img-wrap">
-                  <img src="<?= base_url('appleProducts/imac_M6/Section_1__RX-hero.webp'); ?>" class="fade-in" alt="iMac with M6">
-                </div>
-                <h3 class="product-title">iMac</h3>
-                <p class="product-description">Brilliant 4.5K Retina display powered by the superfast M6 chip.</p>
-                <a href="<?= base_url('imac-m6') ?>" class="product-button-preorder">Pre-Order Now</a>
-              </div>
-            </div>
-
-            <!-- iPad mini Card - NEW -->
-            <div class="product-card product-card-new" onclick="window.location.href='<?= base_url('ipad-mini') ?>'">
-              <span class="product-new-badge">NEW</span>
-              <img
-                src="<?= base_url(relativePath: 'images/ipad_mini_text.png'); ?>"
-                alt="iPad mini"
-                class="product-bg"
-              />
-              <div class="product-overlay"></div>
-              <div class="product-content">
-                <div class="product-img-wrap">
-                  <img src="<?= base_url('appleProducts/ipad_mini/images/hero_large.png'); ?>" class="fade-in" alt="iPad mini">
-                </div>
-                <h3 class="product-title">iPad mini</h3>
-                <p class="product-description">Ultraportable power with the A20 Pro chip and Apple Intelligence.</p>
-                <a href="<?= base_url('ipad-mini') ?>" class="product-button-preorder">Pre-Order Now</a>
-              </div>
-            </div>
-
-            <!-- MacBook Pro (M5) Card - NEW -->
-            <div class="product-card product-card-new" onclick="window.location.href='<?= base_url('macbook-m5') ?>'">
-              <span class="product-new-badge">NEW</span>
-              <img
-                src="<?= base_url(relativePath: 'images/Macbook-text.png'); ?>"
-                alt="MacBook Pro M5"
-                class="product-bg"
-              />
-              <div class="product-overlay"></div>
-              <div class="product-content">
-                <div class="product-img-wrap">
-                  <img src="<?= base_url('appleProducts/macbook_m5/images/hero_large.png'); ?>" class="fade-in" alt="MacBook Pro with PROLED XDR">
-                </div>
-                <h3 class="product-title">MacBook Pro (M5)</h3>
-                <p class="product-description">PROLED XDR Display with Touch capability and M5 Pro / Max chips.</p>
-                <a href="<?= base_url('macbook-m5') ?>" class="product-button-preorder">Pre-Order Now</a>
-              </div>
-            </div>
-
-            <!-- MacBook Pro (M6) Card - NEW -->
-            <div class="product-card product-card-new" onclick="window.location.href='<?= base_url('macbook-m6') ?>'">
-              <span class="product-new-badge">NEW</span>
-              <img
-                src="<?= base_url(relativePath: 'images/Macbook-text.png'); ?>"
-                alt="MacBook Pro M6"
-                class="product-bg"
-              />
-              <div class="product-overlay"></div>
-              <div class="product-content">
-                <div class="product-img-wrap">
-                  <img src="<?= base_url('appleProducts/macbook_m6/images/hero_large.png'); ?>" class="fade-in" alt="MacBook Pro with M6">
-                </div>
-                <h3 class="product-title">MacBook Pro (M6)</h3>
-                <p class="product-description">Dual Neural Engine and M6 chip delivering breakthrough AI performance.</p>
-                <a href="<?= base_url('macbook-m6') ?>" class="product-button-preorder">Pre-Order Now</a>
-              </div>
-            </div>
-
+          
             <!-- MacBook Card -->
             <div class="product-card" onclick="window.open('https://store.ithpl.com/?s=apple&post_type=product', '_blank')">
               <img

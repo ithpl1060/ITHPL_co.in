@@ -5498,7 +5498,7 @@
         <button type="button"
           class="subnav-btn trigger-buy-modal bg-[#0071e3] hover:bg-[#0077ed] text-white px-3.5 sm:px-4 py-1.5 rounded-full text-xs font-medium transition duration-200 transform hover:scale-[1.03] shadow-sm flex items-center gap-1.5 cursor-pointer"
           data-product-key="macbook_m5">
-          <span>Pre-Order Now</span>
+          <span>Buy Now</span>
           <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
           </svg>
@@ -5526,7 +5526,7 @@
               </div>
             </div>
             <p class="copy g848465 channel-custom-font-custom-hero-partner" style="--focus-color: rgba(0, 125, 250, 0.6)">A screen come true.</p>
-            <a href="javascript:void(0)" aria-label="Pre-Order, MacBook Pro with PROLED XDR Display" class="button button-custom button-base fBFC480 trigger-buy-modal" data-product-key="macbook_m5" style="--focus-color: rgba(0, 113, 227, 100%)">Pre-Order Now</a></span>
+            <a href="javascript:void(0)" aria-label="Buy, MacBook Pro with PROLED XDR Display" class="button button-custom button-base fBFC480 trigger-buy-modal" data-product-key="macbook_m5" style="--focus-color: rgba(0, 113, 227, 100%)">Buy Now</a></span>
         </div>
       </div>
     </div>
@@ -6356,13 +6356,13 @@
                       <div role="row" class="compare-row compare-template-preview-item-default" data-column-group="true">
                         <div role="rowheader" class="compare-rowheader"><span class="visuallyhidden">Buy</span></div>
                         <div role="cell" class="compare-column" headers="compare-header-0">
-                          <div class="button-container"><a id="macbook-pro-14-in-m5-pro" href="javascript:void(0)" aria-label="Pre-Order, MacBook Pro 14″ (M5 Pro)" class="button compare-button trigger-buy-modal" data-product-key="macbook_m5">Pre-Order Now</a></div>
+                          <div class="button-container"><a id="macbook-pro-14-in-m5-pro" href="javascript:void(0)" aria-label="Buy, MacBook Pro 14″ (M5 Pro)" class="button compare-button trigger-buy-modal" data-product-key="macbook_m5">Buy Now</a></div>
                         </div>
                         <div role="cell" class="compare-column" headers="compare-header-1">
-                          <div class="button-container"><a id="macbook-pro-14-in-proled-xdr-display-m5-pro" href="javascript:void(0)" aria-label="Pre-Order, MacBook Pro 14″ PROLED XDR Display (M5 Pro)" class="button compare-button trigger-buy-modal" data-product-key="macbook_m5">Pre-Order Now</a></div>
+                          <div class="button-container"><a id="macbook-pro-14-in-proled-xdr-display-m5-pro" href="javascript:void(0)" aria-label="Buy, MacBook Pro 14″ PROLED XDR Display (M5 Pro)" class="button compare-button trigger-buy-modal" data-product-key="macbook_m5">Buy Now</a></div>
                         </div>
                         <div role="cell" class="compare-column" headers="compare-header-2">
-                          <div class="button-container"><a id="macbook-pro-16-in-proled-xdr-display-m5-max" href="javascript:void(0)" aria-label="Pre-Order, MacBook Pro 16″ PROLED XDR Display (M5 Max)" class="button compare-button trigger-buy-modal" data-product-key="macbook_m5">Pre-Order Now</a></div>
+                          <div class="button-container"><a id="macbook-pro-16-in-proled-xdr-display-m5-max" href="javascript:void(0)" aria-label="Buy, MacBook Pro 16″ PROLED XDR Display (M5 Max)" class="button compare-button trigger-buy-modal" data-product-key="macbook_m5">Buy Now</a></div>
                         </div>
                       </div>
                       <!--END > CATEGORY > BUY > FEATURE > BUY-->
