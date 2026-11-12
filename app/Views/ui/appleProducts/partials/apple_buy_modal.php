@@ -561,7 +561,7 @@
       storeKey:'ithpl_airpods_orders', refPfx:'ITH-AP'
     },
     imac_m6: {
-      title: 'Pre-Order iMac (M6)',
+      title: 'Buy iMac (M6)',
       chipSeries: 'Apple M6 Chip',
       memBW: 'Unified Memory Architecture',
       chips: [
@@ -577,7 +577,7 @@
       storeKey:'ithpl_imac_m6_orders', refPfx:'ITH-IMC'
     },
     ipad_mini: {
-      title: 'Pre-Order iPad mini',
+      title: 'Buy iPad mini',
       chipSeries: 'Apple A20 Pro Chip',
       memBW: 'A20 Pro · Liquid Retina OLED',
       chips: [
@@ -591,7 +591,7 @@
       storeKey:'ithpl_ipadmini_orders', refPfx:'ITH-IPM'
     },
     macbook_m5: {
-      title: 'Pre-Order MacBook Pro (M5)',
+      title: 'Buy MacBook Pro (M5)',
       chipSeries: 'Apple M5 Pro & M5 Max',
       memBW: 'PROLED XDR Display · Up to 546 GB/s',
       chips: [
@@ -609,7 +609,7 @@
       storeKey:'ithpl_mbp_m5_orders', refPfx:'ITH-MB5'
     },
     macbook_m6: {
-      title: 'Pre-Order MacBook Pro (M6)',
+      title: 'Buy MacBook Pro (M6)',
       chipSeries: 'Apple M6 Chip',
       memBW: 'Liquid Retina XDR · Dual 16-core NPU',
       chips: [

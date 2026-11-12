@@ -5587,7 +5587,7 @@
         <button type="button"
           class="subnav-btn trigger-buy-modal bg-[#0071e3] hover:bg-[#0077ed] text-white px-3.5 sm:px-4 py-1.5 rounded-full text-xs font-medium transition duration-200 transform hover:scale-[1.03] shadow-sm flex items-center gap-1.5 cursor-pointer"
           data-product-key="ipad_mini">
-          <span>Pre-Order Now</span>
+          <span>Buy Now</span>
           <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
           </svg>
@@ -5608,7 +5608,7 @@
             </div>
             <p class="copy m52DC6A channel-custom-font-custom-80-headline-super" style="--focus-color: rgba(0, 125, 250, 0.6)">More than a little awesome.</p>
             <!-- <p class="copy aE9F11F channel-custom-font-custom-17-partner-message" style="--focus-color: rgba(0, 125, 250, 0.6)">More than a little awesome.</p> -->
-            <a href="javascript:void(0)" aria-label="Pre-Order, iPad mini" class="button button-custom button-base qF38AEC trigger-buy-modal" data-product-key="ipad_mini" style="--focus-color: rgba(0, 113, 227, 100%)">Pre-Order Now</a><span><figure class="responsive-image channel-picture has-large has-medium has-small">
+            <a href="javascript:void(0)" aria-label="Buy, iPad mini" class="button button-custom button-base qF38AEC trigger-buy-modal" data-product-key="ipad_mini" style="--focus-color: rgba(0, 113, 227, 100%)">Buy Now</a><span><figure class="responsive-image channel-picture has-large has-medium has-small">
                 <img class="image vUwjMJwP image-large is-largest" alt="iPad mini, front view, held in hand, black enclosure, displaying blue and purple abstract shapes on screen" loading="lazy" srcset="<?= base_url('appleProducts/ipad_mini/images/') ?>hero_large.png, <?= base_url('appleProducts/ipad_mini/images/') ?>hero_large_2x.png 2x" src="<?= base_url('appleProducts/ipad_mini/images/') ?>hero_large.png"><img class="image vUwjMJwP image-medium" alt="iPad mini, front view, held in hand, black enclosure, displaying blue and purple abstract shapes on screen" loading="lazy" srcset="<?= base_url('appleProducts/ipad_mini/images/') ?>hero_medium.png, <?= base_url('appleProducts/ipad_mini/images/') ?>hero_medium_2x.png 2x" src="<?= base_url('appleProducts/ipad_mini/images/') ?>hero_medium.png"><img class="image vUwjMJwP image-small" alt="iPad mini, front view, held in hand, black enclosure, displaying blue and purple abstract shapes on screen" loading="lazy" srcset="<?= base_url('appleProducts/ipad_mini/images/') ?>hero_small.png, <?= base_url('appleProducts/ipad_mini/images/') ?>hero_small_2x.png 2x" src="<?= base_url('appleProducts/ipad_mini/images/') ?>hero_small.png"></figure></span></span>
         </div>
       </div>
@@ -6257,13 +6257,13 @@
                       <div role="row" class="compare-row compare-template-border-top compare-template-preview-item-default" data-column-group="true">
                         <div role="rowheader" class="compare-rowheader"><span class="visuallyhidden">Buy</span></div>
                         <div role="cell" class="compare-column" headers="compare-header-0">
-                          <div class="button-container"><a class="button compare-button trigger-buy-modal" aria-label="Buy, iPad Pro 11″ (M5)" href="javascript:void(0)" id="ipad-pro-11-in-m5" data-product-key="ipad_mini">Pre-Order Now</a></div>
+                          <div class="button-container"><a class="button compare-button trigger-buy-modal" aria-label="Buy, iPad Pro 11″ (M5)" href="javascript:void(0)" id="ipad-pro-11-in-m5" data-product-key="ipad_mini">Buy Now</a></div>
                         </div>
                         <div role="cell" class="compare-column" headers="compare-header-1">
-                          <div class="button-container"><a class="button compare-button trigger-buy-modal" aria-label="Buy, iPad Air 11″ (M4)" href="javascript:void(0)" id="ipad-air-11-in-m4" data-product-key="ipad_mini">Pre-Order Now</a></div>
+                          <div class="button-container"><a class="button compare-button trigger-buy-modal" aria-label="Buy, iPad Air 11″ (M4)" href="javascript:void(0)" id="ipad-air-11-in-m4" data-product-key="ipad_mini">Buy Now</a></div>
                         </div>
                         <div role="cell" class="compare-column" headers="compare-header-2">
-                          <div class="button-container"><a class="button compare-button trigger-buy-modal" aria-label="Buy, iPad mini (A20 Pro)" href="javascript:void(0)" id="ipad-mini-a20-pro" data-product-key="ipad_mini">Pre-Order Now</a></div>
+                          <div class="button-container"><a class="button compare-button trigger-buy-modal" aria-label="Buy, iPad mini (A20 Pro)" href="javascript:void(0)" id="ipad-mini-a20-pro" data-product-key="ipad_mini">Buy Now</a></div>
                         </div>
                       </div>
                       <!--END > CATEGORY > BUY > FEATURE > BUY-->
